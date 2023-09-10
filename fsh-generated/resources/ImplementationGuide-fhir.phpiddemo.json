@@ -4,7 +4,7 @@
   "url": "https://localhost:8085/ImplementationGuide/fhir.phpiddemo",
   "version": "0.1.0",
   "name": "PhPonFhirDemoIG",
-  "title": "PhP on FHIR Demo",
+  "title": "PhP on FHIR Demo IG",
   "status": "draft",
   "publisher": "Uppsala Monitoring Centre",
   "contact": [
