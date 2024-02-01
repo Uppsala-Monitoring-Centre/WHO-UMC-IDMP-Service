@@ -27,7 +27,6 @@
 [ParentPhp]: StructureDefinition-parent-phpid.html
 [parent-php]: SearchParameter-parent-php.html
 [PdfCharacteristics]: CodeSystem-pdfCharacteristics.html
-[PDFCharacteristics]: StructureDefinition-pdf-characteristics.html
 [PhpIdLevels]: CodeSystem-php-level.html
 [VsPhPIDTaskInputTypes]: ValueSet-phpid-task-input-type.html
 [VsRouteOfAdministration]: ValueSet-routeOfAdministration.html

@@ -12,7 +12,7 @@ Description: "This extension applies to the ADP resource and is used to refer th
   * system = "http://www.who-umc.org/idmp/phpid"
   * system 1..
 
-Extension: PDFCharacteristics
+/* Extension: PDFCharacteristics
 Id: pdf-characteristics
 Title: "Pharmaceutical dose form characteristics"
 Description: "This extension is use to display the dose form characteristics for an AdministrableProductDefinition"
@@ -24,4 +24,4 @@ Description: "This extension is use to display the dose form characteristics for
 * value[x] only Coding 
 * valueCoding 1..1
   * system = $edqm
-  * system 1..
+  * system 1.. */
