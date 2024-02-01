@@ -1,0 +1,87 @@
+{
+  "resourceType": "ValueSet",
+  "id": "edqm-AME",
+  "url": "http://www.who-umc.org/idmp/ValueSet/edqm-AME",
+  "name": "edqm-AME",
+  "title": "EDQM PDF characteristics: Administration Method",
+  "status": "draft",
+  "experimental": true,
+  "description": "EDQM Pharmaceutical dose forms characteristics: Administration Method",
+  "compose": {
+    "include": [
+      {
+        "system": "https://standardterms.edqm.eu",
+        "concept": [
+          {
+            "code": "0004",
+            "display": "Administration"
+          },
+          {
+            "code": "0005",
+            "display": "Application"
+          },
+          {
+            "code": "0006",
+            "display": "Bathing"
+          },
+          {
+            "code": "0007",
+            "display": "Chewing"
+          },
+          {
+            "code": "0008",
+            "display": "Gargling"
+          },
+          {
+            "code": "0010",
+            "display": "Inhalation"
+          },
+          {
+            "code": "0011",
+            "display": "Injection"
+          },
+          {
+            "code": "0012",
+            "display": "Insertion"
+          },
+          {
+            "code": "0013",
+            "display": "Instillation"
+          },
+          {
+            "code": "0014",
+            "display": "Orodispersion"
+          },
+          {
+            "code": "0015",
+            "display": "Rinsing/washing"
+          },
+          {
+            "code": "0017",
+            "display": "Spraying"
+          },
+          {
+            "code": "0018",
+            "display": "Sucking"
+          },
+          {
+            "code": "0019",
+            "display": "Swallowing"
+          },
+          {
+            "code": "0111",
+            "display": "Burning"
+          },
+          {
+            "code": "0112",
+            "display": "Dialysis"
+          },
+          {
+            "code": "0113",
+            "display": "Implantation"
+          }
+        ]
+      }
+    ]
+  }
+}

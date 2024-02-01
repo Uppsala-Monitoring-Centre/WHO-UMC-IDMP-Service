@@ -1,0 +1,31 @@
+{
+  "resourceType": "ValueSet",
+  "id": "phpid-task-input-type",
+  "url": "http://www.who-umc.org/idmp/ValueSet/phpid-task-input-type",
+  "name": "VsPhPIDTaskInputTypes",
+  "title": "PhPID request input type value set",
+  "status": "draft",
+  "experimental": true,
+  "description": "PhPID request input type value set",
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.who-umc.org/idmp/CodeSystem/task-input-type",
+        "concept": [
+          {
+            "code": "mpd-request-resource",
+            "display": "Medicinal Product for PhPID request"
+          },
+          {
+            "code": "ingredient-request-resource",
+            "display": "Ingredient for PhPID request"
+          },
+          {
+            "code": "organization-request-resource",
+            "display": "Marketing Auth Holder for PhPID request"
+          }
+        ]
+      }
+    ]
+  }
+}

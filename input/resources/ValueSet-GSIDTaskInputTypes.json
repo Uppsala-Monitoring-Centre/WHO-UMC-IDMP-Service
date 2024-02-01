@@ -1,0 +1,23 @@
+{
+  "resourceType": "ValueSet",
+  "id": "gsid-task-input-type",
+  "url": "http://www.who-umc.org/idmp/ValueSet/gsid-task-input-type",
+  "name": "VsGSIDTaskInputTypes",
+  "title": "GSID request input type value set",
+  "status": "draft",
+  "experimental": true,
+  "description": "GSID request input type value set",
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.who-umc.org/idmp/CodeSystem/task-input-type",
+        "concept": [
+          {
+            "code": "substance-request-resource",
+            "display": "Data for substance request"
+          }
+        ]
+      }
+    ]
+  }
+}

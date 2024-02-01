@@ -1,0 +1,84 @@
+{
+  "resourceType": "AdministrableProductDefinition",
+  "id": "93FE88350C2E8868F7E8BD220C4E0010",
+  "meta": {
+    "profile": [
+      "http://www.who-umc.org/idmp/StructureDefinition/AdministrableProductDefinition-who-php"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Pharmaceutical Product (Administrable Product Definition)</h1><table><tr><td style=\"font-weight: bold;\">Id</td><td>93FE88350C2E8868F7E8BD220C4E0010</td></tr><tr><td style=\"font-weight: bold;\">Level</td><td>1</td></tr></table><h2>Ingredients</h2><table><th>Substance</th><th>Strength</th><tr><td>METHOTREXATE SODIUM</td><td></td></tr></table><h2>Form</h2><table></table></div>"
+  },
+  "contained": [
+    {
+      "resourceType": "Ingredient",
+      "id": "49831f20-a156-48c6-9ef2-b3b5b1d91d68",
+      "status": "active",
+      "for": [
+        {
+          "reference": "#"
+        }
+      ],
+      "role": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/ingredient-role",
+            "code": "100000072072"
+          }
+        ],
+        "text": "Active"
+      },
+      "substance": {
+        "code": {
+          "concept": {
+            "coding": [
+              {
+                "system": "http://www.who-umc.org/idmp/gsid",
+                "code": "GSID9XBS2KCF3K1Z1"
+              }
+            ],
+            "text": "METHOTREXATE SODIUM"
+          }
+        }
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://www.who-umc.org/idmp/CodeSystem/php-level",
+            "code": "PhPIDLevel1"
+          }
+        ]
+      },
+      "system": "http://www.who-umc.org/idmp/phpid",
+      "value": "93FE88350C2E8868F7E8BD220C4E0010"
+    }
+  ],
+  "status": "active",
+  "formOf": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+          "valueCode": "unsupported"
+        }
+      ]
+    }
+  ],
+  "routeOfAdministration": [
+    {
+      "code": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+            "valueCode": "not-applicable"
+          }
+        ]
+      }
+    }
+  ]
+}

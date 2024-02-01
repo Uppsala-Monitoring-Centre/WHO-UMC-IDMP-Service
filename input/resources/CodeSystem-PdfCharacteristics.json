@@ -1,0 +1,37 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "pdfCharacteristics",
+  "url": "http://www.who-umc.org/idmp/CodeSystem/pdfCharacteristics",
+  "name": "PdfCharacteristics",
+  "title": "Pdf Characteristics",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "Uppsala Monitoring Centre",
+  "description": "This system lists PhPID types: level and stratum",
+  "copyright": "Uppsala Monitoring Centre",
+  "caseSensitive": false,
+  "compositional": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "BDF",
+      "display": "Basic Dose Form",
+      "definition": "Basic Dose Form (urn:oid:0.4.0.127.0.16.1.1.2.14)"
+    },
+    {
+      "code": "AME",
+      "display": "Administration Method",
+      "definition": "Administration Method (urn:oid:0.4.0.127.0.16.1.1.2.15)"
+    },
+    {
+      "code": "ISI",
+      "display": "Intended Site",
+      "definition": "Intended Site (urn:oid:0.4.0.127.0.16.1.1.2.16)"
+    },
+    {
+      "code": "RCA",
+      "display": "Release Characteristics",
+      "definition": "Release Characteristics (urn:oid:0.4.0.127.0.16.1.1.2.17)"
+    }
+  ]
+}

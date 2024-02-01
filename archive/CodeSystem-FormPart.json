@@ -1,0 +1,37 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "form-part",
+  "url": "http://www.who-umc.org/idmp/CodeSystem/form-part",
+  "name": "FormParts",
+  "title": "Form parts",
+  "status": "active",
+  "experimental": true,
+  "publisher": "Uppsala Monitoring Centre",
+  "description": "This system lists the available pharmaceutical form parts",
+  "copyright": "Uppsala Monitoring Centre",
+  "caseSensitive": false,
+  "compositional": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "BDF",
+      "display": "Basic Dose Form",
+      "definition": "Basic Dose Form"
+    },
+    {
+      "code": "RCA",
+      "display": "Release Characteristics",
+      "definition": "Release Characteristics"
+    },
+    {
+      "code": "ISI",
+      "display": "Intended Site",
+      "definition": "Intended Site"
+    },
+    {
+      "code": "AME",
+      "display": "Administration Method",
+      "definition": "Administration Method"
+    }
+  ]
+}

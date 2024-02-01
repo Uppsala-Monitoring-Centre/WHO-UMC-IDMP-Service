@@ -1,0 +1,74 @@
+{
+  "resourceType": "SubstanceDefinition",
+  "id": "GSID23G92UMX93H45",
+  "meta": {
+    "profile": [
+      "http://www.who-umc.org/idmp/StructureDefinition/SubstanceDefinition-pub"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Substance definition</h1><table><tr><td style=\"font-weight: bold;\">Id</td><td>GSID23G92UMX93H45</td></tr></table><h2>Name(s)</h2><table><th>Name</th><th>Language</th><th>Preferred</th><tr><td>METHOTREXATE</td><td>en</td><td>True</td></tr></table><h2>Other code systems</h2><table><th>System</th><th>Code</th><tr><td>https://open.fda.gov/data/unii</td><td>YL5FZ2Y5U1</td></tr></table></div>"
+  },
+  "identifier": [
+    {
+      "system": "http://www.who-umc.org/idmp/gsid",
+      "value": "GSID23G92UMX93H45"
+    }
+  ],
+  "status": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/publication-status",
+        "code": "active"
+      }
+    ],
+    "text": "Active"
+  },
+  "domain": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/medicinal-product-domain",
+        "code": "Human"
+      }
+    ],
+    "text": "Human use"
+  },
+  "code": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "https://open.fda.gov/data/unii",
+            "code": "YL5FZ2Y5U1"
+          }
+        ]
+      }
+    }
+  ],
+  "name": [
+    {
+      "name": "METHOTREXATE",
+      "status": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/publication-status",
+            "code": "active"
+          }
+        ],
+        "text": "Active"
+      },
+      "preferred": true,
+      "language": [
+        {
+          "coding": [
+            {
+              "system": "urn:ietf:bcp:47",
+              "code": "en"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

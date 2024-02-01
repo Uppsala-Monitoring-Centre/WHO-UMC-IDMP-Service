@@ -1,0 +1,241 @@
+{
+  "resourceType": "AdministrableProductDefinition",
+  "id": "91B3CA582581F57E4092F13AAF476215",
+  "meta": {
+    "profile": [
+      "http://www.who-umc.org/idmp/StructureDefinition/AdministrableProductDefinition-who-php"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Pharmaceutical Product (Administrable Product Definition)</h1><table><tr><td style=\"font-weight: bold;\">Id</td><td>91B3CA582581F57E4092F13AAF476215</td></tr><tr><td style=\"font-weight: bold;\">Level</td><td>4</td></tr></table><h2>Ingredients</h2><table><th>Substance</th><th>Strength</th><tr><td>METHOTREXATE SODIUM</td><td>2,74 mg</td></tr></table><h2>Form</h2><table><tr><td style=\"font-weight: bold;\">Basic dose form</td><td>Tablet (0069)</td></tr><tr><td style=\"font-weight: bold;\">Administration method</td><td>Swallowing (0019)</td></tr><tr><td style=\"font-weight: bold;\">Intended site</td><td>Oral (0031)</td></tr><tr><td style=\"font-weight: bold;\">Release characteristics</td><td>Conventional (0047)</td></tr></table></div>"
+  },
+  "contained": [
+    {
+      "resourceType": "Ingredient",
+      "id": "956cf7b2-703b-4f86-9745-79f005077d39",
+      "status": "active",
+      "for": [
+        {
+          "reference": "#"
+        }
+      ],
+      "role": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/ingredient-role",
+            "code": "100000072072"
+          }
+        ],
+        "text": "Active"
+      },
+      "substance": {
+        "code": {
+          "concept": {
+            "coding": [
+              {
+                "system": "http://www.who-umc.org/idmp/gsid",
+                "code": "GSID9XBS2KCF3K1Z1"
+              }
+            ],
+            "text": "METHOTREXATE SODIUM"
+          }
+        },
+        "strength": [
+          {
+            "presentationRatio": {
+              "numerator": {
+                "value": 2.74,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1.0,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              }
+            },
+            "textPresentation": "2,74 mg"
+          }
+        ]
+      }
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://www.who-umc.org/idmp/StructureDefinition/parent-phpid",
+      "valueReference": {
+        "reference": "AdministrableProductDefinition/93FE88350C2E8868F7E8BD220C4E0010",
+        "identifier": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://www.who-umc.org/idmp/CodeSystem/php-level",
+                "code": "PhPIDLevel1"
+              }
+            ]
+          },
+          "system": "http://www.who-umc.org/idmp/phpid",
+          "value": "93FE88350C2E8868F7E8BD220C4E0010"
+        }
+      }
+    },
+    {
+      "url": "http://www.who-umc.org/idmp/StructureDefinition/parent-phpid",
+      "valueReference": {
+        "reference": "AdministrableProductDefinition/8195D4AF1287CCE3442C2F308F61DBBC",
+        "identifier": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://www.who-umc.org/idmp/CodeSystem/php-level",
+                "code": "PhPIDLevel2"
+              }
+            ]
+          },
+          "system": "http://www.who-umc.org/idmp/phpid",
+          "value": "8195D4AF1287CCE3442C2F308F61DBBC"
+        }
+      }
+    },
+    {
+      "url": "http://www.who-umc.org/idmp/StructureDefinition/parent-phpid",
+      "valueReference": {
+        "reference": "AdministrableProductDefinition/6C4563BB76BE7967594979196EC91CD8",
+        "identifier": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://www.who-umc.org/idmp/CodeSystem/php-level",
+                "code": "PhPIDLevel3"
+              }
+            ]
+          },
+          "system": "http://www.who-umc.org/idmp/phpid",
+          "value": "6C4563BB76BE7967594979196EC91CD8"
+        }
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://www.who-umc.org/idmp/CodeSystem/php-level",
+            "code": "PhPIDLevel4"
+          }
+        ]
+      },
+      "system": "http://www.who-umc.org/idmp/phpid",
+      "value": "91B3CA582581F57E4092F13AAF476215"
+    }
+  ],
+  "status": "active",
+  "formOf": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+          "valueCode": "unsupported"
+        }
+      ]
+    }
+  ],
+  "property": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://www.who-umc.org/idmp/CodeSystem/pdfCharacteristics",
+            "code": "BDF"
+          }
+        ],
+        "text": "Basic Dose Form"
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "https://standardterms.edqm.eu",
+            "code": "0069"
+          }
+        ],
+        "text": "Tablet"
+      }
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://www.who-umc.org/idmp/CodeSystem/pdfCharacteristics",
+            "code": "AME"
+          }
+        ],
+        "text": "Administration Method"
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "https://standardterms.edqm.eu",
+            "code": "0019"
+          }
+        ],
+        "text": "Swallowing"
+      }
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://www.who-umc.org/idmp/CodeSystem/pdfCharacteristics",
+            "code": "ISI"
+          }
+        ],
+        "text": "Intended Site"
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "https://standardterms.edqm.eu",
+            "code": "0031"
+          }
+        ],
+        "text": "Oral"
+      }
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://www.who-umc.org/idmp/CodeSystem/pdfCharacteristics",
+            "code": "RCA"
+          }
+        ],
+        "text": "Release Characteristics"
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "https://standardterms.edqm.eu",
+            "code": "0047"
+          }
+        ],
+        "text": "Conventional"
+      }
+    }
+  ],
+  "routeOfAdministration": [
+    {
+      "code": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+            "valueCode": "not-applicable"
+          }
+        ]
+      }
+    }
+  ]
+}

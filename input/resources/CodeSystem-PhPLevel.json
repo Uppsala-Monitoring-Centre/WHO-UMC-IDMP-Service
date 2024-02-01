@@ -1,0 +1,37 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "php-level",
+  "url": "http://www.who-umc.org/idmp/CodeSystem/php-level",
+  "name": "PhpIdLevels",
+  "title": "PhPId level",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Uppsala Monitoring Centre",
+  "description": "This system lists PhPID types: level and stratum",
+  "copyright": "Uppsala Monitoring Centre",
+  "caseSensitive": false,
+  "compositional": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "PhPIDLevel1",
+      "display": "Level 1",
+      "definition": "Level 1 - Substance specified"
+    },
+    {
+      "code": "PhPIDLevel2",
+      "display": "Level 2",
+      "definition": "Level 2 - Substance and strength specified"
+    },
+    {
+      "code": "PhPIDLevel3",
+      "display": "Level 3",
+      "definition": "Level 3 - Substance and form specified"
+    },
+    {
+      "code": "PhPIDLevel4",
+      "display": "Level 4",
+      "definition": "Level 4 - Substance, strength and form specified"
+    }
+  ]
+}

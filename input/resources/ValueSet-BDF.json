@@ -1,0 +1,179 @@
+{
+  "resourceType": "ValueSet",
+  "id": "edqm-BDF",
+  "url": "http://www.who-umc.org/idmp/ValueSet/edqm-BDF",
+  "name": "edqm-BDF",
+  "title": "EDQM PDF characteristics: Basic Dose Form",
+  "status": "draft",
+  "experimental": true,
+  "description": "EDQM Pharmaceutical dose forms characteristics: Basic Dose Form",
+  "compose": {
+    "include": [
+      {
+        "system": "https://standardterms.edqm.eu",
+        "concept": [
+          {
+            "code": "0049",
+            "display": "Block"
+          },
+          {
+            "code": "0050",
+            "display": "Cachet"
+          },
+          {
+            "code": "0051",
+            "display": "Capsule"
+          },
+          {
+            "code": "0052",
+            "display": "Film"
+          },
+          {
+            "code": "0053",
+            "display": "Granules"
+          },
+          {
+            "code": "0054",
+            "display": "Gum"
+          },
+          {
+            "code": "0055",
+            "display": "Implant"
+          },
+          {
+            "code": "0056",
+            "display": "Impregnated material"
+          },
+          {
+            "code": "0058",
+            "display": "Lozenge"
+          },
+          {
+            "code": "0059",
+            "display": "Lyophilisate"
+          },
+          {
+            "code": "0060",
+            "display": "Pastille"
+          },
+          {
+            "code": "0061",
+            "display": "Patch"
+          },
+          {
+            "code": "0063",
+            "display": "Pessary"
+          },
+          {
+            "code": "0064",
+            "display": "Pillules"
+          },
+          {
+            "code": "0066",
+            "display": "Powder"
+          },
+          {
+            "code": "0067",
+            "display": "Stick"
+          },
+          {
+            "code": "0068",
+            "display": "Suppository"
+          },
+          {
+            "code": "0069",
+            "display": "Tablet"
+          },
+          {
+            "code": "0070",
+            "display": "Tea"
+          },
+          {
+            "code": "0071",
+            "display": "Cream"
+          },
+          {
+            "code": "0072",
+            "display": "Foam"
+          },
+          {
+            "code": "0073",
+            "display": "Gel"
+          },
+          {
+            "code": "0074",
+            "display": "Ointment"
+          },
+          {
+            "code": "0075",
+            "display": "Paste"
+          },
+          {
+            "code": "0076",
+            "display": "Poultice"
+          },
+          {
+            "code": "0077",
+            "display": "Collodion"
+          },
+          {
+            "code": "0080",
+            "display": "Emulsion"
+          },
+          {
+            "code": "0081",
+            "display": "Lacquer"
+          },
+          {
+            "code": "0082",
+            "display": "Liquid"
+          },
+          {
+            "code": "0083",
+            "display": "Solution"
+          },
+          {
+            "code": "0084",
+            "display": "Solvent"
+          },
+          {
+            "code": "0085",
+            "display": "Suspension"
+          },
+          {
+            "code": "0087",
+            "display": "Medicinal gas"
+          },
+          {
+            "code": "0088",
+            "display": "Insert"
+          },
+          {
+            "code": "0093",
+            "display": "Shampoo"
+          },
+          {
+            "code": "0095",
+            "display": "System"
+          },
+          {
+            "code": "0102",
+            "display": "Pouch"
+          },
+          {
+            "code": "0103",
+            "display": "Cement"
+          },
+          {
+            "code": "0114",
+            "display": "Herbal material (unprocessed)"
+          },
+          {
+            "code": "0115",
+            "display": "Live animal"
+          }
+        ]
+      }
+    ]
+  }
+}

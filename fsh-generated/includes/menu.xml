@@ -11,9 +11,47 @@
 
 <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
-    <a href="index.html">Home</a>
+    <a href="index.html">IG Home</a>
   </li>
   <li>
-    <a href="artifacts.html">Artifacts</a>
+    <a href="background.html">Background</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Requesting PhP and GSIDs
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="phpIdRequest.html">PhPID request</a>
+      </li>
+      <li>
+        <a href="substanceRequest.html">GSID request</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="authentication.html">Authentication</a>
+  </li>
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a target="_blank" href="http://hl7.org/fhir/R5/index.html">FHIR Spec</a>
+      </li>
+      <li>
+        <a target="_blank" href="https://umc-ext-dev-phponfhirdemo-preview-rg01-webapp.azurewebsites.net/">API With tutorial and examples</a>
+      </li>
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+    </ul>
   </li>
 </ul>

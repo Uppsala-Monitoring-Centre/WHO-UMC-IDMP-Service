@@ -1,0 +1,254 @@
+{
+    "resourceType": "Task",
+    "id": "task-DataPharm",
+    "contained": [
+        {
+            "resourceType": "MedicinalProductDefinition",
+            "id": "5d02cfc1-053f-4694-9ce8-d0ee6c658b72",
+            "meta": {
+                "profile": [
+                    "http://www.who-umc.org/idmp/StructureDefinition/Task-who-php-gsid"
+                ]
+            },
+            "identifier": [
+                {
+                    "system": "https://medicines.org.uk/product",
+                    "value": "511"
+                },
+                {
+                    "system": "https://dmd.nhs.uk/AMP",
+                    "value": "683611000001105"
+                },
+                {
+                    "system": "https://dmd.nhs.uk/VMP",
+                    "value": "41792011000001100"
+                }
+            ],
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://hl7.org/fhir/medicinal-product-type",
+                        "code": "MedicinalProduct"
+                    }
+                ]
+            },
+            "domain": {
+                "coding": [
+                    {
+                        "system": "http://hl7.org/fhir/medicinal-product-domain",
+                        "code": "Human"
+                    }
+                ],
+                "text": "Human use"
+            },
+            "status": {
+                "coding": [
+                    {
+                        "system": "http://hl7.org/fhir/publication-status",
+                        "code": "active"
+                    }
+                ],
+                "text": "Active"
+            },
+            "combinedPharmaceuticalDoseForm": {
+                "coding": [
+                    {
+                        "system": "urn:oid:2.16.578.1.12.4.1.1.7477",
+                        "code": "62",
+                        "display": "Subkutan bruk"
+                    }
+                ]
+            },
+            "statusDate": "2020-08-03T15:11:41Z",
+            "classification": [
+                {
+                    "coding": [
+                        {
+                            "code": "L04AX03",
+                            "system": "http://www.whocc.no/atc"
+                        }
+                    ]
+                }
+            ],
+            "attachedDocument": [
+              {
+                "reference": "https://www.hl7.org/fhir/uv/emedicinal-product-info/Bundle-bundlepackageleaflet75type1.html",
+                "type": "DocumentReference"
+              }
+            ],
+            "name": [
+                {
+                    "productName": "Methotrexate 2.5 mg Tablets",
+                    "type": {
+                        "coding": [
+                            {
+                                "code": "RegulatorApprovedName"
+                            }
+                        ]
+                    },
+                    "usage": [
+                        {
+                            "language": {
+                                "coding": [
+                                    {
+                                        "system" : "urn:ietf:bcp:47",
+                                        "code": "en"
+                                    }
+                                ]
+                            },
+                            "country": {
+                                "coding": [
+                                    {
+                                        "code": "GBR",
+                                        "system": "urn:iso:std:iso:3166"
+                                    }
+                                ]
+                            },
+                            "jurisdiction": {
+                                "coding": [
+                                    {
+                                        "code": "GBR",
+                                        "system": "urn:iso:std:iso:3166"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "contact": [
+                {
+                    "contact": {
+                        "reference": "#mah2"
+                    }
+                }
+            ]
+        },
+        {
+            "resourceType": "Ingredient",
+            "id": "54c6c580-5b34-4032-9403-c9d2154ac073",
+            "meta": {
+                "profile": [
+                  "http://www.who-umc.org/idmp/StructureDefinition/Ingredient-who-php"
+                ]
+              },
+            "status": "active",
+            "for": [
+                {
+                    "reference": "#5d02cfc1-053f-4694-9ce8-d0ee6c658b72"
+                }
+            ],
+            "role": {
+                "coding": [
+                    {
+                        "system": "http://hl7.org/fhir/ingredient-role",
+                        "code": "100000072072"
+                    }
+                ],
+                "text": "Active"
+            },
+            "substance": {
+                "code": {
+                    "concept": {
+                        "coding": [
+                            {
+                                "system": "http://www.who-umc.org/idmp/gsid",
+                                "code": "GSID23G92UMX93H45"
+                            }
+                        ]
+                    }
+                },
+                "strength": [
+                    {
+                        "presentationRatio": {
+                            "numerator": {
+                                "value": 2.5,
+                                "code": "mg",
+                                "system": "http://unitsofmeasure.org"
+                            },
+                            "denominator": {
+                                "value": 1,
+                                "code": "tablet",
+                                "system": "http://snomed.info/sct"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resourceType": "Organization",
+            "id": "mah2",
+            "meta": {
+                "profile": [
+                  "http://www.who-umc.org/idmp/StructureDefinition/MarketingAuthorizationHolder-who-php"
+                ]
+              },
+            "active": true,
+            "type": [
+                {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                            "code": "bus"
+                        }
+                    ],
+                    "text": "Mah Test FCT35"
+                }
+            ],
+            "name": "MAh 2"
+        }
+    ],
+    "status": "requested",
+    "intent": "proposal",
+    "priority": "routine",
+    "authoredOn": "2024-01-17",
+    "lastModified": "2024-01-17",
+    "input": [
+        {
+          "type": {
+            "coding": [
+              {
+                "system": "http://www.who-umc.org/idmp/CodeSystem/task-input-type",
+                "code": "mpd-request-resource",
+                "display": "Medicinal Product for PhPID request"
+              }
+            ],
+            "text": "Medicinal Product for PhPID request"
+          },
+          "valueReference": {
+            "reference": "#5d02cfc1-053f-4694-9ce8-d0ee6c658b72"
+          }
+        },
+        {
+          "type": {
+            "coding": [
+              {
+                "system": "http://www.who-umc.org/idmp/CodeSystem/task-input-type",
+                "code": "ingredient-request-resource",
+                "display": "Ingredient for PhPID request"
+              }
+            ],
+            "text": "Ingredient for PhPID request"
+          },
+          "valueReference": {
+            "reference": "#54c6c580-5b34-4032-9403-c9d2154ac073"
+          }
+        },
+        {
+          "type": {
+            "coding": [
+              {
+                "system": "http://www.who-umc.org/idmp/CodeSystem/task-input-type",
+                "code": "organization-request-resource",
+                "display": "Marketing Auth Holder for PhPID request"
+              }
+            ],
+            "text": "Marketing Auth Holder for PhPID request"
+          },
+          "valueReference": {
+            "reference": "#mah2"
+          }
+        }
+      ]
+}

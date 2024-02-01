@@ -1,0 +1,103 @@
+{
+  "resourceType": "ValueSet",
+  "id": "edqm-ISI",
+  "url": "http://www.who-umc.org/idmp/ValueSet/edqm-ISI",
+  "name": "edqm-ISI",
+  "title": "EDQM PDF characteristics: Intended Site",
+  "status": "draft",
+  "experimental": true,
+  "description": "EDQM Pharmaceutical dose forms characteristics: Intended Site",
+  "compose": {
+    "include": [
+      {
+        "system": "https://standardterms.edqm.eu",
+        "concept": [
+          {
+            "code": "0021",
+            "display": "Auricular"
+          },
+          {
+            "code": "0022",
+            "display": "Cutaneous/Transdermal"
+          },
+          {
+            "code": "0023",
+            "display": "Dental"
+          },
+          {
+            "code": "0024",
+            "display": "Environmental"
+          },
+          {
+            "code": "0025",
+            "display": "Extracorporeal"
+          },
+          {
+            "code": "0027",
+            "display": "Intrauterine"
+          },
+          {
+            "code": "0028",
+            "display": "Intravesical/Urethral"
+          },
+          {
+            "code": "0029",
+            "display": "Nasal"
+          },
+          {
+            "code": "0030",
+            "display": "Ocular"
+          },
+          {
+            "code": "0031",
+            "display": "Oral"
+          },
+          {
+            "code": "0032",
+            "display": "Oromucosal"
+          },
+          {
+            "code": "0033",
+            "display": "Parenteral"
+          },
+          {
+            "code": "0034",
+            "display": "Pulmonary"
+          },
+          {
+            "code": "0035",
+            "display": "Rectal"
+          },
+          {
+            "code": "0036",
+            "display": "Vaginal"
+          },
+          {
+            "code": "0037",
+            "display": "Unknown/Miscellaneous"
+          },
+          {
+            "code": "0105",
+            "display": "Endocervical"
+          },
+          {
+            "code": "0106",
+            "display": "Gastric"
+          },
+          {
+            "code": "0107",
+            "display": "Gastroenteral"
+          },
+          {
+            "code": "0108",
+            "display": "Intestinal"
+          },
+          {
+            "code": "0109",
+            "display": "Intraperitoneal"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "resourceType": "MedicinalProductDefinition",
+  "id": "1266520E021",
+  "meta": {
+    "profile": [
+      "http://www.who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-pub"
+    ]
+  },
+  "contained": [
+    {
+      "resourceType": "Organization",
+      "id": "sandoz",
+      "name": "Sandoz"
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://www.who-umc.org/whodrug/productid",
+      "value": "1266520E021"
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/medicinal-product-type",
+        "code": "MedicinalProduct"
+      }
+    ]
+  },
+  "domain": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/medicinal-product-domain",
+        "code": "Human"
+      }
+    ],
+    "text": "Human use"
+  },
+  "status": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/publication-status",
+        "code": "active"
+      }
+    ],
+    "text": "Active"
+  },
+  "combinedPharmaceuticalDoseForm": {
+    "text": "TABLETS"
+  },
+  "contact": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/medicinal-product-contact-type",
+            "code": "ProposedMAH"
+          }
+        ]
+      },
+      "contact": {
+        "reference": "#sandoz",
+        "type": "Organization",
+        "display": "Sandoz"
+      }
+    }
+  ],
+  "code": [
+    {
+      "system": "http://www.who-umc.org/whodrug/drugcode",
+      "code": "00113802085"
+    }
+  ],
+  "name": [
+    {
+      "productName": "Methotrexaat sandoz",
+      "usage": [
+        {
+          "country": {
+            "coding": [
+              {
+                "system": "urn:iso:std:iso:3166",
+                "code": "NLD"
+              }
+            ]
+          },
+          "jurisdiction": {
+            "coding": [
+              {
+                "system": "urn:iso:std:iso:3166",
+                "code": "NLD"
+              }
+            ]
+          },
+          "language": {
+            "coding": [
+              {
+                "system": "urn:ietf:bcp:47",
+                "code": "en"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "parent-php",
+  "url": "http://www.who-umc.org/idmp/SearchParameter/parent-php",
+  "name": "parent-php",
+  "title": "Parent PhPID",
+  "status": "draft",
+  "experimental": true,
+  "description": "Search PhPIDs based on 'parent' PhPIDs",
+  "purpose": "Search PhPIDs based on 'parent' PhPIDs to for example find all level 4 PhPIDs for a specific level 2 PhPID",
+  "code": "parent-php",
+  "base": [
+    "AdministrableProductDefinition"
+  ],
+  "type": "reference",
+  "expression": "AdministrableProductDefinition.extension('http://www.who-umc.org/idmp/StructureDefinition/parent-phpid').value",
+  "processingMode": "normal"
+}

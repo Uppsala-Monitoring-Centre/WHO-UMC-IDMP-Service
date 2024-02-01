@@ -1,0 +1,37 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "task-input-type",
+  "url": "http://www.who-umc.org/idmp/CodeSystem/task-input-type",
+  "name": "TaskInputTypes",
+  "title": "Task input type",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "Uppsala Monitoring Centre",
+  "description": "This system lists PhPID types: level and stratum",
+  "copyright": "Uppsala Monitoring Centre",
+  "caseSensitive": false,
+  "compositional": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "mpd-request-resource",
+      "display": "Medicinal Product for PhPID request",
+      "definition": "Medicinal Product for PhPID request"
+    },
+    {
+      "code": "ingredient-request-resource",
+      "display": "Ingredient for PhPID request",
+      "definition": "Ingredient for PhPID request"
+    },
+    {
+      "code": "organization-request-resource",
+      "display": "Marketing Auth Holder for PhPID request",
+      "definition": "Marketing Auth Holder for PhPID request"
+    },
+    {
+      "code": "substance-request-resource",
+      "display": "Data for substance request",
+      "definition": "Data for substance request"
+    }
+  ]
+}

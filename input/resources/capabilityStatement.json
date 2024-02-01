@@ -1,0 +1,230 @@
+{
+  "resourceType": "CapabilityStatement",
+  "id": "WHO-UMC-IDMP-service",
+  "name": "WHO-UMC IDMP Management and Publish API",
+  "title": "API to allow for Requests and Publishing of PhPIDs and GSIDs",
+  "status": "draft",
+  "date": "2024-01-29",
+  "publisher": "Uppsala Monitoring Centre",
+  "contact": [
+    {
+      "name": "Uppsala Monitoring Centre",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.who-umc.org"
+        },
+        {
+          "system": "phone",
+          "value": "+4618656060",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "The WHO-UMC API supports management and publishing of OhPIDs and GSIDs as part of the ISO IDMP standard",
+  "kind": "capability",
+  "software": {
+    "name": "WHO-UMC IDMP Management and Publish API",
+    "version": "0.3"
+  },
+  "fhirVersion": "5.0.0",
+  "format": [
+    "xml",
+    "json"
+  ],
+  "implementationGuide": [
+    "https://build.fhir.org/ig/gcangioli/who-umc-poc/"
+  ],
+  "rest": [
+    {
+      "mode": "server",
+      "resource": [
+        {
+          "type": "Task",
+          "interaction": [
+            {
+              "code": "read"
+            },
+            {
+              "code": "create"
+            },
+            {
+              "code": "delete"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "identifier",
+              "type": "string",
+              "documentation": "Task identifier from requester on format 'sendingSystem|localId'"
+            }
+          ]
+        },
+        {
+          "type": "SubstanceDefinition",
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "_id",
+              "type": "string",
+              "documentation": "GSID"
+            },
+            {
+              "name": "identifier",
+              "type": "string",
+              "documentation": "GSID"
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "documentation": "Name of substance (contains search)"
+            },
+            {
+              "name": "code",
+              "type": "string",
+              "documentation": "Code from other code system"
+            }
+          ]
+        },
+        {
+          "type": "AdministrableProductDefinition",
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "_id",
+              "type": "string",
+              "documentation": "PhPID"
+            },
+            {
+              "name": "identifier",
+              "type": "string",
+              "documentation": "PhPID"
+            },
+            {
+              "name": "form-of",
+              "type": "string",
+              "documentation": "Find PhPIDs for an internal product ID in the"
+            },
+            {
+              "name": "form-of:identifier",
+              "type": "string",
+              "documentation": "Find PhPIds for a MPID"
+            },
+            {
+              "name": "dose-form",
+              "type": "string",
+              "documentation": "Find PhPIDs with a specific dose-form"
+            },
+            {
+              "name": "parent-php",
+              "definition": "http://www.who-umc.org/idmp/SearchParameter/parent-php",
+              "type": "reference",
+              "documentation": "Search PhPIDs based on 'parent' PhPIDs"
+            }
+          ]
+        },
+        {
+          "type": "MedicinalProductDefinition",
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "_id",
+              "type": "string",
+              "documentation": "WHODrug product Id"
+            },
+            {
+              "name": "identifier",
+              "type": "string",
+              "documentation": "MPID"
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "documentation": "Product name (contains search)"
+            },
+            {
+              "name": "name-jurisdiction",
+              "type": "string",
+              "documentation": "Jurisdiction according to urn:iso:std:iso:3166"
+            },
+            {
+              "name": "name-country",
+              "type": "string",
+              "documentation": "Country according to urn:iso:std:iso:3166"
+            }
+          ]
+        },
+        {
+          "type": "Ingredient",
+          "documentation": "Onle available within the scope of an AdministrableProductDefinition",
+          "searchParam": [
+            {
+              "name": "substance-code",
+              "type": "string",
+              "documentation": "Find by substance (gsrs) code"
+            },
+            {
+              "name": "strength-presentation-quantity",
+              "type": "token",
+              "documentation": "Search parameter on the format '5.4|http://unitsofmeasure.org|mg'"
+            }
+          ]
+        },
+        {
+          "type": "Organization",
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "_id",
+              "type": "string",
+              "documentation": ""
+            },
+            {
+              "name": "identifier",
+              "type": "string",
+              "documentation": ""
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "documentation": "Name of organization (contains search)"
+            }
+          ]
+        },
+        {
+          "type": "CapabilityStatement",
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ]
+        },
+        {
+          "type": "ImplementationGuide",
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "id": "edqm-RCA",
+  "url": "http://www.who-umc.org/idmp/ValueSet/edqm-RCA",
+  "name": "edqm-RCA",
+  "title": "EDQM PDF characteristics: Release Characteristics",
+  "status": "draft",
+  "experimental": true,
+  "description": "EDQM Pharmaceutical dose forms characteristics: Release Characteristics",
+  "compose": {
+    "include": [
+      {
+        "system": "https://standardterms.edqm.eu",
+        "concept": [
+          {
+            "code": "0044",
+            "display": "Delayed"
+          },
+          {
+            "code": "0045",
+            "display": "Prolonged"
+          },
+          {
+            "code": "0046",
+            "display": "Modified"
+          },
+          {
+            "code": "0047",
+            "display": "Conventional"
+          },
+          {
+            "code": "0048",
+            "display": "Unknown"
+          }
+        ]
+      }
+    ]
+  }
+}

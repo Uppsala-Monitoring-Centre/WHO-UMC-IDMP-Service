@@ -1,0 +1,26 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+	<p>
+    This provides a list of major changes to the IG for the WHO-UMC IDMP service since its initial release
+  </p>
+  <a name="0.3.0"> </a>
+	<p>
+		<b>2024-01-29 v0.3.0</b>
+  </p>
+  <ul>
+    <li>Details about Authentication and restructuring</li>
+  </ul>
+  <a name="0.2.0"> </a>
+	<p>
+		<b>2024-01-10 v0.2.0</b>
+  </p>
+  <ul>
+    <li>More details about PhPID requests</li>
+  </ul>
+  <a name="0.1.0"> </a>
+	<p>
+		<b>2023-09-20 v0.1.0</b>
+  </p>
+  <ul>
+    <li>Initial version</li>
+  </ul>
+</div>
