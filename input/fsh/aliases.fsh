@@ -8,11 +8,13 @@ Alias: $ingredient-role = http://hl7.org/fhir/ingredient-role
 Alias: $gsid = http://www.who-umc.org/idmp/gsid
 Alias: $phpid = https://www.who-umc.org/idmp/phpid
 // Alias: $php-level = http://www.who-umc.org/idmp/CodeSystem/php-level
-Alias: $pdfCharacteristrics = http://www.who-umc.org/idmp/CodeSystem/pdfCharacteristics
+Alias: $pdfCharacteristics = http://www.who-umc.org/idmp/CodeSystem/pdfCharacteristics
+
 // ====== extensions ====
 Alias: $parent-php-extension = http://www.who-umc.org/idmp/StructureDefinition/parent-phpid
-
+Alias: $pdfCharacteristics-extension = http://www.who-umc.org/idmp/StructureDefinition/pdfCharacteristics
 Alias: $data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-absent-reason
+
 // =========== Systems =======
 // HL7 systems
 Alias: $administrable-dose-form = http://hl7.org/fhir/administrable-dose-form
@@ -33,7 +35,6 @@ Alias: $publication-status = http://hl7.org/fhir/publication-status
 Alias: $data-absent-reason-CS = http://terminology.hl7.org/CodeSystem/data-absent-reason
 
 // External systems
-Alias: $standardterms = https://standardterms.edqm.eu
 Alias: $meddra = http://terminology.hl7.org/CodeSystem/mdr
 Alias: $iso3166 = urn:iso:std:iso:3166
 Alias: $ncithesaurus =  http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl // see https://terminology.hl7.org/CodeSystem-v3-nciThesaurus.html
@@ -62,7 +63,6 @@ Alias: $VS-medicinal-product-domain =
 	http://hl7.org/fhir/ValueSet/medicinal-product-domain
 
 Alias: $VS-language = http://hl7.org/fhir/ValueSet/languages
-
 
 Alias: $edqmPdfReleaseChar = http://www.who-umc.org/idmp/ValueSet/edqm-RCA
 Alias: $edqmPdfBasicDoseForm = http://www.who-umc.org/idmp/ValueSet/edqm-BDF

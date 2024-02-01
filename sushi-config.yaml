@@ -30,7 +30,7 @@ parameters:
   produce-jekyll-data: true
   special-url:
   - http://www.who-umc.org/idmp/StructureDefinition/parent-phpid
-
+  - http://www.who-umc.org/idmp/StructureDefinition/pdfCharacteristics
 copyrightYear: 2024+
 releaseLabel: CI Build
 

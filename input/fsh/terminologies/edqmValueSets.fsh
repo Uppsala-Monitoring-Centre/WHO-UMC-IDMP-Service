@@ -4,7 +4,7 @@ Id: edqm
 Title: "EDQM Standard Terms"
 Description: "EDQM Standard Terms"
 * ^experimental = false
-* codes from system $standardterms
+* codes from system $edqm
 
 //=========================
 ValueSet: VsEdqmPdfCharacteristic
@@ -23,10 +23,10 @@ Id: edqmPdfCharacteristicType
 Title: "Types of EDQM PDF by characteristics"
 Description: "Types of EDQM Pharmaceutical dose forms by characteristics"
 * ^experimental = false
-* $pdfCharacteristrics#BDF "Basic dose form"
-* $pdfCharacteristrics#AME "Administration method"
-* $pdfCharacteristrics#ISI "Intended site"
-* $pdfCharacteristrics#RCA "Release characteristics"
+* $pdfCharacteristics#BDF "Basic dose form"
+* $pdfCharacteristics#AME "Administration method"
+* $pdfCharacteristics#ISI "Intended site"
+* $pdfCharacteristics#RCA "Release characteristics"
 // previously $standardterms
 
 
