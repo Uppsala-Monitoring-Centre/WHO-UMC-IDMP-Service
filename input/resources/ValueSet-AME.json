@@ -4,8 +4,8 @@
   "url": "http://www.who-umc.org/idmp/ValueSet/edqm-AME",
   "name": "edqm-AME",
   "title": "EDQM PDF characteristics: Administration Method",
-  "status": "draft",
-  "experimental": true,
+  "status": "active",
+  "experimental": false,
   "description": "EDQM Pharmaceutical dose forms characteristics: Administration Method",
   "compose": {
     "include": [

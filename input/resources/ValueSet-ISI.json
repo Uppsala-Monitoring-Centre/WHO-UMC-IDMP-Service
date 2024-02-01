@@ -4,8 +4,8 @@
   "url": "http://www.who-umc.org/idmp/ValueSet/edqm-ISI",
   "name": "edqm-ISI",
   "title": "EDQM PDF characteristics: Intended Site",
-  "status": "draft",
-  "experimental": true,
+  "status": "active",
+  "experimental": false,
   "description": "EDQM Pharmaceutical dose forms characteristics: Intended Site",
   "compose": {
     "include": [
