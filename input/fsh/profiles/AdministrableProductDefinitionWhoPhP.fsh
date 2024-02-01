@@ -19,7 +19,7 @@ Description: """This profile specified how the AdministrableProductDefinition is
   * ^definition =  "This is always values with the PhPID"
 * identifier 1..1
   * type 1..1 
-  * type  from VsPhpIdLevels (required)
+  * type from VsPhpIdLevels (required)
   * system 1..1
   * value 1..1
 
