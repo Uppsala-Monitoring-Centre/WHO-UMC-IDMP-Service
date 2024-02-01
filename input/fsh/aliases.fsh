@@ -12,10 +12,10 @@ Alias: $pdfCharacteristics = http://www.who-umc.org/idmp/CodeSystem/pdfCharacter
 
 // ====== extensions ====
 Alias: $parent-php-extension = http://www.who-umc.org/idmp/StructureDefinition/parent-phpid
-Alias: $pdfCharacteristics-rca-extension = http://www.who-umc.org/idmp/StructureDefinition/pdf-characteristics-rca
-Alias: $pdfCharacteristics-isi-extension = http://www.who-umc.org/idmp/StructureDefinition/pdf-characteristics-isi
-Alias: $pdfCharacteristics-bdf-extension = http://www.who-umc.org/idmp/StructureDefinition/pdf-characteristics-bdf
-Alias: $pdfCharacteristics-ame-extension = http://www.who-umc.org/idmp/StructureDefinition/pdf-characteristics-ame
+Alias: $pdfCharacteristics-rca-ext = http://www.who-umc.org/idmp/StructureDefinition/release-characteristics
+Alias: $pdfCharacteristics-isi-ext = http://www.who-umc.org/idmp/StructureDefinition/intended-site
+Alias: $pdfCharacteristics-bdf-ext = http://www.who-umc.org/idmp/StructureDefinition/basic-dose-form
+Alias: $pdfCharacteristics-ame-ext = http://www.who-umc.org/idmp/StructureDefinition/administration-method
 Alias: $data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-absent-reason
 
 // =========== Systems =======

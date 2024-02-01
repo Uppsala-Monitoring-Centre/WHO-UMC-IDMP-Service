@@ -20,7 +20,7 @@ Description: "This extension is use to display the ReleaseCharacteristics for an
 * ^context[+].type = #element
 * ^context[=].expression = "AdministrableProductDefinition"
 
-* ^url = $pdfCharacteristics-rca-extension
+* ^url = $pdfCharacteristics-rca-ext
 * value[x] only Coding 
 * valueCoding 1..1
   * system = $edqm
@@ -35,7 +35,7 @@ Description: "This extension is use to display the IntendedSite for an Administr
 * ^context[+].type = #element
 * ^context[=].expression = "AdministrableProductDefinition"
 
-* ^url = $pdfCharacteristics-isi-extension
+* ^url = $pdfCharacteristics-isi-ext
 * value[x] only Coding 
 * valueCoding 1..1
   * system = $edqm
@@ -50,7 +50,7 @@ Description: "This extension is use to display the BasicDoseForm for an Administ
 * ^context[+].type = #element
 * ^context[=].expression = "AdministrableProductDefinition"
 
-* ^url = $pdfCharacteristics-bdf-extension
+* ^url = $pdfCharacteristics-bdf-ext
 * value[x] only Coding 
 * valueCoding 1..1
   * system = $edqm
@@ -65,7 +65,7 @@ Description: "This extension is use to display the AdministrationMethod for an A
 * ^context[+].type = #element
 * ^context[=].expression = "AdministrableProductDefinition"
 
-* ^url = $pdfCharacteristics-ame-extension
+* ^url = $pdfCharacteristics-ame-ext
 * value[x] only Coding 
 * valueCoding 1..1
   * system = $edqm
