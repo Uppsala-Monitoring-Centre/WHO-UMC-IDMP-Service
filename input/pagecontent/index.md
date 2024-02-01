@@ -59,7 +59,7 @@ The (preview) FHIR server with tutorials and examples can be reached at <a href=
 </tr><tr class="even">
 <td>Author</td>
 <td>Giorgio Cangioli</td>
-<td></td>
+<td>HL7 Europe</td>
 <td>giorgio.cangioli@gmail.com</td>
 </tr><tr class="odd">
 <td>Author</td>
@@ -69,7 +69,7 @@ The (preview) FHIR server with tutorials and examples can be reached at <a href=
 </tr><tr class="even">
 <td>Author</td>
 <td>João Almeida</td>
-<td></td>
+<td>HL7 Europe</td>
 <td>joaofilipe90@gmail.com</td>
 </tr></tbody>
 </table>
