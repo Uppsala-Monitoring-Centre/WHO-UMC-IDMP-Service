@@ -21,7 +21,7 @@ Description: "This extension is use to display the dose form characteristics for
 * ^context[=].expression = "AdministrableProductDefinition"
 
 * ^url = $pdfCharacteristics-extension
-* value[x] only Reference (AdministrableProductDefinitionWhoPhP)
-* valueReference.identifier 1..
+* value[x] only Coding 
+* valueCoding 1..1
   * system = $edqm
   * system 1..
