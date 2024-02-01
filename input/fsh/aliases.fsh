@@ -12,7 +12,10 @@ Alias: $pdfCharacteristics = http://www.who-umc.org/idmp/CodeSystem/pdfCharacter
 
 // ====== extensions ====
 Alias: $parent-php-extension = http://www.who-umc.org/idmp/StructureDefinition/parent-phpid
-Alias: $pdfCharacteristics-extension = http://www.who-umc.org/idmp/StructureDefinition/pdfCharacteristics
+Alias: $pdfCharacteristics-rca-extension = http://www.who-umc.org/idmp/StructureDefinition/pdfCharacteristics-rca
+Alias: $pdfCharacteristics-isi-extension = http://www.who-umc.org/idmp/StructureDefinition/pdfCharacteristics-isi
+Alias: $pdfCharacteristics-bdf-extension = http://www.who-umc.org/idmp/StructureDefinition/pdfCharacteristics-bdf
+Alias: $pdfCharacteristics-ame-extension = http://www.who-umc.org/idmp/StructureDefinition/pdfCharacteristics-ame
 Alias: $data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-absent-reason
 
 // =========== Systems =======

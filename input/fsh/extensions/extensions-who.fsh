@@ -12,16 +12,58 @@ Description: "This extension applies to the ADP resource and is used to refer th
   * system = "http://www.who-umc.org/idmp/phpid"
   * system 1..
 
-/* Extension: PDFCharacteristics
-Id: pdf-characteristics
-Title: "Pharmaceutical dose form characteristics"
-Description: "This extension is use to display the dose form characteristics for an AdministrableProductDefinition"
+Extension: PDFCharacteristicsRCA
+Id: pdf-characteristics-rca
+Title: "Pharmaceutical dose form - ReleaseCharacteristics"
+Description: "This extension is use to display the ReleaseCharacteristics for an AdministrableProductDefinition"
 // publisher, contact, and other metadata here using caret (^) syntax (omitted)
 * ^context[+].type = #element
 * ^context[=].expression = "AdministrableProductDefinition"
 
-* ^url = $pdfCharacteristics-extension
+* ^url = $pdfCharacteristics-rca-extension
 * value[x] only Coding 
 * valueCoding 1..1
   * system = $edqm
-  * system 1.. */
+  * system 1.. 
+
+Extension: PDFCharacteristicsISI
+Id: pdf-characteristics-isi
+Title: "Pharmaceutical dose form - IntendedSite"
+Description: "This extension is use to display the IntendedSite for an AdministrableProductDefinition"
+// publisher, contact, and other metadata here using caret (^) syntax (omitted)
+* ^context[+].type = #element
+* ^context[=].expression = "AdministrableProductDefinition"
+
+* ^url = $pdfCharacteristics-isi-extension
+* value[x] only Coding 
+* valueCoding 1..1
+  * system = $edqm
+  * system 1.. 
+
+Extension: PDFCharacteristicsBDF
+Id: pdf-characteristics-bdf
+Title: "Pharmaceutical dose form - BasicDoseForm"
+Description: "This extension is use to display the BasicDoseForm for an AdministrableProductDefinition"
+// publisher, contact, and other metadata here using caret (^) syntax (omitted)
+* ^context[+].type = #element
+* ^context[=].expression = "AdministrableProductDefinition"
+
+* ^url = $pdfCharacteristics-bdf-extension
+* value[x] only Coding 
+* valueCoding 1..1
+  * system = $edqm
+  * system 1.. 
+
+Extension: PDFCharacteristicsAME
+Id: pdf-characteristics-ame
+Title: "Pharmaceutical dose form - AdministrationMethod"
+Description: "This extension is use to display the AdministrationMethod for an AdministrableProductDefinition"
+// publisher, contact, and other metadata here using caret (^) syntax (omitted)
+* ^context[+].type = #element
+* ^context[=].expression = "AdministrableProductDefinition"
+
+* ^url = $pdfCharacteristics-ame-extension
+* value[x] only Coding 
+* valueCoding 1..1
+  * system = $edqm
+  * system 1.. 

@@ -6,8 +6,12 @@ Description: """This profile specified how the AdministrableProductDefinition is
 
 * insert SetFmmandStatusRule ( 0, draft )
 * extension contains $parent-php-extension named parentPhp 0..3
-//* extension contains $pdfCharacteristics-extension named pdfCharacteristics 0..4
-//* extension[parentPhp] ^short = "URL to be CHANGED"
+
+* extension contains $pdfCharacteristics-bdf-extension named pdfCharacteristicsBDF 0..1
+* extension[pdfCharacteristicsBDF] ^short = "Basic Dose Form"
+* extension contains $pdfCharacteristics-isi-extension named pdfCharacteristicsISI 0..1
+* extension[pdfCharacteristicsISI] ^short = "Intended Site"
+
 * contained 1..
 * contained only IngredientWhoPhP
 * id 1..
