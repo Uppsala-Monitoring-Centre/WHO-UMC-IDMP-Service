@@ -13,7 +13,7 @@ Description: "This extension applies to the ADP resource and is used to refer th
   * system 1..
 
 Extension: PDFCharacteristicsRCA
-Id: pdf-characteristics-rca
+Id: release-characteristics
 Title: "Pharmaceutical dose form - ReleaseCharacteristics"
 Description: "This extension is use to display the ReleaseCharacteristics for an AdministrableProductDefinition"
 // publisher, contact, and other metadata here using caret (^) syntax (omitted)
@@ -28,7 +28,7 @@ Description: "This extension is use to display the ReleaseCharacteristics for an
   * code from edqm-RCA
 
 Extension: PDFCharacteristicsISI
-Id: pdf-characteristics-isi
+Id: intended-site
 Title: "Pharmaceutical dose form - IntendedSite"
 Description: "This extension is use to display the IntendedSite for an AdministrableProductDefinition"
 // publisher, contact, and other metadata here using caret (^) syntax (omitted)
@@ -43,7 +43,7 @@ Description: "This extension is use to display the IntendedSite for an Administr
   * code from edqm-ISI
 
 Extension: PDFCharacteristicsBDF
-Id: pdf-characteristics-bdf
+Id: basic-dose-form
 Title: "Pharmaceutical dose form - BasicDoseForm"
 Description: "This extension is use to display the BasicDoseForm for an AdministrableProductDefinition"
 // publisher, contact, and other metadata here using caret (^) syntax (omitted)
@@ -58,7 +58,7 @@ Description: "This extension is use to display the BasicDoseForm for an Administ
   * code from edqm-BDF
 
 Extension: PDFCharacteristicsAME
-Id: pdf-characteristics-ame
+Id: administration-method
 Title: "Pharmaceutical dose form - AdministrationMethod"
 Description: "This extension is use to display the AdministrationMethod for an AdministrableProductDefinition"
 // publisher, contact, and other metadata here using caret (^) syntax (omitted)
