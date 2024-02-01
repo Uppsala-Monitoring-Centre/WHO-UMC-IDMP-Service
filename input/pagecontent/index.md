@@ -55,21 +55,21 @@ The (preview) FHIR server with tutorials and examples can be reached at <a href=
 <td>Author</td>
 <td>Magnus Wallberg</td>
 <td>Uppsala Monitoring Centre</td>
-<td>magnus.wallberg@who-umc.org</td>
+<td>magnus.wallberg [at] who-umc.org</td>
 </tr><tr class="even">
 <td>Author</td>
 <td>Giorgio Cangioli</td>
 <td>HL7 Europe</td>
-<td>giorgio.cangioli@gmail.com</td>
+<td>giorgio.cangioli [at] gmail.com</td>
 </tr><tr class="odd">
 <td>Author</td>
 <td>Åsa Pärnaste</td>
 <td>Uppsala Monitoring Centre</td>
-<td>asa.parnaste@who-umc.org</td>
+<td>asa.parnaste [at] who-umc.org</td>
 </tr><tr class="even">
 <td>Author</td>
 <td>João Almeida</td>
 <td>HL7 Europe</td>
-<td>joaofilipe90@gmail.com</td>
+<td>joaofilipe90 [at] gmail.com</td>
 </tr></tbody>
 </table>
