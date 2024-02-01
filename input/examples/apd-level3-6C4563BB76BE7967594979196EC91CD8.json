@@ -13,7 +13,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "0d060311-5bb9-4147-aada-a1f8c0c137f8",
+      "id": "88189842-8cca-4442-b738-ede071a8137a",
       "status": "active",
       "for": [
         {
@@ -61,6 +61,38 @@
           "system": "http://www.who-umc.org/idmp/phpid",
           "value": "93FE88350C2E8868F7E8BD220C4E0010"
         }
+      }
+    },
+    {
+      "url": "http://www.who-umc.org/idmp/StructureDefinition/basic-dose-form",
+      "valueCoding": {
+        "system": "https://standardterms.edqm.eu",
+        "code": "0069",
+        "display": "Tablet"
+      }
+    },
+    {
+      "url": "http://www.who-umc.org/idmp/StructureDefinition/administration-method",
+      "valueCoding": {
+        "system": "https://standardterms.edqm.eu",
+        "code": "0019",
+        "display": "Swallowing"
+      }
+    },
+    {
+      "url": "http://www.who-umc.org/idmp/StructureDefinition/intended-site",
+      "valueCoding": {
+        "system": "https://standardterms.edqm.eu",
+        "code": "0031",
+        "display": "Oral"
+      }
+    },
+    {
+      "url": "http://www.who-umc.org/idmp/StructureDefinition/release-characteristics",
+      "valueCoding": {
+        "system": "https://standardterms.edqm.eu",
+        "code": "0047",
+        "display": "Conventional"
       }
     }
   ],
