@@ -46,6 +46,25 @@ Description: "This profile specified how the AdministrableProductDefinition is p
   * type from VsEdqmPdfCharacteristicType
   * valueCodeableConcept from VsEdqmPdfCharacteristic (extensible)
 
+// ************ Test *************
+* property ^slicing.discriminator.type = #pattern
+* property ^slicing.discriminator.path = "type"
+* property ^slicing.rules = #open
+* property ^slicing.description = "Slice based on the property.type pattern"
+
+* property contains ISI 1..1 MS and BDF 1..1 MS and RCA 1..1 MS and AME 1..1 MS
+* property[ISI].type = $pdfCharacteristics#ISI
+  * ^short = "Intended Site"
+* property[ISI].valueCodeableConcept from edqm-ISI 
+* property[BDF].type = $pdfCharacteristics#BDF
+* property[BDF].valueCodeableConcept from edqm-BDF
+* property[AME].type = $pdfCharacteristics#AME
+* property[AME].valueCodeableConcept from edqm-AME
+* property[RCA].type = $pdfCharacteristics#RCA
+* property[RCA].valueCodeableConcept from edqm-RCA
+//* property[ISI].valueReference only Reference (MedicinalProductDefinitionWhoPhPRequest)
+// ********** End Test ***********
+
 * unitOfPresentation 0..0
 * producedFrom 0..0
 * device 0..0
