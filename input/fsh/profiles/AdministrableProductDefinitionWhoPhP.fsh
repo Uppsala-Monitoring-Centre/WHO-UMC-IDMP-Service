@@ -37,7 +37,8 @@ Description: "This profile specified how the AdministrableProductDefinition is p
 
 //only Reference(MedicinalProductDefinitionWhoPhP)
 
-* administrableDoseForm from VsAdministrableDoseForm (example)
+//* administrableDoseForm from VsAdministrableDoseForm (example)
+* administrableDoseForm 0..0
 
 * routeOfAdministration 
   * code from VsRouteOfAdministration (example)
