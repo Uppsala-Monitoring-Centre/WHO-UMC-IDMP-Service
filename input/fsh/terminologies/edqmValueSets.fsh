@@ -1,12 +1,4 @@
 //=========================
-ValueSet: VsEdqm
-Id: edqm
-Title: "EDQM Standard Terms"
-Description: "EDQM Standard Terms"
-* ^experimental = false
-* codes from system $edqm
-
-//=========================
 ValueSet: VsEdqmPdfCharacteristic
 Id: edqmPdfCharacteristic
 Title: "EDQM PDF by characteristics"

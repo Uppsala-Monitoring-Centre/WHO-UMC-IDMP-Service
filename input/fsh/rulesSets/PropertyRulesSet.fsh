@@ -1,3 +1,4 @@
+/*
 RuleSet:  PropertyRulesSet
 * property 0..*
 * property ^slicing.discriminator[0].type = #value
@@ -49,4 +50,4 @@ RuleSet:  PropertyRulesSet
 * property[size].type    = $medicationknowledge-characteristic#size
 
 * property[image].type   = $medicationknowledge-characteristic#image
-* property[image].value[x].data ^short = "base64 version of the product image"
+* property[image].value[x].data ^short = "base64 version of the product image" */

@@ -41,9 +41,10 @@ Description: "This profile specified how the AdministrableProductDefinition is p
 
 * routeOfAdministration 
   * code from VsRouteOfAdministration (example)
-* property
+
+/* * property
   * type from VsEdqmPdfCharacteristicType
-  * valueCodeableConcept from VsEdqmPdfCharacteristic (extensible)
+  * valueCodeableConcept from VsEdqmPdfCharacteristic (extensible) */
 
 * unitOfPresentation 0..0
 * producedFrom 0..0

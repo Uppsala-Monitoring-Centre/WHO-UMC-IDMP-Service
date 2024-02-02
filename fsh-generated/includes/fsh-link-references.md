@@ -12,7 +12,6 @@
 [edqm-BDF]: ValueSet-edqm-BDF.html
 [edqm-ISI]: ValueSet-edqm-ISI.html
 [edqm-RCA]: ValueSet-edqm-RCA.html
-[VsEdqm]: ValueSet-edqm.html
 [VsGSIDTaskInputTypes]: ValueSet-gsid-task-input-type.html
 [GSID23G92UMX93H45]: SubstanceDefinition-GSID23G92UMX93H45.html
 [GSID85RFP2XGF3X29]: SubstanceDefinition-GSID85RFP2XGF3X29.html

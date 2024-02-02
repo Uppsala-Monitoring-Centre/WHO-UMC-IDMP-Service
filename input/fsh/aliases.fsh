@@ -62,8 +62,7 @@ Alias: $example-prod = http://example.org/sid/product
 
 // ============= VALUE SETS  ============
 
-Alias: $VS-medicinal-product-domain =
-	http://hl7.org/fhir/ValueSet/medicinal-product-domain
+Alias: $VS-medicinal-product-domain = http://hl7.org/fhir/ValueSet/medicinal-product-domain
 
 Alias: $VS-language = http://hl7.org/fhir/ValueSet/languages
 
