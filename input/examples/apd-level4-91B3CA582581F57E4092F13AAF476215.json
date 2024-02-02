@@ -13,7 +13,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "bcde090e-7267-40e8-b803-5613f6f6b666",
+      "id": "bbebe786-69a7-4a97-85c2-c2184de41688",
       "status": "active",
       "for": [
         {
@@ -174,88 +174,6 @@
           "valueCode": "unsupported"
         }
       ]
-    }
-  ],
-  "property": [
-    {
-      "type": {
-        "coding": [
-          {
-            "system": "http://www.who-umc.org/idmp/CodeSystem/pdfCharacteristics",
-            "code": "BDF"
-          }
-        ],
-        "text": "Basic Dose Form"
-      },
-      "valueCodeableConcept": {
-        "coding": [
-          {
-            "system": "https://standardterms.edqm.eu",
-            "code": "0069"
-          }
-        ],
-        "text": "Tablet"
-      }
-    },
-    {
-      "type": {
-        "coding": [
-          {
-            "system": "http://www.who-umc.org/idmp/CodeSystem/pdfCharacteristics",
-            "code": "AME"
-          }
-        ],
-        "text": "Administration Method"
-      },
-      "valueCodeableConcept": {
-        "coding": [
-          {
-            "system": "https://standardterms.edqm.eu",
-            "code": "0019"
-          }
-        ],
-        "text": "Swallowing"
-      }
-    },
-    {
-      "type": {
-        "coding": [
-          {
-            "system": "http://www.who-umc.org/idmp/CodeSystem/pdfCharacteristics",
-            "code": "ISI"
-          }
-        ],
-        "text": "Intended Site"
-      },
-      "valueCodeableConcept": {
-        "coding": [
-          {
-            "system": "https://standardterms.edqm.eu",
-            "code": "0031"
-          }
-        ],
-        "text": "Oral"
-      }
-    },
-    {
-      "type": {
-        "coding": [
-          {
-            "system": "http://www.who-umc.org/idmp/CodeSystem/pdfCharacteristics",
-            "code": "RCA"
-          }
-        ],
-        "text": "Release Characteristics"
-      },
-      "valueCodeableConcept": {
-        "coding": [
-          {
-            "system": "https://standardterms.edqm.eu",
-            "code": "0047"
-          }
-        ],
-        "text": "Conventional"
-      }
     }
   ],
   "routeOfAdministration": [

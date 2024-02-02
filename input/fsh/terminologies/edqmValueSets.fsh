@@ -1,3 +1,4 @@
+/*
 //=========================
 ValueSet: VsEdqmPdfCharacteristic
 Id: edqmPdfCharacteristic
@@ -21,4 +22,4 @@ Description: "Types of EDQM Pharmaceutical dose forms by characteristics"
 * $pdfCharacteristics#RCA "Release characteristics"
 // previously $standardterms
 
-
+*/

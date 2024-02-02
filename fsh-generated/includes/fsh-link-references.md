@@ -7,7 +7,6 @@
 [AdministrableProductDefinitionWhoPhP]: StructureDefinition-AdministrableProductDefinition-who-php.html
 [WHO-UMC IDMP Management and Publish API]: CapabilityStatement-WHO-UMC-IDMP-service.html
 [VsDoseForm]: ValueSet-doseForm.html
-[VsEdqmPdfCharacteristic]: ValueSet-edqmPdfCharacteristic.html
 [edqm-AME]: ValueSet-edqm-AME.html
 [edqm-BDF]: ValueSet-edqm-BDF.html
 [edqm-ISI]: ValueSet-edqm-ISI.html
@@ -43,6 +42,5 @@
 [TaskGeneratePhPIDStatus]: StructureDefinition-Task-who-php-phpid-status.html
 [template-generated-by-server-gsid-req]: Task-template-generated-by-server-gsid-req.html
 [template-generated-by-server-phpid-req]: Task-template-generated-by-server-phpid-req.html
-[VsEdqmPdfCharacteristicType]: ValueSet-edqmPdfCharacteristicType.html
 [VsUnitofPresentation]: ValueSet-unitofPresentation.html
 [VsAtcClassification]: ValueSet-atcClassification.html

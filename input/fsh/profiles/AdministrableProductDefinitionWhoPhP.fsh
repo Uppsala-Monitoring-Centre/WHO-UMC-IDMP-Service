@@ -46,6 +46,7 @@ Description: "This profile specified how the AdministrableProductDefinition is p
   * type from VsEdqmPdfCharacteristicType
   * valueCodeableConcept from VsEdqmPdfCharacteristic (extensible) */
 
+/*
 // ************ Test *************
 * property ^slicing.discriminator.type = #pattern
 * property ^slicing.discriminator.path = "type"
@@ -81,6 +82,7 @@ Description: "This profile specified how the AdministrableProductDefinition is p
 
 //* property[ISI].valueReference only Reference (MedicinalProductDefinitionWhoPhPRequest)
 // ********** End Test ***********
+*/
 
 * unitOfPresentation 0..0
 * producedFrom 0..0
