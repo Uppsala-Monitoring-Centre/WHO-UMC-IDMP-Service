@@ -52,30 +52,29 @@ Description: "This profile specified how the AdministrableProductDefinition is p
 * property ^slicing.rules = #open
 * property ^slicing.description = "Slice based on the property.type pattern"
 
-* property contains IntendedSite 0..1 MS and BDF 0..1 MS and RCA 0..1 MS and AME 0..1 MS
+* property contains IntendedSite 0..1 MS and BasicDoseForm 0..1 MS and ReleaseCharacteristics 0..1 MS and AdministrationMethod 0..1 MS
 * property[IntendedSite].type = $pdfCharacteristics#ISI
-  * ^short = "Intended Site"
 * property[IntendedSite].value[x] only CodeableConcept 
 * property[IntendedSite].valueCodeableConcept 1..1
   * coding 1..1  
     * system = $edqm
     * code from edqm-ISI
-* property[BDF].type = $pdfCharacteristics#BDF
-* property[BDF].value[x] only CodeableConcept 
-* property[BDF].valueCodeableConcept 1..1
+* property[BasicDoseForm].type = $pdfCharacteristics#BDF
+* property[BasicDoseForm].value[x] only CodeableConcept 
+* property[BasicDoseForm].valueCodeableConcept 1..1
   * coding 1..1  
     * system = $edqm
     * code from edqm-BDF
-* property[AME].type = $pdfCharacteristics#AME
-* property[AME].value[x] only CodeableConcept 
-* property[AME].valueCodeableConcept 1..1
+* property[AdministrationMethod].type = $pdfCharacteristics#AME
+* property[AdministrationMethod].value[x] only CodeableConcept 
+* property[AdministrationMethod].valueCodeableConcept 1..1
   * coding 1..1  
     * system = $edqm
     * code from edqm-AME
 
-* property[RCA].type = $pdfCharacteristics#RCA
-* property[RCA].value[x] only CodeableConcept 
-* property[RCA].valueCodeableConcept 1..1
+* property[ReleaseCharacteristics].type = $pdfCharacteristics#RCA
+* property[ReleaseCharacteristics].value[x] only CodeableConcept 
+* property[ReleaseCharacteristics].valueCodeableConcept 1..1
   * coding 1..1  
     * system = $edqm
     * code from edqm-RCA
