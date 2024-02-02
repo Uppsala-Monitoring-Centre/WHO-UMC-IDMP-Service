@@ -56,7 +56,11 @@ Description: "This profile specified how the AdministrableProductDefinition is p
 * property[ISI].type = $pdfCharacteristics#ISI
   * ^short = "Intended Site"
 * property[ISI].value[x] only CodeableConcept 
-* property[ISI].valueCodeableConcept from edqm-ISI 
+* property[ISI].valueCodeableConcept 1..1
+  * coding 1..1  
+    * system = $edqm
+    * code from edqm-ISI
+
 * property[BDF].type = $pdfCharacteristics#BDF
 * property[BDF].value[x] only CodeableConcept 
 * property[BDF].valueCodeableConcept from edqm-BDF
