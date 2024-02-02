@@ -12,7 +12,7 @@ Description: "This extension applies to the ADP resource and is used to refer th
   * system = "http://www.who-umc.org/idmp/phpid"
   * system 1..
 
-Extension: PDFCharacteristicsRCA
+Extension: RCA
 Id: release-characteristics
 Title: "Pharmaceutical dose form - ReleaseCharacteristics"
 Description: "This extension is use to display the ReleaseCharacteristics for an AdministrableProductDefinition"
@@ -27,7 +27,7 @@ Description: "This extension is use to display the ReleaseCharacteristics for an
   * system 1.. 
   * code from edqm-RCA
 
-Extension: PDFCharacteristicsISI
+Extension: ISI
 Id: intended-site
 Title: "Pharmaceutical dose form - IntendedSite"
 Description: "This extension is use to display the IntendedSite for an AdministrableProductDefinition"
@@ -42,7 +42,7 @@ Description: "This extension is use to display the IntendedSite for an Administr
   * system 1.. 
   * code from edqm-ISI
 
-Extension: PDFCharacteristicsBDF
+Extension: BDF
 Id: basic-dose-form
 Title: "Pharmaceutical dose form - BasicDoseForm"
 Description: "This extension is use to display the BasicDoseForm for an AdministrableProductDefinition"
@@ -57,7 +57,7 @@ Description: "This extension is use to display the BasicDoseForm for an Administ
   * system 1.. 
   * code from edqm-BDF
 
-Extension: PDFCharacteristicsAME
+Extension: AME
 Id: administration-method
 Title: "Pharmaceutical dose form - AdministrationMethod"
 Description: "This extension is use to display the AdministrationMethod for an AdministrableProductDefinition"

@@ -26,10 +26,10 @@
 [ParentPhp]: StructureDefinition-parent-phpid.html
 [parent-php]: SearchParameter-parent-php.html
 [PdfCharacteristics]: CodeSystem-pdfCharacteristics.html
-[PDFCharacteristicsAME]: StructureDefinition-administration-method.html
-[PDFCharacteristicsBDF]: StructureDefinition-basic-dose-form.html
-[PDFCharacteristicsISI]: StructureDefinition-intended-site.html
-[PDFCharacteristicsRCA]: StructureDefinition-release-characteristics.html
+[AME]: StructureDefinition-administration-method.html
+[BDF]: StructureDefinition-basic-dose-form.html
+[ISI]: StructureDefinition-intended-site.html
+[RCA]: StructureDefinition-release-characteristics.html
 [PhpIdLevels]: CodeSystem-php-level.html
 [VsPhPIDTaskInputTypes]: ValueSet-phpid-task-input-type.html
 [VsRouteOfAdministration]: ValueSet-routeOfAdministration.html
