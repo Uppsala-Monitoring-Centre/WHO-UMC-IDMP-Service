@@ -52,15 +52,19 @@ Description: "This profile specified how the AdministrableProductDefinition is p
 * property ^slicing.rules = #open
 * property ^slicing.description = "Slice based on the property.type pattern"
 
-* property contains ISI 1..1 MS and BDF 1..1 MS and RCA 1..1 MS and AME 1..1 MS
+* property contains ISI 0..1 MS and BDF 0..1 MS and RCA 0..1 MS and AME 0..1 MS
 * property[ISI].type = $pdfCharacteristics#ISI
   * ^short = "Intended Site"
+* property[ISI].value[x] only CodeableConcept 
 * property[ISI].valueCodeableConcept from edqm-ISI 
 * property[BDF].type = $pdfCharacteristics#BDF
+* property[BDF].value[x] only CodeableConcept 
 * property[BDF].valueCodeableConcept from edqm-BDF
 * property[AME].type = $pdfCharacteristics#AME
+* property[AME].value[x] only CodeableConcept 
 * property[AME].valueCodeableConcept from edqm-AME
 * property[RCA].type = $pdfCharacteristics#RCA
+* property[RCA].value[x] only CodeableConcept 
 * property[RCA].valueCodeableConcept from edqm-RCA
 //* property[ISI].valueReference only Reference (MedicinalProductDefinitionWhoPhPRequest)
 // ********** End Test ***********
