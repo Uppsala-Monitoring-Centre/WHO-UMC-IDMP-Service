@@ -42,9 +42,9 @@ Description: "This profile specified how the AdministrableProductDefinition is p
 * routeOfAdministration 
   * code from VsRouteOfAdministration (example)
 
-* property
+/* * property
   * type from VsEdqmPdfCharacteristicType
-  * valueCodeableConcept from VsEdqmPdfCharacteristic (extensible)
+  * valueCodeableConcept from VsEdqmPdfCharacteristic (extensible) */
 
 // ************ Test *************
 * property ^slicing.discriminator.type = #pattern
@@ -52,24 +52,34 @@ Description: "This profile specified how the AdministrableProductDefinition is p
 * property ^slicing.rules = #open
 * property ^slicing.description = "Slice based on the property.type pattern"
 
-* property contains ISI 0..1 MS and BDF 0..1 MS and RCA 0..1 MS and AME 0..1 MS
-* property[ISI].type = $pdfCharacteristics#ISI
+* property contains IntendedSite 0..1 MS and BDF 0..1 MS and RCA 0..1 MS and AME 0..1 MS
+* property[IntendedSite].type = $pdfCharacteristics#ISI
   * ^short = "Intended Site"
-* property[ISI].value[x] only CodeableConcept 
-* property[ISI].valueCodeableConcept 1..1
+* property[IntendedSite].value[x] only CodeableConcept 
+* property[IntendedSite].valueCodeableConcept 1..1
   * coding 1..1  
     * system = $edqm
     * code from edqm-ISI
-
 * property[BDF].type = $pdfCharacteristics#BDF
 * property[BDF].value[x] only CodeableConcept 
-* property[BDF].valueCodeableConcept from edqm-BDF
+* property[BDF].valueCodeableConcept 1..1
+  * coding 1..1  
+    * system = $edqm
+    * code from edqm-BDF
 * property[AME].type = $pdfCharacteristics#AME
 * property[AME].value[x] only CodeableConcept 
-* property[AME].valueCodeableConcept from edqm-AME
+* property[AME].valueCodeableConcept 1..1
+  * coding 1..1  
+    * system = $edqm
+    * code from edqm-AME
+
 * property[RCA].type = $pdfCharacteristics#RCA
 * property[RCA].value[x] only CodeableConcept 
-* property[RCA].valueCodeableConcept from edqm-RCA
+* property[RCA].valueCodeableConcept 1..1
+  * coding 1..1  
+    * system = $edqm
+    * code from edqm-RCA
+
 //* property[ISI].valueReference only Reference (MedicinalProductDefinitionWhoPhPRequest)
 // ********** End Test ***********
 
