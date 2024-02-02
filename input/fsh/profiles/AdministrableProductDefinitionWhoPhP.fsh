@@ -10,11 +10,11 @@ Description: "This profile specified how the AdministrableProductDefinition is p
 // PDF CHARACTERISTICS EXTENSIONS
 * extension contains $pdfCharacteristics-bdf-ext named basicDoseForm 0..1
 * extension[basicDoseForm] ^short = "Basic Dose Form"
-* extension contains $pdfCharacteristics-isi-ext named intendedSite 0..1
+* extension contains $pdfCharacteristics-isi-ext named intendedSite 0..3
 * extension[intendedSite] ^short = "Intended Site"
 * extension contains $pdfCharacteristics-rca-ext named releaseCharacteristics 0..1
 * extension[releaseCharacteristics] ^short = "Release Characteristics"
-* extension contains $pdfCharacteristics-ame-ext named administrationMethod 0..1
+* extension contains $pdfCharacteristics-ame-ext named administrationMethod 0..3
 * extension[administrationMethod] ^short = "Administration Method"
 
 * contained 1..
