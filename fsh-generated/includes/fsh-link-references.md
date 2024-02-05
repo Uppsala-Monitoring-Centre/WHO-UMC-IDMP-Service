@@ -1,4 +1,3 @@
-[1266520E021]: MedicinalProductDefinition-1266520E021.html
 [VsAdministrableDoseForm]: ValueSet-administrableDoseForm.html
 [AdministrableProductDefinitionWhoPhP]: StructureDefinition-AdministrableProductDefinition-who-php.html
 [93FE88350C2E8868F7E8BD220C4E0010]: AdministrableProductDefinition-93FE88350C2E8868F7E8BD220C4E0010.html
@@ -12,13 +11,12 @@
 [edqm-ISI]: ValueSet-edqm-ISI.html
 [edqm-RCA]: ValueSet-edqm-RCA.html
 [VsGSIDTaskInputTypes]: ValueSet-gsid-task-input-type.html
-[GSID23G92UMX93H45]: SubstanceDefinition-GSID23G92UMX93H45.html
-[GSID85RFP2XGF3X29]: SubstanceDefinition-GSID85RFP2XGF3X29.html
 [VsPhpIdLevels]: ValueSet-phpid-type.html
 [IngredientWhoPhP]: StructureDefinition-Ingredient-who-php.html
 [VsIngredientRole]: ValueSet-ingredientRole.html
 [VsCountry]: ValueSet-country.html
 [VsManufacturedDoseForm]: ValueSet-manufacturedDoseForm.html
+[1266520E021]: MedicinalProductDefinition-1266520E021.html
 [MedicinalProductDefinitionWhoPhPRequest]: StructureDefinition-MedicinalProductDefinition-who-php-req.html
 [MedicinalProductDefinitionWhoPhP]: StructureDefinition-MedicinalProductDefinition-who-php-pub.html
 [VsMpIdSystem]: ValueSet-mpid-system.html
@@ -32,6 +30,8 @@
 [PhpIdLevels]: CodeSystem-php-level.html
 [VsPhPIDTaskInputTypes]: ValueSet-phpid-task-input-type.html
 [VsRouteOfAdministration]: ValueSet-routeOfAdministration.html
+[GSID23G92UMX93H45]: SubstanceDefinition-GSID23G92UMX93H45.html
+[GSID85RFP2XGF3X29]: SubstanceDefinition-GSID85RFP2XGF3X29.html
 [SubstanceDefinitionPublished]: StructureDefinition-SubstanceDefinition-pub.html
 [SubstanceDefinitionRequest]: StructureDefinition-SubstanceDefinition-req.html
 [VsSubstance]: ValueSet-substance.html
