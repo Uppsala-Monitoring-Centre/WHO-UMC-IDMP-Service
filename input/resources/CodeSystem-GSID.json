@@ -1,9 +1,9 @@
 {
   "resourceType": "CodeSystem",
-  "id": "php-level",
+  "id": "gsid",
   "url": "http://www.who-umc.org/idmp/gsid",
-  "name": "PhpIdLevels",
-  "title": "PhPId level",
+  "name": "GSID",
+  "title": "Global Substance Identifiers CodeSytem",
   "status": "active",
   "experimental": false,
   "publisher": "Uppsala Monitoring Centre",
