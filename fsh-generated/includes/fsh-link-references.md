@@ -10,7 +10,6 @@
 [edqm-BDF]: ValueSet-edqm-BDF.html
 [edqm-ISI]: ValueSet-edqm-ISI.html
 [edqm-RCA]: ValueSet-edqm-RCA.html
-[GSID]: CodeSystem-gsid.html
 [VsGSIDTaskInputTypes]: ValueSet-gsid-task-input-type.html
 [VsPhpIdLevels]: ValueSet-phpid-type.html
 [IngredientWhoPhP]: StructureDefinition-Ingredient-who-php.html

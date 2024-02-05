@@ -1,18 +1,27 @@
 {
   "resourceType": "CodeSystem",
-  "id": "gsid",
+  "id": "php-level",
   "url": "http://www.who-umc.org/idmp/gsid",
-  "name": "GSID",
-  "title": "Globsal Substance Identifiers",
+  "name": "PhpIdLevels",
+  "title": "PhPId level",
   "status": "active",
   "experimental": false,
   "publisher": "Uppsala Monitoring Centre",
-  "description": "This system list GSID codes and names",
+  "description": "This system lists PhPID types: level and stratum",
   "copyright": "Uppsala Monitoring Centre",
   "caseSensitive": false,
   "compositional": false,
-  "content": "notpresent",
+  "content": "example",
   "concept": [
-    
+    {
+      "code": "GSID85RFP2XGF3X29",
+      "display": "OMEPRAZOLE",
+      "definition": "OMEPRAZOLE"
+    },
+    {
+      "code": "GSID23G92UMX93H45",
+      "display": "METHOTREXATE",
+      "definition": "METHOTREXATE"
+    }
   ]
 }
