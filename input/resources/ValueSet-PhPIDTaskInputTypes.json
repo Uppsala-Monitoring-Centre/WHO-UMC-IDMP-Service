@@ -4,8 +4,8 @@
   "url": "http://www.who-umc.org/idmp/ValueSet/phpid-task-input-type",
   "name": "VsPhPIDTaskInputTypes",
   "title": "PhPID request input type value set",
-  "status": "draft",
-  "experimental": true,
+  "status": "active",
+  "experimental": false,
   "description": "PhPID request input type value set",
   "compose": {
     "include": [

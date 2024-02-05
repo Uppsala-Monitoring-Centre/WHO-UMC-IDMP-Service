@@ -9,7 +9,7 @@
   "contained": [
     {
       "resourceType": "MedicinalProductDefinition",
-      "id": "31e52584-b104-408a-a8ce-83fd9e479401",
+      "id": "35e258a3-5f87-4b0e-9e6f-90d9dd66b53c",
       "meta": {
         "profile": [
           "http://www.who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-req"
@@ -108,7 +108,7 @@
     },
     {
       "resourceType": "Ingredient",
-      "id": "0b7da3fc-d5e0-4492-a569-ba60ce5bb0b1",
+      "id": "68f6522a-5613-4c78-a6ed-cec4382bf906",
       "meta": {
         "profile": [
           "http://www.who-umc.org/idmp/StructureDefinition/Ingredient-who-php"
@@ -117,7 +117,7 @@
       "status": "active",
       "for": [
         {
-          "reference": "#31e52584-b104-408a-a8ce-83fd9e479401"
+          "reference": "#35e258a3-5f87-4b0e-9e6f-90d9dd66b53c"
         }
       ],
       "role": {
@@ -204,7 +204,7 @@
         "text": "Medicinal Product for PhPID request"
       },
       "valueReference": {
-        "reference": "#31e52584-b104-408a-a8ce-83fd9e479401"
+        "reference": "#35e258a3-5f87-4b0e-9e6f-90d9dd66b53c"
       }
     },
     {
@@ -219,7 +219,7 @@
         "text": "Ingredient for PhPID request"
       },
       "valueReference": {
-        "reference": "#0b7da3fc-d5e0-4492-a569-ba60ce5bb0b1"
+        "reference": "#68f6522a-5613-4c78-a6ed-cec4382bf906"
       }
     },
     {
