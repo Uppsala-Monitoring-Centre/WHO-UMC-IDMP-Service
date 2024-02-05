@@ -1,0 +1,18 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "gsid",
+  "url": "http://www.who-umc.org/idmp/gsid",
+  "name": "GSID",
+  "title": "Globsal Substance Identifiers",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Uppsala Monitoring Centre",
+  "description": "This system list GSID codes and names",
+  "copyright": "Uppsala Monitoring Centre",
+  "caseSensitive": false,
+  "compositional": false,
+  "content": "notpresent",
+  "concept": [
+    
+  ]
+}
