@@ -67,7 +67,7 @@ RuleSet: TaskGeneratePhPIDCommon
   * valueReference only Reference (AdministrableProductDefinitionWhoPhP)
 
 // NOT USED ELEMENTS
-* requester 0..0
+* requester 0..1
 * encounter 0..0
 * insurance 0..0
 * restriction 0..0

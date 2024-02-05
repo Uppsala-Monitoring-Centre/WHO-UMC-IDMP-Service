@@ -1,5 +1,8 @@
 == Suppressed Messages ==
 
+# Common - to be resolved when becoming active
+The resource status 'active' and the standards status 'draft' are not consistent
+
 # No schematrons available for Logical Models
 The link 'StructureDefinition-bloodGlucose.sch' for "Schematron" cannot be resolved
 The link 'StructureDefinition-bloodPressure.sch' for "Schematron" cannot be resolved
