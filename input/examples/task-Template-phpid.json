@@ -9,7 +9,7 @@
   "contained": [
     {
       "resourceType": "MedicinalProductDefinition",
-      "id": "3b2ac1ac-879e-475b-8376-07c1cc0b4ace",
+      "id": "31e52584-b104-408a-a8ce-83fd9e479401",
       "meta": {
         "profile": [
           "http://www.who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-req"
@@ -108,7 +108,7 @@
     },
     {
       "resourceType": "Ingredient",
-      "id": "a025a16a-ead0-42c1-a3f9-03e3547a4d8d",
+      "id": "0b7da3fc-d5e0-4492-a569-ba60ce5bb0b1",
       "meta": {
         "profile": [
           "http://www.who-umc.org/idmp/StructureDefinition/Ingredient-who-php"
@@ -117,7 +117,7 @@
       "status": "active",
       "for": [
         {
-          "reference": "#3b2ac1ac-879e-475b-8376-07c1cc0b4ace"
+          "reference": "#31e52584-b104-408a-a8ce-83fd9e479401"
         }
       ],
       "role": {
@@ -152,9 +152,9 @@
               },
               "denominator": {
                 "value": 1,
-                "unit": "mg",
+                "unit": "arbitrary international unit",
                 "system": "http://unitsofmeasure.org",
-                "code": "mg"
+                "code": "[IU]"
               }
             },
             "textPresentation": "1,5 mg"
@@ -189,8 +189,8 @@
   "status": "requested",
   "intent": "proposal",
   "priority": "routine",
-  "authoredOn": "2024-01-31",
-  "lastModified": "2024-01-31",
+  "authoredOn": "2024-02-05",
+  "lastModified": "2024-02-05",
   "input": [
     {
       "type": {
@@ -204,7 +204,7 @@
         "text": "Medicinal Product for PhPID request"
       },
       "valueReference": {
-        "reference": "#3b2ac1ac-879e-475b-8376-07c1cc0b4ace"
+        "reference": "#31e52584-b104-408a-a8ce-83fd9e479401"
       }
     },
     {
@@ -219,7 +219,7 @@
         "text": "Ingredient for PhPID request"
       },
       "valueReference": {
-        "reference": "#a025a16a-ead0-42c1-a3f9-03e3547a4d8d"
+        "reference": "#0b7da3fc-d5e0-4492-a569-ba60ce5bb0b1"
       }
     },
     {
