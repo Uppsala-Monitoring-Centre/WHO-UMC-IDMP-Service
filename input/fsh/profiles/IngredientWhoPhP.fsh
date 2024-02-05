@@ -11,7 +11,7 @@ Description: """This profile specified how the Ingredient is used in a PhPID req
 * role from VsIngredientRole (example)
 
 * substance 1..
-  // * code from VsSubstance (example)
+  * code from VsSubstance (example)
   * code.concept
     * coding 0..1
       * system = $gsid
