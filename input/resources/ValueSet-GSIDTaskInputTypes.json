@@ -4,7 +4,7 @@
   "url": "http://www.who-umc.org/idmp/ValueSet/gsid-task-input-type",
   "name": "VsGSIDTaskInputTypes",
   "title": "GSID request input type value set",
-  "status": "draft",
+  "status": "active",
   "experimental": true,
   "description": "GSID request input type value set",
   "compose": {
