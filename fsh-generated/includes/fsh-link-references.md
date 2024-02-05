@@ -42,5 +42,6 @@
 [TaskGeneratePhPIDStatus]: StructureDefinition-Task-who-php-phpid-status.html
 [template-generated-by-server-gsid-req]: Task-template-generated-by-server-gsid-req.html
 [template-generated-by-server-phpid-req]: Task-template-generated-by-server-phpid-req.html
+[UK-emc-00001]: Task-UK-emc-00001.html
 [VsUnitofPresentation]: ValueSet-unitofPresentation.html
 [VsAtcClassification]: ValueSet-atcClassification.html
