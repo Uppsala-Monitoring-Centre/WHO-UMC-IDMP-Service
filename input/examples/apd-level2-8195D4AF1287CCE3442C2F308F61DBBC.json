@@ -13,7 +13,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "17077d2f-142c-4776-9457-1ac3a1438628",
+      "id": "25904cd4-820f-4889-9415-fe77344d8c1d",
       "status": "active",
       "for": [
         {
@@ -34,7 +34,7 @@
           "concept": {
             "coding": [
               {
-                "system": "http://www.who-umc.org/idmp/gsid",
+                "system": "http://www.who-umc.org/idmp/CodeSystem/gsid",
                 "code": "GSID9XBS2KCF3K1Z1"
               }
             ],
