@@ -103,19 +103,17 @@ menu:
 
 resources:
   Task/template-generated-by-server-gsid-req:
-    groupingId: A
+    groupingId: Examples of Tasks for requestin PhPIDs and GSID
     name: Task to request a new GSID
     description: A template for how a Task that is used to request a new GSID (SubstanceDefinition) can be structured.
   Task/template-generated-by-server-phpid-req:
-    groupingId: A
+    groupingId: Examples of Tasks for requestin PhPIDs and GSID
     name: Task to request a new PhPID
     description: A template for how a Task that is used to request a new PhPID (AdministrableProductDefinition) can be structured.
   AdministrableProductDefinition/91B3CA582581F57E4092F13AAF476215:
-    groupingId: B
     name: AdministrableProductDefinition level 4
     description: Example of AdministrableProductDefinition returned by the server on level 4.
   AdministrableProductDefinition/6C4563BB76BE7967594979196EC91CD8:
-    groupingId: B
     name: AdministrableProductDefinition level 3
     description: AdministrableProductDefinition on level 3. Linked from a level 4 APD.
   AdministrableProductDefinition/8195D4AF1287CCE3442C2F308F61DBBC:
