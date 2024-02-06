@@ -111,6 +111,9 @@ resources:
   Task/UK-emc-00001:
     name: Task example from DataPharm (UK)
     description: An example developed by DataPharm while testing PhPID request API.  
+  Task/Task-Felleskatalogen-CPOD-MPD-1:
+    name: Task example from Felleskatalogen (NO)
+    description: An example developed by Felleskatalogen while testing PhPID request API.      
   AdministrableProductDefinition/91B3CA582581F57E4092F13AAF476215:
     name: AdministrableProductDefinition level 4
     description: Example of AdministrableProductDefinition returned by the server on level 4.
