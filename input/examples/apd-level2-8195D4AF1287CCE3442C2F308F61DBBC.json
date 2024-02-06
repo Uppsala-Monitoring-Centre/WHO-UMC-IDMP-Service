@@ -35,7 +35,8 @@
             "coding": [
               {
                 "system": "http://www.who-umc.org/idmp/CodeSystem/gsid",
-                "code": "GSID9XBS2KCF3K1Z1"
+                "code": "GSID9XBS2KCF3K1Z1",
+                "display": "METHOTREXATE SODIUM"
               }
             ],
             "text": "METHOTREXATE SODIUM"

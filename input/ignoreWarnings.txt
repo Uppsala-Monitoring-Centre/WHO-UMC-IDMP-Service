@@ -24,3 +24,5 @@ Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 
 # Unimportant warnings
 The Implementation Guide contains no explicitly linked examples for this profile
+The Implementation Guide contains no examples for this profile
+
