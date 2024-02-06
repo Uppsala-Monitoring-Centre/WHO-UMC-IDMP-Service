@@ -17,6 +17,7 @@ The link 'StructureDefinition-Patient.sch' for "Schematron" cannot be resolved
 # EDQM CodeSystem cannot be resolved
 Unknown System 'https://standardterms.edqm.eu' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://standardterms.edqm.eu' could not be found, so the code cannot be validated)
 A definition for CodeSystem 'https://standardterms.edqm.eu' could not be found, so the code cannot be validated
+Error from http://tx.fhir.org/r4: Unable to provide support for code system https://standardterms.edqm.eu
 
 # Jurisdiction?
 Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
