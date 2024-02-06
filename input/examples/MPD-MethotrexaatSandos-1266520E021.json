@@ -15,7 +15,7 @@
   ],
   "identifier": [
     {
-      "system": "http://www.who-umc.org/whodrug/productid",
+      "system": "http://www.who-umc.org/idmp/CodeSystem/product",
       "value": "1266520E021"
     }
   ],
@@ -67,7 +67,7 @@
   ],
   "code": [
     {
-      "system": "http://www.who-umc.org/whodrug/CodeSystem/drugcode",
+      "system": "http://www.who-umc.org/idmp/CodeSystem/drugcode",
       "code": "00113802085"
     }
   ],
