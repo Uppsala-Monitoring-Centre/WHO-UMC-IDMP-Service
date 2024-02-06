@@ -13,7 +13,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "b4bb9eb8-4214-41b3-97c6-26b7556519f0",
+      "id": "52b37f05-ce63-4511-8d2f-ea70a2a9d3d9",
       "status": "active",
       "for": [
         {
@@ -38,7 +38,8 @@
                 "code": "GSID9XBS2KCF3K1Z1",
                 "display": "METHOTREXATE SODIUM"
               }
-            ]
+            ],
+            "text": "METHOTREXATE SODIUM"
           }
         }
       }
