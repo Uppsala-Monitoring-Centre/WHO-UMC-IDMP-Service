@@ -36,7 +36,7 @@ RuleSet: SubstanceDefinitionCommon
 * code 0..
 * code.code
   * coding 1..*
-    * ^slicing.discriminator[+].type = #pattern
+    * ^slicing.discriminator[+].type = #value
     * ^slicing.discriminator[=].path = "$this.system"
     * ^slicing.ordered = false
     * ^slicing.rules = #open
