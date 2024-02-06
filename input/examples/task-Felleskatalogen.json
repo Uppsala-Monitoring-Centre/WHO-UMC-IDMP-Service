@@ -141,9 +141,6 @@
         {
             "resourceType": "Organization",
             "id": "mah1",
-            "meta": {
-                "profile": ["http://www.who-umc.org/idmp/StructureDefinition/MarketingAuthorizationHolder-who-php"]
-            },
             "active": true,
             "type": [
                 {
