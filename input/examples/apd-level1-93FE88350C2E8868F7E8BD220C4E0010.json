@@ -13,7 +13,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "9c6ec4ad-8c25-4d8e-8672-b47387a55234",
+      "id": "2d881f15-bbde-4c0c-93d3-2a1520bdc981",
       "status": "active",
       "for": [
         {
@@ -38,8 +38,7 @@
                 "code": "GSID9XBS2KCF3K1Z1",
                 "display": "METHOTREXATE SODIUM"
               }
-            ],
-            "text": "METHOTREXATE SODIUM"
+            ]
           }
         }
       }
@@ -67,7 +66,8 @@
           "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
           "valueCode": "unsupported"
         }
-      ]
+      ],
+      "display": "Unsupported"
     }
   ],
   "routeOfAdministration": [
