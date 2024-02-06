@@ -1,0 +1,104 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "drugcode",
+  "url": "http://www.who-umc.org/whodrug/CodeSystem/drugcode",
+  "name": "DrugCode",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Uppsala Monitoring Centre",
+  "description": "Description of WHODrug",
+  "copyright": "Uppsala Monitoring Centre",
+  "caseSensitive": false,
+  "compositional": false,
+  "content": "example",
+  "property": [
+    {
+      "code": "DrugCode",
+      "description": "The drug code, carrying information of base, salt variant and trade name",
+      "type": "string"
+    },
+    {
+      "code": "Name",
+      "description": "The name of the product",
+      "type": "string"
+    },
+    {
+      "code": "Generic",
+      "description": "Indicates if this is a generic product",
+      "type": "boolean"
+    },
+    {
+      "code": "Base",
+      "description": "Indicates if this is a base product = true or salt = false",
+      "type": "boolean"
+    }
+  ],
+  "concept": [
+    {
+      "code": "00020001004",
+      "display": "Alvedon",
+      "property": [
+        {
+          "code": "Name",
+          "valueString": "Alvedon"
+        },
+        {
+          "code": "DrugCode",
+          "valueString": "00020001004"
+        },
+        {
+          "code": "Generic",
+          "valueBoolean": false
+        },
+        {
+          "code": "Base",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "00002701006",
+      "display": "Magnecyl",
+      "property": [
+        {
+          "code": "Name",
+          "valueString": "Magnecyl"
+        },
+        {
+          "code": "DrugCode",
+          "valueString": "00002701006"
+        },
+        {
+          "code": "Generic",
+          "valueBoolean": false
+        },
+        {
+          "code": "Base",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "00113802085",
+      "display": "Methotrexaat sandoz",
+      "property": [
+        {
+          "code": "Name",
+          "valueString": "Methotrexaat sandoz"
+        },
+        {
+          "code": "DrugCode",
+          "valueString": "00113802085"
+        },
+        {
+          "code": "Generic",
+          "valueBoolean": false
+        },
+        {
+          "code": "Base",
+          "valueBoolean": false
+        }
+      ]
+    }
+  ]
+}

@@ -9,6 +9,7 @@ Alias: $gsid = http://www.who-umc.org/idmp/CodeSystem/gsid
 Alias: $phpid = https://www.who-umc.org/idmp/phpid
 // Alias: $php-level = http://www.who-umc.org/idmp/CodeSystem/php-level
 Alias: $pdfCharacteristics = http://www.who-umc.org/idmp/CodeSystem/pdfCharacteristics
+Alias: $drugcode = http://www.who-umc.org/whodrug/CodeSystem/drugcode
 
 // ====== extensions ====
 Alias: $parent-php-extension = http://www.who-umc.org/idmp/StructureDefinition/parent-phpid
