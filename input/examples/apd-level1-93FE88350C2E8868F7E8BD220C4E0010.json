@@ -32,7 +32,7 @@
       "substance": {
         "code": {
           "reference": {
-            "reference": "/SubstanceDefinition/GSID9XBS2KCF3K1Z1",
+            "reference": "SubstanceDefinition/GSID9XBS2KCF3K1Z1",
             "display": "METHOTREXATE SODIUM"
           }
         }
