@@ -43,10 +43,10 @@ RuleSet: TaskGeneratePhPIDCommon
 * lastModified 1..
 * contained 3..
   * ^short = "Resources, according to 'input', used in PhPID generation."
-* input ^slicing.discriminator.type = #pattern
+* input ^slicing.discriminator.type = #value
 * input ^slicing.discriminator.path = "type"
 * input ^slicing.rules = #open
-* input ^slicing.description = "Slice based on the input.type pattern"
+* input ^slicing.description = "Slice based on the input.type value"
 
 * input contains MPD 1..1 MS and ORG 1..1 MS and ING 1..* MS
 * input[MPD].type = TaskInputTypes#mpd-request-resource
