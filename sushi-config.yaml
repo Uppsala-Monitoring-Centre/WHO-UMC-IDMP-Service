@@ -129,6 +129,9 @@ resources:
   SubstanceDefinition/GSID23G92UMX93H45:
     name: Substance (METHOTREXATE)
     description: An example of a GSID publisehed as a SubstanceDefinition  
+  SubstanceDefinition/GSID9XBS2KCF3K1Z1:
+    name: Substance (METHOTREXATE SODIUM)
+    description: An example of a GSID (salt variant) publisehed as a SubstanceDefinition  
   SubstanceDefinition/GSID85RFP2XGF3X29:
     name: Substance (OMEPRAZOLE)
     description: An example of a GSID publisehed as a SubstanceDefinition  
