@@ -10,6 +10,7 @@
 [edqm-BDF]: ValueSet-edqm-BDF.html
 [edqm-ISI]: ValueSet-edqm-ISI.html
 [edqm-RCA]: ValueSet-edqm-RCA.html
+[GSID]: CodeSystem-gsid.html
 [VsGSIDTaskInputTypes]: ValueSet-gsid-task-input-type.html
 [VsPhpIdLevels]: ValueSet-phpid-type.html
 [IngredientWhoPhP]: StructureDefinition-Ingredient-who-php.html
@@ -35,6 +36,7 @@
 [SubstanceDefinitionPublished]: StructureDefinition-SubstanceDefinition-pub.html
 [SubstanceDefinitionRequest]: StructureDefinition-SubstanceDefinition-req.html
 [VsSubstance]: ValueSet-substance.html
+[UK-emc-00001]: Task-UK-emc-00001.html
 [TaskGenerateGSID]: StructureDefinition-Task-who-php-gsid.html
 [TaskGenerateGSIDStatus]: StructureDefinition-Task-who-php-gsid-status.html
 [TaskInputTypes]: CodeSystem-task-input-type.html
@@ -42,6 +44,5 @@
 [TaskGeneratePhPIDStatus]: StructureDefinition-Task-who-php-phpid-status.html
 [template-generated-by-server-gsid-req]: Task-template-generated-by-server-gsid-req.html
 [template-generated-by-server-phpid-req]: Task-template-generated-by-server-phpid-req.html
-[UK-emc-00001]: Task-UK-emc-00001.html
 [VsUnitofPresentation]: ValueSet-unitofPresentation.html
 [VsAtcClassification]: ValueSet-atcClassification.html
