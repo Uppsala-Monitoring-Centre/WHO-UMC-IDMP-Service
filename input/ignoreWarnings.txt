@@ -2,6 +2,7 @@
 
 # Common - to be resolved when becoming active
 The resource status 'active' and the standards status 'draft' are not consistent
+Reference to draft CodeSystem http://hl7.org/fhir/standards-status|1.0.0
 
 # No schematrons available for Logical Models
 The link 'StructureDefinition-bloodGlucose.sch' for "Schematron" cannot be resolved
@@ -19,3 +20,6 @@ A definition for CodeSystem 'https://standardterms.edqm.eu' could not be found, 
 
 # Jurisdiction?
 Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+
+# Unimportant warnings
+The Implementation Guide contains no explicitly linked examples for this profile
