@@ -1,0 +1,11 @@
+fsh-generated/resources
+fsh-generated
+input-cache*
+output
+temp
+template
+.DS_Store
+__pycache__/
+~$*.xlsx
+/___attic
+/__sources
