@@ -9,7 +9,7 @@
   "contained": [
     {
       "resourceType": "SubstanceDefinition",
-      "id": "b73c504f-8817-483e-ab2c-891451c46e16",
+      "id": "6d945110-0366-4364-b5de-2d9050fcb8bf",
       "meta": {
         "profile": [
           "http://www.who-umc.org/idmp/StructureDefinition/SubstanceDefinition-req"
@@ -85,7 +85,7 @@
         "text": "Data for substance request"
       },
       "valueReference": {
-        "reference": "#b73c504f-8817-483e-ab2c-891451c46e16"
+        "reference": "#6d945110-0366-4364-b5de-2d9050fcb8bf"
       }
     }
   ]

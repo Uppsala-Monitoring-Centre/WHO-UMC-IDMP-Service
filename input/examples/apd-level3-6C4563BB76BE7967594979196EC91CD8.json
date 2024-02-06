@@ -13,7 +13,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "52b37f05-ce63-4511-8d2f-ea70a2a9d3d9",
+      "id": "d0173c90-26f3-483d-ac1b-e2e622eefe9d",
       "status": "active",
       "for": [
         {
@@ -31,15 +31,9 @@
       },
       "substance": {
         "code": {
-          "concept": {
-            "coding": [
-              {
-                "system": "http://www.who-umc.org/idmp/CodeSystem/gsid",
-                "code": "GSID9XBS2KCF3K1Z1",
-                "display": "METHOTREXATE SODIUM"
-              }
-            ],
-            "text": "METHOTREXATE SODIUM"
+          "reference": {
+            "reference": "SubstanceDefinition/GSID9XBS2KCF3K1Z1",
+            "display": "METHOTREXATE SODIUM"
           }
         }
       }

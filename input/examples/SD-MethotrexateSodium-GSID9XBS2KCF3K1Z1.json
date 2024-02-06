@@ -70,5 +70,21 @@
         }
       ]
     }
+  ],
+  "relationship": [
+    {
+      "substanceDefinitionReference": {
+        "reference": "SubstanceDefinition/GSID23G92UMX93H45"
+      },
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/substance-relationship-type",
+            "code": "Salt"
+          }
+        ],
+        "text": "Salt to parent"
+      }
+    }
   ]
 }
