@@ -1,0 +1,74 @@
+{
+  "resourceType": "SubstanceDefinition",
+  "id": "GSID9XBS2KCF3K1Z1",
+  "meta": {
+    "profile": [
+      "http://www.who-umc.org/idmp/StructureDefinition/SubstanceDefinition-pub"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Substance definition</h1><table><tr><td style=\"font-weight: bold;\">Id</td><td>GSID9XBS2KCF3K1Z1</td></tr></table><h2>Name(s)</h2><table><th>Name</th><th>Language</th><th>Preferred</th><tr><td>METHOTREXATE SODIUM</td><td>en</td><td>True</td></tr></table><h2>Other code systems</h2><table><th>System</th><th>Code</th><tr><td>https://open.fda.gov/data/unii</td><td>3IG1E710ZN</td></tr></table></div>"
+  },
+  "identifier": [
+    {
+      "system": "http://www.who-umc.org/idmp/CodeSystem/gsid",
+      "value": "GSID9XBS2KCF3K1Z1"
+    }
+  ],
+  "status": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/publication-status",
+        "code": "active"
+      }
+    ],
+    "text": "Active"
+  },
+  "domain": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/medicinal-product-domain",
+        "code": "Human"
+      }
+    ],
+    "text": "Human use"
+  },
+  "code": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "https://open.fda.gov/data/unii",
+            "code": "3IG1E710ZN"
+          }
+        ]
+      }
+    }
+  ],
+  "name": [
+    {
+      "name": "METHOTREXATE SODIUM",
+      "status": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/publication-status",
+            "code": "active"
+          }
+        ],
+        "text": "Active"
+      },
+      "preferred": true,
+      "language": [
+        {
+          "coding": [
+            {
+              "system": "urn:ietf:bcp:47",
+              "code": "en"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
