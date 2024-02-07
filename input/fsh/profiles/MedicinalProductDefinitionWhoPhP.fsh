@@ -55,14 +55,8 @@ RuleSet: MedicinalProductDefinitionCommon
 * combinedPharmaceuticalDoseForm from VsDoseForm (example)
 * route from VsRouteOfAdministration (example)
 
-
 * classification from VsAtcClassification (example)
   * ^short = "Allows the product to be classified by various systems (e.g. ATC)"
-
-* marketingStatus 0.. //not used now?should it be mandatory??
-  * country  from VsCountry (preferred)
-  * dateRange ^short = "The date when the Medicinal Product is placed on the market by the Marketing Authorization Holder"
-  * status ^short = "Status of the marketing of the medicinal product."
 
 * name 1..
   * productName 1..1
@@ -85,6 +79,10 @@ RuleSet: MedicinalProductDefinitionCommon
 * insert NotUsed(additionalMonitoringIndicator)
 * insert NotUsed(specialMeasures)
 * insert NotUsed(pediatricUseIndicator)
-* insert NotUsed(pediatricUseIndicator)
 * insert NotUsed(packagedMedicinalProduct)
 
+* insert NotUsed(marketingStatus)
+/* * marketingStatus 0.. //not used now? should it be mandatory??
+  * country  from VsCountry (preferred)
+  * dateRange ^short = "The date when the Medicinal Product is placed on the market by the Marketing Authorization Holder"
+  * status ^short = "Status of the marketing of the medicinal product." */
