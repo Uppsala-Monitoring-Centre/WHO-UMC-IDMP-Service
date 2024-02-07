@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Task xmlns="http://hl7.org/fhir">
+    <meta>
+        <profile value="http://www.who-umc.org/idmp/StructureDefinition/Task-who-php-gsid"/>
+    </meta>
+    <contained>
+        <SubstanceDefinition>
+            <id value="ID-E63A3B0F-58D9-4E58-92E3-827CC981DF85"/>
+            <meta>
+                <profile value="http://www.who-umc.org/idmp/StructureDefinition/SubstanceDefinition-req"/>
+            </meta>
+            <text>
+                <status value="generated"/>
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    <p>FEST Virkestoff ID_E63A3B0F-58D9-4E58-92E3-827CC981DF85: Aklidinium (EN: Aclidinium)</p>
+                </div>
+            </text>
+            <status>
+                <coding>
+                    <system value="http://hl7.org/fhir/publication-status"/>
+                    <code value="draft"/>
+                </coding>
+                <text value="Draft"/>
+            </status>
+            <domain>
+                <coding>
+                    <system value="http://hl7.org/fhir/medicinal-product-domain"/>
+                    <code value="Human"/>
+                </coding>
+                <text value="Human use"/>
+            </domain>
+            <code>
+                <code>
+                    <coding>
+                        <system value="http://legemiddelverket.no/FEST/VirkestoffID"/>
+                        <code value="ID-E63A3B0F-58D9-4E58-92E3-827CC981DF85"/>
+                    </coding>
+                    <text value="Aklidinium"/>
+                </code>
+            </code>
+            <name>
+                <name value="Aklidinium"/>
+                <status>
+                    <coding>
+                        <system value="http://hl7.org/fhir/publication-status"/>
+                        <code value="active"/>
+                    </coding>
+                    <text value="Active"/>
+                </status>
+                <preferred value="true"/>
+                <language>
+                    <coding>
+                        <system value="urn:ietf:bcp:47"/>
+                        <code value="no"/>
+                    </coding>
+                </language>
+                <translation>
+                    <name value="Aclidinium"/>
+                    <status>
+                        <coding>
+                            <system value="http://hl7.org/fhir/publication-status"/>
+                            <code value="active"/>
+                        </coding>
+                        <text value="Active"/>
+                    </status>
+                    <preferred value="false"/>
+                    <language>
+                        <coding>
+                            <system value="urn:ietf:bcp:47"/>
+                            <code value="en"/>
+                        </coding>
+                    </language>
+                </translation>
+            </name>
+        </SubstanceDefinition>
+    </contained>
+    <extension url="http://hl7.org/fhir/StructureDefinition/resource-instance-name">
+        <valueString value="Example GSID request Task for Aclidinium (Felleskatalogen, NO)"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/resource-instance-description">
+        <valueString value="Example GSID request Task for FEST Virkestoff ID_E63A3B0F-58D9-4E58-92E3-827CC981DF85: Aklidinium (EN: Aclidinium)"/>
+    </extension>
+    <identifier>
+        <system value="https://gravitatehealth.eu/who-umc/gsid-request"/>
+        <value value="UMC-GSID-REQ-ID-E63A3B0F-58D9-4E58-92E3-827CC981DF85"/>
+    </identifier>
+    <status value="requested"/>
+    <intent value="proposal"/>
+    <code>
+        <text value="GSID Assignment"/>
+    </code>
+    <authoredOn value="2011-11-23"/>
+    <lastModified value="2011-11-23"/>
+    <input>
+        <type>
+            <coding>
+                <system value="http://www.who-umc.org/idmp/CodeSystem/task-input-type"/>
+                <code value="substance-request-resource"/>
+            </coding>
+        </type>
+        <valueReference>
+            <reference value="#ID-E63A3B0F-58D9-4E58-92E3-827CC981DF85"/>
+        </valueReference>
+    </input>
+</Task>
