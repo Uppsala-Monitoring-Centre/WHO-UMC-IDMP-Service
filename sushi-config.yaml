@@ -42,13 +42,15 @@ FSHOnly: false
 
 pages:
   index.md:
-    title: Home Page   
+    title: Homepage   
   background.md:
     title: Background
+  operatingModel.md:
+    title: Operating model   
   phpIdRequest.md:
-    title: PhPID (AdministrableProductDefinition) Request   
+    title: PhPID (AdministrableProductDefinition) request   
   substanceRequest.md:
-    title: GSID (Substance) Request   
+    title: GSID (Substance) request   
   authentication.md:
     title: Authentication
   profiles.md:
@@ -58,14 +60,15 @@ pages:
   versioning.md:
     title: Versioning
   downloads.html:
-    title: Useful Downloads
+    title: Useful downloads
   changes.html:
-    title: IG Change History
+    title: IG change history
 		
 menu:
   IG Home: index.html
   Background: background.html
   Requesting PhP and GSIDs:
+    Operating model: operatingModel.html
     PhPID request: phpIdRequest.html
     GSID request: substanceRequest.html
   Authentication: authentication.html
