@@ -17,8 +17,9 @@ Upon a successful request, a PhPID is generated and an (APD) resource representi
 5. When finished the GET call will display status 'completed' and the body of the get will contain the Task with a reference to the generated AdministrableProductDefinition (APD) resource (including a PhPID) in the output section.
 6. The generated (APD) will be available as a resolvable url.
 
+
 <figure>
-  <img style="width: 80%; height: 80%;padding-top:0;padding-bottom:0;float:center" src="PhPIDRequestWF.png" alt="PhPID request workflow"/>
+  <img style="padding-top:0;padding-bottom:0;float:center" src="PhPIDRequestWF.png" alt="PhPID request workflow"/>
   <figcaption>PhPID request workflow</figcaption>
 </figure>
 

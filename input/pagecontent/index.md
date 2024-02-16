@@ -19,7 +19,7 @@ The main resources maintained by the service are the PhPIDs (manifested through 
 <br clear="all"/>
 
 #### Access to the WHO-UMC IDMP FHIR server
-The (preview) FHIR server with tutorials and examples can be reached at <a href="https://umc-ext-dev-phponfhirdemo-preview-rg01-webapp.azurewebsites.net/">https://umc-ext-dev-phponfhirdemo-preview-rg01-webapp.azurewebsites.net/</a>. 
+The (preview) FHIR server with tutorials and examples can be reached at [https://umc-ext-dev-phponfhirdemo-preview-rg01-webapp.azurewebsites.net/](https://umc-ext-dev-phponfhirdemo-preview-rg01-webapp.azurewebsites.net)</a>. 
 
 ### Dependencies
 
