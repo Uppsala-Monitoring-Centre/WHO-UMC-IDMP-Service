@@ -13,7 +13,7 @@ Following is picture of the operating model for requesting and publishing PhPIDs
 5. ToDo 
 
 #### Corresponding FHIR operations 
-1. A FHIR [StructureDefinition-Task-who-php-phpid.html](Task) is used to request a new PhPID where necessary information to complete the request is embedded in the contains section of the Task. See <a href="phpIdRequest.html">PhPID request model</a> for detasils.  
+1. A FHIR [Task](StructureDefinition-Task-who-php-phpid.html) is used to request a new PhPID where necessary information to complete the request is embedded in the contains section of the Task. See <a href="phpIdRequest.html">PhPID request model</a> for detasils.  
 2. While valitating the request the the status of the Task indicates to progress.  
 3. The Task is _ready_ and transits to _completed_ via _in-progress_. 
 4. The new (or already existing) PhPID is published in the output section of the Task and is thereafter publically available as an <a href="StructureDefinition-AdministrableProductDefinition-who-php.html">AdministrativeProductDefinition</a> resource.
