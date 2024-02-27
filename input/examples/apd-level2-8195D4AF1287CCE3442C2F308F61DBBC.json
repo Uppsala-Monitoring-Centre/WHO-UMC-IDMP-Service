@@ -13,7 +13,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "eeaa8a92-a94f-4848-a093-668a25b77375",
+      "id": "69ddf6d5-c5a4-4cdd-a7c4-2f29371a7304",
       "status": "active",
       "for": [
         {
@@ -38,21 +38,29 @@
         },
         "strength": [
           {
-            "presentationRatio": {
-              "numerator": {
-                "value": 2.74,
-                "unit": "mg",
-                "system": "http://unitsofmeasure.org",
-                "code": "mg"
-              },
-              "denominator": {
-                "value": 1.0,
-                "unit": "mg",
-                "system": "http://unitsofmeasure.org",
-                "code": "mg"
-              }
+            "presentationQuantity": {
+              "value": 2.74,
+              "unit": "mg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg"
             },
-            "textPresentation": "2,74 mg"
+            "textPresentation": "2,74 mg",
+            "referenceStrength": [
+              {
+                "substance": {
+                  "reference": {
+                    "reference": "SubstanceDefinition/GSID9XBS2KCF3K1Z1",
+                    "display": "METHOTREXATE SODIUM"
+                  }
+                },
+                "strengthQuantity": {
+                  "value": 2.50,
+                  "unit": "mg",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "mg"
+                }
+              }
+            ]
           }
         ]
       }

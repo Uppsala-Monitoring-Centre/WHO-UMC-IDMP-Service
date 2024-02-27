@@ -18,7 +18,7 @@ Description: "This profile specified how the AdministrableProductDefinition is p
 * extension[administrationMethod] ^short = "Administration Method"
 
 * contained 1..
-* contained only IngredientWhoPhP
+* contained only IngredientWhoPhPPublish
 * id 1..
   * ^short = "PhPID"
   * ^definition =  "This is always values with the PhPID"

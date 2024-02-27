@@ -7,7 +7,7 @@ Description: """This profile specified how the Ingredient is used in a PhPID req
 * insert SetFmmandStatusRule ( 0, draft )
 * id 1..
 
-* for only Reference( AdministrableProductDefinitionWhoPhP or MedicinalProductDefinitionWhoPhPRequest ) //only #?
+* for only Reference( MedicinalProductDefinitionWhoPhPRequest ) //only #?
 * role from VsIngredientRole (example)
 
 * substance 1..
