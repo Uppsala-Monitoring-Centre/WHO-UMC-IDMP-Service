@@ -24,7 +24,7 @@ Id: MedicinalProductDefinition-who-php-pub
 Title: "MedicinalProductDefinition for publication"
 Description: """This profile specified how the MedicinalProductDefinition is published by the WHO-UMC IDMP FHIR Service representing the WHODrug dictionary"""
 * insert MedicinalProductDefinitionCommon
-* contained 0..0
+* contained 0..1
 * contained only Organization 
 * contact 0..*
   * type ^short = "Allows the contact to be classified"
