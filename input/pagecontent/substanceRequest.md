@@ -14,7 +14,7 @@ Upon a successful request, a GSID is generated and a new SubstanceDefinition res
 2. Place the (SD) resource in the contained section of a Task resource.
 3. POST the Task to the maintenance organization. Before POSTing the Task it should be validated using a Task/$validate POST call
 4. GET the status of the Task by using the 'ContentLocation' header returned from the POST call. It is also possible to get the status by requesting the Task given the id of the Task returned as response of the POST.
-Repeat step (4) until the status is Completed. Not to overload the server a request throttling approach should be used starting from five seconds up to one hour between the requests. 
+Repeat step (4) until the status is Completed.  Not to overload the server a exponential back-off approach should be used starting from four seconds up to 1024 seconds between the requests.
 5. When finished the GET call will display status 'completed' and the body of the get will contain the Task with a reference to the generated SubstanceDefinition resource (including a GSID) in the output section.
 6. The generated (SD) will be available as a resolvable url.
 
