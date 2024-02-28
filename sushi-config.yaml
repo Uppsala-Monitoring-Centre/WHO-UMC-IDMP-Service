@@ -42,7 +42,7 @@ FSHOnly: false
 
 pages:
   index.md:
-    title: Homepage   
+    title: WHO-UMC IDMP Management and Publish API   
   background.md:
     title: Background
   operatingModel.md:

@@ -1,4 +1,4 @@
-### Substance Request
+### Introduction
     
 In this section it is described how the WHO-UMC IDMP service (API) is used to request a new SubstanceDefinition representing a GSID in an asynchronous way. 
 

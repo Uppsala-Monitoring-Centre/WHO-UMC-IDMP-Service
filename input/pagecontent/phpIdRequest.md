@@ -1,4 +1,4 @@
-### PhPID Request
+### Introduction
     
 In this section it is described how the WHO-UMC IDMP service (API) is used to request a new global PhPID represented by a AdministrableProductDefinition (APD) in an asynchronous way. 
 
