@@ -4,7 +4,6 @@
     No liability can be inferred from the use or misuse of this specification, or its consequences.</p>
   </blockquote>
 
-
 ### Scope
 
 Document the WHO-UMC IDMP FHIR service.
