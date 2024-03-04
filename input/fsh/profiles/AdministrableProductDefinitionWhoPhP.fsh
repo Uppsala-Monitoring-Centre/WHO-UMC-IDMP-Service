@@ -40,8 +40,8 @@ Description: "This profile specified how the AdministrableProductDefinition is p
 //* administrableDoseForm from VsAdministrableDoseForm (example)
 * administrableDoseForm 0..0
 
-* routeOfAdministration 
-  * code from VsRouteOfAdministration (example)
+//* routeOfAdministration
+//  * code from VsRouteOfAdministration (example)
 
 /* * property
   * type from VsEdqmPdfCharacteristicType

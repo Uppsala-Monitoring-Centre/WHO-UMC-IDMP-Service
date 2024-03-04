@@ -1,26 +1,30 @@
-//=========================
+/* /=========================
 ValueSet: VsDoseForm
 Id: doseForm
 Title: "Dose Form"
 Description: "The dose form for a single part product, or combined form of a multiple part product"
 * ^experimental = false
 * codes from system $combined-dose-form
+*/
 
-//=========================
+/* /=========================
 ValueSet: VsAdministrableDoseForm
 Id: administrableDoseForm
 Title: "Administrable Pharmaceutical Dose Form"
 Description: "Administrable Pharmaceutical Dose Form"
 * ^experimental = false
 * codes from system $administrable-dose-form
+*/
 
-//=========================
+/* /=========================
 ValueSet: VsManufacturedDoseForm
 Id: manufacturedDoseForm
 Title: "Manufactured Dose Form"
 Description: "Manufactured Dose Form"
 * ^experimental = false
 * codes from system $manufactured-dose-form
+*/
+
 
 //=========================
 ValueSet: VsRouteOfAdministration

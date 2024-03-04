@@ -57,7 +57,7 @@
             {
               "name": "identifier",
               "type": "string",
-              "documentation": "Task identifier from requester on format 'sendingSystem|localId'"
+              "documentation": "Task identifier from requester in format 'sendingSystem|localId'"
             }
           ]
         },
@@ -169,12 +169,12 @@
         },
         {
           "type": "Ingredient",
-          "documentation": "Onle available within the scope of an AdministrableProductDefinition",
+          "documentation": "Only available within the scope of an AdministrableProductDefinition",
           "searchParam": [
             {
               "name": "substance-code",
               "type": "string",
-              "documentation": "Find by substance (gsrs) code"
+              "documentation": "Find by substance (GSID) code"
             },
             {
               "name": "strength-presentation-quantity",

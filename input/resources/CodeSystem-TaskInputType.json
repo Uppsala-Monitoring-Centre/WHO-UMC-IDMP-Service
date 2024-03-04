@@ -7,9 +7,9 @@
   "status": "active",
   "experimental": false,
   "publisher": "Uppsala Monitoring Centre",
-  "description": "This system lists PhPID types: level and stratum",
+  "description": "This system lists the available input types for a task",
   "copyright": "Uppsala Monitoring Centre",
-  "caseSensitive": false,
+  "caseSensitive": true,
   "compositional": false,
   "content": "complete",
   "concept": [

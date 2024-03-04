@@ -22,10 +22,12 @@ Alias: $data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-absent
 // =========== Systems =======
 // HL7 systems
 Alias: $administrable-dose-form = http://hl7.org/fhir/administrable-dose-form
+Alias: $vsadministrable-dose-form = http://hl7.org/fhir/ValueSet/administrable-dose-form
 Alias: $manufactured-dose-form = http://hl7.org/fhir/manufactured-dose-form
 Alias: $unit-of-presentation = http://hl7.org/fhir/unit-of-presentation
 Alias: $ingredient-role = http://hl7.org/fhir/ingredient-role
 Alias: $combined-dose-form = http://hl7.org/fhir/combined-dose-form
+Alias: $vscombined-dose-form = http://hl7.org/fhir/ValueSet/combined-dose-form
 Alias: $medicinal-product-type = http://hl7.org/fhir/medicinal-product-type
 Alias: $medicinal-product-domain = http://hl7.org/fhir/medicinal-product-domain
 Alias: $legal-status-of-supply = http://hl7.org/fhir/legal-status-of-supply

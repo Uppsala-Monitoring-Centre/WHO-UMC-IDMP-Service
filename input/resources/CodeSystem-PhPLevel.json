@@ -9,7 +9,7 @@
   "publisher": "Uppsala Monitoring Centre",
   "description": "This system lists PhPID types: level and stratum",
   "copyright": "Uppsala Monitoring Centre",
-  "caseSensitive": false,
+  "caseSensitive": true,
   "compositional": false,
   "content": "complete",
   "concept": [

@@ -37,7 +37,7 @@ RuleSet: SubstanceDefinitionCommon
 * code.code
   * coding 1..*
     * ^slicing.discriminator[+].type = #value
-    * ^slicing.discriminator[=].path = "$this.system"
+    * ^slicing.discriminator[=].path = "system"
     * ^slicing.ordered = false
     * ^slicing.rules = #open
     * ^definition = """Alternatives codes used for identifying this substance. For example UNII,CAS,EU-SRS..."""

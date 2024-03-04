@@ -7,9 +7,9 @@
   "status": "active",
   "experimental": false,
   "publisher": "Uppsala Monitoring Centre",
-  "description": "This system lists PhPID types: level and stratum",
+  "description": "This code system lists Global Substance Identifiers and their names.",
   "copyright": "Uppsala Monitoring Centre",
-  "caseSensitive": false,
+  "caseSensitive": true,
   "compositional": false,
   "content": "example",
   "concept": [
