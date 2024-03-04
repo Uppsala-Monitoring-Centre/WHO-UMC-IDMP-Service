@@ -55,6 +55,7 @@ Alias: $ginas = http://fdasis.nlm.nih.gov
 Alias: $eusrs = http://example.org/eu-srs // TO BE CHANGED
 Alias: $cas = http://example.org/cas // TO BE CHANGED
 Alias: $ucum = http://unitsofmeasure.org
+Alias: $vsCountry = http://terminology.hl7.org/ValueSet/v3-Country2
 
 
 // Example systems

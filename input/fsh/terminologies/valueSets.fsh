@@ -1,31 +1,3 @@
-/* /=========================
-ValueSet: VsDoseForm
-Id: doseForm
-Title: "Dose Form"
-Description: "The dose form for a single part product, or combined form of a multiple part product"
-* ^experimental = false
-* codes from system $combined-dose-form
-*/
-
-/* /=========================
-ValueSet: VsAdministrableDoseForm
-Id: administrableDoseForm
-Title: "Administrable Pharmaceutical Dose Form"
-Description: "Administrable Pharmaceutical Dose Form"
-* ^experimental = false
-* codes from system $administrable-dose-form
-*/
-
-/* /=========================
-ValueSet: VsManufacturedDoseForm
-Id: manufacturedDoseForm
-Title: "Manufactured Dose Form"
-Description: "Manufactured Dose Form"
-* ^experimental = false
-* codes from system $manufactured-dose-form
-*/
-
-
 //=========================
 ValueSet: VsRouteOfAdministration
 Id: routeOfAdministration
@@ -40,23 +12,6 @@ The SNOMED International IPS Terminology is distributed by International Health 
 The HL7 International IPS implementation guides incorporate SNOMED CT®, used by permission of the International Health Terminology Standards Development Organisation, trading as SNOMED International. SNOMED CT was originally created by the College of American Pathologists. SNOMED CT is a registered trademark of the International Health Terminology Standards Development Organisation, all rights reserved. Implementers of SNOMED CT should review usage terms or directly contact SNOMED International: info@snomed.org"""
 
 * include codes from system $sct where concept descendent-of #284009009
-
-//==========================
-ValueSet: VsUnitofPresentation
-Id: unitofPresentation
-Title: "Units of Presentation"
-Description: "Units of Presentation"
-* ^experimental = false
-* codes from system $unit-of-presentation
-
-
-//==========================
-ValueSet: VsCountry
-Id: country
-Title: "ISO Country two letter code"
-Description: "ISO Country two letter code"
-* ^experimental = false
-* codes from valueset http://terminology.hl7.org/ValueSet/v3-Country2
 
 //==========================
 ValueSet: VsSubstance

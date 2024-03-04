@@ -43,48 +43,6 @@ Description: "This profile specified how the AdministrableProductDefinition is p
 //* routeOfAdministration
 //  * code from VsRouteOfAdministration (example)
 
-/* * property
-  * type from VsEdqmPdfCharacteristicType
-  * valueCodeableConcept from VsEdqmPdfCharacteristic (extensible) */
-
-/*
-// ************ Test *************
-* property ^slicing.discriminator.type = #pattern
-* property ^slicing.discriminator.path = "type"
-* property ^slicing.rules = #open
-* property ^slicing.description = "Slice based on the property.type pattern"
-
-* property contains IntendedSite 0..1 MS and BasicDoseForm 0..1 MS and ReleaseCharacteristics 0..1 MS and AdministrationMethod 0..1 MS
-* property[IntendedSite].type = $pdfCharacteristics#ISI
-* property[IntendedSite].value[x] only CodeableConcept 
-* property[IntendedSite].valueCodeableConcept 1..1
-  * coding 1..1  
-    * system = $edqm
-    * code from edqm-ISI
-* property[BasicDoseForm].type = $pdfCharacteristics#BDF
-* property[BasicDoseForm].value[x] only CodeableConcept 
-* property[BasicDoseForm].valueCodeableConcept 1..1
-  * coding 1..1  
-    * system = $edqm
-    * code from edqm-BDF
-* property[AdministrationMethod].type = $pdfCharacteristics#AME
-* property[AdministrationMethod].value[x] only CodeableConcept 
-* property[AdministrationMethod].valueCodeableConcept 1..1
-  * coding 1..1  
-    * system = $edqm
-    * code from edqm-AME
-
-* property[ReleaseCharacteristics].type = $pdfCharacteristics#RCA
-* property[ReleaseCharacteristics].value[x] only CodeableConcept 
-* property[ReleaseCharacteristics].valueCodeableConcept 1..1
-  * coding 1..1  
-    * system = $edqm
-    * code from edqm-RCA
-
-//* property[ISI].valueReference only Reference (MedicinalProductDefinitionWhoPhPRequest)
-// ********** End Test ***********
-*/
-
 * unitOfPresentation 0..0
 * producedFrom 0..0
 * device 0..0

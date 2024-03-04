@@ -85,6 +85,6 @@ RuleSet: MedicinalProductDefinitionCommon
 
 * insert NotUsed(marketingStatus)
 /* * marketingStatus 0.. //not used now? should it be mandatory??
-  * country  from VsCountry (preferred)
+  * country from $vsCountry (preferred)
   * dateRange ^short = "The date when the Medicinal Product is placed on the market by the Marketing Authorization Holder"
   * status ^short = "Status of the marketing of the medicinal product." */
