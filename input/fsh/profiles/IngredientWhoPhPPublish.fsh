@@ -8,7 +8,7 @@ Description: """This profile specified how the Ingredient is used in PhPID publi
 * id 1..
 
 * for only Reference( AdministrableProductDefinitionWhoPhP) 
-* role from VsIngredientRole (example)
+* role from $vsingredient-role (example)
 
 * substance 1..
   * code from VsSubstance (example)

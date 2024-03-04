@@ -8,7 +8,7 @@ Description: """This profile specified how the Ingredient is used in a PhPID req
 * id 1..
 
 * for only Reference( MedicinalProductDefinitionWhoPhPRequest ) //only #?
-* role from VsIngredientRole (example)
+* role from $vsingredient-role (example)
 
 * substance 1..
   * code from VsSubstance (example)
