@@ -19,6 +19,7 @@ RuleSet: BundleEntry (sliceName, card, profile, short, def )
 * entry[{sliceName}] ^short = "{short}"
 * entry[{sliceName}] ^definition = """{def}"""
 
-RuleSet: SetFmmandStatusRule ( fmm, status )
+/* RuleSet: SetFmmandStatusRule ( fmm, status )
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = {fmm}
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status].valueCode = #{status}
+*/

@@ -27,7 +27,7 @@ Description: """This profile specified how the SubstanceDefinition is published 
 //*******************************
 RuleSet: SubstanceDefinitionCommon
 
-* insert SetFmmandStatusRule ( 0, draft )
+//* insert SetFmmandStatusRule ( 0, draft )
 * id 1..
 * identifier.system = $gsid
 * status 1..

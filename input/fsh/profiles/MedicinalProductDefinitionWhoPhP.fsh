@@ -36,7 +36,7 @@ Description: """This profile specifies how the MedicinalProductDefinition is pub
 // Common
 //*******************************
 RuleSet: MedicinalProductDefinitionCommon
-* insert SetFmmandStatusRule ( 0, draft )
+//* insert SetFmmandStatusRule ( 0, draft )
 * id 1..
 * identifier 1..
   * system 1..

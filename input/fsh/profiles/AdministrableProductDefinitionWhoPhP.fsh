@@ -4,7 +4,7 @@ Id: AdministrableProductDefinition-who-php
 Title: "AdministrableProductDefinition (WHO PhP)"
 Description: "This profile specified how the AdministrableProductDefinition is published by the WHO-UMC IDMP Service"
 
-* insert SetFmmandStatusRule ( 0, draft )
+//* insert SetFmmandStatusRule ( 0, draft )
 * extension contains $parent-php-extension named parentPhp 0..3
 
 // PDF CHARACTERISTICS EXTENSIONS
