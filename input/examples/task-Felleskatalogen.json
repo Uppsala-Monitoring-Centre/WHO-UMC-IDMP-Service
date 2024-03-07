@@ -7,7 +7,7 @@
             "id": "ID-ACC470D6-0B3C-4082-9494-775FB6D2048C",
             "meta": {
                 "profile": [
-                    "http://www.who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-req"
+                    "https://idmp.who-umc.org/fhir/StructureDefinition/MedicinalProductDefinition-who-php-req"
                 ]
             },
             "identifier": [
@@ -94,7 +94,7 @@
             "resourceType": "Ingredient",
             "id": "ID-1C149B52-D662-4CE0-9FA3-79865521F9C6",
             "meta": {
-                "profile": ["http://www.who-umc.org/idmp/StructureDefinition/Ingredient-who-php"]
+                "profile": ["https://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php"]
             },
             "status": "draft",
             "for": [
@@ -114,7 +114,7 @@
                     "concept": {
                         "coding": [
                             {
-                                "system": "http://www.who-umc.org/idmp/CodeSystem/gsid",
+                                "system": "https://idmp.who-umc.org/fhir/CodeSystem/gsid",
                                 "code": "GSID85RFP2XGF3X29",
                                 "display": "OMEPRAZOLE"
                             }
@@ -166,7 +166,7 @@
             "type": {
                 "coding": [
                     {
-                        "system": "http://www.who-umc.org/idmp/CodeSystem/task-input-type",
+                        "system": "https://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
                         "code": "mpd-request-resource",
                         "display": "Medicinal Product for PhPID request"
                     }
@@ -179,7 +179,7 @@
             "type": {
                 "coding": [
                     {
-                        "system": "http://www.who-umc.org/idmp/CodeSystem/task-input-type",
+                        "system": "https://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
                         "code": "ingredient-request-resource",
                         "display": "Ingredient for PhPID request"
                     }
@@ -192,7 +192,7 @@
             "type": {
                 "coding": [
                     {
-                        "system": "http://www.who-umc.org/idmp/CodeSystem/task-input-type",
+                        "system": "https://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
                         "code": "organization-request-resource",
                         "display": "Marketing Auth Holder for PhPID request"
                     }

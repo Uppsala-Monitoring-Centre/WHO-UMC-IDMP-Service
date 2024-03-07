@@ -13,7 +13,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "a10972cc-1e50-4e58-b0ee-506c84f3a5fa",
+      "id": "021b3c10-d197-41e0-a546-3e79f9aaedf9",
       "meta": {
         "profile": [
           "https://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php-publish"
@@ -85,7 +85,7 @@
               }
             ]
           },
-          "system": "https://idmp.who-umc.org/fhir/CodeSystem/phpid",
+          "system": "https://idmp.who-umc.org/fhir/phpid",
           "value": "93FE88350C2E8868F7E8BD220C4E0010"
         }
       }
@@ -101,7 +101,7 @@
           }
         ]
       },
-      "system": "https://idmp.who-umc.org/fhir/CodeSystem/phpid",
+      "system": "https://idmp.who-umc.org/fhir/phpid",
       "value": "8195D4AF1287CCE3442C2F308F61DBBC"
     }
   ],

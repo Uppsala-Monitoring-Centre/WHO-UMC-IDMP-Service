@@ -12,7 +12,7 @@
   },
   "identifier": [
     {
-      "system": "https://idmp.who-umc.org/fhir/CodeSystem/gsid",
+      "system": "https://idmp.who-umc.org/fhir/gsid",
       "value": "GSID23G92UMX93H45"
     }
   ],

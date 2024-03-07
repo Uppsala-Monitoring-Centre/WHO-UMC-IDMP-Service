@@ -7,7 +7,7 @@
             "id": "5d02cfc1-053f-4694-9ce8-d0ee6c658b72",
             "meta": {
                 "profile": [
-                    "http://www.who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-req"
+                    "https://idmp.who-umc.org/fhir/StructureDefinition/MedicinalProductDefinition-who-php-req"
                 ]
             },
             "identifier": [
@@ -128,7 +128,7 @@
             "id": "54c6c580-5b34-4032-9403-c9d2154ac073",
             "meta": {
                 "profile": [
-                    "http://www.who-umc.org/idmp/StructureDefinition/Ingredient-who-php"
+                    "https://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php"
                 ]
             },
             "status": "active",
@@ -151,7 +151,7 @@
                     "concept": {
                         "coding": [
                             {
-                                "system": "http://www.who-umc.org/idmp/CodeSystem/gsid",
+                                "system": "https://idmp.who-umc.org/fhir/CodeSystem/gsid",
                                 "code": "GSID23G92UMX93H45"
                             }
                         ],
@@ -204,7 +204,7 @@
       "type" : {
         "coding" : [
           {
-            "system" : "http://www.who-umc.org/idmp/CodeSystem/task-input-type",
+            "system" : "https://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
             "code" : "mpd-request-resource",
             "display" : "Medicinal Product for PhPID request"
           }
@@ -219,7 +219,7 @@
       "type" : {
         "coding" : [
           {
-            "system" : "http://www.who-umc.org/idmp/CodeSystem/task-input-type",
+            "system" : "https://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
             "code" : "ingredient-request-resource",
             "display" : "Ingredient for PhPID request"
           }
@@ -234,7 +234,7 @@
       "type" : {
         "coding" : [
           {
-            "system" : "http://www.who-umc.org/idmp/CodeSystem/task-input-type",
+            "system" : "https://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
             "code" : "organization-request-resource",
             "display" : "Marketing Auth Holder for PhPID request"
           }

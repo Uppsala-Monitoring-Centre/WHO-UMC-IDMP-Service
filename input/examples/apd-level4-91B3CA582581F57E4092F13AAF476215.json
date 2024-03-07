@@ -13,7 +13,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "39ec6569-f6d6-4f5d-877d-b0cf4cd90f00",
+      "id": "7246c644-1408-4da9-a223-94c0ea3fdb78",
       "meta": {
         "profile": [
           "https://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php-publish"
@@ -85,7 +85,7 @@
               }
             ]
           },
-          "system": "https://idmp.who-umc.org/fhir/CodeSystem/phpid",
+          "system": "https://idmp.who-umc.org/fhir/phpid",
           "value": "93FE88350C2E8868F7E8BD220C4E0010"
         }
       }
@@ -103,7 +103,7 @@
               }
             ]
           },
-          "system": "https://idmp.who-umc.org/fhir/CodeSystem/phpid",
+          "system": "https://idmp.who-umc.org/fhir/phpid",
           "value": "8195D4AF1287CCE3442C2F308F61DBBC"
         }
       }
@@ -121,7 +121,7 @@
               }
             ]
           },
-          "system": "https://idmp.who-umc.org/fhir/CodeSystem/phpid",
+          "system": "https://idmp.who-umc.org/fhir/phpid",
           "value": "6C4563BB76BE7967594979196EC91CD8"
         }
       }
@@ -169,7 +169,7 @@
           }
         ]
       },
-      "system": "https://idmp.who-umc.org/fhir/CodeSystem/phpid",
+      "system": "https://idmp.who-umc.org/fhir/phpid",
       "value": "91B3CA582581F57E4092F13AAF476215"
     }
   ],

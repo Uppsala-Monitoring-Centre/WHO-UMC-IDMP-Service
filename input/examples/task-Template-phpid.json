@@ -9,7 +9,7 @@
   "contained": [
     {
       "resourceType": "MedicinalProductDefinition",
-      "id": "2a7397e8-095e-4389-88a3-c535d17c94bb",
+      "id": "6d24bde4-f65b-4a93-a2ec-8552a0f86143",
       "meta": {
         "profile": [
           "https://idmp.who-umc.org/fhir/StructureDefinition/MedicinalProductDefinition-who-php-req"
@@ -108,7 +108,7 @@
     },
     {
       "resourceType": "Ingredient",
-      "id": "58d42c3a-9f68-4495-b4fa-e0d14593bca0",
+      "id": "7a7459b0-11ed-473d-a41f-0fd116187442",
       "meta": {
         "profile": [
           "https://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php"
@@ -117,7 +117,7 @@
       "status": "active",
       "for": [
         {
-          "reference": "#2a7397e8-095e-4389-88a3-c535d17c94bb"
+          "reference": "#6d24bde4-f65b-4a93-a2ec-8552a0f86143"
         }
       ],
       "role": {
@@ -134,7 +134,7 @@
           "concept": {
             "coding": [
               {
-                "system": "https://idmp.who-umc.org/fhir/CodeSystem/gsid",
+                "system": "https://idmp.who-umc.org/fhir/gsid",
                 "code": "GSID23G92UMX93H45"
               }
             ],
@@ -204,7 +204,7 @@
         "text": "Medicinal Product for PhPID request"
       },
       "valueReference": {
-        "reference": "#2a7397e8-095e-4389-88a3-c535d17c94bb"
+        "reference": "#6d24bde4-f65b-4a93-a2ec-8552a0f86143"
       }
     },
     {
@@ -219,7 +219,7 @@
         "text": "Ingredient for PhPID request"
       },
       "valueReference": {
-        "reference": "#58d42c3a-9f68-4495-b4fa-e0d14593bca0"
+        "reference": "#7a7459b0-11ed-473d-a41f-0fd116187442"
       }
     },
     {
