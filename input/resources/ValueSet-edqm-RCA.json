@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "edqm-RCA",
-  "url": "http://www.who-umc.org/idmp/ValueSet/edqm-RCA",
+  "url": "https://idmp.who-umc.org/fhir/ValueSet/edqm-RCA",
   "name": "edqm-RCA",
   "title": "EDQM PDF characteristics: Release Characteristics",
   "status": "active",

@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "edqm-ISI",
-  "url": "http://www.who-umc.org/idmp/ValueSet/edqm-ISI",
+  "url": "https://idmp.who-umc.org/fhir/ValueSet/edqm-ISI",
   "name": "edqm-ISI",
   "title": "EDQM PDF characteristics: Intended Site",
   "status": "active",

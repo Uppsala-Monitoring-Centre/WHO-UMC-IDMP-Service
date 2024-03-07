@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "php-level",
-  "url": "http://www.who-umc.org/idmp/CodeSystem/php-level",
+  "url": "https://idmp.who-umc.org/fhir/CodeSystem/php-level",
   "name": "PhpIdLevels",
   "title": "PhPId level",
   "status": "active",
