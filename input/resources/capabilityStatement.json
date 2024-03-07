@@ -4,7 +4,7 @@
   "name": "WHO-UMC IDMP Management and Publish API",
   "title": "API to allow for Requests and Publishing of PhPIDs and GSIDs",
   "status": "draft",
-  "date": "2024-01-29",
+  "date": "2024-03-07",
   "publisher": "Uppsala Monitoring Centre",
   "contact": [
     {
@@ -26,7 +26,7 @@
   "kind": "capability",
   "software": {
     "name": "WHO-UMC IDMP Management and Publish API",
-    "version": "0.3"
+    "version": "0.4"
   },
   "fhirVersion": "5.0.0",
   "format": [
@@ -34,7 +34,7 @@
     "json"
   ],
   "implementationGuide": [
-    "https://build.fhir.org/ig/gcangioli/who-umc-poc/"
+    "https://build.fhir.org/ig/Uppsala-Monitoring-Centre/WHO-UMC-IDMP-Service/"
   ],
   "rest": [
     {
@@ -126,7 +126,7 @@
             },
             {
               "name": "parent-php",
-              "definition": "http://www.who-umc.org/idmp/SearchParameter/parent-php",
+              "definition": "https://idmp.who-umc.org/fhir/SearchParameter/parent-php",
               "type": "reference",
               "documentation": "Search PhPIDs based on 'parent' PhPIDs"
             }

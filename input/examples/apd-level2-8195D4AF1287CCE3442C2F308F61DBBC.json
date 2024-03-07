@@ -3,7 +3,7 @@
   "id": "8195D4AF1287CCE3442C2F308F61DBBC",
   "meta": {
     "profile": [
-      "http://www.who-umc.org/idmp/StructureDefinition/AdministrableProductDefinition-who-php"
+      "https://idmp.who-umc.org/fhir/StructureDefinition/AdministrableProductDefinition-who-php"
     ]
   },
   "text": {
@@ -13,10 +13,10 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "bcc499fd-45b8-45a7-9dbd-8e3e900d982c",
+      "id": "a10972cc-1e50-4e58-b0ee-506c84f3a5fa",
       "meta": {
         "profile": [
-          "http://www.who-umc.org/idmp/StructureDefinition/Ingredient-who-php-publish"
+          "https://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php-publish"
         ]
       },
       "status": "active",
@@ -73,19 +73,19 @@
   ],
   "extension": [
     {
-      "url": "http://www.who-umc.org/idmp/StructureDefinition/parent-phpid",
+      "url": "https://idmp.who-umc.org/fhir/StructureDefinition/parent-phpid",
       "valueReference": {
         "reference": "AdministrableProductDefinition/93FE88350C2E8868F7E8BD220C4E0010",
         "identifier": {
           "type": {
             "coding": [
               {
-                "system": "http://www.who-umc.org/idmp/CodeSystem/php-level",
+                "system": "https://idmp.who-umc.org/fhir/CodeSystem/php-level",
                 "code": "PhPIDLevel1"
               }
             ]
           },
-          "system": "http://www.who-umc.org/idmp/phpid",
+          "system": "https://idmp.who-umc.org/fhir/CodeSystem/phpid",
           "value": "93FE88350C2E8868F7E8BD220C4E0010"
         }
       }
@@ -96,12 +96,12 @@
       "type": {
         "coding": [
           {
-            "system": "http://www.who-umc.org/idmp/CodeSystem/php-level",
+            "system": "https://idmp.who-umc.org/fhir/CodeSystem/php-level",
             "code": "PhPIDLevel2"
           }
         ]
       },
-      "system": "http://www.who-umc.org/idmp/phpid",
+      "system": "https://idmp.who-umc.org/fhir/CodeSystem/phpid",
       "value": "8195D4AF1287CCE3442C2F308F61DBBC"
     }
   ],

@@ -3,16 +3,16 @@
   "id": "template-generated-by-server-phpid-req",
   "meta": {
     "profile": [
-      "http://www.who-umc.org/idmp/StructureDefinition/Task-who-php-phpid"
+      "https://idmp.who-umc.org/fhir/StructureDefinition/Task-who-php-phpid"
     ]
   },
   "contained": [
     {
       "resourceType": "MedicinalProductDefinition",
-      "id": "4b9855e9-5c8f-4737-aeb9-08e54e4048cf",
+      "id": "2a7397e8-095e-4389-88a3-c535d17c94bb",
       "meta": {
         "profile": [
-          "http://www.who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-req"
+          "https://idmp.who-umc.org/fhir/StructureDefinition/MedicinalProductDefinition-who-php-req"
         ]
       },
       "identifier": [
@@ -108,16 +108,16 @@
     },
     {
       "resourceType": "Ingredient",
-      "id": "3f59ef61-b1ec-4269-a6a2-6932a35481f0",
+      "id": "58d42c3a-9f68-4495-b4fa-e0d14593bca0",
       "meta": {
         "profile": [
-          "http://www.who-umc.org/idmp/StructureDefinition/Ingredient-who-php"
+          "https://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php"
         ]
       },
       "status": "active",
       "for": [
         {
-          "reference": "#4b9855e9-5c8f-4737-aeb9-08e54e4048cf"
+          "reference": "#2a7397e8-095e-4389-88a3-c535d17c94bb"
         }
       ],
       "role": {
@@ -134,7 +134,7 @@
           "concept": {
             "coding": [
               {
-                "system": "http://www.who-umc.org/idmp/CodeSystem/gsid",
+                "system": "https://idmp.who-umc.org/fhir/CodeSystem/gsid",
                 "code": "GSID23G92UMX93H45"
               }
             ],
@@ -189,14 +189,14 @@
   "status": "requested",
   "intent": "proposal",
   "priority": "routine",
-  "authoredOn": "2024-02-28",
-  "lastModified": "2024-02-28",
+  "authoredOn": "2024-03-07",
+  "lastModified": "2024-03-07",
   "input": [
     {
       "type": {
         "coding": [
           {
-            "system": "http://www.who-umc.org/idmp/CodeSystem/task-input-type",
+            "system": "https://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
             "code": "mpd-request-resource",
             "display": "Medicinal Product for PhPID request"
           }
@@ -204,14 +204,14 @@
         "text": "Medicinal Product for PhPID request"
       },
       "valueReference": {
-        "reference": "#4b9855e9-5c8f-4737-aeb9-08e54e4048cf"
+        "reference": "#2a7397e8-095e-4389-88a3-c535d17c94bb"
       }
     },
     {
       "type": {
         "coding": [
           {
-            "system": "http://www.who-umc.org/idmp/CodeSystem/task-input-type",
+            "system": "https://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
             "code": "ingredient-request-resource",
             "display": "Ingredient for PhPID request"
           }
@@ -219,14 +219,14 @@
         "text": "Ingredient for PhPID request"
       },
       "valueReference": {
-        "reference": "#3f59ef61-b1ec-4269-a6a2-6932a35481f0"
+        "reference": "#58d42c3a-9f68-4495-b4fa-e0d14593bca0"
       }
     },
     {
       "type": {
         "coding": [
           {
-            "system": "http://www.who-umc.org/idmp/CodeSystem/task-input-type",
+            "system": "https://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
             "code": "organization-request-resource",
             "display": "Marketing Auth Holder for PhPID request"
           }

@@ -3,7 +3,7 @@
   "id": "GSID23G92UMX93H45",
   "meta": {
     "profile": [
-      "http://www.who-umc.org/idmp/StructureDefinition/SubstanceDefinition-pub"
+      "https://idmp.who-umc.org/fhir/StructureDefinition/SubstanceDefinition-pub"
     ]
   },
   "text": {
@@ -12,7 +12,7 @@
   },
   "identifier": [
     {
-      "system": "http://www.who-umc.org/idmp/CodeSystem/gsid",
+      "system": "https://idmp.who-umc.org/fhir/CodeSystem/gsid",
       "value": "GSID23G92UMX93H45"
     }
   ],

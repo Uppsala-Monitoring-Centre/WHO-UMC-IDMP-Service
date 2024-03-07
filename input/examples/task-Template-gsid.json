@@ -3,16 +3,16 @@
   "id": "template-generated-by-server-gsid-req",
   "meta": {
     "profile": [
-      "http://www.who-umc.org/idmp/StructureDefinition/Task-who-php-gsid"
+      "https://idmp.who-umc.org/fhir/StructureDefinition/Task-who-php-gsid"
     ]
   },
   "contained": [
     {
       "resourceType": "SubstanceDefinition",
-      "id": "7c70f899-74c7-4a41-8f39-aa5eacdabfed",
+      "id": "0d9222e7-f5b4-44ac-8c78-3489bc5bdbd7",
       "meta": {
         "profile": [
-          "http://www.who-umc.org/idmp/StructureDefinition/SubstanceDefinition-req"
+          "https://idmp.who-umc.org/fhir/StructureDefinition/SubstanceDefinition-req"
         ]
       },
       "status": {
@@ -70,14 +70,14 @@
   "status": "requested",
   "intent": "proposal",
   "priority": "routine",
-  "authoredOn": "2024-02-28",
-  "lastModified": "2024-02-28",
+  "authoredOn": "2024-03-07",
+  "lastModified": "2024-03-07",
   "input": [
     {
       "type": {
         "coding": [
           {
-            "system": "http://www.who-umc.org/idmp/CodeSystem/task-input-type",
+            "system": "https://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
             "code": "substance-request-resource",
             "display": "Data for substance request"
           }
@@ -85,7 +85,7 @@
         "text": "Data for substance request"
       },
       "valueReference": {
-        "reference": "#7c70f899-74c7-4a41-8f39-aa5eacdabfed"
+        "reference": "#0d9222e7-f5b4-44ac-8c78-3489bc5bdbd7"
       }
     }
   ]
