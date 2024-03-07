@@ -4,7 +4,6 @@ Id: Ingredient-who-php-publish
 Title: "Ingredient (WHO PhP publish)"
 Description: """This profile specified how the Ingredient is used in PhPID publishing (as contained resource in a MedicinalProductDefinition) by the WHO-UMC PhP HL7 FHIR Service"""
 
-//* insert SetFmmandStatusRule ( 0, draft )
 * id 1..
 
 * for only Reference( AdministrableProductDefinitionWhoPhP) 
