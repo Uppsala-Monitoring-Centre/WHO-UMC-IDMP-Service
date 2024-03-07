@@ -5,7 +5,7 @@
 # │  http://build.fhir.org/ig/HL7/fhir-shorthand/branches/beta/sushi.html#ig-development           │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: who-umc.fhir.poc-php
-canonical: http://idmp.who-umc.org/fhir
+canonical: https://idmp.who-umc.org/fhir
 version: 0.4.0
 name: WhoUmcIDMPManagement
 title: WHO-UMC IDMP Management and Publish API 
@@ -29,8 +29,8 @@ parameters:
   # show-inherited-invariants: false
   produce-jekyll-data: true
   special-url:
-  - http://idmp.who-umc.org/fhir/StructureDefinition/parent-phpid
-  - http://idmp.who-umc.org/fhir/StructureDefinition/pdfCharacteristics
+  - https://idmp.who-umc.org/fhir/StructureDefinition/parent-phpid
+  - https://idmp.who-umc.org/fhir/StructureDefinition/pdfCharacteristics
 copyrightYear: 2024+
 releaseLabel: CI Build
 
