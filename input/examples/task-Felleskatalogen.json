@@ -114,7 +114,7 @@
                     "concept": {
                         "coding": [
                             {
-                                "system": "https://idmp.who-umc.org/fhir/gsid",
+                                "system": "https://idmp.who-umc.org/fhir/CodeSystem/gsid",
                                 "code": "GSID85RFP2XGF3X29",
                                 "display": "OMEPRAZOLE"
                             }
