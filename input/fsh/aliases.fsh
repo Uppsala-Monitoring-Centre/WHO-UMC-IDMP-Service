@@ -6,7 +6,6 @@ Alias: $medicinal-product-contact-type = http://hl7.org/fhir/medicinal-product-c
 Alias: $languages = http://hl7.org/fhir/ValueSet/languages
 Alias: $gsid = https://idmp.who-umc.org/fhir/CodeSystem/gsid
 Alias: $phpid = https://idmp.who-umc.org/fhir/CodeSystem/phpid
-// Alias: $php-level = http://idmp.who-umc.org/fhir/CodeSystem/php-level
 Alias: $pdfCharacteristics = https://idmp.who-umc.org/fhir/CodeSystem/pdfCharacteristics
 Alias: $drugcode = https://www.who-umc.org/whodrug/CodeSystem/drugcode
 

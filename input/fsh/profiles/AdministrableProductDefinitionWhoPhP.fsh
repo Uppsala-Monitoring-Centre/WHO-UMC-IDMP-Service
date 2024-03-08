@@ -34,8 +34,6 @@ Description: "This profile specified how the AdministrableProductDefinition is p
   * extension contains $data-absent-reason named data-absent-reason 0..
   * extension[data-absent-reason].valueCode = #unsupported
 
-//only Reference(MedicinalProductDefinitionWhoPhP)
-
 //* administrableDoseForm from VsAdministrableDoseForm (example)
 * administrableDoseForm 0..0
 
