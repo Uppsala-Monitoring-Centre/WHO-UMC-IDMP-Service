@@ -10,7 +10,7 @@ Following is a picture of the operating model for requesting and publishing PhPI
 2. The sent in request is validated by pharmacists in the maintenance organisation.
 3. The validated and harmonized dose form, substance and strength information is used as input string in the generation of PhPIDs.
 4. The requester receives the PhPIDs, levels 1-4, for their medicinal product.
-5. The generated PhPIDs is stored in the PhPID repository.
+5. The generated PhPIDs are stored in the PhPID repository.
 
 #### Corresponding FHIR operations 
 1. A FHIR [Task](StructureDefinition-Task-who-php-phpid.html) is used to request a new PhPID where necessary information to complete the request is embedded in the contains section of the Task. See [PhPID request model](phpIdRequest.html) for details.  

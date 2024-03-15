@@ -14,6 +14,6 @@ The Identification of Medicinal Products (IDMP) standards aim to increase clarit
 
 #### PhPID and GSID 
 
-This Implementation Guide is focusing on two parts of the ISO IDMP standard, the Pharmaceutical Product Identifier (PhPID) and the Global Substance Identifier (GSID):
+This Implementation Guide has a target audience of system integrators to the is focusing on two parts of the ISO IDMP standard, the Pharmaceutical Product Identifier (PhPID) and the Global Substance Identifier (GSID):
 - Pharmaceutical Product Identification – ISO 11616 
 - Substance Identification – ISO 11238
