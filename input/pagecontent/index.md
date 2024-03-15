@@ -12,7 +12,7 @@ Document the WHO-UMC IDMP FHIR service.
 
 This implementation guide describes how the global PhPIDs and GSIDs are delivered through FHIR and how new global PhPIDs and GSIDs can be requested using asynchronous FHIR requests.
 
-The main resources maintained by the service are the PhPIDs (manifested through the AdministrableProductDefinition resource) and the GSIDs (manifested through the SubstanceDefinition resource). However, the MedicinalProductDefinition resource is also vital since it serves as input for PhPID generation. It is also used in searches to link PhPIDs to MPIDs in different jurisdictions and also to represent those MPIDs. 
+The main resources maintained by the service are the PhPIDs (manifested through the `AdministrableProductDefinition` resource) and the GSIDs (manifested through the `SubstanceDefinition` resource). However, the `MedicinalProductDefinition` resource is also vital since it serves as input for PhPID generation. It is also used in searches to link PhPIDs to MPIDs in different jurisdictions and also to represent those MPIDs. 
 
 <img src="Overview.png" alt="An overview of PhPID and GSID"/>
 <br clear="all"/>
