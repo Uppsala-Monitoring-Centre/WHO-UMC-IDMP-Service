@@ -14,6 +14,7 @@ The Identification of Medicinal Products (IDMP) standards aim to increase clarit
 
 #### PhPID and GSID 
 
-This Implementation Guide has a target audience of system integrators to the WHO_UMC IDMP API. The focus is on two parts of the ISO IDMP standard, the Pharmaceutical Product Identifier (PhPID) and the Global Substance Identifier (GSID):
+This Implementation Guide has a target audience of system integrators to the WHO-UMC IDMP API. The API is based on the HL7 FHIR standard and this guide describes supported FHIR resources.
+The WHO-UMC IDMP API supports two parts of the ISO IDMP standard, the Pharmaceutical Product Identifier (PhPID) and the Global Substance Identifier (GSID):
 - Pharmaceutical Product Identification – ISO 11616 
 - Substance Identification – ISO 11238
