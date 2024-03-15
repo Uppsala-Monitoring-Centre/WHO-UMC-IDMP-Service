@@ -28,7 +28,6 @@ Description: """This profile specified how to use the Task resource to request s
 // Common
 //*******************************
 RuleSet: TaskGenerateGSIDCommon
-//* insert SetFmmandStatusRule ( 0, draft )
 * identifier 1..
   * ^short = "Identifier assigned by the requestor to track the request."
 * instantiatesUri ^short = "Link to the definiton of the task"

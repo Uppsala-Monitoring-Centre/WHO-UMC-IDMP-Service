@@ -9,7 +9,7 @@
   "contained": [
     {
       "resourceType": "MedicinalProductDefinition",
-      "id": "6d24bde4-f65b-4a93-a2ec-8552a0f86143",
+      "id": "5ff6964c-d0bf-4c68-9d40-a0e3ca4b850c",
       "meta": {
         "profile": [
           "https://idmp.who-umc.org/fhir/StructureDefinition/MedicinalProductDefinition-who-php-req"
@@ -108,7 +108,7 @@
     },
     {
       "resourceType": "Ingredient",
-      "id": "7a7459b0-11ed-473d-a41f-0fd116187442",
+      "id": "4d1fed07-4166-480a-a6e9-598ccfbaf509",
       "meta": {
         "profile": [
           "https://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php"
@@ -117,7 +117,7 @@
       "status": "active",
       "for": [
         {
-          "reference": "#6d24bde4-f65b-4a93-a2ec-8552a0f86143"
+          "reference": "#5ff6964c-d0bf-4c68-9d40-a0e3ca4b850c"
         }
       ],
       "role": {
@@ -134,7 +134,7 @@
           "concept": {
             "coding": [
               {
-                "system": "https://idmp.who-umc.org/fhir/gsid",
+                "system": "https://idmp.who-umc.org/fhir/CodeSystem/gsid",
                 "code": "GSID23G92UMX93H45"
               }
             ],
@@ -189,8 +189,8 @@
   "status": "requested",
   "intent": "proposal",
   "priority": "routine",
-  "authoredOn": "2024-03-07",
-  "lastModified": "2024-03-07",
+  "authoredOn": "2024-03-08",
+  "lastModified": "2024-03-08",
   "input": [
     {
       "type": {
@@ -204,7 +204,7 @@
         "text": "Medicinal Product for PhPID request"
       },
       "valueReference": {
-        "reference": "#6d24bde4-f65b-4a93-a2ec-8552a0f86143"
+        "reference": "#5ff6964c-d0bf-4c68-9d40-a0e3ca4b850c"
       }
     },
     {
@@ -219,7 +219,7 @@
         "text": "Ingredient for PhPID request"
       },
       "valueReference": {
-        "reference": "#7a7459b0-11ed-473d-a41f-0fd116187442"
+        "reference": "#4d1fed07-4166-480a-a6e9-598ccfbaf509"
       }
     },
     {

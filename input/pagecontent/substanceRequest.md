@@ -11,7 +11,7 @@ Upon a successful request, a GSID is generated and a new SubstanceDefinition res
 ### Workflow
 
 1. Create a 'draft' SubstanceDefinition (SD) resource with the information available for GSID generation. The resource should only have an id for internal references in the Task and no Identifier since it is the Identifier (the GSID) that will be generated.
-2. Place the (SD) resource in the contained section of a Task resource.
+2. Place the (SD) resource in the contained section of a Task resource and reference it in the input section specifying the appropriate type using the TaskInputType code system.
 3. POST the Task to the maintenance organization. Before POSTing the Task it should be validated using a Task/$validate POST call
 4. GET the status of the Task by using the 'ContentLocation' header returned from the POST call. It is also possible to get the status by requesting the Task given the id of the Task returned as response of the POST.
 Repeat step (4) until the status is Completed.  Not to overload the server a exponential back-off approach should be used starting from four seconds up to 1024 seconds between the requests.

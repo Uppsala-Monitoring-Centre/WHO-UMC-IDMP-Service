@@ -79,7 +79,7 @@ menu:
   Artifact Index: artifacts.html			
   Support:
     FHIR Spec: new-tab http://hl7.org/fhir/R5/index.html
-    API With tutorial and examples: new-tab https://idmp.who-umc.org/fhir
+    #API With tutorial and examples: new-tab https://idmp.who-umc.org/fhir
     Downloads: downloads.html
 
 
