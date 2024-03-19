@@ -53,12 +53,12 @@ pages:
     title: GSID (Substance) request   
   authentication.md:
     title: Authentication
+  versioning.md:
+    title: Versioning
   profiles.md:
     title: Profiles
   terminologies.md:
     title: Terminologies
-  versioning.md:
-    title: Versioning
   downloads.html:
     title: Useful downloads
   changes.html:
@@ -72,6 +72,7 @@ menu:
     PhPID request: phpIdRequest.html
     GSID request: substanceRequest.html
   Authentication: authentication.html
+  Versioning: versioning.html
   # Specifications:
   #   Profiles: profiles.html
   #   Terminology: terminologies.html
