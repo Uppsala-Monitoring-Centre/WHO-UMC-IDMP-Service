@@ -4,7 +4,7 @@
 # │  supported properties, see:                                                                    │
 # │  http://build.fhir.org/ig/HL7/fhir-shorthand/branches/beta/sushi.html#ig-development           │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: who-umc.fhir.poc-php
+id: idmp.who-umc.org.fhir
 canonical: http://idmp.who-umc.org/fhir
 version: 0.4.0
 name: WhoUmcIDMPManagement
@@ -29,8 +29,8 @@ parameters:
   # show-inherited-invariants: false
   produce-jekyll-data: true
   special-url:
-  - http://idmp.who-umc.org/fhir/StructureDefinition/parent-phpid
-  - http://idmp.who-umc.org/fhir/StructureDefinition/pdfCharacteristics
+  - https://idmp.who-umc.org/fhir/StructureDefinition/parent-phpid
+  - https://idmp.who-umc.org/fhir/StructureDefinition/pdfCharacteristics
 copyrightYear: 2024+
 releaseLabel: CI Build
 
@@ -80,7 +80,7 @@ menu:
   Artifact Index: artifacts.html			
   Support:
     FHIR Spec: new-tab http://hl7.org/fhir/R5/index.html
-    #API With tutorial and examples: new-tab http://idmp.who-umc.org/fhir
+    #API With tutorial and examples: new-tab https://idmp.who-umc.org/fhir
     Downloads: downloads.html
 
 

@@ -2,6 +2,13 @@
 	<p>
     This provides a list of major changes to the IG for the WHO-UMC IDMP service since its initial release
   </p>
+  <a name="0.5.0"> </a>
+	<p>
+		<b>2024-03-22 v0.5.0</b>
+  </p>
+  <ul>
+    <li>Changing URLs and id of the IG. Tthe official URL is now idmp.who-umc.org/fhir and the id idmp.who-umc.org.fhir (previously it was who-umc.fhir.poc-php)</li>
+  </ul>
   <a name="0.4.0"> </a>
 	<p>
 		<b>2024-03-07 v0.4.0</b>

@@ -4,7 +4,7 @@
   "name": "WHO-UMC IDMP Management and Publish API",
   "title": "API to allow for Requests and Publishing of PhPIDs and GSIDs",
   "status": "draft",
-  "date": "2024-03-07",
+  "date": "2024-03-22",
   "publisher": "Uppsala Monitoring Centre",
   "contact": [
     {
@@ -26,7 +26,7 @@
   "kind": "capability",
   "software": {
     "name": "WHO-UMC IDMP Management and Publish API",
-    "version": "0.4"
+    "version": "0.5"
   },
   "fhirVersion": "5.0.0",
   "format": [
