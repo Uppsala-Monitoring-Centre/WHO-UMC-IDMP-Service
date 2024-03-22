@@ -3,7 +3,7 @@
   "id": "93FE88350C2E8868F7E8BD220C4E0010",
   "meta": {
     "profile": [
-      "https://idmp.who-umc.org/fhir/StructureDefinition/AdministrableProductDefinition-who-php"
+      "http://idmp.who-umc.org/fhir/StructureDefinition/AdministrableProductDefinition-who-php"
     ]
   },
   "text": {
@@ -13,10 +13,10 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "d52b0ec6-d2a5-437d-bcac-96c0d87e7b78",
+      "id": "9b554029-03ea-4103-9b71-9ecc5e6aab7f",
       "meta": {
         "profile": [
-          "https://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php-publish"
+          "http://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php-publish"
         ]
       },
       "status": "active",
@@ -49,12 +49,12 @@
       "type": {
         "coding": [
           {
-            "system": "https://idmp.who-umc.org/fhir/CodeSystem/php-level",
+            "system": "http://idmp.who-umc.org/fhir/CodeSystem/php-level",
             "code": "PhPIDLevel1"
           }
         ]
       },
-      "system": "https://idmp.who-umc.org/fhir/CodeSystem/phpid",
+      "system": "http://idmp.who-umc.org/fhir/CodeSystem/phpid",
       "value": "93FE88350C2E8868F7E8BD220C4E0010"
     }
   ],

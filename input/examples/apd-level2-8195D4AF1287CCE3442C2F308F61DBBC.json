@@ -3,7 +3,7 @@
   "id": "8195D4AF1287CCE3442C2F308F61DBBC",
   "meta": {
     "profile": [
-      "https://idmp.who-umc.org/fhir/StructureDefinition/AdministrableProductDefinition-who-php"
+      "http://idmp.who-umc.org/fhir/StructureDefinition/AdministrableProductDefinition-who-php"
     ]
   },
   "text": {
@@ -13,10 +13,10 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "2da39dc4-448f-4047-a549-e98941f7b585",
+      "id": "7797f4e6-df61-474f-8ce3-3641669124f2",
       "meta": {
         "profile": [
-          "https://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php-publish"
+          "http://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php-publish"
         ]
       },
       "status": "active",
@@ -73,19 +73,19 @@
   ],
   "extension": [
     {
-      "url": "https://idmp.who-umc.org/fhir/StructureDefinition/parent-phpid",
+      "url": "http://idmp.who-umc.org/fhir/StructureDefinition/parent-phpid",
       "valueReference": {
         "reference": "AdministrableProductDefinition/93FE88350C2E8868F7E8BD220C4E0010",
         "identifier": {
           "type": {
             "coding": [
               {
-                "system": "https://idmp.who-umc.org/fhir/CodeSystem/php-level",
+                "system": "http://idmp.who-umc.org/fhir/CodeSystem/php-level",
                 "code": "PhPIDLevel1"
               }
             ]
           },
-          "system": "https://idmp.who-umc.org/fhir/CodeSystem/phpid",
+          "system": "http://idmp.who-umc.org/fhir/CodeSystem/phpid",
           "value": "93FE88350C2E8868F7E8BD220C4E0010"
         }
       }
@@ -96,12 +96,12 @@
       "type": {
         "coding": [
           {
-            "system": "https://idmp.who-umc.org/fhir/CodeSystem/php-level",
+            "system": "http://idmp.who-umc.org/fhir/CodeSystem/php-level",
             "code": "PhPIDLevel2"
           }
         ]
       },
-      "system": "https://idmp.who-umc.org/fhir/CodeSystem/phpid",
+      "system": "http://idmp.who-umc.org/fhir/CodeSystem/phpid",
       "value": "8195D4AF1287CCE3442C2F308F61DBBC"
     }
   ],

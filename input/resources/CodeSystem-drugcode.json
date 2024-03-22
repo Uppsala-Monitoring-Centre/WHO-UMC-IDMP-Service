@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "drugcode",
-  "url": "https://idmp.who-umc.org/fhir/CodeSystem/drugcode",
+  "url": "http://idmp.who-umc.org/fhir/CodeSystem/drugcode",
   "name": "DrugCode",
   "title": "WHODrug DrugCode",
   "status": "active",

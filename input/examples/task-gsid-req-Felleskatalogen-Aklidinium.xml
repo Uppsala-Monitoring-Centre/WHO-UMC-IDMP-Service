@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Task xmlns="http://hl7.org/fhir">
     <meta>
-        <profile value="https://idmp.who-umc.org/fhir/StructureDefinition/Task-who-php-gsid"/>
+        <profile value="http://idmp.who-umc.org/fhir/StructureDefinition/Task-who-php-gsid"/>
     </meta>
     <contained>
         <SubstanceDefinition>
             <id value="ID-E63A3B0F-58D9-4E58-92E3-827CC981DF85"/>
             <meta>
-                <profile value="https://idmp.who-umc.org/fhir/StructureDefinition/SubstanceDefinition-req"/>
+                <profile value="http://idmp.who-umc.org/fhir/StructureDefinition/SubstanceDefinition-req"/>
             </meta>
             <text>
                 <status value="generated"/>
@@ -94,7 +94,7 @@
     <input>
         <type>
             <coding>
-                <system value="https://idmp.who-umc.org/fhir/CodeSystem/task-input-type"/>
+                <system value="http://idmp.who-umc.org/fhir/CodeSystem/task-input-type"/>
                 <code value="substance-request-resource"/>
             </coding>
         </type>

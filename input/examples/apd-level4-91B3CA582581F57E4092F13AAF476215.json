@@ -3,7 +3,7 @@
   "id": "91B3CA582581F57E4092F13AAF476215",
   "meta": {
     "profile": [
-      "https://idmp.who-umc.org/fhir/StructureDefinition/AdministrableProductDefinition-who-php"
+      "http://idmp.who-umc.org/fhir/StructureDefinition/AdministrableProductDefinition-who-php"
     ]
   },
   "text": {
@@ -13,10 +13,10 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "708aeb0d-d3a1-45b8-9047-65703b65c281",
+      "id": "1faba728-4a11-439e-ad84-8efc338e0e2f",
       "meta": {
         "profile": [
-          "https://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php-publish"
+          "http://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php-publish"
         ]
       },
       "status": "active",
@@ -73,61 +73,61 @@
   ],
   "extension": [
     {
-      "url": "https://idmp.who-umc.org/fhir/StructureDefinition/parent-phpid",
+      "url": "http://idmp.who-umc.org/fhir/StructureDefinition/parent-phpid",
       "valueReference": {
         "reference": "AdministrableProductDefinition/93FE88350C2E8868F7E8BD220C4E0010",
         "identifier": {
           "type": {
             "coding": [
               {
-                "system": "https://idmp.who-umc.org/fhir/CodeSystem/php-level",
+                "system": "http://idmp.who-umc.org/fhir/CodeSystem/php-level",
                 "code": "PhPIDLevel1"
               }
             ]
           },
-          "system": "https://idmp.who-umc.org/fhir/CodeSystem/phpid",
+          "system": "http://idmp.who-umc.org/fhir/CodeSystem/phpid",
           "value": "93FE88350C2E8868F7E8BD220C4E0010"
         }
       }
     },
     {
-      "url": "https://idmp.who-umc.org/fhir/StructureDefinition/parent-phpid",
+      "url": "http://idmp.who-umc.org/fhir/StructureDefinition/parent-phpid",
       "valueReference": {
         "reference": "AdministrableProductDefinition/8195D4AF1287CCE3442C2F308F61DBBC",
         "identifier": {
           "type": {
             "coding": [
               {
-                "system": "https://idmp.who-umc.org/fhir/CodeSystem/php-level",
+                "system": "http://idmp.who-umc.org/fhir/CodeSystem/php-level",
                 "code": "PhPIDLevel2"
               }
             ]
           },
-          "system": "https://idmp.who-umc.org/fhir/CodeSystem/phpid",
+          "system": "http://idmp.who-umc.org/fhir/CodeSystem/phpid",
           "value": "8195D4AF1287CCE3442C2F308F61DBBC"
         }
       }
     },
     {
-      "url": "https://idmp.who-umc.org/fhir/StructureDefinition/parent-phpid",
+      "url": "http://idmp.who-umc.org/fhir/StructureDefinition/parent-phpid",
       "valueReference": {
         "reference": "AdministrableProductDefinition/6C4563BB76BE7967594979196EC91CD8",
         "identifier": {
           "type": {
             "coding": [
               {
-                "system": "https://idmp.who-umc.org/fhir/CodeSystem/php-level",
+                "system": "http://idmp.who-umc.org/fhir/CodeSystem/php-level",
                 "code": "PhPIDLevel3"
               }
             ]
           },
-          "system": "https://idmp.who-umc.org/fhir/CodeSystem/phpid",
+          "system": "http://idmp.who-umc.org/fhir/CodeSystem/phpid",
           "value": "6C4563BB76BE7967594979196EC91CD8"
         }
       }
     },
     {
-      "url": "https://idmp.who-umc.org/fhir/StructureDefinition/basic-dose-form",
+      "url": "http://idmp.who-umc.org/fhir/StructureDefinition/basic-dose-form",
       "valueCoding": {
         "system": "https://standardterms.edqm.eu",
         "code": "0069",
@@ -135,7 +135,7 @@
       }
     },
     {
-      "url": "https://idmp.who-umc.org/fhir/StructureDefinition/administration-method",
+      "url": "http://idmp.who-umc.org/fhir/StructureDefinition/administration-method",
       "valueCoding": {
         "system": "https://standardterms.edqm.eu",
         "code": "0019",
@@ -143,7 +143,7 @@
       }
     },
     {
-      "url": "https://idmp.who-umc.org/fhir/StructureDefinition/intended-site",
+      "url": "http://idmp.who-umc.org/fhir/StructureDefinition/intended-site",
       "valueCoding": {
         "system": "https://standardterms.edqm.eu",
         "code": "0031",
@@ -151,7 +151,7 @@
       }
     },
     {
-      "url": "https://idmp.who-umc.org/fhir/StructureDefinition/release-characteristics",
+      "url": "http://idmp.who-umc.org/fhir/StructureDefinition/release-characteristics",
       "valueCoding": {
         "system": "https://standardterms.edqm.eu",
         "code": "0047",
@@ -164,12 +164,12 @@
       "type": {
         "coding": [
           {
-            "system": "https://idmp.who-umc.org/fhir/CodeSystem/php-level",
+            "system": "http://idmp.who-umc.org/fhir/CodeSystem/php-level",
             "code": "PhPIDLevel4"
           }
         ]
       },
-      "system": "https://idmp.who-umc.org/fhir/CodeSystem/phpid",
+      "system": "http://idmp.who-umc.org/fhir/CodeSystem/phpid",
       "value": "91B3CA582581F57E4092F13AAF476215"
     }
   ],

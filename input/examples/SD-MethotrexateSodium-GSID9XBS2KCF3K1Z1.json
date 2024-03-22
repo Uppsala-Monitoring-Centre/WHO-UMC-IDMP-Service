@@ -3,7 +3,7 @@
   "id": "GSID9XBS2KCF3K1Z1",
   "meta": {
     "profile": [
-      "https://idmp.who-umc.org/fhir/StructureDefinition/SubstanceDefinition-pub"
+      "http://idmp.who-umc.org/fhir/StructureDefinition/SubstanceDefinition-pub"
     ]
   },
   "text": {
@@ -12,7 +12,7 @@
   },
   "identifier": [
     {
-      "system": "https://idmp.who-umc.org/fhir/CodeSystem/gsid",
+      "system": "http://idmp.who-umc.org/fhir/CodeSystem/gsid",
       "value": "GSID9XBS2KCF3K1Z1"
     }
   ],

@@ -9,7 +9,7 @@ Description: "This extension applies to the ADP resource and is used to refer th
 * ^url = $parent-php-extension
 * value[x] only Reference (AdministrableProductDefinitionWhoPhP)
 * valueReference.identifier 1..
-  * system = "https://idmp.who-umc.org/fhir/CodeSystem/phpid"
+  * system = "http://idmp.who-umc.org/fhir/CodeSystem/phpid"
   * system 1..
 
 Extension: RCA

@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "edqm-AME",
-  "url": "https://idmp.who-umc.org/fhir/ValueSet/edqm-AME",
+  "url": "http://idmp.who-umc.org/fhir/ValueSet/edqm-AME",
   "name": "edqm-AME",
   "title": "EDQM PDF characteristics: Administration Method",
   "status": "active",

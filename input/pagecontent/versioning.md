@@ -30,7 +30,7 @@ If an old profile is being used a validation warning may be issued for a spcifie
 
     "meta": {
      "profile": [
-      "https://idmp.who-umc.org/fhir/StructureDefinition/SubstanceDefinition-req-v1"
+      "http://idmp.who-umc.org/fhir/StructureDefinition/SubstanceDefinition-req-v1"
      ]
     }
 
@@ -41,7 +41,7 @@ The version of a resource is defined using the profile (as for the request scena
 
     "meta": {
      "profile": [
-      "https://idmp.who-umc.org/fhir/StructureDefinition/SubstanceDefinition-pub-v1"
+      "http://idmp.who-umc.org/fhir/StructureDefinition/SubstanceDefinition-pub-v1"
      ]
     }
 

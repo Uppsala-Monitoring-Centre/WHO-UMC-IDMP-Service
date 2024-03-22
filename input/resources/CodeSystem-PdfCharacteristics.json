@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "pdfCharacteristics",
-  "url": "https://idmp.who-umc.org/fhir/CodeSystem/pdfCharacteristics",
+  "url": "http://idmp.who-umc.org/fhir/CodeSystem/pdfCharacteristics",
   "name": "PdfCharacteristics",
   "title": "Pdf Characteristics",
   "status": "active",

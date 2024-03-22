@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "task-input-type",
-  "url": "https://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
+  "url": "http://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
   "name": "TaskInputTypes",
   "title": "Task input type",
   "status": "active",

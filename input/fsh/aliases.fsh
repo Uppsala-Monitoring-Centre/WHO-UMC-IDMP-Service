@@ -4,17 +4,17 @@ Alias: $medicinal-product-domain = http://hl7.org/fhir/medicinal-product-domain
 Alias: $publication-status = http://hl7.org/fhir/publication-status
 Alias: $medicinal-product-contact-type = http://hl7.org/fhir/medicinal-product-contact-type
 Alias: $languages = http://hl7.org/fhir/ValueSet/languages
-Alias: $gsid = https://idmp.who-umc.org/fhir/CodeSystem/gsid
-Alias: $phpid = https://idmp.who-umc.org/fhir/CodeSystem/phpid
-Alias: $pdfCharacteristics = https://idmp.who-umc.org/fhir/CodeSystem/pdfCharacteristics
+Alias: $gsid = http://idmp.who-umc.org/fhir/CodeSystem/gsid
+Alias: $phpid = http://idmp.who-umc.org/fhir/CodeSystem/phpid
+Alias: $pdfCharacteristics = http://idmp.who-umc.org/fhir/CodeSystem/pdfCharacteristics
 Alias: $drugcode = https://www.who-umc.org/whodrug/CodeSystem/drugcode
 
 // ====== extensions ====
-Alias: $parent-php-extension = https://idmp.who-umc.org/fhir/StructureDefinition/parent-phpid
-Alias: $pdfCharacteristics-rca-ext = https://idmp.who-umc.org/fhir/StructureDefinition/release-characteristics
-Alias: $pdfCharacteristics-isi-ext = https://idmp.who-umc.org/fhir/StructureDefinition/intended-site
-Alias: $pdfCharacteristics-bdf-ext = https://idmp.who-umc.org/fhir/StructureDefinition/basic-dose-form
-Alias: $pdfCharacteristics-ame-ext = https://idmp.who-umc.org/fhir/StructureDefinition/administration-method
+Alias: $parent-php-extension = http://idmp.who-umc.org/fhir/StructureDefinition/parent-phpid
+Alias: $pdfCharacteristics-rca-ext = http://idmp.who-umc.org/fhir/StructureDefinition/release-characteristics
+Alias: $pdfCharacteristics-isi-ext = http://idmp.who-umc.org/fhir/StructureDefinition/intended-site
+Alias: $pdfCharacteristics-bdf-ext = http://idmp.who-umc.org/fhir/StructureDefinition/basic-dose-form
+Alias: $pdfCharacteristics-ame-ext = http://idmp.who-umc.org/fhir/StructureDefinition/administration-method
 Alias: $data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-absent-reason
 
 // =========== Systems =======
@@ -69,10 +69,10 @@ Alias: $VS-medicinal-product-domain = http://hl7.org/fhir/ValueSet/medicinal-pro
 
 Alias: $VS-language = http://hl7.org/fhir/ValueSet/languages
 
-Alias: $edqmPdfReleaseChar = https://idmp.who-umc.org/fhir/ValueSet/edqm-RCA
-Alias: $edqmPdfBasicDoseForm = https://idmp.who-umc.org/fhir/ValueSet/edqm-BDF
-Alias: $edqmPdfIntendedSite = https://idmp.who-umc.org/fhir/ValueSet/edqm-ISI
-Alias: $edqmPdfAdministrationMethod = https://idmp.who-umc.org/fhir/ValueSet/edqm-AME
+Alias: $edqmPdfReleaseChar = http://idmp.who-umc.org/fhir/ValueSet/edqm-RCA
+Alias: $edqmPdfBasicDoseForm = http://idmp.who-umc.org/fhir/ValueSet/edqm-BDF
+Alias: $edqmPdfIntendedSite = http://idmp.who-umc.org/fhir/ValueSet/edqm-ISI
+Alias: $edqmPdfAdministrationMethod = http://idmp.who-umc.org/fhir/ValueSet/edqm-AME
 
 // SPOR Code systems (lists)
 	

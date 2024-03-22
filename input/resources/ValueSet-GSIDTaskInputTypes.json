@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "gsid-task-input-type",
-  "url": "https://idmp.who-umc.org/fhir/ValueSet/gsid-task-input-type",
+  "url": "http://idmp.who-umc.org/fhir/ValueSet/gsid-task-input-type",
   "name": "VsGSIDTaskInputTypes",
   "title": "GSID request input type value set",
   "status": "active",
@@ -10,7 +10,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
+        "system": "http://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
         "concept": [
           {
             "code": "substance-request-resource",
