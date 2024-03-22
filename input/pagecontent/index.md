@@ -6,16 +6,16 @@
 
 ### Scope
 
-Document the WHO-UMC IDMP FHIR service.
+The scope of this Implementation Guide is to document the WHO-UMC IDMP API FHIR service, by describing the context in which the API can be used as well as the technical overview for using the API. 
 
 ### Introduction
 
-This implementation guide describes how the global PhPIDs and GSIDs are delivered through FHIR and how new global PhPIDs and GSIDs can be requested using asynchronous FHIR requests.
+This Implementation Guide has a target audience of system integrators to the WHO-UMC IDMP API. The API is based on the HL7 FHIR standard and this guide describes supported FHIR resources.
 
-The main resources maintained by the service are the PhPIDs (manifested through the `AdministrableProductDefinition` resource) and the GSIDs (manifested through the `SubstanceDefinition` resource). However, the `MedicinalProductDefinition` resource is also vital since it serves as input for PhPID generation. It is also used in searches to link PhPIDs to MPIDs in different jurisdictions and also to represent those MPIDs. 
+The Implementation Guide describes how FHIR standard is used to exchange data for ISO IDMP standards for global PhPIDs and GSIDs. For information about ISO IDMP, see the [Background](background.html) section in this guide. 
 
-<img src="Overview.png" alt="An overview of PhPID and GSID"/>
-<br clear="all"/>
+The main resources maintained by the service are the Pharmaceutical Product IDs, PhPIDs, (manifested through the AdministrableProductDefinition resource) and the Global Substance IDs, GSIDs, (manifested through the SubstanceDefinition resource). However, the MedicinalProductDefinition resource is also vital since it serves as input for PhPID generation. 
+The Implementation Guide describes how new global PhPIDs and GSIDs are requested using asynchronous FHIR requests, and how they are delivered through FHIR.
 
 #### Access to the WHO-UMC IDMP FHIR server
 The (preview) FHIR server with tutorials and examples can be reached at [https://idmp.who-umc.org/fhir](https://idmp.who-umc.org/fhir)</a>. 
