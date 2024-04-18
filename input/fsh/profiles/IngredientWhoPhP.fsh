@@ -21,6 +21,7 @@ Description: """This profile specified how the Ingredient is used in a PhPID req
     * presentationRatio 1..1
       * numerator 1..1
         * value 1..1
+        * unit 1..1
   
   // to be better specified review
     * ^short = "The quantity of substance, per presentation, or per volume or mass, and type of quantity."
