@@ -18,10 +18,13 @@ Description: """This profile specified how the Ingredient is used in a PhPID req
       * code 1..
     * text 1..
   * strength 0..
-
+    * presentationRatio 1..1
+      * numerator 1..1
+        * value 1..1
+  
   // to be better specified review
     * ^short = "The quantity of substance, per presentation, or per volume or mass, and type of quantity."
- 
+
  /*  * strength.textPresentation ^short = "Text of either the whole presentation strength or a part of it"
   * strength.textConcentration ^short = "Text of either the whole concentration strength or a part of it"
   * strength.basis ^short = "A code that indicates if the strength is, for example, based on the ingredient substance as stated or on the substance base (when the ingredient is a salt)"
