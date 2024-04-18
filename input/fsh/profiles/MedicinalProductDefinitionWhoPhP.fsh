@@ -8,12 +8,10 @@ Title: "MedicinalProductDefinition for PhPID request"
 Description: """This profile specified how the MedicinalProductDefinition is used in request (for a new PhPID) (as contained resource) by the WHO-UMC IDMP FHIR Service"""
 * insert MedicinalProductDefinitionCommon
 * insert NotUsed(contained)
-* combinedPharmaceuticalDoseForm 1..1
-  * text 1..1
 * contact 1..1
   * type ^short = "Should be ProposedMAH"
   * contact ^short = "A specific contact, person (in a role), or an organization for this product"
-  * contact only Reference(MarketingAuthorizationHolder-who-php) //MarketingAuthorizationHolder-who-php
+  * contact only Reference(Organization) //MarketingAuthorizationHolder-who-php
 * description ^short = "General description of the medicinal product referred by the ePI"
 * indication ^short = "Narrative text of the authorized indication(s) for this product."
   
@@ -70,10 +68,11 @@ RuleSet: MedicinalProductDefinitionCommon
     * part ^short = "A fragment of a product name."
     * type ^short = "Type for this part of the name (e.g. strength part)"
   
-  * usage 1..* 
+  * usage 1..1 
+    * country 1..1 
+      * coding 1..1
+        * code 1..1
     * country ^short = "Country where this name applies"
-    * country.coding.code 1..1
-    * country.coding.system = $iso3166
     * jurisdiction ^short = "Jurisdiction where this name applies"
     * language ^short = "Language for this name"
 
