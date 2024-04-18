@@ -1,4 +1,4 @@
-Profile: AuthorizedOrg
+/* Profile: AuthorizedOrg
 Parent: Organization
 Id: AuthorizedOrg-who-php
 Title: "Organization authorized to use the WHO-UMC IDMP service"
@@ -22,4 +22,4 @@ Description: "Marketing Authorization Holder of medicinal product"
 // Common
 //*******************************
 RuleSet: OrganizationCommon
-* name 1..1
+* name 1..1 */
