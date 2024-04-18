@@ -10,3 +10,4 @@ __pycache__/
 ~$*.xlsx
 /___attic
 /__sources
+.vs
