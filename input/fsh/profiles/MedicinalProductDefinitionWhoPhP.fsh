@@ -69,10 +69,11 @@ RuleSet: MedicinalProductDefinitionCommon
     * type ^short = "Type for this part of the name (e.g. strength part)"
   
   * usage 1..1 
+    * country ^short = "Country where this name applies"
     * country 1..1 
       * coding 1..1
-        * code 1..1
-    * country ^short = "Country where this name applies"
+        * code 1..1    
+        * system = $iso3166
     * jurisdiction ^short = "Jurisdiction where this name applies"
     * language ^short = "Language for this name"
 
