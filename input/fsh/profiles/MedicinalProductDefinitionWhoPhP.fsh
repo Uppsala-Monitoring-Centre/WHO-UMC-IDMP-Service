@@ -76,11 +76,7 @@ RuleSet: MedicinalProductDefinitionCommon
         * system = $iso3166
     * jurisdiction ^short = "Jurisdiction where this name applies"
     * language ^short = "Language for this name"
-    * language 1..1
-      * coding 1..1
-        * code 1..1
-        * system = $languages    
-
+    
 // NOT USED ELEMENTS
 
 * insert NotUsed(statusDate)
