@@ -2,7 +2,7 @@ Profile: AuthorizedOrg
 Parent: Organization
 Id: AuthorizedOrg-who-php
 Title: "Organization authorized to use the WHO-UMC IDMP service"
-Description: "Organization to be able to make a request, and check status in the WHO-UMC IDMP service"
+Description: "Organization making the request, not necessarily the same organization as the one sending the task"
 
 * identifier 1..*
 * contact 1..*
