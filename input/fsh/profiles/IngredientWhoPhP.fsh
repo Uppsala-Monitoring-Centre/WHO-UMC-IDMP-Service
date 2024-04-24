@@ -9,18 +9,19 @@ Description: """This profile specified how the Ingredient is used in a PhPID req
 * for only Reference( MedicinalProductDefinitionWhoPhPRequest ) //only #?
 * role from $vsingredient-role (example)
 
-* substance 1..
+* substance 1..1
   * code from VsSubstance (example)
   * code.concept
     * coding 0..1
       * system = $gsid
-      * system 1..
-      * code 1..
-    * text 1..
-  * strength 0..
+      * system 1..1
+      * code 1..1 //gsid value
+    * text 1..1 //substance name
+  * strength 1..1
     * presentationRatio 1..1
       * numerator 1..1
         * value 1..1
+        * unit 1..1
   
   // to be better specified review
     * ^short = "The quantity of substance, per presentation, or per volume or mass, and type of quantity."

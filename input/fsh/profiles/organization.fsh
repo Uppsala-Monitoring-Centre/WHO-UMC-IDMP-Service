@@ -22,4 +22,4 @@ Description: "Marketing Authorization Holder of medicinal product"
 // Common
 //*******************************
 RuleSet: OrganizationCommon
-* name 1..1
+* name 1..1 
