@@ -69,10 +69,10 @@ Alias: $VS-medicinal-product-domain = http://hl7.org/fhir/ValueSet/medicinal-pro
 
 Alias: $VS-language = http://hl7.org/fhir/ValueSet/languages
 
-Alias: $edqmPdfReleaseChar = http://idmp.who-umc.org/fhir/ValueSet/edqm-RCA
-Alias: $edqmPdfBasicDoseForm = http://idmp.who-umc.org/fhir/ValueSet/edqm-BDF
-Alias: $edqmPdfIntendedSite = http://idmp.who-umc.org/fhir/ValueSet/edqm-ISI
-Alias: $edqmPdfAdministrationMethod = http://idmp.who-umc.org/fhir/ValueSet/edqm-AME
+Alias: $edqmPdfReleaseChar = http://idmp.who-umc.org/fhir/ValueSet/EdqmRCA
+Alias: $edqmPdfBasicDoseForm = http://idmp.who-umc.org/fhir/ValueSet/EdqmBDF
+Alias: $edqmPdfIntendedSite = http://idmp.who-umc.org/fhir/ValueSet/EdqmISI
+Alias: $edqmPdfAdministrationMethod = http://idmp.who-umc.org/fhir/ValueSet/EdqmAME
 
 // SPOR Code systems (lists)
 	
