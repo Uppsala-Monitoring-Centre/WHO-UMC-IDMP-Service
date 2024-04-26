@@ -9,7 +9,7 @@
   "contained": [
     {
       "resourceType": "MedicinalProductDefinition",
-      "id": "296f8284-5df5-4849-a089-85dfa7c2dc1a",
+      "id": "24f56ab1-444b-47bc-92b9-aa1be7485c46",
       "meta": {
         "profile": [
           "http://idmp.who-umc.org/fhir/StructureDefinition/MedicinalProductDefinition-who-php-req"
@@ -108,7 +108,7 @@
     },
     {
       "resourceType": "Ingredient",
-      "id": "5a42d861-8d9d-466b-b54d-8580f80f8b32",
+      "id": "081cfe1f-ae66-46c3-93b2-779d1bbd6f64",
       "meta": {
         "profile": [
           "http://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php"
@@ -117,7 +117,7 @@
       "status": "active",
       "for": [
         {
-          "reference": "#296f8284-5df5-4849-a089-85dfa7c2dc1a"
+          "reference": "#24f56ab1-444b-47bc-92b9-aa1be7485c46"
         }
       ],
       "role": {
@@ -194,8 +194,8 @@
   "status": "requested",
   "intent": "proposal",
   "priority": "routine",
-  "authoredOn": "2024-04-24",
-  "lastModified": "2024-04-24",
+  "authoredOn": "2024-04-26",
+  "lastModified": "2024-04-26",
   "input": [
     {
       "type": {
@@ -209,7 +209,7 @@
         "text": "Medicinal Product for PhPID request"
       },
       "valueReference": {
-        "reference": "#296f8284-5df5-4849-a089-85dfa7c2dc1a"
+        "reference": "#24f56ab1-444b-47bc-92b9-aa1be7485c46"
       }
     },
     {
@@ -224,7 +224,7 @@
         "text": "Ingredient for PhPID request"
       },
       "valueReference": {
-        "reference": "#5a42d861-8d9d-466b-b54d-8580f80f8b32"
+        "reference": "#081cfe1f-ae66-46c3-93b2-779d1bbd6f64"
       }
     },
     {
