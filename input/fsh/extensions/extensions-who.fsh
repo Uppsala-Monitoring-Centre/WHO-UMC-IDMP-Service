@@ -23,7 +23,7 @@ Description: "This extension is use to display the ReleaseCharacteristics for an
 * ^url = $pdfCharacteristics-rca-ext
 * value[x] only Coding 
 * valueCoding 1..1
-  * system = $edqm
+  * system = $edqmStandardTerms
   * system 1.. 
   * code from edqm-RCA
 
@@ -38,7 +38,7 @@ Description: "This extension is use to display the IntendedSite for an Administr
 * ^url = $pdfCharacteristics-isi-ext
 * value[x] only Coding 
 * valueCoding 1..1
-  * system = $edqm
+  * system = $edqmStandardTerms
   * system 1.. 
   * code from edqm-ISI
 
@@ -53,7 +53,7 @@ Description: "This extension is use to display the BasicDoseForm for an Administ
 * ^url = $pdfCharacteristics-bdf-ext
 * value[x] only Coding 
 * valueCoding 1..1
-  * system = $edqm
+  * system = $edqmStandardTerms
   * system 1.. 
   * code from edqm-BDF
 
@@ -68,6 +68,6 @@ Description: "This extension is use to display the AdministrationMethod for an A
 * ^url = $pdfCharacteristics-ame-ext
 * value[x] only Coding 
 * valueCoding 1..1
-  * system = $edqm
+  * system = $edqmStandardTerms
   * system 1.. 
   * code from edqm-AME

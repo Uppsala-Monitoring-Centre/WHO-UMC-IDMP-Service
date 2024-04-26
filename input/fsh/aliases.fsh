@@ -69,6 +69,7 @@ Alias: $VS-medicinal-product-domain = http://hl7.org/fhir/ValueSet/medicinal-pro
 
 Alias: $VS-language = http://hl7.org/fhir/ValueSet/languages
 
+Alias: $edqmStandardTerms = http://idmp.who-umc.org/fhir/CodeSystem/standardTerms
 Alias: $edqmPdfReleaseChar = http://idmp.who-umc.org/fhir/ValueSet/EdqmRCA
 Alias: $edqmPdfBasicDoseForm = http://idmp.who-umc.org/fhir/ValueSet/EdqmBDF
 Alias: $edqmPdfIntendedSite = http://idmp.who-umc.org/fhir/ValueSet/EdqmISI
