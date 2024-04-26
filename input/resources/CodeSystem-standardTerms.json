@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
-  "id": "standardTerms",
-  "url": "http://idmp.who-umc.org/fhir/CodeSystem/standardTerms",
+  "id": "standardterms",
+  "url": "http://idmp.who-umc.org/fhir/CodeSystem/standardterms",
   "name": "standardTerms",
   "title": "EDQM Standard Terms",
   "status": "active",
