@@ -46,6 +46,8 @@ Description: "Medicinal Product identification systems"
 * ^experimental = false
 * $uri#http://hl7.org/fhir/sid/ndc
 
+
+/*
 CodeSystem: StandardtermsCS
 Id: StandardtermsCS
 Title: "StandardtermsCS"
@@ -250,3 +252,4 @@ Description: "EDQM Pharmaceutical dose forms characteristics: Release Characteri
 * StandardtermsCS#0047 "Conventional"
 * StandardtermsCS#0048 "Unknown"
 
+*/
