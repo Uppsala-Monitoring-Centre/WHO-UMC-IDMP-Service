@@ -39,6 +39,14 @@ Description: "Identifier Type Value Set"
 * codes from system PhpIdLevels
 
 //=========================
+ValueSet: VsStrengthUnit
+Id: strengthUnit
+Title: "Strength Unit Value Set"
+Description: "Strength Unit Value Set"
+* ^experimental = false
+* codes from system strengthUnit
+
+//=========================
 ValueSet: VsMpIdSystem
 Id: mpid-system
 Title: "MPID system"

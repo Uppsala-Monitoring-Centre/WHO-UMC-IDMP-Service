@@ -13,7 +13,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "a4b8ef78-ef6d-4a6a-b539-9be187551334",
+      "id": "7c95f656-4d3a-45da-a20a-604ff4fee772",
       "meta": {
         "profile": [
           "http://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php-publish"

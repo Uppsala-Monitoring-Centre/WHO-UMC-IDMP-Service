@@ -1,0 +1,42 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "strengthUnit",
+  "url": "http://idmp.who-umc.org/fhir/CodeSystem/strengthUnit",
+  "name": "strengthUnit",
+  "title": "Strength units applicable in the IDMP PhPID service",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Uppsala Monitoring Centre",
+  "description": "This code system lists applicable strength units in the IDMP PhPID service. They are a sub set of the unum units with some additions.",
+  "copyright": "Uppsala Monitoring Centre",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "g",
+      "display": "gram",
+      "definition": "gram"
+    },
+    {
+      "code": "mg",
+      "display": "milligram",
+      "definition": "milligram"
+    },
+    {
+      "code": "µg",
+      "display": "mikrogram",
+      "definition": "mikrogram"
+    },
+    {
+      "code": "mg/m²",
+      "display": "milligram per square meter",
+      "definition": "milligram per square meter"
+    },
+    {
+      "code": "IU",
+      "display": "arbitrary international unit",
+      "definition": "arbitrary international unit"
+    }
+  ]
+}

@@ -13,7 +13,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "2500f4be-0824-41eb-9ca0-1d1b7a40afa6",
+      "id": "2460d2d7-2f45-4557-8ee3-1cc34d6944a1",
       "meta": {
         "profile": [
           "http://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php-publish"
@@ -46,7 +46,7 @@
             "presentationQuantity": {
               "value": 2.74,
               "unit": "mg",
-              "system": "http://unitsofmeasure.org",
+              "system": "http://idmp.who-umc.org/fhir/CodeSystem/strengthUnit",
               "code": "mg"
             },
             "textPresentation": "2,74 mg",
@@ -61,7 +61,7 @@
                 "strengthQuantity": {
                   "value": 2.50,
                   "unit": "mg",
-                  "system": "http://unitsofmeasure.org",
+                  "system": "http://idmp.who-umc.org/fhir/CodeSystem/strengthUnit",
                   "code": "mg"
                 }
               }

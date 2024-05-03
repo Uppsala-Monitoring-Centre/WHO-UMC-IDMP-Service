@@ -9,7 +9,7 @@
   "contained": [
     {
       "resourceType": "MedicinalProductDefinition",
-      "id": "24f56ab1-444b-47bc-92b9-aa1be7485c46",
+      "id": "01fc2dc8-6a4c-49b7-89ce-3908081214b8",
       "meta": {
         "profile": [
           "http://idmp.who-umc.org/fhir/StructureDefinition/MedicinalProductDefinition-who-php-req"
@@ -108,7 +108,7 @@
     },
     {
       "resourceType": "Ingredient",
-      "id": "081cfe1f-ae66-46c3-93b2-779d1bbd6f64",
+      "id": "ed74ab8a-50f8-4526-baef-fde3174a44dd",
       "meta": {
         "profile": [
           "http://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php"
@@ -117,7 +117,7 @@
       "status": "active",
       "for": [
         {
-          "reference": "#24f56ab1-444b-47bc-92b9-aa1be7485c46"
+          "reference": "#01fc2dc8-6a4c-49b7-89ce-3908081214b8"
         }
       ],
       "role": {
@@ -147,14 +147,14 @@
               "numerator": {
                 "value": 1.5,
                 "unit": "mg",
-                "system": "http://unitsofmeasure.org",
+                "system": "http://idmp.who-umc.org/fhir/CodeSystem/strengthUnit",
                 "code": "mg"
               },
               "denominator": {
                 "value": 1,
                 "unit": "arbitrary international unit",
-                "system": "http://unitsofmeasure.org",
-                "code": "[IU]"
+                "system": "http://idmp.who-umc.org/fhir/CodeSystem/strengthUnit",
+                "code": "IU"
               }
             },
             "textPresentation": "1,5 mg"
@@ -194,8 +194,8 @@
   "status": "requested",
   "intent": "proposal",
   "priority": "routine",
-  "authoredOn": "2024-04-26",
-  "lastModified": "2024-04-26",
+  "authoredOn": "2024-05-03",
+  "lastModified": "2024-05-03",
   "input": [
     {
       "type": {
@@ -209,7 +209,7 @@
         "text": "Medicinal Product for PhPID request"
       },
       "valueReference": {
-        "reference": "#24f56ab1-444b-47bc-92b9-aa1be7485c46"
+        "reference": "#01fc2dc8-6a4c-49b7-89ce-3908081214b8"
       }
     },
     {
@@ -224,7 +224,7 @@
         "text": "Ingredient for PhPID request"
       },
       "valueReference": {
-        "reference": "#081cfe1f-ae66-46c3-93b2-779d1bbd6f64"
+        "reference": "#ed74ab8a-50f8-4526-baef-fde3174a44dd"
       }
     },
     {
