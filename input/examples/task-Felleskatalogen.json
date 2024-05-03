@@ -128,13 +128,14 @@
                         "presentationRatio": {
                             "numerator": {
                                 "value": 322,
-                                "unit": "mikrog"
+                                "unit": "µg"
                             },
                             "denominator": {
                                 "value": 1,
-                                "unit": "[unit]"
+                                "unit": "IU"
                             }
-                        }
+                        },
+                        "textPresentation" : "322 µg"
                     }
                 ]
             }

@@ -165,16 +165,17 @@
                             "numerator": {
                                 "value": 2.5,
                                 "unit": "mg",
-                                "system": "http://unitsofmeasure.org",
+                                "system": "http://idmp.who-umc.org/fhir/CodeSystem/strengthUnit",
                                 "code": "mg"
                             },
                             "denominator": {
                                 "value": 1,
                                 "unit": "unit",
-                                "system": "http://unitsofmeasure.org",
-                                "code": "[IU]"
+                                "system": "http://idmp.who-umc.org/fhir/CodeSystem/strengthUnit",
+                                "code": "IU"
                             }
-                        }
+                        },
+                        "textPresentation": "2.5 mg" 
                     }
                 ]
             }
