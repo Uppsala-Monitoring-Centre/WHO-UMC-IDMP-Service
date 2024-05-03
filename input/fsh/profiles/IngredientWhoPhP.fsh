@@ -24,7 +24,7 @@ Description: """This profile specified how the Ingredient is used in a PhPID req
       * numerator 1..1
         * value 1..1
         * unit 1..1
-        * system only $strengthUnit
+        * system = $strengthUnit
     * textPresentation 1..1 //strength freetext
       * ^short = "Only to be used if no applicable unit."
     * ^short = "The quantity of substance, per presentation, or per volume or mass, and type of quantity."
@@ -57,7 +57,7 @@ Description: """This profile specified how the Ingredient is used in PhPID publi
         * numerator 1..1
           * value 1..1
           * unit 1..1
-          * system only $strengthUnit
+          * system = $strengthUnit
 
   * strength.referenceStrength ^short = "Strength expressed in terms of a reference substance"
   * strength.referenceStrength 0..1
