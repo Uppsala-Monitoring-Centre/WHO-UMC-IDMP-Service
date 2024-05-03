@@ -57,7 +57,7 @@ Description: """This profile specified how the Ingredient is used in PhPID publi
     * text 1..
   * strength 0..1
     * ^short = "The quantity of substance, per presentation, or per volume or mass, and type of quantity."
-      * presentationRatio 1..1
+      * presentationRatio 0..1
         * numerator 1..1
           * value 1..1
           * unit 1..1
