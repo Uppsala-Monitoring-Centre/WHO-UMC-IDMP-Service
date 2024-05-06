@@ -45,6 +45,7 @@ Title: "Strength Unit Value Set"
 Description: "Strength Unit Value Set"
 * ^experimental = false
 * codes from system strengthUnit
+* codes from system $ucum
 
 //=========================
 ValueSet: VsMpIdSystem
