@@ -46,7 +46,7 @@
             "presentationQuantity": {
               "value": 2.74,
               "unit": "mg",
-              "system": "http://idmp.who-umc.org/fhir/CodeSystem/strengthUnit",
+              "system": "http://unitsofmeasure.org",
               "code": "mg"
             },
             "textPresentation": "2,74 mg",
@@ -61,7 +61,7 @@
                 "strengthQuantity": {
                   "value": 2.50,
                   "unit": "mg",
-                  "system": "http://idmp.who-umc.org/fhir/CodeSystem/strengthUnit",
+                  "system": "http://unitsofmeasure.org",
                   "code": "mg"
                 }
               }
