@@ -51,8 +51,7 @@ RuleSet: MedicinalProductDefinitionCommon
 
 * status ^short = "The status within the lifecycle of this product record."
 
-* combinedPharmaceuticalDoseForm from $vscombined-dose-form (example)
-// * combinedPharmaceuticalDoseForm from VsDoseForm (example)
+* combinedPharmaceuticalDoseForm from $pharmaceuticalForm (example)
 
 * route from VsRouteOfAdministration (example)
 

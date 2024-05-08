@@ -427,6 +427,2176 @@
       "code": "0115",
       "display": "Live animal",
       "definition": "Live animal"
+    },
+    {
+      "code": "12102000",
+      "display": "Anticoagulant and preservative solution for blood",
+      "definition": "Anticoagulant and preservative solution for blood"
+    },
+    {
+      "code": "10501000",
+      "display": "Bath additive",
+      "definition": "Bath additive"
+    },
+    {
+      "code": "11502000",
+      "display": "Bladder irrigation",
+      "definition": "Bladder irrigation"
+    },
+    {
+      "code": "10314011",
+      "display": "Buccal film",
+      "definition": "Buccal film"
+    },
+    {
+      "code": "10320000",
+      "display": "Buccal tablet",
+      "definition": "Buccal tablet"
+    },
+    {
+      "code": "10209000",
+      "display": "Cachet",
+      "definition": "Cachet"
+    },
+    {
+      "code": "10210000",
+      "display": "Capsule, hard",
+      "definition": "Capsule, hard"
+    },
+    {
+      "code": "10211000",
+      "display": "Capsule, soft",
+      "definition": "Capsule, soft"
+    },
+    {
+      "code": "10214000",
+      "display": "Chewable capsule, soft",
+      "definition": "Chewable capsule, soft"
+    },
+    {
+      "code": "10228000",
+      "display": "Chewable tablet",
+      "definition": "Chewable tablet"
+    },
+    {
+      "code": "50001000",
+      "display": "Chewable/dispersible tablet",
+      "definition": "Chewable/dispersible tablet"
+    },
+    {
+      "code": "13046000",
+      "display": "Coated granules",
+      "definition": "Coated granules"
+    },
+    {
+      "code": "10220000",
+      "display": "Coated tablet",
+      "definition": "Coated tablet"
+    },
+    {
+      "code": "10520000",
+      "display": "Collodion",
+      "definition": "Collodion"
+    },
+    {
+      "code": "10322000",
+      "display": "Compressed lozenge",
+      "definition": "Compressed lozenge"
+    },
+    {
+      "code": "13001000",
+      "display": "Concentrate for concentrate for solution for infusion",
+      "definition": "Concentrate for concentrate for solution for infusion"
+    },
+    {
+      "code": "13162000",
+      "display": "Concentrate for cutaneous emulsion",
+      "definition": "Concentrate for cutaneous emulsion"
+    },
+    {
+      "code": "10514000",
+      "display": "Concentrate for cutaneous solution",
+      "definition": "Concentrate for cutaneous solution"
+    },
+    {
+      "code": "50009000",
+      "display": "Concentrate for cutaneous spray, emulsion",
+      "definition": "Concentrate for cutaneous spray, emulsion"
+    },
+    {
+      "code": "50009300",
+      "display": "Concentrate for dispersion for infusion",
+      "definition": "Concentrate for dispersion for infusion"
+    },
+    {
+      "code": "13139000",
+      "display": "Concentrate for dispersion for injection",
+      "definition": "Concentrate for dispersion for injection"
+    },
+    {
+      "code": "50009500",
+      "display": "Concentrate for emulsion for infusion",
+      "definition": "Concentrate for emulsion for infusion"
+    },
+    {
+      "code": "13152000",
+      "display": "Concentrate for emulsion for injection",
+      "definition": "Concentrate for emulsion for injection"
+    },
+    {
+      "code": "10302000",
+      "display": "Concentrate for gargle",
+      "definition": "Concentrate for gargle"
+    },
+    {
+      "code": "50009750",
+      "display": "Concentrate for intravesical solution",
+      "definition": "Concentrate for intravesical solution"
+    },
+    {
+      "code": "13002000",
+      "display": "Concentrate for nebuliser solution",
+      "definition": "Concentrate for nebuliser solution"
+    },
+    {
+      "code": "50010000",
+      "display": "Concentrate for oral solution",
+      "definition": "Concentrate for oral solution"
+    },
+    {
+      "code": "10100500",
+      "display": "Concentrate for oral suspension",
+      "definition": "Concentrate for oral suspension"
+    },
+    {
+      "code": "50011000",
+      "display": "Concentrate for oral/rectal solution",
+      "definition": "Concentrate for oral/rectal solution"
+    },
+    {
+      "code": "13003000",
+      "display": "Concentrate for oromucosal solution",
+      "definition": "Concentrate for oromucosal solution"
+    },
+    {
+      "code": "11008000",
+      "display": "Concentrate for rectal solution",
+      "definition": "Concentrate for rectal solution"
+    },
+    {
+      "code": "11405000",
+      "display": "Concentrate for solution for haemodialysis",
+      "definition": "Concentrate for solution for haemodialysis"
+    },
+    {
+      "code": "11213000",
+      "display": "Concentrate for solution for infusion",
+      "definition": "Concentrate for solution for infusion"
+    },
+    {
+      "code": "11209000",
+      "display": "Concentrate for solution for injection",
+      "definition": "Concentrate for solution for injection"
+    },
+    {
+      "code": "50079000",
+      "display": "Concentrate for solution for injection/infusion",
+      "definition": "Concentrate for solution for injection/infusion"
+    },
+    {
+      "code": "10600500",
+      "display": "Concentrate for solution for intraocular irrigation",
+      "definition": "Concentrate for solution for intraocular irrigation"
+    },
+    {
+      "code": "50013250",
+      "display": "Concentrate for solution for peritoneal dialysis",
+      "definition": "Concentrate for solution for peritoneal dialysis"
+    },
+    {
+      "code": "13004000",
+      "display": "Concentrate for suspension for injection",
+      "definition": "Concentrate for suspension for injection"
+    },
+    {
+      "code": "10502000",
+      "display": "Cream",
+      "definition": "Cream"
+    },
+    {
+      "code": "10516000",
+      "display": "Cutaneous emulsion",
+      "definition": "Cutaneous emulsion"
+    },
+    {
+      "code": "10507000",
+      "display": "Cutaneous foam",
+      "definition": "Cutaneous foam"
+    },
+    {
+      "code": "10512000",
+      "display": "Cutaneous liquid",
+      "definition": "Cutaneous liquid"
+    },
+    {
+      "code": "10505000",
+      "display": "Cutaneous paste",
+      "definition": "Cutaneous paste"
+    },
+    {
+      "code": "10517500",
+      "display": "Cutaneous patch",
+      "definition": "Cutaneous patch"
+    },
+    {
+      "code": "10517000",
+      "display": "Cutaneous powder",
+      "definition": "Cutaneous powder"
+    },
+    {
+      "code": "10513000",
+      "display": "Cutaneous solution",
+      "definition": "Cutaneous solution"
+    },
+    {
+      "code": "50015450",
+      "display": "Cutaneous solution/concentrate for oromucosal solution",
+      "definition": "Cutaneous solution/concentrate for oromucosal solution"
+    },
+    {
+      "code": "50015500",
+      "display": "Cutaneous spray, emulsion",
+      "definition": "Cutaneous spray, emulsion"
+    },
+    {
+      "code": "50016000",
+      "display": "Cutaneous spray, ointment",
+      "definition": "Cutaneous spray, ointment"
+    },
+    {
+      "code": "10511000",
+      "display": "Cutaneous spray, powder",
+      "definition": "Cutaneous spray, powder"
+    },
+    {
+      "code": "10509000",
+      "display": "Cutaneous spray, solution",
+      "definition": "Cutaneous spray, solution"
+    },
+    {
+      "code": "10510000",
+      "display": "Cutaneous spray, suspension",
+      "definition": "Cutaneous spray, suspension"
+    },
+    {
+      "code": "10523000",
+      "display": "Cutaneous stick",
+      "definition": "Cutaneous stick"
+    },
+    {
+      "code": "10515000",
+      "display": "Cutaneous suspension",
+      "definition": "Cutaneous suspension"
+    },
+    {
+      "code": "50015200",
+      "display": "Cutaneous/nasal ointment",
+      "definition": "Cutaneous/nasal ointment"
+    },
+    {
+      "code": "13140000",
+      "display": "Cutaneous/oromucosal solution",
+      "definition": "Cutaneous/oromucosal solution"
+    },
+    {
+      "code": "10401500",
+      "display": "Dental cement",
+      "definition": "Dental cement"
+    },
+    {
+      "code": "10408000",
+      "display": "Dental emulsion",
+      "definition": "Dental emulsion"
+    },
+    {
+      "code": "10402000",
+      "display": "Dental gel",
+      "definition": "Dental gel"
+    },
+    {
+      "code": "50017000",
+      "display": "Dental paste",
+      "definition": "Dental paste"
+    },
+    {
+      "code": "10405000",
+      "display": "Dental powder",
+      "definition": "Dental powder"
+    },
+    {
+      "code": "10406000",
+      "display": "Dental solution",
+      "definition": "Dental solution"
+    },
+    {
+      "code": "10403000",
+      "display": "Dental stick",
+      "definition": "Dental stick"
+    },
+    {
+      "code": "10407000",
+      "display": "Dental suspension",
+      "definition": "Dental suspension"
+    },
+    {
+      "code": "12101000",
+      "display": "Denture lacquer",
+      "definition": "Denture lacquer"
+    },
+    {
+      "code": "10121000",
+      "display": "Dispersible tablet",
+      "definition": "Dispersible tablet"
+    },
+    {
+      "code": "10121500",
+      "display": "Dispersible tablets for dose dispenser",
+      "definition": "Dispersible tablets for dose dispenser"
+    },
+    {
+      "code": "13005000",
+      "display": "Dispersion for concentrate for dispersion for infusion",
+      "definition": "Dispersion for concentrate for dispersion for infusion"
+    },
+    {
+      "code": "50017500",
+      "display": "Dispersion for infusion",
+      "definition": "Dispersion for infusion"
+    },
+    {
+      "code": "50077000",
+      "display": "Dispersion for injection",
+      "definition": "Dispersion for injection"
+    },
+    {
+      "code": "13049000",
+      "display": "Dispersion for injection/infusion",
+      "definition": "Dispersion for injection/infusion"
+    },
+    {
+      "code": "10701000",
+      "display": "Ear cream",
+      "definition": "Ear cream"
+    },
+    {
+      "code": "10706000",
+      "display": "Ear drops, emulsion",
+      "definition": "Ear drops, emulsion"
+    },
+    {
+      "code": "13006000",
+      "display": "Ear drops, powder for suspension",
+      "definition": "Ear drops, powder for suspension"
+    },
+    {
+      "code": "10704000",
+      "display": "Ear drops, solution",
+      "definition": "Ear drops, solution"
+    },
+    {
+      "code": "10705000",
+      "display": "Ear drops, suspension",
+      "definition": "Ear drops, suspension"
+    },
+    {
+      "code": "10702000",
+      "display": "Ear gel",
+      "definition": "Ear gel"
+    },
+    {
+      "code": "10703000",
+      "display": "Ear ointment",
+      "definition": "Ear ointment"
+    },
+    {
+      "code": "10708000",
+      "display": "Ear powder",
+      "definition": "Ear powder"
+    },
+    {
+      "code": "10711000",
+      "display": "Ear spray, emulsion",
+      "definition": "Ear spray, emulsion"
+    },
+    {
+      "code": "10709000",
+      "display": "Ear spray, solution",
+      "definition": "Ear spray, solution"
+    },
+    {
+      "code": "10710000",
+      "display": "Ear spray, suspension",
+      "definition": "Ear spray, suspension"
+    },
+    {
+      "code": "10715000",
+      "display": "Ear stick",
+      "definition": "Ear stick"
+    },
+    {
+      "code": "10714000",
+      "display": "Ear tampon",
+      "definition": "Ear tampon"
+    },
+    {
+      "code": "10713000",
+      "display": "Ear wash, emulsion",
+      "definition": "Ear wash, emulsion"
+    },
+    {
+      "code": "10712000",
+      "display": "Ear wash, solution",
+      "definition": "Ear wash, solution"
+    },
+    {
+      "code": "50018000",
+      "display": "Ear/eye drops, solution",
+      "definition": "Ear/eye drops, solution"
+    },
+    {
+      "code": "50018500",
+      "display": "Ear/eye drops, suspension",
+      "definition": "Ear/eye drops, suspension"
+    },
+    {
+      "code": "50019000",
+      "display": "Ear/eye ointment",
+      "definition": "Ear/eye ointment"
+    },
+    {
+      "code": "50019500",
+      "display": "Ear/eye/nasal drops, solution",
+      "definition": "Ear/eye/nasal drops, solution"
+    },
+    {
+      "code": "50020200",
+      "display": "Ear/nasal drops, suspension",
+      "definition": "Ear/nasal drops, suspension"
+    },
+    {
+      "code": "10205000",
+      "display": "Effervescent granules",
+      "definition": "Effervescent granules"
+    },
+    {
+      "code": "13007000",
+      "display": "Effervescent granules for oral suspension",
+      "definition": "Effervescent granules for oral suspension"
+    },
+    {
+      "code": "10203000",
+      "display": "Effervescent powder",
+      "definition": "Effervescent powder"
+    },
+    {
+      "code": "10222000",
+      "display": "Effervescent tablet",
+      "definition": "Effervescent tablet"
+    },
+    {
+      "code": "10913000",
+      "display": "Effervescent vaginal tablet",
+      "definition": "Effervescent vaginal tablet"
+    },
+    {
+      "code": "13008000",
+      "display": "Emulsion for emulsion for injection",
+      "definition": "Emulsion for emulsion for injection"
+    },
+    {
+      "code": "11211000",
+      "display": "Emulsion for infusion",
+      "definition": "Emulsion for infusion"
+    },
+    {
+      "code": "11203000",
+      "display": "Emulsion for injection",
+      "definition": "Emulsion for injection"
+    },
+    {
+      "code": "50021000",
+      "display": "Emulsion for injection/infusion",
+      "definition": "Emulsion for injection/infusion"
+    },
+    {
+      "code": "13091000",
+      "display": "Emulsion for suspension for injection",
+      "definition": "Emulsion for suspension for injection"
+    },
+    {
+      "code": "11701000",
+      "display": "Endocervical gel",
+      "definition": "Endocervical gel"
+    },
+    {
+      "code": "13041000",
+      "display": "Endosinusial solution",
+      "definition": "Endosinusial solution"
+    },
+    {
+      "code": "50022000",
+      "display": "Endosinusial wash, suspension",
+      "definition": "Endosinusial wash, suspension"
+    },
+    {
+      "code": "11602000",
+      "display": "Endotracheopulmonary instillation, powder for solution",
+      "definition": "Endotracheopulmonary instillation, powder for solution"
+    },
+    {
+      "code": "13009000",
+      "display": "Endotracheopulmonary instillation, powder for suspension",
+      "definition": "Endotracheopulmonary instillation, powder for suspension"
+    },
+    {
+      "code": "11601000",
+      "display": "Endotracheopulmonary instillation, solution",
+      "definition": "Endotracheopulmonary instillation, solution"
+    },
+    {
+      "code": "11603000",
+      "display": "Endotracheopulmonary instillation, suspension",
+      "definition": "Endotracheopulmonary instillation, suspension"
+    },
+    {
+      "code": "13042000",
+      "display": "Epilesional solution",
+      "definition": "Epilesional solution"
+    },
+    {
+      "code": "10601000",
+      "display": "Eye cream",
+      "definition": "Eye cream"
+    },
+    {
+      "code": "10604500",
+      "display": "Eye drops, emulsion",
+      "definition": "Eye drops, emulsion"
+    },
+    {
+      "code": "13010000",
+      "display": "Eye drops, powder for solution",
+      "definition": "Eye drops, powder for solution"
+    },
+    {
+      "code": "13011000",
+      "display": "Eye drops, powder for suspension",
+      "definition": "Eye drops, powder for suspension"
+    },
+    {
+      "code": "13159000",
+      "display": "Eye drops, prolonged-release solution",
+      "definition": "Eye drops, prolonged-release solution"
+    },
+    {
+      "code": "10604000",
+      "display": "Eye drops, solution",
+      "definition": "Eye drops, solution"
+    },
+    {
+      "code": "10608000",
+      "display": "Eye drops, solvent for reconstitution",
+      "definition": "Eye drops, solvent for reconstitution"
+    },
+    {
+      "code": "10605000",
+      "display": "Eye drops, suspension",
+      "definition": "Eye drops, suspension"
+    },
+    {
+      "code": "10602000",
+      "display": "Eye gel",
+      "definition": "Eye gel"
+    },
+    {
+      "code": "10610000",
+      "display": "Eye lotion",
+      "definition": "Eye lotion"
+    },
+    {
+      "code": "10611000",
+      "display": "Eye lotion, solvent for reconstitution",
+      "definition": "Eye lotion, solvent for reconstitution"
+    },
+    {
+      "code": "10603000",
+      "display": "Eye ointment",
+      "definition": "Eye ointment"
+    },
+    {
+      "code": "13154000",
+      "display": "Film-coated granules",
+      "definition": "Film-coated granules"
+    },
+    {
+      "code": "10221000",
+      "display": "Film-coated tablet",
+      "definition": "Film-coated tablet"
+    },
+    {
+      "code": "10301000",
+      "display": "Gargle",
+      "definition": "Gargle"
+    },
+    {
+      "code": "10303000",
+      "display": "Gargle, powder for solution",
+      "definition": "Gargle, powder for solution"
+    },
+    {
+      "code": "10304000",
+      "display": "Gargle, tablet for solution",
+      "definition": "Gargle, tablet for solution"
+    },
+    {
+      "code": "50024000",
+      "display": "Gargle/mouthwash",
+      "definition": "Gargle/mouthwash"
+    },
+    {
+      "code": "50024500",
+      "display": "Gargle/nasal wash",
+      "definition": "Gargle/nasal wash"
+    },
+    {
+      "code": "13012000",
+      "display": "Gas for dispersion for infusion",
+      "definition": "Gas for dispersion for infusion"
+    },
+    {
+      "code": "13013000",
+      "display": "Gas for dispersion for injection",
+      "definition": "Gas for dispersion for injection"
+    },
+    {
+      "code": "13050000",
+      "display": "Gas for dispersion for injection/infusion",
+      "definition": "Gas for dispersion for injection/infusion"
+    },
+    {
+      "code": "12111000",
+      "display": "Gastroenteral emulsion",
+      "definition": "Gastroenteral emulsion"
+    },
+    {
+      "code": "12108000",
+      "display": "Gastroenteral solution",
+      "definition": "Gastroenteral solution"
+    },
+    {
+      "code": "12110000",
+      "display": "Gastroenteral suspension",
+      "definition": "Gastroenteral suspension"
+    },
+    {
+      "code": "10212000",
+      "display": "Gastro-resistant capsule, hard",
+      "definition": "Gastro-resistant capsule, hard"
+    },
+    {
+      "code": "10213000",
+      "display": "Gastro-resistant capsule, soft",
+      "definition": "Gastro-resistant capsule, soft"
+    },
+    {
+      "code": "10206000",
+      "display": "Gastro-resistant granules",
+      "definition": "Gastro-resistant granules"
+    },
+    {
+      "code": "50026000",
+      "display": "Gastro-resistant granules for oral suspension",
+      "definition": "Gastro-resistant granules for oral suspension"
+    },
+    {
+      "code": "13133000",
+      "display": "Gastro-resistant oral suspension",
+      "definition": "Gastro-resistant oral suspension"
+    },
+    {
+      "code": "13136000",
+      "display": "Gastro-resistant powder for oral suspension",
+      "definition": "Gastro-resistant powder for oral suspension"
+    },
+    {
+      "code": "10225000",
+      "display": "Gastro-resistant tablet",
+      "definition": "Gastro-resistant tablet"
+    },
+    {
+      "code": "10503000",
+      "display": "Gel",
+      "definition": "Gel"
+    },
+    {
+      "code": "13014000",
+      "display": "Gel for gel",
+      "definition": "Gel for gel"
+    },
+    {
+      "code": "11204000",
+      "display": "Gel for injection",
+      "definition": "Gel for injection"
+    },
+    {
+      "code": "10315000",
+      "display": "Gingival gel",
+      "definition": "Gingival gel"
+    },
+    {
+      "code": "10316000",
+      "display": "Gingival paste",
+      "definition": "Gingival paste"
+    },
+    {
+      "code": "10312000",
+      "display": "Gingival solution",
+      "definition": "Gingival solution"
+    },
+    {
+      "code": "10204000",
+      "display": "Granules",
+      "definition": "Granules"
+    },
+    {
+      "code": "10112000",
+      "display": "Granules for oral solution",
+      "definition": "Granules for oral solution"
+    },
+    {
+      "code": "10113000",
+      "display": "Granules for oral suspension",
+      "definition": "Granules for oral suspension"
+    },
+    {
+      "code": "50029150",
+      "display": "Granules for oral/rectal suspension",
+      "definition": "Granules for oral/rectal suspension"
+    },
+    {
+      "code": "13015000",
+      "display": "Granules for rectal suspension",
+      "definition": "Granules for rectal suspension"
+    },
+    {
+      "code": "13048000",
+      "display": "Granules for suspension for injection",
+      "definition": "Granules for suspension for injection"
+    },
+    {
+      "code": "10119000",
+      "display": "Granules for syrup",
+      "definition": "Granules for syrup"
+    },
+    {
+      "code": "50029500",
+      "display": "Granules for vaginal solution",
+      "definition": "Granules for vaginal solution"
+    },
+    {
+      "code": "10122000",
+      "display": "Herbal tea",
+      "definition": "Herbal tea"
+    },
+    {
+      "code": "11301000",
+      "display": "Implant",
+      "definition": "Implant"
+    },
+    {
+      "code": "11303000",
+      "display": "Implantation chain",
+      "definition": "Implantation chain"
+    },
+    {
+      "code": "11303300",
+      "display": "Implantation matrix",
+      "definition": "Implantation matrix"
+    },
+    {
+      "code": "13043000",
+      "display": "Implantation paste",
+      "definition": "Implantation paste"
+    },
+    {
+      "code": "11303500",
+      "display": "Implantation suspension",
+      "definition": "Implantation suspension"
+    },
+    {
+      "code": "11302000",
+      "display": "Implantation tablet",
+      "definition": "Implantation tablet"
+    },
+    {
+      "code": "13145000",
+      "display": "Impregnated cutaneous swab",
+      "definition": "Impregnated cutaneous swab"
+    },
+    {
+      "code": "10525000",
+      "display": "Impregnated dressing",
+      "definition": "Impregnated dressing"
+    },
+    {
+      "code": "12117000",
+      "display": "Impregnated pad",
+      "definition": "Impregnated pad"
+    },
+    {
+      "code": "12117500",
+      "display": "Impregnated plug",
+      "definition": "Impregnated plug"
+    },
+    {
+      "code": "11109000",
+      "display": "Inhalation powder",
+      "definition": "Inhalation powder"
+    },
+    {
+      "code": "11110000",
+      "display": "Inhalation powder, hard capsule",
+      "definition": "Inhalation powder, hard capsule"
+    },
+    {
+      "code": "11111000",
+      "display": "Inhalation powder, pre-dispensed",
+      "definition": "Inhalation powder, pre-dispensed"
+    },
+    {
+      "code": "50030000",
+      "display": "Inhalation powder, tablet",
+      "definition": "Inhalation powder, tablet"
+    },
+    {
+      "code": "50081000",
+      "display": "Inhalation solution",
+      "definition": "Inhalation solution"
+    },
+    {
+      "code": "11113000",
+      "display": "Inhalation vapour, capsule",
+      "definition": "Inhalation vapour, capsule"
+    },
+    {
+      "code": "50031000",
+      "display": "Inhalation vapour, effervescent tablet",
+      "definition": "Inhalation vapour, effervescent tablet"
+    },
+    {
+      "code": "50032000",
+      "display": "Inhalation vapour, emulsion",
+      "definition": "Inhalation vapour, emulsion"
+    },
+    {
+      "code": "50033000",
+      "display": "Inhalation vapour, impregnated pad",
+      "definition": "Inhalation vapour, impregnated pad"
+    },
+    {
+      "code": "50033100",
+      "display": "Inhalation vapour, impregnated plug",
+      "definition": "Inhalation vapour, impregnated plug"
+    },
+    {
+      "code": "11117000",
+      "display": "Inhalation vapour, liquid",
+      "definition": "Inhalation vapour, liquid"
+    },
+    {
+      "code": "11116000",
+      "display": "Inhalation vapour, ointment",
+      "definition": "Inhalation vapour, ointment"
+    },
+    {
+      "code": "11112000",
+      "display": "Inhalation vapour, powder",
+      "definition": "Inhalation vapour, powder"
+    },
+    {
+      "code": "11114000",
+      "display": "Inhalation vapour, solution",
+      "definition": "Inhalation vapour, solution"
+    },
+    {
+      "code": "11115000",
+      "display": "Inhalation vapour, tablet",
+      "definition": "Inhalation vapour, tablet"
+    },
+    {
+      "code": "10202000",
+      "display": "Instant herbal tea",
+      "definition": "Instant herbal tea"
+    },
+    {
+      "code": "12120000",
+      "display": "Intestinal gel",
+      "definition": "Intestinal gel"
+    },
+    {
+      "code": "13044000",
+      "display": "Intraocular instillation solution",
+      "definition": "Intraocular instillation solution"
+    },
+    {
+      "code": "12111500",
+      "display": "Intraperitoneal solution",
+      "definition": "Intraperitoneal solution"
+    },
+    {
+      "code": "11901000",
+      "display": "Intrauterine delivery system",
+      "definition": "Intrauterine delivery system"
+    },
+    {
+      "code": "13113000",
+      "display": "Intrauterine gel",
+      "definition": "Intrauterine gel"
+    },
+    {
+      "code": "11502500",
+      "display": "Intravesical solution",
+      "definition": "Intravesical solution"
+    },
+    {
+      "code": "50033400",
+      "display": "Intravesical solution/solution for injection",
+      "definition": "Intravesical solution/solution for injection"
+    },
+    {
+      "code": "13045000",
+      "display": "Intravesical suspension",
+      "definition": "Intravesical suspension"
+    },
+    {
+      "code": "12113000",
+      "display": "Irrigation solution",
+      "definition": "Irrigation solution"
+    },
+    {
+      "code": "12107000",
+      "display": "Kit for radiopharmaceutical preparation",
+      "definition": "Kit for radiopharmaceutical preparation"
+    },
+    {
+      "code": "13016000",
+      "display": "Laryngopharyngeal solution",
+      "definition": "Laryngopharyngeal solution"
+    },
+    {
+      "code": "13017000",
+      "display": "Laryngopharyngeal spray, solution",
+      "definition": "Laryngopharyngeal spray, solution"
+    },
+    {
+      "code": "12118000",
+      "display": "Living tissue equivalent",
+      "definition": "Living tissue equivalent"
+    },
+    {
+      "code": "10321000",
+      "display": "Lozenge",
+      "definition": "Lozenge"
+    },
+    {
+      "code": "13018000",
+      "display": "Matrix for implantation matrix",
+      "definition": "Matrix for implantation matrix"
+    },
+    {
+      "code": "10229000",
+      "display": "Medicated chewing-gum",
+      "definition": "Medicated chewing-gum"
+    },
+    {
+      "code": "10521000",
+      "display": "Medicated nail lacquer",
+      "definition": "Medicated nail lacquer"
+    },
+    {
+      "code": "10506000",
+      "display": "Medicated plaster",
+      "definition": "Medicated plaster"
+    },
+    {
+      "code": "12119000",
+      "display": "Medicated sponge",
+      "definition": "Medicated sponge"
+    },
+    {
+      "code": "12130000",
+      "display": "Medicated thread",
+      "definition": "Medicated thread"
+    },
+    {
+      "code": "10914000",
+      "display": "Medicated vaginal tampon",
+      "definition": "Medicated vaginal tampon"
+    },
+    {
+      "code": "12301000",
+      "display": "Medicinal gas, compressed",
+      "definition": "Medicinal gas, compressed"
+    },
+    {
+      "code": "12302000",
+      "display": "Medicinal gas, cryogenic",
+      "definition": "Medicinal gas, cryogenic"
+    },
+    {
+      "code": "12303000",
+      "display": "Medicinal gas, liquefied",
+      "definition": "Medicinal gas, liquefied"
+    },
+    {
+      "code": "13124000",
+      "display": "Medicinal larvae",
+      "definition": "Medicinal larvae"
+    },
+    {
+      "code": "13115000",
+      "display": "Medicinal leech",
+      "definition": "Medicinal leech"
+    },
+    {
+      "code": "10217000",
+      "display": "Modified-release capsule, hard",
+      "definition": "Modified-release capsule, hard"
+    },
+    {
+      "code": "10218000",
+      "display": "Modified-release capsule, soft",
+      "definition": "Modified-release capsule, soft"
+    },
+    {
+      "code": "10208000",
+      "display": "Modified-release granules",
+      "definition": "Modified-release granules"
+    },
+    {
+      "code": "50036000",
+      "display": "Modified-release granules for oral suspension",
+      "definition": "Modified-release granules for oral suspension"
+    },
+    {
+      "code": "13135000",
+      "display": "Modified-release oral suspension",
+      "definition": "Modified-release oral suspension"
+    },
+    {
+      "code": "10227000",
+      "display": "Modified-release tablet",
+      "definition": "Modified-release tablet"
+    },
+    {
+      "code": "10310000",
+      "display": "Mouthwash",
+      "definition": "Mouthwash"
+    },
+    {
+      "code": "50036050",
+      "display": "Mouthwash, powder for solution",
+      "definition": "Mouthwash, powder for solution"
+    },
+    {
+      "code": "10311000",
+      "display": "Mouthwash, tablet for solution",
+      "definition": "Mouthwash, tablet for solution"
+    },
+    {
+      "code": "10319000",
+      "display": "Muco-adhesive buccal tablet",
+      "definition": "Muco-adhesive buccal tablet"
+    },
+    {
+      "code": "10801000",
+      "display": "Nasal cream",
+      "definition": "Nasal cream"
+    },
+    {
+      "code": "10806000",
+      "display": "Nasal drops, emulsion",
+      "definition": "Nasal drops, emulsion"
+    },
+    {
+      "code": "13020000",
+      "display": "Nasal drops, powder for solution",
+      "definition": "Nasal drops, powder for solution"
+    },
+    {
+      "code": "10804000",
+      "display": "Nasal drops, solution",
+      "definition": "Nasal drops, solution"
+    },
+    {
+      "code": "10805000",
+      "display": "Nasal drops, suspension",
+      "definition": "Nasal drops, suspension"
+    },
+    {
+      "code": "10802000",
+      "display": "Nasal gel",
+      "definition": "Nasal gel"
+    },
+    {
+      "code": "10803000",
+      "display": "Nasal ointment",
+      "definition": "Nasal ointment"
+    },
+    {
+      "code": "10807000",
+      "display": "Nasal powder",
+      "definition": "Nasal powder"
+    },
+    {
+      "code": "10810000",
+      "display": "Nasal spray, emulsion",
+      "definition": "Nasal spray, emulsion"
+    },
+    {
+      "code": "50037100",
+      "display": "Nasal spray, powder for solution",
+      "definition": "Nasal spray, powder for solution"
+    },
+    {
+      "code": "10808000",
+      "display": "Nasal spray, solution",
+      "definition": "Nasal spray, solution"
+    },
+    {
+      "code": "50037400",
+      "display": "Nasal spray, solution/oromucosal solution",
+      "definition": "Nasal spray, solution/oromucosal solution"
+    },
+    {
+      "code": "10809000",
+      "display": "Nasal spray, suspension",
+      "definition": "Nasal spray, suspension"
+    },
+    {
+      "code": "10812000",
+      "display": "Nasal stick",
+      "definition": "Nasal stick"
+    },
+    {
+      "code": "10811000",
+      "display": "Nasal wash",
+      "definition": "Nasal wash"
+    },
+    {
+      "code": "50036500",
+      "display": "Nasal/oromucosal solution",
+      "definition": "Nasal/oromucosal solution"
+    },
+    {
+      "code": "50036700",
+      "display": "Nasal/oromucosal spray, solution",
+      "definition": "Nasal/oromucosal spray, solution"
+    },
+    {
+      "code": "13129000",
+      "display": "Nebuliser dispersion",
+      "definition": "Nebuliser dispersion"
+    },
+    {
+      "code": "11105000",
+      "display": "Nebuliser emulsion",
+      "definition": "Nebuliser emulsion"
+    },
+    {
+      "code": "11101000",
+      "display": "Nebuliser solution",
+      "definition": "Nebuliser solution"
+    },
+    {
+      "code": "11102000",
+      "display": "Nebuliser suspension",
+      "definition": "Nebuliser suspension"
+    },
+    {
+      "code": "10504000",
+      "display": "Ointment",
+      "definition": "Ointment"
+    },
+    {
+      "code": "10612000",
+      "display": "Ophthalmic insert",
+      "definition": "Ophthalmic insert"
+    },
+    {
+      "code": "10613000",
+      "display": "Ophthalmic strip",
+      "definition": "Ophthalmic strip"
+    },
+    {
+      "code": "10103000",
+      "display": "Oral drops, emulsion",
+      "definition": "Oral drops, emulsion"
+    },
+    {
+      "code": "50037500",
+      "display": "Oral drops, granules for solution",
+      "definition": "Oral drops, granules for solution"
+    },
+    {
+      "code": "50037750",
+      "display": "Oral drops, liquid",
+      "definition": "Oral drops, liquid"
+    },
+    {
+      "code": "50082000",
+      "display": "Oral drops, powder for suspension",
+      "definition": "Oral drops, powder for suspension"
+    },
+    {
+      "code": "10101000",
+      "display": "Oral drops, solution",
+      "definition": "Oral drops, solution"
+    },
+    {
+      "code": "10102000",
+      "display": "Oral drops, suspension",
+      "definition": "Oral drops, suspension"
+    },
+    {
+      "code": "10107000",
+      "display": "Oral emulsion",
+      "definition": "Oral emulsion"
+    },
+    {
+      "code": "10108000",
+      "display": "Oral gel",
+      "definition": "Oral gel"
+    },
+    {
+      "code": "10230000",
+      "display": "Oral gum",
+      "definition": "Oral gum"
+    },
+    {
+      "code": "13106000",
+      "display": "Oral herbal material",
+      "definition": "Oral herbal material"
+    },
+    {
+      "code": "10104000",
+      "display": "Oral liquid",
+      "definition": "Oral liquid"
+    },
+    {
+      "code": "10224000",
+      "display": "Oral lyophilisate",
+      "definition": "Oral lyophilisate"
+    },
+    {
+      "code": "10109000",
+      "display": "Oral paste",
+      "definition": "Oral paste"
+    },
+    {
+      "code": "10201000",
+      "display": "Oral powder",
+      "definition": "Oral powder"
+    },
+    {
+      "code": "10105000",
+      "display": "Oral solution",
+      "definition": "Oral solution"
+    },
+    {
+      "code": "50038500",
+      "display": "Oral solution/concentrate for nebuliser solution",
+      "definition": "Oral solution/concentrate for nebuliser solution"
+    },
+    {
+      "code": "10106000",
+      "display": "Oral suspension",
+      "definition": "Oral suspension"
+    },
+    {
+      "code": "50037900",
+      "display": "Oral/rectal solution",
+      "definition": "Oral/rectal solution"
+    },
+    {
+      "code": "50038000",
+      "display": "Oral/rectal suspension",
+      "definition": "Oral/rectal suspension"
+    },
+    {
+      "code": "10236100",
+      "display": "Orodispersible film",
+      "definition": "Orodispersible film"
+    },
+    {
+      "code": "10223000",
+      "display": "Orodispersible tablet",
+      "definition": "Orodispersible tablet"
+    },
+    {
+      "code": "10317000",
+      "display": "Oromucosal capsule",
+      "definition": "Oromucosal capsule"
+    },
+    {
+      "code": "10314010",
+      "display": "Oromucosal cream",
+      "definition": "Oromucosal cream"
+    },
+    {
+      "code": "10307000",
+      "display": "Oromucosal drops",
+      "definition": "Oromucosal drops"
+    },
+    {
+      "code": "13149000",
+      "display": "Oromucosal film",
+      "definition": "Oromucosal film"
+    },
+    {
+      "code": "10313000",
+      "display": "Oromucosal gel",
+      "definition": "Oromucosal gel"
+    },
+    {
+      "code": "10314005",
+      "display": "Oromucosal ointment",
+      "definition": "Oromucosal ointment"
+    },
+    {
+      "code": "10314000",
+      "display": "Oromucosal paste",
+      "definition": "Oromucosal paste"
+    },
+    {
+      "code": "50039000",
+      "display": "Oromucosal patch",
+      "definition": "Oromucosal patch"
+    },
+    {
+      "code": "13141000",
+      "display": "Oromucosal pouch",
+      "definition": "Oromucosal pouch"
+    },
+    {
+      "code": "10305000",
+      "display": "Oromucosal solution",
+      "definition": "Oromucosal solution"
+    },
+    {
+      "code": "10308100",
+      "display": "Oromucosal spray, emulsion",
+      "definition": "Oromucosal spray, emulsion"
+    },
+    {
+      "code": "10308200",
+      "display": "Oromucosal spray, solution",
+      "definition": "Oromucosal spray, solution"
+    },
+    {
+      "code": "10308300",
+      "display": "Oromucosal spray, suspension",
+      "definition": "Oromucosal spray, suspension"
+    },
+    {
+      "code": "10306000",
+      "display": "Oromucosal suspension",
+      "definition": "Oromucosal suspension"
+    },
+    {
+      "code": "50039500",
+      "display": "Oromucosal/laryngopharyngeal solution",
+      "definition": "Oromucosal/laryngopharyngeal solution"
+    },
+    {
+      "code": "50040500",
+      "display": "Oromucosal/laryngopharyngeal solution/spray, solution",
+      "definition": "Oromucosal/laryngopharyngeal solution/spray, solution"
+    },
+    {
+      "code": "10323000",
+      "display": "Pastille",
+      "definition": "Pastille"
+    },
+    {
+      "code": "10410000",
+      "display": "Periodontal gel",
+      "definition": "Periodontal gel"
+    },
+    {
+      "code": "10411000",
+      "display": "Periodontal insert",
+      "definition": "Periodontal insert"
+    },
+    {
+      "code": "10401000",
+      "display": "Periodontal powder",
+      "definition": "Periodontal powder"
+    },
+    {
+      "code": "10909000",
+      "display": "Pessary",
+      "definition": "Pessary"
+    },
+    {
+      "code": "10231000",
+      "display": "Pillules",
+      "definition": "Pillules"
+    },
+    {
+      "code": "10550000",
+      "display": "Plaster for provocation test",
+      "definition": "Plaster for provocation test"
+    },
+    {
+      "code": "10522000",
+      "display": "Poultice",
+      "definition": "Poultice"
+    },
+    {
+      "code": "11503000",
+      "display": "Powder for bladder irrigation",
+      "definition": "Powder for bladder irrigation"
+    },
+    {
+      "code": "50048750",
+      "display": "Powder for concentrate for dispersion for infusion",
+      "definition": "Powder for concentrate for dispersion for infusion"
+    },
+    {
+      "code": "50049100",
+      "display": "Powder for concentrate for intravesical suspension",
+      "definition": "Powder for concentrate for intravesical suspension"
+    },
+    {
+      "code": "50049200",
+      "display": "Powder for concentrate for solution for haemodialysis",
+      "definition": "Powder for concentrate for solution for haemodialysis"
+    },
+    {
+      "code": "50043000",
+      "display": "Powder for concentrate for solution for infusion",
+      "definition": "Powder for concentrate for solution for infusion"
+    },
+    {
+      "code": "50049250",
+      "display": "Powder for concentrate for solution for injection/infusion",
+      "definition": "Powder for concentrate for solution for injection/infusion"
+    },
+    {
+      "code": "10514500",
+      "display": "Powder for cutaneous solution",
+      "definition": "Powder for cutaneous solution"
+    },
+    {
+      "code": "10413000",
+      "display": "Powder for dental cement",
+      "definition": "Powder for dental cement"
+    },
+    {
+      "code": "13022000",
+      "display": "Powder for dental gel",
+      "definition": "Powder for dental gel"
+    },
+    {
+      "code": "50049270",
+      "display": "Powder for dental solution",
+      "definition": "Powder for dental solution"
+    },
+    {
+      "code": "11211500",
+      "display": "Powder for dispersion for infusion",
+      "definition": "Powder for dispersion for infusion"
+    },
+    {
+      "code": "13023000",
+      "display": "Powder for dispersion for injection",
+      "definition": "Powder for dispersion for injection"
+    },
+    {
+      "code": "13040000",
+      "display": "Powder for emulsion for injection",
+      "definition": "Powder for emulsion for injection"
+    },
+    {
+      "code": "13024000",
+      "display": "Powder for endocervical gel",
+      "definition": "Powder for endocervical gel"
+    },
+    {
+      "code": "13025000",
+      "display": "Powder for endosinusial solution",
+      "definition": "Powder for endosinusial solution"
+    },
+    {
+      "code": "50049300",
+      "display": "Powder for epilesional solution",
+      "definition": "Powder for epilesional solution"
+    },
+    {
+      "code": "13021000",
+      "display": "Powder for gel",
+      "definition": "Powder for gel"
+    },
+    {
+      "code": "13026000",
+      "display": "Powder for gingival gel",
+      "definition": "Powder for gingival gel"
+    },
+    {
+      "code": "13027000",
+      "display": "Powder for implantation matrix",
+      "definition": "Powder for implantation matrix"
+    },
+    {
+      "code": "13028000",
+      "display": "Powder for implantation paste",
+      "definition": "Powder for implantation paste"
+    },
+    {
+      "code": "50049500",
+      "display": "Powder for implantation suspension",
+      "definition": "Powder for implantation suspension"
+    },
+    {
+      "code": "13029000",
+      "display": "Powder for intraocular instillation solution",
+      "definition": "Powder for intraocular instillation solution"
+    },
+    {
+      "code": "50050000",
+      "display": "Powder for intravesical solution",
+      "definition": "Powder for intravesical solution"
+    },
+    {
+      "code": "50050500",
+      "display": "Powder for intravesical solution/solution for injection",
+      "definition": "Powder for intravesical solution/solution for injection"
+    },
+    {
+      "code": "50051000",
+      "display": "Powder for intravesical suspension",
+      "definition": "Powder for intravesical suspension"
+    },
+    {
+      "code": "11104000",
+      "display": "Powder for nebuliser solution",
+      "definition": "Powder for nebuliser solution"
+    },
+    {
+      "code": "11103000",
+      "display": "Powder for nebuliser suspension",
+      "definition": "Powder for nebuliser suspension"
+    },
+    {
+      "code": "10110000",
+      "display": "Powder for oral solution",
+      "definition": "Powder for oral solution"
+    },
+    {
+      "code": "10111000",
+      "display": "Powder for oral suspension",
+      "definition": "Powder for oral suspension"
+    },
+    {
+      "code": "50052000",
+      "display": "Powder for oral/rectal suspension",
+      "definition": "Powder for oral/rectal suspension"
+    },
+    {
+      "code": "11208400",
+      "display": "Powder for prolonged-release suspension for injection",
+      "definition": "Powder for prolonged-release suspension for injection"
+    },
+    {
+      "code": "11009000",
+      "display": "Powder for rectal solution",
+      "definition": "Powder for rectal solution"
+    },
+    {
+      "code": "11010000",
+      "display": "Powder for rectal suspension",
+      "definition": "Powder for rectal suspension"
+    },
+    {
+      "code": "13031000",
+      "display": "Powder for sealant",
+      "definition": "Powder for sealant"
+    },
+    {
+      "code": "11212000",
+      "display": "Powder for solution for infusion",
+      "definition": "Powder for solution for infusion"
+    },
+    {
+      "code": "11205000",
+      "display": "Powder for solution for injection",
+      "definition": "Powder for solution for injection"
+    },
+    {
+      "code": "50053500",
+      "display": "Powder for solution for injection/infusion",
+      "definition": "Powder for solution for injection/infusion"
+    },
+    {
+      "code": "13052000",
+      "display": "Powder for solution for injection/skin-prick test",
+      "definition": "Powder for solution for injection/skin-prick test"
+    },
+    {
+      "code": "50073000",
+      "display": "Powder for solution for intraocular irrigation",
+      "definition": "Powder for solution for intraocular irrigation"
+    },
+    {
+      "code": "10518500",
+      "display": "Powder for solution for iontophoresis",
+      "definition": "Powder for solution for iontophoresis"
+    },
+    {
+      "code": "13032000",
+      "display": "Powder for solution for skin-prick test",
+      "definition": "Powder for solution for skin-prick test"
+    },
+    {
+      "code": "11206000",
+      "display": "Powder for suspension for injection",
+      "definition": "Powder for suspension for injection"
+    },
+    {
+      "code": "10118000",
+      "display": "Powder for syrup",
+      "definition": "Powder for syrup"
+    },
+    {
+      "code": "13111000",
+      "display": "Powder for vaginal solution",
+      "definition": "Powder for vaginal solution"
+    },
+    {
+      "code": "11108000",
+      "display": "Pressurised inhalation, emulsion",
+      "definition": "Pressurised inhalation, emulsion"
+    },
+    {
+      "code": "11106000",
+      "display": "Pressurised inhalation, solution",
+      "definition": "Pressurised inhalation, solution"
+    },
+    {
+      "code": "11107000",
+      "display": "Pressurised inhalation, suspension",
+      "definition": "Pressurised inhalation, suspension"
+    },
+    {
+      "code": "10215000",
+      "display": "Prolonged-release capsule, hard",
+      "definition": "Prolonged-release capsule, hard"
+    },
+    {
+      "code": "10216000",
+      "display": "Prolonged-release capsule, soft",
+      "definition": "Prolonged-release capsule, soft"
+    },
+    {
+      "code": "13126000",
+      "display": "Prolonged-release dispersion for injection",
+      "definition": "Prolonged-release dispersion for injection"
+    },
+    {
+      "code": "10207000",
+      "display": "Prolonged-release granules",
+      "definition": "Prolonged-release granules"
+    },
+    {
+      "code": "50056000",
+      "display": "Prolonged-release granules for oral suspension",
+      "definition": "Prolonged-release granules for oral suspension"
+    },
+    {
+      "code": "13134000",
+      "display": "Prolonged-release oral suspension",
+      "definition": "Prolonged-release oral suspension"
+    },
+    {
+      "code": "13148000",
+      "display": "Prolonged-release pessary",
+      "definition": "Prolonged-release pessary"
+    },
+    {
+      "code": "13076000",
+      "display": "Prolonged-release solution for injection",
+      "definition": "Prolonged-release solution for injection"
+    },
+    {
+      "code": "11208500",
+      "display": "Prolonged-release suspension for injection",
+      "definition": "Prolonged-release suspension for injection"
+    },
+    {
+      "code": "10226000",
+      "display": "Prolonged-release tablet",
+      "definition": "Prolonged-release tablet"
+    },
+    {
+      "code": "13128000",
+      "display": "Prolonged-release wound solution",
+      "definition": "Prolonged-release wound solution"
+    },
+    {
+      "code": "12106000",
+      "display": "Radionuclide generator",
+      "definition": "Radionuclide generator"
+    },
+    {
+      "code": "12105000",
+      "display": "Radiopharmaceutical precursor",
+      "definition": "Radiopharmaceutical precursor"
+    },
+    {
+      "code": "50056500",
+      "display": "Radiopharmaceutical precursor, solution",
+      "definition": "Radiopharmaceutical precursor, solution"
+    },
+    {
+      "code": "11014000",
+      "display": "Rectal capsule",
+      "definition": "Rectal capsule"
+    },
+    {
+      "code": "11001000",
+      "display": "Rectal cream",
+      "definition": "Rectal cream"
+    },
+    {
+      "code": "11007000",
+      "display": "Rectal emulsion",
+      "definition": "Rectal emulsion"
+    },
+    {
+      "code": "11004000",
+      "display": "Rectal foam",
+      "definition": "Rectal foam"
+    },
+    {
+      "code": "11002000",
+      "display": "Rectal gel",
+      "definition": "Rectal gel"
+    },
+    {
+      "code": "11003000",
+      "display": "Rectal ointment",
+      "definition": "Rectal ointment"
+    },
+    {
+      "code": "11005000",
+      "display": "Rectal solution",
+      "definition": "Rectal solution"
+    },
+    {
+      "code": "11006000",
+      "display": "Rectal suspension",
+      "definition": "Rectal suspension"
+    },
+    {
+      "code": "11015000",
+      "display": "Rectal tampon",
+      "definition": "Rectal tampon"
+    },
+    {
+      "code": "12115000",
+      "display": "Sealant",
+      "definition": "Sealant"
+    },
+    {
+      "code": "12115100",
+      "display": "Sealant matrix",
+      "definition": "Sealant matrix"
+    },
+    {
+      "code": "12115200",
+      "display": "Sealant powder",
+      "definition": "Sealant powder"
+    },
+    {
+      "code": "10508000",
+      "display": "Shampoo",
+      "definition": "Shampoo"
+    },
+    {
+      "code": "10120000",
+      "display": "Soluble tablet",
+      "definition": "Soluble tablet"
+    },
+    {
+      "code": "12103000",
+      "display": "Solution for blood fraction modification",
+      "definition": "Solution for blood fraction modification"
+    },
+    {
+      "code": "11209500",
+      "display": "Solution for cardioplegia",
+      "definition": "Solution for cardioplegia"
+    },
+    {
+      "code": "13107000",
+      "display": "Solution for cardioplegia/organ preservation",
+      "definition": "Solution for cardioplegia/organ preservation"
+    },
+    {
+      "code": "10414000",
+      "display": "Solution for dental cement",
+      "definition": "Solution for dental cement"
+    },
+    {
+      "code": "11403000",
+      "display": "Solution for haemodiafiltration",
+      "definition": "Solution for haemodiafiltration"
+    },
+    {
+      "code": "11404000",
+      "display": "Solution for haemodialysis",
+      "definition": "Solution for haemodialysis"
+    },
+    {
+      "code": "50057000",
+      "display": "Solution for haemodialysis/haemofiltration",
+      "definition": "Solution for haemodialysis/haemofiltration"
+    },
+    {
+      "code": "11402000",
+      "display": "Solution for haemofiltration",
+      "definition": "Solution for haemofiltration"
+    },
+    {
+      "code": "11210000",
+      "display": "Solution for infusion",
+      "definition": "Solution for infusion"
+    },
+    {
+      "code": "11201000",
+      "display": "Solution for injection",
+      "definition": "Solution for injection"
+    },
+    {
+      "code": "50060000",
+      "display": "Solution for injection/infusion",
+      "definition": "Solution for injection/infusion"
+    },
+    {
+      "code": "13051000",
+      "display": "Solution for injection/skin-prick test",
+      "definition": "Solution for injection/skin-prick test"
+    },
+    {
+      "code": "50073500",
+      "display": "Solution for intraocular irrigation",
+      "definition": "Solution for intraocular irrigation"
+    },
+    {
+      "code": "10518000",
+      "display": "Solution for iontophoresis",
+      "definition": "Solution for iontophoresis"
+    },
+    {
+      "code": "12112000",
+      "display": "Solution for organ preservation",
+      "definition": "Solution for organ preservation"
+    },
+    {
+      "code": "11401000",
+      "display": "Solution for peritoneal dialysis",
+      "definition": "Solution for peritoneal dialysis"
+    },
+    {
+      "code": "12131000",
+      "display": "Solution for provocation test",
+      "definition": "Solution for provocation test"
+    },
+    {
+      "code": "50061500",
+      "display": "Solution for sealant",
+      "definition": "Solution for sealant"
+    },
+    {
+      "code": "10548000",
+      "display": "Solution for skin-prick test",
+      "definition": "Solution for skin-prick test"
+    },
+    {
+      "code": "10549000",
+      "display": "Solution for skin-scratch test",
+      "definition": "Solution for skin-scratch test"
+    },
+    {
+      "code": "13061000",
+      "display": "Solution for solution for infusion",
+      "definition": "Solution for solution for infusion"
+    },
+    {
+      "code": "13033000",
+      "display": "Solution for solution for injection",
+      "definition": "Solution for solution for injection"
+    },
+    {
+      "code": "13047000",
+      "display": "Solution for suspension for injection",
+      "definition": "Solution for suspension for injection"
+    },
+    {
+      "code": "11216000",
+      "display": "Solvent for parenteral use",
+      "definition": "Solvent for parenteral use"
+    },
+    {
+      "code": "50076000",
+      "display": "Solvent for solution for infusion",
+      "definition": "Solvent for solution for infusion"
+    },
+    {
+      "code": "50074000",
+      "display": "Solvent for solution for intraocular irrigation",
+      "definition": "Solvent for solution for intraocular irrigation"
+    },
+    {
+      "code": "13035000",
+      "display": "Solvent for...",
+      "definition": "Solvent for..."
+    },
+    {
+      "code": "12114000",
+      "display": "Stomach irrigation",
+      "definition": "Stomach irrigation"
+    },
+    {
+      "code": "10317500",
+      "display": "Sublingual film",
+      "definition": "Sublingual film"
+    },
+    {
+      "code": "13127000",
+      "display": "Sublingual lyophilisate",
+      "definition": "Sublingual lyophilisate"
+    },
+    {
+      "code": "13105000",
+      "display": "Sublingual powder",
+      "definition": "Sublingual powder"
+    },
+    {
+      "code": "10309100",
+      "display": "Sublingual spray, emulsion",
+      "definition": "Sublingual spray, emulsion"
+    },
+    {
+      "code": "10309200",
+      "display": "Sublingual spray, solution",
+      "definition": "Sublingual spray, solution"
+    },
+    {
+      "code": "10309300",
+      "display": "Sublingual spray, suspension",
+      "definition": "Sublingual spray, suspension"
+    },
+    {
+      "code": "10318000",
+      "display": "Sublingual tablet",
+      "definition": "Sublingual tablet"
+    },
+    {
+      "code": "11013000",
+      "display": "Suppository",
+      "definition": "Suppository"
+    },
+    {
+      "code": "13036000",
+      "display": "Suspension for emulsion for injection",
+      "definition": "Suspension for emulsion for injection"
+    },
+    {
+      "code": "13165000",
+      "display": "Suspension for gel",
+      "definition": "Suspension for gel"
+    },
+    {
+      "code": "11202000",
+      "display": "Suspension for injection",
+      "definition": "Suspension for injection"
+    },
+    {
+      "code": "13037000",
+      "display": "Suspension for oral suspension",
+      "definition": "Suspension for oral suspension"
+    },
+    {
+      "code": "13039000",
+      "display": "Suspension for suspension for injection",
+      "definition": "Suspension for suspension for injection"
+    },
+    {
+      "code": "10117000",
+      "display": "Syrup",
+      "definition": "Syrup"
+    },
+    {
+      "code": "10219000",
+      "display": "Tablet",
+      "definition": "Tablet"
+    },
+    {
+      "code": "13066000",
+      "display": "Tablet for cutaneous solution",
+      "definition": "Tablet for cutaneous solution"
+    },
+    {
+      "code": "11011000",
+      "display": "Tablet for rectal solution",
+      "definition": "Tablet for rectal solution"
+    },
+    {
+      "code": "11012000",
+      "display": "Tablet for rectal suspension",
+      "definition": "Tablet for rectal suspension"
+    },
+    {
+      "code": "10908000",
+      "display": "Tablet for vaginal solution",
+      "definition": "Tablet for vaginal solution"
+    },
+    {
+      "code": "13118000",
+      "display": "Tablet with sensor",
+      "definition": "Tablet with sensor"
+    },
+    {
+      "code": "10409000",
+      "display": "Toothpaste",
+      "definition": "Toothpaste"
+    },
+    {
+      "code": "10546250",
+      "display": "Transdermal gel",
+      "definition": "Transdermal gel"
+    },
+    {
+      "code": "13102000",
+      "display": "Transdermal ointment",
+      "definition": "Transdermal ointment"
+    },
+    {
+      "code": "10519000",
+      "display": "Transdermal patch",
+      "definition": "Transdermal patch"
+    },
+    {
+      "code": "10546400",
+      "display": "Transdermal solution",
+      "definition": "Transdermal solution"
+    },
+    {
+      "code": "10546500",
+      "display": "Transdermal spray, solution",
+      "definition": "Transdermal spray, solution"
+    },
+    {
+      "code": "10547000",
+      "display": "Transdermal system",
+      "definition": "Transdermal system"
+    },
+    {
+      "code": "13077000",
+      "display": "Urethral emulsion",
+      "definition": "Urethral emulsion"
+    },
+    {
+      "code": "11504000",
+      "display": "Urethral gel",
+      "definition": "Urethral gel"
+    },
+    {
+      "code": "13123000",
+      "display": "Urethral ointment",
+      "definition": "Urethral ointment"
+    },
+    {
+      "code": "11505000",
+      "display": "Urethral stick",
+      "definition": "Urethral stick"
+    },
+    {
+      "code": "10910000",
+      "display": "Vaginal capsule, hard",
+      "definition": "Vaginal capsule, hard"
+    },
+    {
+      "code": "10911000",
+      "display": "Vaginal capsule, soft",
+      "definition": "Vaginal capsule, soft"
+    },
+    {
+      "code": "10901000",
+      "display": "Vaginal cream",
+      "definition": "Vaginal cream"
+    },
+    {
+      "code": "10915000",
+      "display": "Vaginal delivery system",
+      "definition": "Vaginal delivery system"
+    },
+    {
+      "code": "10907000",
+      "display": "Vaginal emulsion",
+      "definition": "Vaginal emulsion"
+    },
+    {
+      "code": "10904000",
+      "display": "Vaginal foam",
+      "definition": "Vaginal foam"
+    },
+    {
+      "code": "10902000",
+      "display": "Vaginal gel",
+      "definition": "Vaginal gel"
+    },
+    {
+      "code": "10903000",
+      "display": "Vaginal ointment",
+      "definition": "Vaginal ointment"
+    },
+    {
+      "code": "10905000",
+      "display": "Vaginal solution",
+      "definition": "Vaginal solution"
+    },
+    {
+      "code": "10906000",
+      "display": "Vaginal suspension",
+      "definition": "Vaginal suspension"
+    },
+    {
+      "code": "10912000",
+      "display": "Vaginal tablet",
+      "definition": "Vaginal tablet"
+    },
+    {
+      "code": "12104000",
+      "display": "Wound stick",
+      "definition": "Wound stick"
+    },
+    {
+      "code": "",
+      "display": "",
+      "definition": ""
     }
   ]
 }

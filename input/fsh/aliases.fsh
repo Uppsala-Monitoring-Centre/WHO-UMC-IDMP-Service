@@ -26,7 +26,7 @@ Alias: $unit-of-presentation = http://hl7.org/fhir/unit-of-presentation
 Alias: $ingredient-role = http://hl7.org/fhir/ingredient-role
 Alias: $vsingredient-role = http://hl7.org/fhir/ValueSet/ingredient-role
 Alias: $combined-dose-form = http://hl7.org/fhir/combined-dose-form
-Alias: $vscombined-dose-form = http://hl7.org/fhir/ValueSet/combined-dose-form
+//Alias: $vscombined-dose-form = http://hl7.org/fhir/ValueSet/combined-dose-form
 Alias: $medicinal-product-type = http://hl7.org/fhir/medicinal-product-type
 Alias: $medicinal-product-domain = http://hl7.org/fhir/medicinal-product-domain
 Alias: $legal-status-of-supply = http://hl7.org/fhir/legal-status-of-supply
@@ -75,6 +75,7 @@ Alias: $edqmPdfReleaseChar = http://idmp.who-umc.org/fhir/ValueSet/EdqmRCA
 Alias: $edqmPdfBasicDoseForm = http://idmp.who-umc.org/fhir/ValueSet/EdqmBDF
 Alias: $edqmPdfIntendedSite = http://idmp.who-umc.org/fhir/ValueSet/EdqmISI
 Alias: $edqmPdfAdministrationMethod = http://idmp.who-umc.org/fhir/ValueSet/EdqmAME
+Alias: $pharmaceuticalForm = http://idmp.who-umc.org/fhir/ValueSet/pharmaceuticalForm
 
 // SPOR Code systems (lists)
 	
