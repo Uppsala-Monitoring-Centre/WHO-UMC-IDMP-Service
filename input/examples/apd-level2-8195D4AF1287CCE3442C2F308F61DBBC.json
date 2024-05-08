@@ -13,7 +13,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "2460d2d7-2f45-4557-8ee3-1cc34d6944a1",
+      "id": "606d1cd6-e301-49bf-b12e-505636086d38",
       "meta": {
         "profile": [
           "http://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php-publish"
@@ -45,7 +45,9 @@
           {
             "presentationQuantity": {
               "value": 2.74,
-              "unit": "mg"
+              "unit": "mg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg"
             },
             "textPresentation": "2,74 mg",
             "referenceStrength": [
