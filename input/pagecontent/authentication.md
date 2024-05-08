@@ -9,7 +9,7 @@ Some information/attributes on the SD that is not within the public domain also 
 <br clear="all"/>
 
 ### Authentication process
-TBD
+To authenticate when using the Task API an Http header should be supplied named "Ocp-Apim-Subscription-Key". In the Demo API any Guid on the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx can be used. However, it is important to always use the same Guid for one user since the Guid will identify the "owner" of the Task.
 
 #### Requesting access 
 TBD
