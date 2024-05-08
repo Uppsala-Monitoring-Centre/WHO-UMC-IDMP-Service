@@ -128,9 +128,9 @@
                         "presentationRatio": {
                             "numerator": {
                                 "value": 322,
-                                "unit": "µg",
+                                "unit": "mg",
                                 "system": "http://idmp.who-umc.org/fhir/CodeSystem/strengthUnit",
-                                "code": "µg"
+                                "code": "mg"
 
                             },
                             "denominator": {
@@ -140,7 +140,7 @@
                                 "code": "IU"
                             }
                         },
-                        "textPresentation" : "322 µg"
+                        "textPresentation" : "322 mg"
                     }
                 ]
             }
