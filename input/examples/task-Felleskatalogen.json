@@ -128,16 +128,14 @@
                         "presentationRatio": {
                             "numerator": {
                                 "value": 322,
-                                "unit": "µg",
-                                "system": "http://idmp.who-umc.org/fhir/CodeSystem/strengthUnit",
-                                "code": "ug"
+                                "unit": "ug",
+                                "system": "http://idmp.who-umc.org/fhir/CodeSystem/strengthUnit"
 
                             },
                             "denominator": {
                                 "value": 1,
                                 "unit": "IU",
-                                "system": "http://idmp.who-umc.org/fhir/CodeSystem/strengthUnit",
-                                "code": "IU"
+                                "system": "http://idmp.who-umc.org/fhir/CodeSystem/strengthUnit"
                             }
                         },
                         "textPresentation" : "322 µg"
