@@ -147,7 +147,7 @@
               "numerator": {
                 "value": 1.5,
                 "unit": "mg",
-                "system": "http://idmp.who-umc.org/fhir/CodeSystem/strengthUnit",
+                "system": "http://unitsofmeasure.org",
                 "code": "mg"
               },
               "denominator": {
