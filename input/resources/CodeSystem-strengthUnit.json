@@ -14,26 +14,6 @@
   "content": "complete",
   "concept": [
     {
-      "code": "g",
-      "display": "gram",
-      "definition": "gram"
-    },
-    {
-      "code": "mg",
-      "display": "milligram",
-      "definition": "milligram"
-    },
-    {
-      "code": "µg",
-      "display": "mikrogram",
-      "definition": "mikrogram"
-    },
-    {
-      "code": "mg/m²",
-      "display": "milligram per square meter",
-      "definition": "milligram per square meter"
-    },
-    {
       "code": "IU",
       "display": "arbitrary international unit",
       "definition": "arbitrary international unit"
