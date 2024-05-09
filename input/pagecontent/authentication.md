@@ -9,10 +9,11 @@ Some information/attributes on the SD that is not within the public domain also 
 <br clear="all"/>
 
 ### Authentication process
-To authenticate when using the `Task` API an http header should be supplied named `Ocp-Apim-Subscription-Key`. In the demo version of the API any guid on the form `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` can be used. However, it is important to always use the same guid for one user since the guid will identify the "owner" of the `Task`.
+To authenticate when using the `Task` API an http header should be supplied named `Ocp-Apim-Subscription-Key`. 
+In the demo version of the API any guid on the form `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` can be used. However, it is important to always use the same guid for one user since the guid will identify the "owner" of the `Task`.
 
 #### Requesting access 
-TBD
+This process has yet to be developed.
 
 ### Abbreviations
 - SD - SubstanceDefinition 
