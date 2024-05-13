@@ -4,7 +4,7 @@
   "name": "WHO-UMC IDMP Management and Publish API",
   "title": "API to allow for Requests and Publishing of PhPIDs and GSIDs",
   "status": "draft",
-  "date": "2024-05-08",
+  "date": "2024-05-13",
   "publisher": "Uppsala Monitoring Centre",
   "contact": [
     {
@@ -58,6 +58,11 @@
               "name": "identifier",
               "type": "string",
               "documentation": "Task identifier from requester in format 'sendingSystem|localId'"
+            },
+            {
+              "name": "status",
+              "type": "string",
+              "documentation": "Search Task by status"
             }
           ]
         },
