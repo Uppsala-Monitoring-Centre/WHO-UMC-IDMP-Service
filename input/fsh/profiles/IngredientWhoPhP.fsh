@@ -29,8 +29,8 @@ Description: """This profile specified how the Ingredient is used in a PhPID req
       * value 1..1
       * unit 1..1
       * unit from VsStrengthUnit
-    * textPresentation 1..1 //strength freetext
-      * ^short = "Only to be used if no applicable unit."
+    * textPresentation 0..1 //strength freetext
+      * ^short = "Should only be used if the strength cannot be coded."
     * ^short = "The quantity of substance, per presentation, or per volume or mass, and type of quantity."
 
 //*******************************
