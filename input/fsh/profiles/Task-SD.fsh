@@ -58,8 +58,6 @@ RuleSet: TaskGenerateGSIDCommon
   * valueReference only Reference (SubstanceDefinition-pub)
 
 // NOT USED ELEMENTS
-
-* insert NotUsed(requester)
 * insert NotUsed(encounter)
 * insert NotUsed(insurance)
 * insert NotUsed(restriction)
