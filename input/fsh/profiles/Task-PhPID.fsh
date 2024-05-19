@@ -40,6 +40,12 @@ RuleSet: TaskGeneratePhPIDCommon
   * ^short = "PhPID Assignment"
 * authoredOn 1..
 * lastModified 1..
+
+* requester 1..1
+  * type = http://hl7.org/fhir/fhir-types#Organization 
+  * type ^short = "Allows the requesting organization to be classified"
+* requester ^short = "The organization requesting the PhPID"
+
 * contained 3..5
   * ^short = "Resources, according to 'input', used in PhPID generation."
 * input ^slicing.discriminator.type = #value
@@ -66,7 +72,6 @@ RuleSet: TaskGeneratePhPIDCommon
   * valueReference only Reference (AdministrableProductDefinitionWhoPhP)
 
 // NOT USED ELEMENTS
-* requester 0..1
 * encounter 0..0
 * insurance 0..0
 * restriction 0..0
