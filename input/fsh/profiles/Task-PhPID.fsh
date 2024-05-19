@@ -44,6 +44,7 @@ RuleSet: TaskGeneratePhPIDCommon
 * requester 0..1
   * type = http://hl7.org/fhir/fhir-types#Organization 
   * type ^short = "Allows the requesting organization to be classified"
+* requester only Reference(AuthorizedOrg-who-php) 
 * requester ^short = "The organization requesting the PhPID"
 
 * contained 3..5
