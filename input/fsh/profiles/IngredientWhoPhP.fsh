@@ -19,9 +19,13 @@ Description: """This profile specified how the Ingredient is used in a PhPID req
       * system 1..1
       * code 1..1 //gsid value
     * text 1..1 //substance name
-  * strength 0..1
+  * strength 1..1
     * presentationRatio 0..1
       * numerator 1..1
+        * value 1..1
+        * unit 1..1
+        * unit from VsStrengthUnit 
+      * denominator 1..1
         * value 1..1
         * unit 1..1
         * unit from VsStrengthUnit 
@@ -32,7 +36,7 @@ Description: """This profile specified how the Ingredient is used in a PhPID req
     * textPresentation 0..1 //strength freetext
       * ^short = "Should only be used if the strength cannot be coded."
     * ^short = "The quantity of substance, per presentation, or per volume or mass, and type of quantity."
-
+    * referenceStrength 0..0
 //*******************************
 // Publish model
 //*******************************
