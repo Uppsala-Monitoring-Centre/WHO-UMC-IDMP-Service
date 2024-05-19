@@ -1,0 +1,15 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "phpid-level3",
+  "url": "http://idmp.who-umc.org/fhir/CodeSystem/phpid-level3",
+  "name": "PhPID level 3",
+  "title": "Pharmaceutical Product Identifier on specific level CodeSystem",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Uppsala Monitoring Centre",
+  "description": "This code system defines a PhPID on level 3.",
+  "copyright": "Uppsala Monitoring Centre",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "not-present"
+}

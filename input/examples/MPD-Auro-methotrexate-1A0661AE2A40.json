@@ -1,0 +1,121 @@
+{
+  "resourceType": "MedicinalProductDefinition",
+  "id": "1A0661AE2A40",
+  "meta": {
+    "profile": [
+      "http://idmp.who-umc.org/fhir/StructureDefinition/MedicinalProductDefinition-who-php-pub"
+    ]
+  },
+  "contained": [
+    {
+      "resourceType": "Organization",
+      "id": "auropharmainc",
+      "name": "Auro Pharma Inc"
+    }
+  ],
+  "identifier": [
+    {
+      "system": "https://health-products.canada.ca/dpd-bdpp",
+      "value": "02182750"
+    },
+    {
+      "system": "http://idmp.who-umc.org/fhir/CodeSystem/product",
+      "value": "1A0661AE2A40"
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/medicinal-product-type",
+        "code": "MedicinalProduct"
+      }
+    ]
+  },
+  "domain": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/medicinal-product-domain",
+        "code": "Human"
+      }
+    ],
+    "text": "Human use"
+  },
+  "status": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/publication-status",
+        "code": "active"
+      }
+    ],
+    "text": "Active"
+  },
+  "combinedPharmaceuticalDoseForm": {
+    "text": "TABLETS"
+  },
+  "classification": [
+    {
+      "coding": [
+        {
+          "system": "http://idmp.who-umc.org/fhir/CodeSystem/phpid-level4",
+          "code": "91B3CA582581F57E4092F13AAF476215"
+        }
+      ]
+    }
+  ],
+  "contact": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/medicinal-product-contact-type",
+            "code": "ProposedMAH"
+          }
+        ]
+      },
+      "contact": {
+        "reference": "#auropharmainc",
+        "type": "Organization",
+        "display": "Auro Pharma Inc"
+      }
+    }
+  ],
+  "code": [
+    {
+      "system": "http://idmp.who-umc.org/fhir/CodeSystem/drugcode",
+      "code": "00113802216"
+    }
+  ],
+  "name": [
+    {
+      "productName": "Auro methotrexate",
+      "usage": [
+        {
+          "country": {
+            "coding": [
+              {
+                "system": "urn:iso:std:iso:3166",
+                "code": "CAN"
+              }
+            ]
+          },
+          "jurisdiction": {
+            "coding": [
+              {
+                "system": "urn:iso:std:iso:3166",
+                "code": "CAN"
+              }
+            ]
+          },
+          "language": {
+            "coding": [
+              {
+                "system": "urn:ietf:bcp:47",
+                "code": "en"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

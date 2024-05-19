@@ -1,6 +1,6 @@
 {
   "resourceType": "AdministrableProductDefinition",
-  "id": "6C4563BB76BE7967594979196EC91CD8",
+  "id": "91B3CA582581F57E4092F13AAF476215",
   "meta": {
     "profile": [
       "http://idmp.who-umc.org/fhir/StructureDefinition/AdministrableProductDefinition-who-php"
@@ -8,12 +8,12 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Pharmaceutical Product (Administrable Product Definition)</h1><table><tr><td style=\"font-weight: bold;\">Id</td><td>6C4563BB76BE7967594979196EC91CD8</td></tr><tr><td style=\"font-weight: bold;\">Level</td><td>3</td></tr></table><h2>Ingredients</h2><table><th>Substance</th><th>Strength</th><tr><td>METHOTREXATE SODIUM</td><td></td></tr></table><h2>Form</h2><table><tr><td style=\"font-weight: bold;\">Basic dose form</td><td>Tablet (0069)</td></tr><tr><td style=\"font-weight: bold;\">Administration method</td><td>Swallowing (0019)</td></tr><tr><td style=\"font-weight: bold;\">Intended site</td><td>Oral (0031)</td></tr><tr><td style=\"font-weight: bold;\">Release characteristics</td><td>Conventional (0047)</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Pharmaceutical Product (Administrable Product Definition)</h1><table><tr><td style=\"font-weight: bold;\">Id</td><td>91B3CA582581F57E4092F13AAF476215</td></tr><tr><td style=\"font-weight: bold;\">Level</td><td>4</td></tr></table><h2>Ingredients</h2><table><th>Substance</th><th>Strength</th><tr><td>METHOTREXATE SODIUM</td><td>2,74 mg</td></tr></table><h2>Form</h2><table><tr><td style=\"font-weight: bold;\">Basic dose form</td><td>Tablet (0069)</td></tr><tr><td style=\"font-weight: bold;\">Administration method</td><td>Swallowing (0019)</td></tr><tr><td style=\"font-weight: bold;\">Intended site</td><td>Oral (0031)</td></tr><tr><td style=\"font-weight: bold;\">Release characteristics</td><td>Conventional (0047)</td></tr></table></div>"
   },
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "11c7eeee-f3af-448e-b807-7c37a2a28e30",
+      "id": "319e27cc-99d5-4325-a531-fdb5bd21e3c0",
       "meta": {
         "profile": [
           "http://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php-publish"
@@ -40,7 +40,34 @@
             "reference": "SubstanceDefinition/GSID9XBS2KCF3K1Z1",
             "display": "METHOTREXATE SODIUM"
           }
-        }
+        },
+        "strength": [
+          {
+            "presentationQuantity": {
+              "value": 2.74,
+              "unit": "mg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg"
+            },
+            "textPresentation": "2,74 mg",
+            "referenceStrength": [
+              {
+                "substance": {
+                  "reference": {
+                    "reference": "SubstanceDefinition/GSID9XBS2KCF3K1Z1",
+                    "display": "METHOTREXATE SODIUM"
+                  }
+                },
+                "strengthQuantity": {
+                  "value": 2.50,
+                  "unit": "mg",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "mg"
+                }
+              }
+            ]
+          }
+        ]
       }
     }
   ],
@@ -48,18 +75,43 @@
     {
       "url": "http://idmp.who-umc.org/fhir/StructureDefinition/parent-phpid",
       "valueReference": {
-        "reference": "AdministrableProductDefinition/93FE88350C2E8868F7E8BD220C4E0010",
+          "system": "http://idmp.who-umc.org/fhir/CodeSystem/phpid-level1",
+          "value": "93FE88350C2E8868F7E8BD220C4E0010"
+        }      
+    },
+    {
+      "url": "http://idmp.who-umc.org/fhir/StructureDefinition/parent-phpid",
+      "valueReference": {
+        "reference": "AdministrableProductDefinition/8195D4AF1287CCE3442C2F308F61DBBC",
         "identifier": {
           "type": {
             "coding": [
               {
                 "system": "http://idmp.who-umc.org/fhir/CodeSystem/php-level",
-                "code": "PhPIDLevel1"
+                "code": "PhPIDLevel2"
               }
             ]
           },
           "system": "http://idmp.who-umc.org/fhir/CodeSystem/phpid",
-          "value": "93FE88350C2E8868F7E8BD220C4E0010"
+          "value": "8195D4AF1287CCE3442C2F308F61DBBC"
+        }
+      }
+    },
+    {
+      "url": "http://idmp.who-umc.org/fhir/StructureDefinition/parent-phpid",
+      "valueReference": {
+        "reference": "AdministrableProductDefinition/6C4563BB76BE7967594979196EC91CD8",
+        "identifier": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://idmp.who-umc.org/fhir/CodeSystem/php-level",
+                "code": "PhPIDLevel3"
+              }
+            ]
+          },
+          "system": "http://idmp.who-umc.org/fhir/CodeSystem/phpid",
+          "value": "6C4563BB76BE7967594979196EC91CD8"
         }
       }
     },
@@ -98,16 +150,8 @@
   ],
   "identifier": [
     {
-      "type": {
-        "coding": [
-          {
-            "system": "http://idmp.who-umc.org/fhir/CodeSystem/php-level",
-            "code": "PhPIDLevel3"
-          }
-        ]
-      },
-      "system": "http://idmp.who-umc.org/fhir/CodeSystem/phpid",
-      "value": "6C4563BB76BE7967594979196EC91CD8"
+      "system": "http://idmp.who-umc.org/fhir/CodeSystem/phpid-level4",
+      "value": "91B3CA582581F57E4092F13AAF476215"
     }
   ],
   "status": "active",
