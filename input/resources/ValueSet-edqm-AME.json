@@ -10,7 +10,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://idmp.who-umc.org/fhir/CodeSystem/standardterms",
+        "system": "https://standardterms.edqm.eu",
         "concept": [
           {
             "code": "0004",
