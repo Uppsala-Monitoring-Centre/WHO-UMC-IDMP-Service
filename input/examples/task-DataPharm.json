@@ -171,7 +171,7 @@
                             },
                             "denominator": {
                                 "value": 1,
-                                "unit": "unit",
+                                "unit": "IU",
                                 "system": "http://idmp.who-umc.org/fhir/CodeSystem/strengthUnit",
                                 "code": "IU"
                             }
