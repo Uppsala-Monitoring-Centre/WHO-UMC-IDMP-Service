@@ -152,7 +152,7 @@
               },
               "denominator": {
                 "value": 1,
-                "unit": "arbitrary international unit",
+                "unit": "IU",
                 "system": "http://idmp.who-umc.org/fhir/CodeSystem/strengthUnit",
                 "code": "IU"
               }
