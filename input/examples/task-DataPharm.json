@@ -152,7 +152,7 @@
                     "concept": {
                         "coding": [
                             {
-                                "system": "http://idmp.who-umc.org/fhir/CodeSystem/gsid",
+                                "system": "http://www.who-umc.org/idmp/gsid",
                                 "code": "GSID23G92UMX93H45"
                             }
                         ],
