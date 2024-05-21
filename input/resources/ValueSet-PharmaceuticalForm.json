@@ -10,7 +10,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://standardterms.edqm.eu",
+        "system": "http://standardterms.edqm.eu",
         "concept": [
           {
             "code": "12102000",

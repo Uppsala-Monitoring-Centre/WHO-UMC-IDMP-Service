@@ -56,7 +56,7 @@
     {
       "coding": [
         {
-          "system": "http://idmp.who-umc.org/fhir/CodeSystem/phpid-level4",
+          "system": "http://www.who-umc.org/idmp/phpid-level4",
           "code": "91B3CA582581F57E4092F13AAF476215"
         }
       ]

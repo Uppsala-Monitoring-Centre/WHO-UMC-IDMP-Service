@@ -13,7 +13,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "1f08605f-1327-4429-b1bf-8080bb87f074",
+      "id": "12ea97ec-c5d8-4df8-812e-797ffeacfaac",
       "meta": {
         "profile": [
           "http://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php-publish"
@@ -58,7 +58,7 @@
               }
             ]
           },
-          "system": "http://idmp.who-umc.org/fhir/CodeSystem/phpid",
+          "system": "http://www.who-umc.org/idmp/phpid",
           "value": "93FE88350C2E8868F7E8BD220C4E0010"
         }
       }
@@ -66,7 +66,7 @@
     {
       "url": "http://idmp.who-umc.org/fhir/StructureDefinition/basic-dose-form",
       "valueCoding": {
-        "system": "https://standardterms.edqm.eu",
+        "system": "http://standardterms.edqm.eu",
         "code": "0069",
         "display": "Tablet"
       }
@@ -74,7 +74,7 @@
     {
       "url": "http://idmp.who-umc.org/fhir/StructureDefinition/administration-method",
       "valueCoding": {
-        "system": "https://standardterms.edqm.eu",
+        "system": "http://standardterms.edqm.eu",
         "code": "0019",
         "display": "Swallowing"
       }
@@ -82,7 +82,7 @@
     {
       "url": "http://idmp.who-umc.org/fhir/StructureDefinition/intended-site",
       "valueCoding": {
-        "system": "https://standardterms.edqm.eu",
+        "system": "http://standardterms.edqm.eu",
         "code": "0031",
         "display": "Oral"
       }
@@ -90,7 +90,7 @@
     {
       "url": "http://idmp.who-umc.org/fhir/StructureDefinition/release-characteristics",
       "valueCoding": {
-        "system": "https://standardterms.edqm.eu",
+        "system": "http://standardterms.edqm.eu",
         "code": "0047",
         "display": "Conventional"
       }
@@ -106,7 +106,7 @@
           }
         ]
       },
-      "system": "http://idmp.who-umc.org/fhir/CodeSystem/phpid",
+      "system": "http://www.who-umc.org/idmp/phpid",
       "value": "6C4563BB76BE7967594979196EC91CD8"
     }
   ],

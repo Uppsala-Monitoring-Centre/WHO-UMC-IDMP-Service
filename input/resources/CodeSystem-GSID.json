@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "gsid",
-  "url": "http://idmp.who-umc.org/fhir/CodeSystem/gsid",
+  "url": "http://www.who-umc.org/idmp/gsid",
   "name": "GSID",
   "title": "Global Substance Identifiers CodeSystem",
   "status": "active",

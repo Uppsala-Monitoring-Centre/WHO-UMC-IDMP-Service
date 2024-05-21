@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "phpid",
-  "url": "http://idmp.who-umc.org/fhir/CodeSystem/phpid",
+  "url": "http://www.who-umc.org/idmp/phpid",
   "name": "PhPID",
   "title": "Pharmaceutical Product Identifier CodeSystem",
   "status": "active",

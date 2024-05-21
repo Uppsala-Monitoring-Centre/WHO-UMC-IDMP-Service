@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "phpid-level4",
-  "url": "http://idmp.who-umc.org/fhir/CodeSystem/phpid-level4",
+  "url": "http://www.who-umc.org/idmp/phpid-level4",
   "name": "PhPID level 4",
   "title": "Pharmaceutical Product Identifier on specific level CodeSystem",
   "status": "active",

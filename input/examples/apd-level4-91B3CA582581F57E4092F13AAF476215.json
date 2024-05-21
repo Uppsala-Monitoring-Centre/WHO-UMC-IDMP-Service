@@ -13,7 +13,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "3f6a5bfa-4f7f-45aa-bd0b-c1323980621c",
+      "id": "15ec2c75-eaac-45db-8ebd-c87ab184af19",
       "meta": {
         "profile": [
           "http://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php-publish"
@@ -85,7 +85,7 @@
               }
             ]
           },
-          "system": "http://idmp.who-umc.org/fhir/CodeSystem/phpid",
+          "system": "http://www.who-umc.org/idmp/phpid",
           "value": "93FE88350C2E8868F7E8BD220C4E0010"
         }
       }
@@ -103,7 +103,7 @@
               }
             ]
           },
-          "system": "http://idmp.who-umc.org/fhir/CodeSystem/phpid",
+          "system": "http://www.who-umc.org/idmp/phpid",
           "value": "8195D4AF1287CCE3442C2F308F61DBBC"
         }
       }
@@ -121,7 +121,7 @@
               }
             ]
           },
-          "system": "http://idmp.who-umc.org/fhir/CodeSystem/phpid",
+          "system": "http://www.who-umc.org/idmp/phpid",
           "value": "6C4563BB76BE7967594979196EC91CD8"
         }
       }
@@ -137,7 +137,7 @@
     {
       "url": "http://idmp.who-umc.org/fhir/StructureDefinition/administration-method",
       "valueCoding": {
-        "system": "https://standardterms.edqm.eu",
+        "system": "http://standardterms.edqm.eu",
         "code": "0019",
         "display": "Swallowing"
       }
@@ -145,7 +145,7 @@
     {
       "url": "http://idmp.who-umc.org/fhir/StructureDefinition/intended-site",
       "valueCoding": {
-        "system": "https://standardterms.edqm.eu",
+        "system": "http://standardterms.edqm.eu",
         "code": "0031",
         "display": "Oral"
       }
@@ -153,7 +153,7 @@
     {
       "url": "http://idmp.who-umc.org/fhir/StructureDefinition/release-characteristics",
       "valueCoding": {
-        "system": "https://standardterms.edqm.eu",
+        "system": "http://standardterms.edqm.eu",
         "code": "0047",
         "display": "Conventional"
       }
@@ -169,7 +169,7 @@
           }
         ]
       },
-      "system": "http://idmp.who-umc.org/fhir/CodeSystem/phpid",
+      "system": "http://www.who-umc.org/idmp/phpid",
       "value": "91B3CA582581F57E4092F13AAF476215"
     }
   ],
