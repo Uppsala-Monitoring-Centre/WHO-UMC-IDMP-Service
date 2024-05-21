@@ -13,71 +13,71 @@
         "system": "http://standardterms.edqm.eu",
         "concept": [
           {
-            "code": "0004",
+            "code": "AME-0004",
             "display": "Administration"
           },
           {
-            "code": "0005",
+            "code": "AME-0005",
             "display": "Application"
           },
           {
-            "code": "0006",
+            "code": "AME-0006",
             "display": "Bathing"
           },
           {
-            "code": "0007",
+            "code": "AME-0007",
             "display": "Chewing"
           },
           {
-            "code": "0008",
+            "code": "AME-0008",
             "display": "Gargling"
           },
           {
-            "code": "0010",
+            "code": "AME-0010",
             "display": "Inhalation"
           },
           {
-            "code": "0011",
+            "code": "AME-0011",
             "display": "Injection"
           },
           {
-            "code": "0012",
+            "code": "AME-0012",
             "display": "Insertion"
           },
           {
-            "code": "0013",
+            "code": "AME-0013",
             "display": "Instillation"
           },
           {
-            "code": "0014",
+            "code": "AME-0014",
             "display": "Orodispersion"
           },
           {
-            "code": "0015",
+            "code": "AME-0015",
             "display": "Rinsing/washing"
           },
           {
-            "code": "0017",
+            "code": "AME-0017",
             "display": "Spraying"
           },
           {
-            "code": "0018",
+            "code": "AME-0018",
             "display": "Sucking"
           },
           {
-            "code": "0019",
+            "code": "AME-0019",
             "display": "Swallowing"
           },
           {
-            "code": "0111",
+            "code": "AME-0111",
             "display": "Burning"
           },
           {
-            "code": "0112",
+            "code": "AME-0112",
             "display": "Dialysis"
           },
           {
-            "code": "0113",
+            "code": "AME-0113",
             "display": "Implantation"
           }
         ]

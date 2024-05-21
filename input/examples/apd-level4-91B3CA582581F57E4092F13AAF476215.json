@@ -8,12 +8,12 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Pharmaceutical Product (Administrable Product Definition)</h1><table><tr><td style=\"font-weight: bold;\">Id</td><td>91B3CA582581F57E4092F13AAF476215</td></tr><tr><td style=\"font-weight: bold;\">Level</td><td>4</td></tr></table><h2>Ingredients</h2><table><th>Substance</th><th>Strength</th><tr><td>METHOTREXATE SODIUM</td><td>2,74 mg</td></tr></table><h2>Form</h2><table><tr><td style=\"font-weight: bold;\">Basic dose form</td><td>Tablet (0069)</td></tr><tr><td style=\"font-weight: bold;\">Administration method</td><td>Swallowing (0019)</td></tr><tr><td style=\"font-weight: bold;\">Intended site</td><td>Oral (0031)</td></tr><tr><td style=\"font-weight: bold;\">Release characteristics</td><td>Conventional (0047)</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Pharmaceutical Product (Administrable Product Definition)</h1><table><tr><td style=\"font-weight: bold;\">Id</td><td>91B3CA582581F57E4092F13AAF476215</td></tr><tr><td style=\"font-weight: bold;\">Level</td><td>4</td></tr></table><h2>Ingredients</h2><table><th>Substance</th><th>Strength</th><tr><td>METHOTREXATE SODIUM</td><td>2,74 mg</td></tr></table><h2>Form</h2><table><tr><td style=\"font-weight: bold;\">Basic dose form</td><td>Tablet (BDF-0069)</td></tr><tr><td style=\"font-weight: bold;\">Administration method</td><td>Swallowing (AME-0019)</td></tr><tr><td style=\"font-weight: bold;\">Intended site</td><td>Oral (ISI-0031)</td></tr><tr><td style=\"font-weight: bold;\">Release characteristics</td><td>Conventional (RCA-0047)</td></tr></table></div>"
   },
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "15ec2c75-eaac-45db-8ebd-c87ab184af19",
+      "id": "575bddd6-e16a-4efe-8534-b26029b17a23",
       "meta": {
         "profile": [
           "http://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php-publish"
@@ -130,7 +130,7 @@
       "url": "http://idmp.who-umc.org/fhir/StructureDefinition/basic-dose-form",
       "valueCoding": {
         "system": "http://standardterms.edqm.eu",
-        "code": "0069",
+        "code": "BDF-0069",
         "display": "Tablet"
       }
     },
@@ -138,7 +138,7 @@
       "url": "http://idmp.who-umc.org/fhir/StructureDefinition/administration-method",
       "valueCoding": {
         "system": "http://standardterms.edqm.eu",
-        "code": "0019",
+        "code": "AME-0019",
         "display": "Swallowing"
       }
     },
@@ -146,7 +146,7 @@
       "url": "http://idmp.who-umc.org/fhir/StructureDefinition/intended-site",
       "valueCoding": {
         "system": "http://standardterms.edqm.eu",
-        "code": "0031",
+        "code": "ISI-0031",
         "display": "Oral"
       }
     },
@@ -154,7 +154,7 @@
       "url": "http://idmp.who-umc.org/fhir/StructureDefinition/release-characteristics",
       "valueCoding": {
         "system": "http://standardterms.edqm.eu",
-        "code": "0047",
+        "code": "RCA-0047",
         "display": "Conventional"
       }
     }
