@@ -129,7 +129,7 @@
     {
       "url": "http://idmp.who-umc.org/fhir/StructureDefinition/basic-dose-form",
       "valueCoding": {
-        "system": "https://standardterms.edqm.eu",
+        "system": "http://standardterms.edqm.eu",
         "code": "0069",
         "display": "Tablet"
       }
