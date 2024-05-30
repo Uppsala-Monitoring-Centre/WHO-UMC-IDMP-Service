@@ -1,0 +1,23 @@
+{
+  "resourceType": "ValueSet",
+  "id": "gsid-task-output-type",
+  "url": "http://idmp.who-umc.org/fhir/ValueSet/gsid-task-output-type",
+  "name": "VsGSIDTaskOutputTypes",
+  "title": "GSID request output type value set",
+  "status": "active",
+  "experimental": false,
+  "description": "GSID request output type value set",
+  "compose": {
+    "include": [
+      {
+        "system": "http://idmp.who-umc.org/fhir/CodeSystem/task-output-type",
+        "concept": [
+          {
+            "code": "gsid",
+            "display": "GSID"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "jurisdiction",
+  "url": "http://idmp.who-umc.org/fhir/CodeSystem/jurisdiction",
+  "name": "jurisdiction",
+  "title": "Additional jurisdictional areas compolementing the ISO 3166 country codes",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Uppsala Monitoring Centre",
+  "description": "Additional jurisdictional areas compolementing the ISO 3166 country codes.",
+  "copyright": "Uppsala Monitoring Centre",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "EU",
+      "display": "European Union",
+      "definition": "European Union"
+    }
+  ]
+}

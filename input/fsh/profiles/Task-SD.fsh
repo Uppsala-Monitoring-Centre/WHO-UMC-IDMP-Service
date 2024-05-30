@@ -40,12 +40,6 @@ RuleSet: TaskGenerateGSIDCommon
 * authoredOn 1..
 * lastModified 1..
 
-* requester 0..1
-  * type = http://hl7.org/fhir/fhir-types#Organization 
-  * type ^short = "Allows the requesting organization to be classified"
-* requester only Reference(AuthorizedOrg-who-php) 
-* requester ^short = "The organization requesting the GSID"
-
 * contained 1..1
   * ^short = "SubstanceDefinition resource to request GSID for."
 * input 1..1
@@ -58,6 +52,7 @@ RuleSet: TaskGenerateGSIDCommon
   * valueReference only Reference (SubstanceDefinition-pub)
 
 // NOT USED ELEMENTS
+* insert NotUsed(requester)
 * insert NotUsed(encounter)
 * insert NotUsed(insurance)
 * insert NotUsed(restriction)

@@ -48,6 +48,15 @@ Description: "Strength Unit Value Set"
 * codes from system $ucum
 
 //=========================
+ValueSet: VsJurisdiction
+Id: jurisdiction
+Title: "Jurisdiction Value Set"
+Description: "Jurisdiction Value Set"
+* ^experimental = false
+* codes from system $jurisdiction
+* codes from system $iso3166
+
+//=========================
 ValueSet: VsMpIdSystem
 Id: mpid-system
 Title: "MPID system"

@@ -24,6 +24,11 @@ Description: """This profile specified how to use the Task resource to request s
   * ^short =	"Status of the task"
 * insert TaskGeneratePhPIDCommon
 
+* output 0..5
+  * type from http://idmp.who-umc.org/fhir/ValueSet/phpid-task-output-type (required)
+  * value[x] only CodeableReference 
+  //* CodeableReference only Reference (AdministrableProductDefinitionWhoPhP or MedicinalProductDefinitionWhoPhP)
+
 //*******************************
 // Common
 //*******************************
@@ -40,12 +45,6 @@ RuleSet: TaskGeneratePhPIDCommon
   * ^short = "PhPID Assignment"
 * authoredOn 1..
 * lastModified 1..
-
-* requester 0..1
-  * type = http://hl7.org/fhir/fhir-types#Organization 
-  * type ^short = "Allows the requesting organization to be classified"
-* requester only Reference(AuthorizedOrg-who-php) 
-* requester ^short = "The organization requesting the PhPID"
 
 * contained 3..5
   * ^short = "Resources, according to 'input', used in PhPID generation."
@@ -67,12 +66,8 @@ RuleSet: TaskGeneratePhPIDCommon
 * input[ING].value[x] only Reference
 * input[ING].valueReference only Reference (IngredientWhoPhP)
 
-* output 0..1
-  * type = http://hl7.org/fhir/fhir-types#AdministrableProductDefinition 
-  * value[x] only Reference
-  * valueReference only Reference (AdministrableProductDefinitionWhoPhP)
-
 // NOT USED ELEMENTS
-* encounter 0..0
-* insurance 0..0
-* restriction 0..0
+* insert NotUsed(requester)
+* insert NotUsed(encounter)
+* insert NotUsed(insurance)
+* insert NotUsed(restriction)

@@ -9,7 +9,7 @@
   "contained": [
     {
       "resourceType": "MedicinalProductDefinition",
-      "id": "a7de7311-eba4-4d41-a732-726263b5f7aa",
+      "id": "4aaf6a4e-256b-4d69-9c85-3f4c6b3853d3",
       "meta": {
         "profile": [
           "http://idmp.who-umc.org/fhir/StructureDefinition/MedicinalProductDefinition-who-php-req"
@@ -88,8 +88,8 @@
               "jurisdiction": {
                 "coding": [
                   {
-                    "system": "urn:iso:std:iso:3166",
-                    "code": "NLD"
+                    "system": "http://idmp.who-umc.org/fhir/CodeSystem/jurisdiction",
+                    "code": "EU"
                   }
                 ]
               },
@@ -108,7 +108,7 @@
     },
     {
       "resourceType": "Ingredient",
-      "id": "fc625af3-1547-4167-b1b1-d48f298dd0c7",
+      "id": "94313273-3d70-44f2-8119-28b1bdaa9ffd",
       "meta": {
         "profile": [
           "http://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php"
@@ -117,7 +117,7 @@
       "status": "active",
       "for": [
         {
-          "reference": "#a7de7311-eba4-4d41-a732-726263b5f7aa"
+          "reference": "#4aaf6a4e-256b-4d69-9c85-3f4c6b3853d3"
         }
       ],
       "role": {
@@ -194,8 +194,8 @@
   "status": "requested",
   "intent": "proposal",
   "priority": "routine",
-  "authoredOn": "2024-05-21",
-  "lastModified": "2024-05-21",
+  "authoredOn": "2024-05-30",
+  "lastModified": "2024-05-30",
   "input": [
     {
       "type": {
@@ -205,11 +205,10 @@
             "code": "mpd-request-resource",
             "display": "Medicinal Product for PhPID request"
           }
-        ],
-        "text": "Medicinal Product for PhPID request"
+        ]
       },
       "valueReference": {
-        "reference": "#a7de7311-eba4-4d41-a732-726263b5f7aa"
+        "reference": "#4aaf6a4e-256b-4d69-9c85-3f4c6b3853d3"
       }
     },
     {
@@ -220,11 +219,10 @@
             "code": "ingredient-request-resource",
             "display": "Ingredient for PhPID request"
           }
-        ],
-        "text": "Ingredient for PhPID request"
+        ]
       },
       "valueReference": {
-        "reference": "#fc625af3-1547-4167-b1b1-d48f298dd0c7"
+        "reference": "#94313273-3d70-44f2-8119-28b1bdaa9ffd"
       }
     },
     {
@@ -235,8 +233,7 @@
             "code": "organization-request-resource",
             "display": "Marketing Auth Holder for PhPID request"
           }
-        ],
-        "text": "Marketing Auth Holder for PhPID request"
+        ]
       },
       "valueReference": {
         "reference": "#acmeinc"

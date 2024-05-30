@@ -1,0 +1,47 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "task-output-type",
+  "url": "http://idmp.who-umc.org/fhir/CodeSystem/task-output-type",
+  "name": "TaskOutputTypes",
+  "title": "Task output type",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Uppsala Monitoring Centre",
+  "description": "This system lists the available output types for a task",
+  "copyright": "Uppsala Monitoring Centre",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "phpid-level1",
+      "display": "PhPID level 1",
+      "definition": "PhPID level 1"
+    },
+    {
+      "code": "phpid-level2",
+      "display": "PhPID level 2",
+      "definition": "PhPID level 2"
+    },
+    {
+      "code": "phpid-level3",
+      "display": "PhPID level 3",
+      "definition": "PhPID level 3"
+    },
+    {
+      "code": "phpid-level4",
+      "display": "PhPID level 4",
+      "definition": "PhPID level 4"
+    },
+    {
+      "code": "medicinal-product",
+      "display": "Medicinal Product (WHODrug)",
+      "definition": "Medicinal Product (WHODrug)"
+    },
+    {
+      "code": "gsid",
+      "display": "GSID",
+      "definition": "Global Substance Identifier"
+    }
+  ]
+}

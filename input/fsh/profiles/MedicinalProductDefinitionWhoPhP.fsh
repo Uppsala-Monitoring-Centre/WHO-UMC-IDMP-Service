@@ -74,6 +74,9 @@ RuleSet: MedicinalProductDefinitionCommon
         * code 1..1    
         * system = $iso3166
     * jurisdiction ^short = "Jurisdiction where this name applies"
+      * coding 1..1
+        * code 1..1    
+        * code from VsJurisdiction
     * language ^short = "Language for this name"
     
 // NOT USED ELEMENTS
