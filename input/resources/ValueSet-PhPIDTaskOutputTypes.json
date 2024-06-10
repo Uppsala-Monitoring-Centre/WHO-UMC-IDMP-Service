@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "phpid-task-output-type",
-  "url": "http://idmp.who-umc.org/fhir/ValueSet/phpid-task-output-type",
+  "url": "http://who-umc.org/idmp/ValueSet/phpid-task-output-type",
   "name": "VsPhPIDTaskOutputTypes",
   "title": "PhPID request output type value set",
   "status": "active",
@@ -10,27 +10,15 @@
   "compose": {
     "include": [
       {
-        "system": "http://idmp.who-umc.org/fhir/CodeSystem/task-output-type",
+        "system": "http://who-umc.org/idmp/CodeSystem/task-output-type",
         "concept": [
           {
-            "code": "phpid-level1",
-            "display": "PhPID level 1"
+            "code": "phpid",
+            "display": "PhPID"
           },
           {
-            "code": "phpid-level2",
-            "display": "PhPID level 2"
-          },
-          {
-            "code": "phpid-level3",
-            "display": "PhPID level 3"
-          },
-          {
-            "code": "phpid-level4",
-            "display": "PhPID level 4"
-          },
-          {
-            "code": "medicinal-product",
-            "display": "Medicinal Product (WHODrug)"
+            "code": "whodrugid",
+            "display": "Medicinal Product (WHODrug) ID"
           }
         ]
       }

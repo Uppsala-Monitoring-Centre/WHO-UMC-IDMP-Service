@@ -4,7 +4,7 @@
   "name": "WHO-UMC IDMP Management and Publish API",
   "title": "API to allow for Requests and Publishing of PhPIDs and GSIDs",
   "status": "draft",
-  "date": "2024-05-30",
+  "date": "2024-06-10",
   "publisher": "Uppsala Monitoring Centre",
   "contact": [
     {
@@ -131,7 +131,7 @@
             },
             {
               "name": "parent-php",
-              "definition": "http://idmp.who-umc.org/fhir/SearchParameter/parent-php",
+              "definition": "http://who-umc.org/idmp/SearchParameter/parent-php",
               "type": "reference",
               "documentation": "Search PhPIDs based on 'parent' PhPIDs"
             }

@@ -3,16 +3,16 @@
   "id": "template-generated-by-server-phpid-req",
   "meta": {
     "profile": [
-      "http://idmp.who-umc.org/fhir/StructureDefinition/Task-who-php-phpid"
+      "http://who-umc.org/idmp/StructureDefinition/Task-who-php-phpid"
     ]
   },
   "contained": [
     {
       "resourceType": "MedicinalProductDefinition",
-      "id": "4aaf6a4e-256b-4d69-9c85-3f4c6b3853d3",
+      "id": "7a176b11-6566-4ed6-8085-0473b65c3a44",
       "meta": {
         "profile": [
-          "http://idmp.who-umc.org/fhir/StructureDefinition/MedicinalProductDefinition-who-php-req"
+          "http://who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-req"
         ]
       },
       "identifier": [
@@ -88,7 +88,7 @@
               "jurisdiction": {
                 "coding": [
                   {
-                    "system": "http://idmp.who-umc.org/fhir/CodeSystem/jurisdiction",
+                    "system": "http://who-umc.org/idmp/CodeSystem/jurisdiction",
                     "code": "EU"
                   }
                 ]
@@ -108,16 +108,16 @@
     },
     {
       "resourceType": "Ingredient",
-      "id": "94313273-3d70-44f2-8119-28b1bdaa9ffd",
+      "id": "0e6730cc-d4f6-4a99-abcd-476ab2bf1b91",
       "meta": {
         "profile": [
-          "http://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php"
+          "http://who-umc.org/idmp/StructureDefinition/Ingredient-who-php"
         ]
       },
       "status": "active",
       "for": [
         {
-          "reference": "#4aaf6a4e-256b-4d69-9c85-3f4c6b3853d3"
+          "reference": "#7a176b11-6566-4ed6-8085-0473b65c3a44"
         }
       ],
       "role": {
@@ -134,7 +134,7 @@
           "concept": {
             "coding": [
               {
-                "system": "http://www.who-umc.org/idmp/gsid",
+                "system": "http://who-umc.org/idmp/gsid",
                 "code": "GSID23G92UMX93H45"
               }
             ],
@@ -153,7 +153,7 @@
               "denominator": {
                 "value": 1,
                 "unit": "IU",
-                "system": "http://idmp.who-umc.org/fhir/CodeSystem/strengthUnit",
+                "system": "http://who-umc.org/idmp/CodeSystem/strengthUnit",
                 "code": "IU"
               }
             },
@@ -167,7 +167,7 @@
       "id": "acmeinc",
       "meta": {
         "profile": [
-          "http://idmp.who-umc.org/fhir/StructureDefinition/MarketingAuthorizationHolder-who-php"
+          "http://who-umc.org/idmp/StructureDefinition/MarketingAuthorizationHolder-who-php"
         ]
       },
       "active": true,
@@ -194,42 +194,42 @@
   "status": "requested",
   "intent": "proposal",
   "priority": "routine",
-  "authoredOn": "2024-05-30",
-  "lastModified": "2024-05-30",
+  "authoredOn": "2024-06-10",
+  "lastModified": "2024-06-10",
   "input": [
     {
       "type": {
         "coding": [
           {
-            "system": "http://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
+            "system": "http://who-umc.org/idmp/CodeSystem/task-input-type",
             "code": "mpd-request-resource",
             "display": "Medicinal Product for PhPID request"
           }
         ]
       },
       "valueReference": {
-        "reference": "#4aaf6a4e-256b-4d69-9c85-3f4c6b3853d3"
+        "reference": "#7a176b11-6566-4ed6-8085-0473b65c3a44"
       }
     },
     {
       "type": {
         "coding": [
           {
-            "system": "http://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
+            "system": "http://who-umc.org/idmp/CodeSystem/task-input-type",
             "code": "ingredient-request-resource",
             "display": "Ingredient for PhPID request"
           }
         ]
       },
       "valueReference": {
-        "reference": "#94313273-3d70-44f2-8119-28b1bdaa9ffd"
+        "reference": "#0e6730cc-d4f6-4a99-abcd-476ab2bf1b91"
       }
     },
     {
       "type": {
         "coding": [
           {
-            "system": "http://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
+            "system": "http://who-umc.org/idmp/CodeSystem/task-input-type",
             "code": "organization-request-resource",
             "display": "Marketing Auth Holder for PhPID request"
           }

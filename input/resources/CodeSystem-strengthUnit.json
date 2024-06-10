@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "strengthUnit",
-  "url": "http://idmp.who-umc.org/fhir/CodeSystem/strengthUnit",
+  "url": "http://who-umc.org/idmp/CodeSystem/strengthUnit",
   "name": "strengthUnit",
   "title": "Strength units applicable in the IDMP PhPID service",
   "status": "active",

@@ -7,7 +7,7 @@
             "id": "ID-ACC470D6-0B3C-4082-9494-775FB6D2048C",
             "meta": {
                 "profile": [
-                    "http://idmp.who-umc.org/fhir/StructureDefinition/MedicinalProductDefinition-who-php-req"
+                    "http://who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-req"
                 ]
             },
             "identifier": [
@@ -95,7 +95,7 @@
             "resourceType": "Ingredient",
             "id": "ID-1C149B52-D662-4CE0-9FA3-79865521F9C6",
             "meta": {
-                "profile": ["http://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php"]
+                "profile": ["http://who-umc.org/idmp/StructureDefinition/Ingredient-who-php"]
             },
             "status": "draft",
             "for": [
@@ -115,7 +115,7 @@
                     "concept": {
                         "coding": [
                             {
-                                "system": "http://www.who-umc.org/idmp/gsid",
+                                "system": "http://who-umc.org/idmp/gsid",
                                 "code": "GSID85RFP2XGF3X29",
                                 "display": "OMEPRAZOLE"
                             }
@@ -129,13 +129,13 @@
                             "numerator": {
                                 "value": 322,
                                 "unit": "ug",
-                                "system": "http://idmp.who-umc.org/fhir/CodeSystem/strengthUnit"
+                                "system": "http://who-umc.org/idmp/CodeSystem/strengthUnit"
 
                             },
                             "denominator": {
                                 "value": 1,
                                 "unit": "IU",
-                                "system": "http://idmp.who-umc.org/fhir/CodeSystem/strengthUnit"
+                                "system": "http://who-umc.org/idmp/CodeSystem/strengthUnit"
                             }
                         },
                         "textPresentation" : "322 µg"
@@ -171,7 +171,7 @@
             "type": {
                 "coding": [
                     {
-                        "system": "http://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
+                        "system": "http://who-umc.org/idmp/CodeSystem/task-input-type",
                         "code": "mpd-request-resource",
                         "display": "Medicinal Product for PhPID request"
                     }
@@ -184,7 +184,7 @@
             "type": {
                 "coding": [
                     {
-                        "system": "http://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
+                        "system": "http://who-umc.org/idmp/CodeSystem/task-input-type",
                         "code": "ingredient-request-resource",
                         "display": "Ingredient for PhPID request"
                     }
@@ -197,7 +197,7 @@
             "type": {
                 "coding": [
                     {
-                        "system": "http://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
+                        "system": "http://who-umc.org/idmp/CodeSystem/task-input-type",
                         "code": "organization-request-resource",
                         "display": "Marketing Auth Holder for PhPID request"
                     }

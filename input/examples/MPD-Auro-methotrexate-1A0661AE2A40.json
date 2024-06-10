@@ -3,7 +3,7 @@
   "id": "1A0661AE2A40",
   "meta": {
     "profile": [
-      "http://idmp.who-umc.org/fhir/StructureDefinition/MedicinalProductDefinition-who-php-pub"
+      "http://who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-pub"
     ]
   },
   "contained": [
@@ -19,7 +19,7 @@
       "value": "02182750"
     },
     {
-      "system": "http://idmp.who-umc.org/fhir/CodeSystem/product",
+      "system": "http://who-umc.org/idmp/CodeSystem/product",
       "value": "1A0661AE2A40"
     }
   ],
@@ -56,7 +56,7 @@
     {
       "coding": [
         {
-          "system": "http://www.who-umc.org/idmp/phpid-level4",
+          "system": "http://who-umc.org/idmp/level4-phpid",
           "code": "91B3CA582581F57E4092F13AAF476215"
         }
       ]
@@ -81,7 +81,7 @@
   ],
   "code": [
     {
-      "system": "http://idmp.who-umc.org/fhir/CodeSystem/drugcode",
+      "system": "http://who-umc.org/idmp/CodeSystem/drugcode",
       "code": "00113802216"
     }
   ],

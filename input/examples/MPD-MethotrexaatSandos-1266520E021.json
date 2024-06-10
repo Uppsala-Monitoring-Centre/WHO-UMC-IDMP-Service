@@ -3,7 +3,7 @@
   "id": "1266520E021",
   "meta": {
     "profile": [
-      "http://idmp.who-umc.org/fhir/StructureDefinition/MedicinalProductDefinition-who-php-pub"
+      "http://who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-pub"
     ]
   },
   "contained": [
@@ -15,7 +15,7 @@
   ],
   "identifier": [
     {
-      "system": "http://idmp.who-umc.org/fhir/CodeSystem/product",
+      "system": "http://who-umc.org/idmp/CodeSystem/product",
       "value": "1266520E021"
     }
   ],
@@ -67,7 +67,7 @@
   ],
   "code": [
     {
-      "system": "http://idmp.who-umc.org/fhir/CodeSystem/drugcode",
+      "system": "http://who-umc.org/idmp/CodeSystem/drugcode",
       "code": "00113802085"
     }
   ],

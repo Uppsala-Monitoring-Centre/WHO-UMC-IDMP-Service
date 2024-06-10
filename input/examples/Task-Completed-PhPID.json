@@ -1,9 +1,9 @@
 {
     "resourceType": "Task",
-    "id": "ac5d01fe-56da-4308-8421-8ae1dabc13cc",
+    "id": "6586ec9e-7922-457d-8e54-8ce365429897",
     "meta": {
         "profile": [
-            "http://idmp.who-umc.org/fhir/StructureDefinition/Task-who-php-phpid-status"
+            "http://who-umc.org/idmp/StructureDefinition/Task-who-php-phpid-status"
         ]
     },
     "contained": [
@@ -12,7 +12,7 @@
             "id": "702011b3-e5f3-4d21-beb3-29e1cbc8fbc4",
             "meta": {
                 "profile": [
-                    "http://idmp.who-umc.org/fhir/StructureDefinition/MedicinalProductDefinition-who-php-req"
+                    "http://who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-req"
                 ]
             },
             "identifier": [
@@ -88,7 +88,7 @@
                             "jurisdiction": {
                                 "coding": [
                                     {
-                                        "system": "http://idmp.who-umc.org/fhir/CodeSystem/jurisdiction",
+                                        "system": "http://who-umc.org/idmp/CodeSystem/jurisdiction",
                                         "code": "EU"
                                     }
                                 ]
@@ -111,7 +111,7 @@
             "id": "9e51e8d8-af3b-46fd-ab84-e6f0188fb5ce",
             "meta": {
                 "profile": [
-                    "http://idmp.who-umc.org/fhir/StructureDefinition/Ingredient-who-php"
+                    "http://who-umc.org/idmp/StructureDefinition/Ingredient-who-php"
                 ]
             },
             "status": "active",
@@ -134,7 +134,7 @@
                     "concept": {
                         "coding": [
                             {
-                                "system": "http://www.who-umc.org/idmp/gsid",
+                                "system": "http://who-umc.org/idmp/gsid",
                                 "code": "GSID23G92UMX93H45"
                             }
                         ],
@@ -167,7 +167,7 @@
             "id": "acmeinc",
             "meta": {
                 "profile": [
-                    "http://idmp.who-umc.org/fhir/StructureDefinition/MarketingAuthorizationHolder-who-php"
+                    "http://who-umc.org/idmp/StructureDefinition/MarketingAuthorizationHolder-who-php"
                 ]
             },
             "active": true,
@@ -201,7 +201,7 @@
             "type": {
                 "coding": [
                     {
-                        "system": "http://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
+                        "system": "http://who-umc.org/idmp/CodeSystem/task-input-type",
                         "code": "mpd-request-resource",
                         "display": "Medicinal Product for PhPID request"
                     }
@@ -215,7 +215,7 @@
             "type": {
                 "coding": [
                     {
-                        "system": "http://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
+                        "system": "http://who-umc.org/idmp/CodeSystem/task-input-type",
                         "code": "ingredient-request-resource",
                         "display": "Ingredient for PhPID request"
                     }
@@ -229,7 +229,7 @@
             "type": {
                 "coding": [
                     {
-                        "system": "http://idmp.who-umc.org/fhir/CodeSystem/task-input-type",
+                        "system": "http://who-umc.org/idmp/CodeSystem/task-input-type",
                         "code": "organization-request-resource",
                         "display": "Marketing Auth Holder for PhPID request"
                     }
@@ -245,23 +245,42 @@
             "type": {
                 "coding": [
                     {
-                        "system": "http://idmp.who-umc.org/fhir/CodeSystem/task-output-type",
-                        "code": "phpid-level4",
-                        "display": "PhPID Level 4"
+                        "system": "http://who-umc.org/idmp/CodeSystem/task-output-type",
+                        "code": "phpid"
                     }
-                ]
+                ],
+                "text": "PhPID"
             },
-            "valueCodeableReference": {
-                "concept": {
-                    "coding": [
-                        {
-                            "system": "http://www.who-umc.org/idmp/phpid",
-                            "code": "10DD499443FAE493691301348AFDDDF3"
-                        }
-                    ]
-                },
-                "reference": {
-                    "reference": "AdministrableProductDefinition/10DD499443FAE493691301348AFDDDF3"
+            "valueReference": {
+                "reference": "AdministrableProductDefinition/10DD499443FAE493691301348AFDDDF3",
+                "identifier": {
+                    "type": {
+                        "coding": [
+                            {
+                                "system": "http://who-umc.org/idmp/CodeSystem/php-level",
+                                "code": "PhPIDLevel4"
+                            }
+                        ]
+                    },
+                    "system": "http://who-umc.org/idmp/phpid",
+                    "value": "10DD499443FAE493691301348AFDDDF3"
+                }
+            }
+        },
+        {
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://who-umc.org/idmp/CodeSystem/task-output-type",
+                        "code": "whodrugid"
+                    }
+                ],
+                "text": "Medicinal Product (WHODrug) ID"
+            },
+            "valueReference": {
+                "identifier": {
+                    "system": "http://who-umc.org/idmp/whodrugid",
+                    "value": "XXXXXX"
                 }
             }
         }

@@ -25,8 +25,8 @@ Description: """This profile specified how to use the Task resource to request s
 * insert TaskGeneratePhPIDCommon
 
 * output 0..5
-  * type from http://idmp.who-umc.org/fhir/ValueSet/phpid-task-output-type (required)
-  * value[x] only CodeableReference 
+  * type from http://who-umc.org/idmp/ValueSet/phpid-task-output-type (required)
+  * value[x] only Reference 
   //* CodeableReference only Reference (AdministrableProductDefinitionWhoPhP or MedicinalProductDefinitionWhoPhP)
 
 //*******************************

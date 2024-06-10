@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "pharmaceuticalForm",
-  "url": "http://idmp.who-umc.org/fhir/ValueSet/pharmaceuticalForm",
+  "url": "http://who-umc.org/idmp/ValueSet/pharmaceuticalForm",
   "name": "pharmaceuticalForm",
   "title": "EDQM Pharmaceutical Form",
   "status": "active",

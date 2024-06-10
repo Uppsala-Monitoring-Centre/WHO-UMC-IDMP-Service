@@ -4,19 +4,19 @@ Alias: $medicinal-product-domain = http://hl7.org/fhir/medicinal-product-domain
 Alias: $publication-status = http://hl7.org/fhir/publication-status
 Alias: $medicinal-product-contact-type = http://hl7.org/fhir/medicinal-product-contact-type
 Alias: $languages = http://hl7.org/fhir/ValueSet/languages
-Alias: $phpid = http://www.who-umc.org/idmp/phpid
-Alias: $gsid = http://www.who-umc.org/idmp/gsid
+Alias: $phpid = http://who-umc.org/idmp/phpid
+Alias: $gsid = http://who-umc.org/idmp/gsid
 //Alias: $gsid = http://idmp.who-umc.org/fhir/CodeSystem/gsid
 //Alias: $phpid = http://idmp.who-umc.org/fhir/CodeSystem/phpid
-Alias: $pdfCharacteristics = http://idmp.who-umc.org/fhir/CodeSystem/pdfCharacteristics
-Alias: $drugcode = https://www.who-umc.org/whodrug/CodeSystem/drugcode
+Alias: $pdfCharacteristics = http://who-umc.org/idmp/CodeSystem/pdfCharacteristics
+Alias: $drugcode = https://who-umc.org/whodrug/CodeSystem/drugcode
 
 // ====== extensions ====
-Alias: $parent-php-extension = http://idmp.who-umc.org/fhir/StructureDefinition/parent-phpid
-Alias: $pdfCharacteristics-rca-ext = http://idmp.who-umc.org/fhir/StructureDefinition/release-characteristics
-Alias: $pdfCharacteristics-isi-ext = http://idmp.who-umc.org/fhir/StructureDefinition/intended-site
-Alias: $pdfCharacteristics-bdf-ext = http://idmp.who-umc.org/fhir/StructureDefinition/basic-dose-form
-Alias: $pdfCharacteristics-ame-ext = http://idmp.who-umc.org/fhir/StructureDefinition/administration-method
+Alias: $parent-php-extension = http://who-umc.org/idmp/StructureDefinition/parent-phpid
+Alias: $pdfCharacteristics-rca-ext = http://who-umc.org/idmp/StructureDefinition/release-characteristics
+Alias: $pdfCharacteristics-isi-ext = http://who-umc.org/idmp/StructureDefinition/intended-site
+Alias: $pdfCharacteristics-bdf-ext = http://who-umc.org/idmp/StructureDefinition/basic-dose-form
+Alias: $pdfCharacteristics-ame-ext = http://who-umc.org/idmp/StructureDefinition/administration-method
 Alias: $data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-absent-reason
 
 // =========== Systems =======
@@ -71,13 +71,13 @@ Alias: $VS-medicinal-product-domain = http://hl7.org/fhir/ValueSet/medicinal-pro
 
 Alias: $VS-language = http://hl7.org/fhir/ValueSet/languages
 
-Alias: $strengthUnit = http://idmp.who-umc.org/fhir/CodeSystem/strengthUnit
-Alias: $jurisdiction = http://idmp.who-umc.org/fhir/CodeSystem/jurisdiction
-Alias: $edqmPdfReleaseChar = http://idmp.who-umc.org/fhir/ValueSet/EdqmRCA
-Alias: $edqmPdfBasicDoseForm = http://idmp.who-umc.org/fhir/ValueSet/EdqmBDF
-Alias: $edqmPdfIntendedSite = http://idmp.who-umc.org/fhir/ValueSet/EdqmISI
-Alias: $edqmPdfAdministrationMethod = http://idmp.who-umc.org/fhir/ValueSet/EdqmAME
-Alias: $pharmaceuticalForm = http://idmp.who-umc.org/fhir/ValueSet/pharmaceuticalForm
+Alias: $strengthUnit = http://who-umc.org/idmp/CodeSystem/strengthUnit
+Alias: $jurisdiction = http://who-umc.org/idmp/CodeSystem/jurisdiction
+Alias: $edqmPdfReleaseChar = http://who-umc.org/idmp/ValueSet/EdqmRCA
+Alias: $edqmPdfBasicDoseForm = http://who-umc.org/idmp/ValueSet/EdqmBDF
+Alias: $edqmPdfIntendedSite = http://who-umc.org/idmp/ValueSet/EdqmISI
+Alias: $edqmPdfAdministrationMethod = http://who-umc.org/idmp/ValueSet/EdqmAME
+Alias: $pharmaceuticalForm = http://who-umc.org/idmp/ValueSet/pharmaceuticalForm
 
 // SPOR Code systems (lists)
 	
