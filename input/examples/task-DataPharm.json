@@ -164,7 +164,7 @@
                         "presentationRatio": {
                             "numerator": {
                                 "value": 2.5,
-                                "unit": "mg",
+                                "unit": "milligram",
                                 "system": "http://unitsofmeasure.org",
                                 "code": "mg"
                   
