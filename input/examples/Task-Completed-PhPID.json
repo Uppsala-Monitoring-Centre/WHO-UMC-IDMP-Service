@@ -1,6 +1,6 @@
 {
     "resourceType": "Task",
-    "id": "4f67ef3c-8f6c-480d-8168-42c12c2f0d74",
+    "id": "607b1f19-5ce2-4e0a-8b97-4cadcc395ddb",
     "meta": {
         "profile": [
             "http://who-umc.org/idmp/StructureDefinition/Task-who-php-phpid-status"
@@ -246,10 +246,10 @@
                 "coding": [
                     {
                         "system": "http://who-umc.org/idmp/CodeSystem/task-output-type",
-                        "code": "phpid"
+                        "code": "phpid",
+                        "display": "PhPID"
                     }
-                ],
-                "text": "PhPID"
+                ]
             },
             "valueReference": {
                 "reference": "AdministrableProductDefinition/10DD499443FAE493691301348AFDDDF3",
@@ -272,10 +272,10 @@
                 "coding": [
                     {
                         "system": "http://who-umc.org/idmp/CodeSystem/task-output-type",
-                        "code": "whodrugid"
+                        "code": "whodrugid",
+                        "display": "Medicinal Product (WHODrug) ID"
                     }
-                ],
-                "text": "Medicinal Product (WHODrug) ID"
+                ]
             },
             "valueReference": {
                 "identifier": {

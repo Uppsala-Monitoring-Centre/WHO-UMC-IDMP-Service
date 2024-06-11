@@ -9,7 +9,7 @@
   "contained": [
     {
       "resourceType": "MedicinalProductDefinition",
-      "id": "7a176b11-6566-4ed6-8085-0473b65c3a44",
+      "id": "5c615920-c690-4216-b5ed-c532189c40c1",
       "meta": {
         "profile": [
           "http://who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-req"
@@ -108,7 +108,7 @@
     },
     {
       "resourceType": "Ingredient",
-      "id": "0e6730cc-d4f6-4a99-abcd-476ab2bf1b91",
+      "id": "b6cc75d3-8a24-408d-94f9-af137626ee68",
       "meta": {
         "profile": [
           "http://who-umc.org/idmp/StructureDefinition/Ingredient-who-php"
@@ -117,7 +117,7 @@
       "status": "active",
       "for": [
         {
-          "reference": "#7a176b11-6566-4ed6-8085-0473b65c3a44"
+          "reference": "#5c615920-c690-4216-b5ed-c532189c40c1"
         }
       ],
       "role": {
@@ -146,7 +146,7 @@
             "presentationRatio": {
               "numerator": {
                 "value": 1.5,
-                "unit": "milligram",
+                "unit": "mg",
                 "system": "http://unitsofmeasure.org",
                 "code": "mg"
               },
@@ -194,8 +194,8 @@
   "status": "requested",
   "intent": "proposal",
   "priority": "routine",
-  "authoredOn": "2024-06-10",
-  "lastModified": "2024-06-10",
+  "authoredOn": "2024-06-11",
+  "lastModified": "2024-06-11",
   "input": [
     {
       "type": {
@@ -208,7 +208,7 @@
         ]
       },
       "valueReference": {
-        "reference": "#7a176b11-6566-4ed6-8085-0473b65c3a44"
+        "reference": "#5c615920-c690-4216-b5ed-c532189c40c1"
       }
     },
     {
@@ -222,7 +222,7 @@
         ]
       },
       "valueReference": {
-        "reference": "#0e6730cc-d4f6-4a99-abcd-476ab2bf1b91"
+        "reference": "#b6cc75d3-8a24-408d-94f9-af137626ee68"
       }
     },
     {
