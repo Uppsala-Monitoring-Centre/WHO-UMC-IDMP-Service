@@ -1,4 +1,11 @@
+<blockquote class="stu-note">
+    <p>This part of the specification is only on a DRAFT level, it is not yet decided how the versioning of the API and the profiles will be handled. The versioning of the content will however follow the FHIR principles</p>
+ </blockquote>
+
 ### Introduction
+
+#### Versioning of content
+The content of the resources will be versioned using the built in versioning mechanism within the meta data section of each resource.
 
 #### Versioning of API
 Versioning of the WHO-UMC IDMP Service in regards to the FHIR version used is accomplished using the Capability Statement. When requesting the Capability Statement using /metadata the current (active) version of FHIR, supported by the API, is returned.
@@ -21,7 +28,7 @@ ___Note:___ _xxx in the above examples should be replaced with xml or json_
 
 #### Versioning of resources
 
-Versioning of resources is not always following the FHIR versions. To support this scenario versioning of the profiles is used.
+ Versioning of how resources are used do not always following the FHIR versions. To support this scenario versioning of the profiles is used.  
 
 ##### Sending resources
 Resources sent to the API should be versioned using the profiles. When validating for example a `Task` sent in with resources included in the contains section each resource is validated using the provided profile. If no profile is provided the resources are validated against the latest profile.

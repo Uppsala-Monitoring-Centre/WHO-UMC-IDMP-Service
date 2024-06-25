@@ -8,6 +8,10 @@ Title: "MedicinalProductDefinition for PhPID request"
 Description: """This profile specified how the MedicinalProductDefinition is used in request (for a new PhPID) (as contained resource) by the WHO-UMC IDMP FHIR Service"""
 * insert MedicinalProductDefinitionCommon
 * insert NotUsed(contained)
+* identifier 1..1
+  * system 1..
+  * system from VsMpIdSystem (extensible)
+  * value 1..
 * contact 1..1
   * type ^short = "Should be ProposedMAH"
   * contact ^short = "A specific contact, person (in a role), or an organization for this product"
@@ -24,6 +28,11 @@ Id: MedicinalProductDefinition-who-php-pub
 Title: "MedicinalProductDefinition for publication"
 Description: """This profile specifies how the MedicinalProductDefinition is published by the WHO-UMC IDMP FHIR Service representing the WHODrug dictionary"""
 * insert MedicinalProductDefinitionCommon
+* identifier 1..
+  * system 1..
+  * system from VsMpIdSystem (extensible)
+  * value 1..
+
 * contained 0..1
 * contained only Organization 
 * contact 0..*
@@ -37,10 +46,6 @@ Description: """This profile specifies how the MedicinalProductDefinition is pub
 //*******************************
 RuleSet: MedicinalProductDefinitionCommon
 * id 1..
-* identifier 1..
-  * system 1..
-  * system from VsMpIdSystem (extensible)
-  * value 1..
 
 // add binding
 * type ^short = "Regulatory type, e.g. Investigational or Authorized."

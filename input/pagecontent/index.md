@@ -18,7 +18,12 @@ The main resources maintained by the service are the Pharmaceutical Product IDs,
 The Implementation Guide describes how new global PhPIDs and GSIDs are requested using asynchronous FHIR requests, and how they are delivered through FHIR.
 
 #### Access to the WHO-UMC IDMP FHIR server
-The (preview) FHIR server with tutorials and examples can be reached at [https://idmp.who-umc.org/fhir](https://idmp.who-umc.org/fhir)</a>. 
+
+##### Preview
+The (preview) FHIR server with tutorials and examples can be reached at [https://idmp.who-umc.org/fhir](https://idmp.who-umc.org/fhir). 
+
+##### Production (beta)
+To get access to the production server, still under development, please contact asa.parnaste [at] who-umc.org .
 
 ### Dependencies
 

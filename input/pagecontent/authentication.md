@@ -1,3 +1,8 @@
+ <blockquote class="stu-note">
+    <p>This part of the specification is only available in the preview API</p>
+  </blockquote>
+
+
 ### Introduction
 The PhPIDs (APD) and GSIDs (SD) is publicly available. Requesting new PhPIDs and GSIDs requires authentication and the access to detailed drug information through the MedicinalProductDefinition API requires a special license. It is also only possible to request the status of and delete a request (Task) for tasks generated using the same authentication credentials. Deletion of requests are only allowed as long as it is not completed. 
 
