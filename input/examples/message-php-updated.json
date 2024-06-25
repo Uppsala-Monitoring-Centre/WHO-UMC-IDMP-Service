@@ -2,7 +2,7 @@
     "resourceType": "Bundle",
     "id": "message-php-updated",
     "type": "message",
-    "timestamp": "2024-06-24T14:37:00+2:00",
+    "timestamp": "2024-06-24T14:37:00+02:00",
     "entry": [
         {
             "fullUrl": "http://who-umc.org/idmp/Bundle/message-php-updated",
