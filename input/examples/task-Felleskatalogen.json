@@ -52,6 +52,11 @@
                 ],
                 "text": "Subkutan bruk"
             },
+            "attachedDocument": [
+                {
+                  "display": "SPC/123"
+                }
+              ],
             "contact": [
                 {
                     "contact": {"reference": "#mah1"}
