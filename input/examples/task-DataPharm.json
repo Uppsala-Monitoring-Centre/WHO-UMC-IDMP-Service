@@ -14,14 +14,6 @@
                 {
                     "system": "http://medicines.org.uk/product",
                     "value": "511"
-                },
-                {
-                    "system": "http://dmd.nhs.uk/AMP",
-                    "value": "683611000001105"
-                },
-                {
-                    "system": "http://dmd.nhs.uk/VMP",
-                    "value": "41792011000001100"
                 }
             ],
             "type": {
