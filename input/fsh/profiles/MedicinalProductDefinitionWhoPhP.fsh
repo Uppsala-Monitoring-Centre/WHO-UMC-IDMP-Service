@@ -58,6 +58,10 @@ RuleSet: MedicinalProductDefinitionCommon
 
 * combinedPharmaceuticalDoseForm from $pharmaceuticalForm (example)
 
+* attachedDocument 1..1
+  * display ^short = "The document that describes the product in detail"
+  * display 1..1
+
 * route from VsRouteOfAdministration (example)
 
 * classification from VsAtcClassification (example)
