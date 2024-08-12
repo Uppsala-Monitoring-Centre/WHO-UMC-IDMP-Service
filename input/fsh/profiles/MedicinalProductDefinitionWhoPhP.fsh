@@ -18,6 +18,9 @@ Description: """This profile specified how the MedicinalProductDefinition is use
   * contact only Reference(MarketingAuthorizationHolder-who-php)
 * description ^short = "General description of the medicinal product referred by the ePI"
 * indication ^short = "Narrative text of the authorized indication(s) for this product."
+* attachedDocument 1..1
+  * display ^short = "The document that describes the product in detail"
+  * display 1..1
   
 //*******************************
 // Publish model
