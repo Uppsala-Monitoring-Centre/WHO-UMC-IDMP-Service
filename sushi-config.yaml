@@ -53,6 +53,8 @@ pages:
     title: GSID (Substance) request   
   authentication.md:
     title: Authentication
+  subscription.md:
+    title: Change management
   versioning.md:
     title: Versioning
   profiles.md:
