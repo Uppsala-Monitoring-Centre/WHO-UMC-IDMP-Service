@@ -2,6 +2,9 @@
   "resourceType": "Task",
   "id": "template-generated-by-server-phpid-req",
   "meta": {
+    "versionId": "1",
+    "lastUpdated": "2023-11-29T10:42:37.0400737+00:00",
+    "source": "http://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/Task-who-php-phpid"
     ]
@@ -9,8 +12,11 @@
   "contained": [
     {
       "resourceType": "MedicinalProductDefinition",
-      "id": "5c615920-c690-4216-b5ed-c532189c40c1",
+      "id": "bcf5e6b2-8707-43cd-a0e8-2aa690566b4e",
       "meta": {
+        "versionId": "1",
+        "lastUpdated": "2020-05-13T10:42:37.0399331+00:00",
+        "source": "http://idmp.who-umc.org/fhir",
         "profile": [
           "http://who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-req"
         ]
@@ -108,8 +114,11 @@
     },
     {
       "resourceType": "Ingredient",
-      "id": "b6cc75d3-8a24-408d-94f9-af137626ee68",
+      "id": "cf2f79ba-feae-47d9-a18a-dbf47519eb84",
       "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-03-01T10:42:37.0399817+00:00",
+        "source": "http://idmp.who-umc.org/fhir",
         "profile": [
           "http://who-umc.org/idmp/StructureDefinition/Ingredient-who-php"
         ]
@@ -117,7 +126,7 @@
       "status": "active",
       "for": [
         {
-          "reference": "#5c615920-c690-4216-b5ed-c532189c40c1"
+          "reference": "#bcf5e6b2-8707-43cd-a0e8-2aa690566b4e"
         }
       ],
       "role": {
@@ -146,7 +155,7 @@
             "presentationRatio": {
               "numerator": {
                 "value": 1.5,
-                "unit": "milligram",
+                "unit": "mg",
                 "system": "http://unitsofmeasure.org",
                 "code": "mg"
               },
@@ -166,6 +175,9 @@
       "resourceType": "Organization",
       "id": "acmeinc",
       "meta": {
+        "versionId": "1",
+        "lastUpdated": "2020-04-08T10:42:37.0399906+00:00",
+        "source": "http://idmp.who-umc.org/fhir",
         "profile": [
           "http://who-umc.org/idmp/StructureDefinition/MarketingAuthorizationHolder-who-php"
         ]
@@ -194,8 +206,8 @@
   "status": "requested",
   "intent": "proposal",
   "priority": "routine",
-  "authoredOn": "2024-06-11",
-  "lastModified": "2024-06-11",
+  "authoredOn": "2024-08-14",
+  "lastModified": "2024-08-14",
   "input": [
     {
       "type": {
@@ -208,7 +220,7 @@
         ]
       },
       "valueReference": {
-        "reference": "#5c615920-c690-4216-b5ed-c532189c40c1"
+        "reference": "#bcf5e6b2-8707-43cd-a0e8-2aa690566b4e"
       }
     },
     {
@@ -222,7 +234,7 @@
         ]
       },
       "valueReference": {
-        "reference": "#b6cc75d3-8a24-408d-94f9-af137626ee68"
+        "reference": "#cf2f79ba-feae-47d9-a18a-dbf47519eb84"
       }
     },
     {

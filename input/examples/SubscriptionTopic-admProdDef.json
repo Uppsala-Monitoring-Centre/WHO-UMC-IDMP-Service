@@ -1,0 +1,19 @@
+{
+  "resourceType": "SubscriptionTopic",
+  "id": "admProdDef",
+  "url": "http://who-umc.org/idmp/SubscriptionTopic/admProdDef",
+  "name": "admProdDef",
+  "title": "Administrable Product Definition Event",
+  "status": "active",
+  "experimental": false,
+  "description": "An APD has triggered an event",
+  "resourceTrigger": [
+    {
+      "resource": "AdministrableProductDefinition",
+      "supportedInteraction": [
+        "update",
+        "delete"
+      ]
+    }
+  ]
+}

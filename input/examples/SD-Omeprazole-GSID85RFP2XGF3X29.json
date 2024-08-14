@@ -2,6 +2,9 @@
   "resourceType": "SubstanceDefinition",
   "id": "GSID85RFP2XGF3X29",
   "meta": {
+    "versionId": "1",
+    "lastUpdated": "2018-08-12T10:42:35.9094164+00:00",
+    "source": "http://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/SubstanceDefinition-pub"
     ]
