@@ -73,6 +73,7 @@ menu:
     Operating model: operatingModel.html
     PhPID request: phpIdRequest.html
     GSID request: substanceRequest.html
+  Change management: Subscription.html
   Authentication: authentication.html
   Versioning: versioning.html
   # Specifications:
