@@ -73,7 +73,7 @@ menu:
     Operating model: operatingModel.html
     PhPID request: phpIdRequest.html
     GSID request: substanceRequest.html
-  Change management: Subscription.html
+  Change management: subscription.html
   Authentication: authentication.html
   Versioning: versioning.html
   # Specifications:
@@ -109,6 +109,12 @@ menu:
 # look like:
 
 resources:
+  Subscription/template-generated-by-server-subscription-email:
+    name: Subscription for PhPID changes
+    description: A template for how to create a subscription for a PhPID change with an email hook
+  Subscription/template-generated-by-server-subscription-rest:
+    name: Subscription for MedicinalProductDefinition changes
+    description: A template for how to create a subscription for a MPD change with a rest hook
   Task/template-generated-by-server-gsid-req:
     name: Task to request a new GSID
     description: A template for how a Task that is used to request a new GSID (SubstanceDefinition) can be structured.
