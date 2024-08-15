@@ -127,6 +127,9 @@ resources:
   Task/Task-Felleskatalogen-CPOD-MPD-1:
     name: Task example from Felleskatalogen (NO)
     description: An example developed by Felleskatalogen while testing PhPID request API.      
+  Task/bc4b0589-4c58-4dd2-b6f6-4d963d9ce207:
+    name: Example of a completed Task
+    description: An example of a completed task with output.      
   AdministrableProductDefinition/91B3CA582581F57E4092F13AAF476215:
     name: AdministrableProductDefinition level 4
     description: Example of AdministrableProductDefinition returned by the server on level 4.
@@ -150,4 +153,8 @@ resources:
     description: An example of a GSID publisehed as a SubstanceDefinition  
   MedicinalProductDefinition/1266520E021:
     name: MedicinalProductDefinition (Methotrexaat sandoz)
-    description: Example of a WHODrug product publised as a MedicinalProductDefinition.
+    description: Example of a WHODrug product published as a MedicinalProductDefinition.
+  MedicinalProductDefinition/1A0661AE2A40:
+    name: MedicinalProductDefinition (Auro methotrexate)
+    description: Example of a WHODrug product published as a MedicinalProductDefinition.
+  
