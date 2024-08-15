@@ -40,6 +40,7 @@ http://terminology.hl7.org/CodeSystem/medicationknowledge-characteristic
 Alias: $roleclass = http://terminology.hl7.org/CodeSystem/v3-RoleClass
 Alias: $publication-status = http://hl7.org/fhir/publication-status
 Alias: $data-absent-reason-CS = http://terminology.hl7.org/CodeSystem/data-absent-reason
+Alias: $channelType = http://terminology.hl7.org/CodeSystem/subscription-channel-type
 
 // External systems
 Alias: $meddra = http://terminology.hl7.org/CodeSystem/mdr
@@ -57,7 +58,6 @@ Alias: $eusrs = http://example.org/eu-srs // TO BE CHANGED
 Alias: $cas = http://example.org/cas // TO BE CHANGED
 Alias: $ucum = http://unitsofmeasure.org
 Alias: $vsCountry = http://terminology.hl7.org/ValueSet/v3-Country2
-
 
 // Example systems
 Alias: $example-cs = http://example.org // used only for missing concepts in examples
