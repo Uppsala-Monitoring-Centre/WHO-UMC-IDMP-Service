@@ -1,4 +1,5 @@
 {
+  "id": "template-generated-by-server-subscription-email",
   "resourceType": "Subscription",
   "name": "Demo end point",
   "status": "requested",

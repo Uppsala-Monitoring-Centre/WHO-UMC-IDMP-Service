@@ -30,7 +30,7 @@ RuleSet: SubstanceDefinitionCommon
 * id 1..
 * identifier.system = $gsid
 * status 1..
-* status ^short =	"draft|active|retired|unknown"
+* status ^short =	"draft|active|retired"
 * domain 1..
 * code 0..
 * code.code
