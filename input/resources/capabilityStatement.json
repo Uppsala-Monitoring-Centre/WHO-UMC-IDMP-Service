@@ -4,7 +4,7 @@
   "name": "WHO-UMC IDMP Management and Publish API",
   "title": "API to allow for Requests and Publishing of PhPIDs and GSIDs",
   "status": "draft",
-  "date": "2024-06-10",
+  "date": "2024-08-16",
   "publisher": "Uppsala Monitoring Centre",
   "contact": [
     {
@@ -218,6 +218,90 @@
           "interaction": [
             {
               "code": "read"
+            }
+          ]
+        },
+        {
+          "type": "SubscriptionTopic",
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "_id",
+              "type": "string",
+              "documentation": "Id of the SubscriptionTopic"
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "documentation": "Name of the SubscriptionTopic (contains search)"
+            },
+            {
+              "name": "url",
+              "type": "string",
+              "documentation": "Url of the SubscriptionTopic"
+            }
+          ]
+        },
+        {
+          "type": "Subscription",
+          "interaction": [
+            {
+              "code": "read"
+            },
+            {
+              "code": "create"
+            },
+            {
+              "code": "delete"
+            },
+            {
+              "code": "update"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "_id",
+              "type": "string",
+              "documentation": "Id of the Subscription"
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "documentation": "Name of the Subscription (contains search)"
+            },
+            {
+              "name": "topic",
+              "type": "string",
+              "documentation": "Topic (full url) of the Subscription"
+            }
+          ]
+        },
+        {
+          "type": "SubscriptionStatus",
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "_id",
+              "type": "string",
+              "documentation": "Id of the Subscription"
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "documentation": "Name of the Subscription (contains search)"
+            },
+            {
+              "name": "topic",
+              "type": "string",
+              "documentation": "Topic (full url) of the Subscription"
             }
           ]
         },

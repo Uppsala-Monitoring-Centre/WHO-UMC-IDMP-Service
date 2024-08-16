@@ -40,7 +40,7 @@ http://terminology.hl7.org/CodeSystem/medicationknowledge-characteristic
 Alias: $roleclass = http://terminology.hl7.org/CodeSystem/v3-RoleClass
 Alias: $publication-status = http://hl7.org/fhir/publication-status
 Alias: $data-absent-reason-CS = http://terminology.hl7.org/CodeSystem/data-absent-reason
-Alias: $channelType = http://terminology.hl7.org/CodeSystem/subscription-channel-type
+Alias: $channelType-CS = http://terminology.hl7.org/CodeSystem/subscription-channel-type
 
 // External systems
 Alias: $meddra = http://terminology.hl7.org/CodeSystem/mdr
@@ -78,6 +78,7 @@ Alias: $edqmPdfBasicDoseForm = http://who-umc.org/idmp/ValueSet/EdqmBDF
 Alias: $edqmPdfIntendedSite = http://who-umc.org/idmp/ValueSet/EdqmISI
 Alias: $edqmPdfAdministrationMethod = http://who-umc.org/idmp/ValueSet/EdqmAME
 Alias: $pharmaceuticalForm = http://who-umc.org/idmp/ValueSet/pharmaceuticalForm
+Alias: $channelType = http://who-umc.org/idmp/ValueSet/channelType
 
 // SPOR Code systems (lists)
 	

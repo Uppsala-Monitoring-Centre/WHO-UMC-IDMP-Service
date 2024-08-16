@@ -3,7 +3,7 @@
   "id": "1A0661AE2A40",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2018-09-06T10:42:37.0306596+00:00",
+    "lastUpdated": "2022-08-02T06:33:39.8955638+00:00",
     "source": "http://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-pub"
@@ -20,6 +20,10 @@
     {
       "system": "http://who-umc.org/idmp/CodeSystem/product",
       "value": "1A0661AE2A40"
+    },
+    {
+      "system": "https://health-products.canada.ca/dpd-bdpp",
+      "value": "02182750"
     }
   ],
   "type": {

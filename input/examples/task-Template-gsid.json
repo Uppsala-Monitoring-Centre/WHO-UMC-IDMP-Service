@@ -3,7 +3,7 @@
   "id": "template-generated-by-server-gsid-req",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2019-08-31T10:42:37.0451284+00:00",
+    "lastUpdated": "2024-05-04T06:33:40.0004419+00:00",
     "source": "http://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/Task-who-php-gsid"
@@ -12,10 +12,10 @@
   "contained": [
     {
       "resourceType": "SubstanceDefinition",
-      "id": "ddbcf17c-4a16-4754-a33b-4b54378a6d36",
+      "id": "934899a1-68b4-4ee4-b3c4-14a1ffbc8c4a",
       "meta": {
         "versionId": "1",
-        "lastUpdated": "2022-02-10T10:42:37.0450591+00:00",
+        "lastUpdated": "2022-11-07T06:33:39.9996663+00:00",
         "source": "http://idmp.who-umc.org/fhir",
         "profile": [
           "http://who-umc.org/idmp/StructureDefinition/SubstanceDefinition-req"
@@ -76,8 +76,8 @@
   "status": "requested",
   "intent": "proposal",
   "priority": "routine",
-  "authoredOn": "2024-08-14",
-  "lastModified": "2024-08-14",
+  "authoredOn": "2024-08-16",
+  "lastModified": "2024-08-16",
   "input": [
     {
       "type": {
@@ -90,7 +90,7 @@
         ]
       },
       "valueReference": {
-        "reference": "#ddbcf17c-4a16-4754-a33b-4b54378a6d36"
+        "reference": "#934899a1-68b4-4ee4-b3c4-14a1ffbc8c4a"
       }
     }
   ]

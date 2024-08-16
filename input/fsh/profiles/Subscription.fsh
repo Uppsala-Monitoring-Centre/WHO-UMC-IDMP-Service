@@ -8,5 +8,5 @@ Description: "Subscription for event notifications"
   * ^short = "id-only"
 * endpoint 1..1
 * channelType 1..1
-  * system = $channelType
-  * code from VsChannelType
+  * system = $channelType-CS
+  * code from $channelType

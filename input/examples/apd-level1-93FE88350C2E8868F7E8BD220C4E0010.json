@@ -3,7 +3,7 @@
   "id": "93FE88350C2E8868F7E8BD220C4E0010",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2021-02-04T10:42:35.3300001+00:00",
+    "lastUpdated": "2020-06-09T06:33:28.0123945+00:00",
     "source": "http://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/AdministrableProductDefinition-who-php"
@@ -11,15 +11,15 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Pharmaceutical Product (Administrable Product Definition)</h1><table><tr><td style=\"font-weight: bold;\">Id</td><td>[phpid, 93FE88350C2E8868F7E8BD220C4E0010]</td></tr><tr><td style=\"font-weight: bold;\">Level</td><td>1</td></tr></table><h2>Ingredients</h2><table><th>Substance</th><th>Strength</th><tr><td>METHOTREXATE SODIUM</td><td></td></tr></table><h2>Form</h2><table></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Pharmaceutical Product (Administrable Product Definition)</h1><table><tr><td style=\"font-weight: bold;\">Id</td><td>93FE88350C2E8868F7E8BD220C4E0010</td></tr><tr><td style=\"font-weight: bold;\">Level</td><td>1</td></tr></table><h2>Ingredients</h2><table><th>Substance</th><th>Strength</th><tr><td>METHOTREXATE SODIUM</td><td></td></tr></table><h2>Form</h2><table></table></div>"
   },
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "b3f8074d-c584-42d8-9d3f-d3dc15c9e67d",
+      "id": "6fa345e5-af65-48ba-9819-9e0a74648ed4",
       "meta": {
         "versionId": "1",
-        "lastUpdated": "2018-05-05T10:42:35.3300851+00:00",
+        "lastUpdated": "2018-09-12T06:33:28.0355898+00:00",
         "source": "http://idmp.who-umc.org/fhir",
         "profile": [
           "http://who-umc.org/idmp/StructureDefinition/Ingredient-who-php-publish"

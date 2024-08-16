@@ -1,25 +1,27 @@
 {
-    "resourceType": "ValueSet",
-    "id": "VsChannelType",
-    "url": "http://who-umc.org/idmp/ValueSet/channelType",
-    "name": "channelType",
-    "title": "Channel type Value Set",
-    "status": "active",
-    "experimental": false,
-    "description": "Channel type Value Set",
-    "compose": {
-      "include": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/subscription-channel-type",
-          "concept": [
-            {
-              "code": "email",
-              "display": "Email"
-            },
-            {
-                "code": "rest-hook",
-                "display": "Rest Hook"
-            } ]
-        } ]
-    }
+  "resourceType": "ValueSet",
+  "id": "channelType",
+  "url": "http://who-umc.org/idmp/ValueSet/channelType",
+  "name": "channelType",
+  "title": "Channel Type Value Set",
+  "status": "active",
+  "experimental": false,
+  "description": "Channel type Value Set accepted by the IDMP Service",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/subscription-channel-type",
+        "concept": [
+          {
+            "code": "email",
+            "display": "Email"
+          },
+          {
+            "code": "rest-hook",
+            "display": "Rest Hook"
+          }
+        ]
+      }
+    ]
+  }
 }
