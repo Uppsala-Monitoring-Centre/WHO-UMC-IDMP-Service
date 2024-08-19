@@ -20,7 +20,7 @@ The Implementation Guide describes how new global PhPIDs and GSIDs are requested
 #### Access to the WHO-UMC IDMP FHIR server
 
 ##### Preview
-The (preview) FHIR server with tutorials and examples can be reached at [https://idmp.who-umc.org/fhir](https://idmp.who-umc.org/fhir). 
+The (preview) FHIR server can be reached at [https://idmp.who-umc.org/fhir](https://idmp.who-umc.org/fhir). A tutorial with examples is found at [https://idmp.who-umc.org/](https://idmp.who-umc.org/)
 
 ##### Production (beta)
 To get access to the production server, still under development, please contact asa.parnaste [at] who-umc.org .
