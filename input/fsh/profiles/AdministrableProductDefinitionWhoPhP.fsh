@@ -30,11 +30,15 @@ Description: "This profile specified how the AdministrableProductDefinition is p
 * status 1..1 
   * ^short = "draft | active | retired |unknown"
 
-* formOf 1..
-  * extension contains $data-absent-reason named data-absent-reason 0..
-  * extension[data-absent-reason].valueCode = #unsupported
+* formOf 0..0
+//The below construct is not needed
+// * formOf 1..
+//   * extension contains $data-absent-reason named data-absent-reason 0..
+//   * extension[data-absent-reason].valueCode = #unsupported
 
-//* administrableDoseForm from VsAdministrableDoseForm (example)
+// ADF is intended to be like shewable tablet acc to EDQM. 
+// The PhPID is only using Tablet as concept (the BDF) so two APDs with similar (but different) ADFs will have the same PhPID
+// Therefore... we do not use ADF but the extensions associated with the Pharmaceutical Form
 * administrableDoseForm 0..0
 
 //* routeOfAdministration
