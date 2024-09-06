@@ -127,7 +127,7 @@ resources:
   Task/Task-Felleskatalogen-CPOD-MPD-1:
     name: Task example from Felleskatalogen (NO)
     description: An example developed by Felleskatalogen while testing PhPID request API.      
-  Task/bc4b0589-4c58-4dd2-b6f6-4d963d9ce207:
+  Task/task-completed-phpid:
     name: Example of a completed Task
     description: An example of a completed task with output.      
   AdministrableProductDefinition/91B3CA582581F57E4092F13AAF476215:
