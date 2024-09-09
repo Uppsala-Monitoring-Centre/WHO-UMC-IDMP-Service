@@ -4,7 +4,7 @@
   "name": "WHO-UMC IDMP Management and Publish API",
   "title": "API to allow for Requests and Publishing of PhPIDs and GSIDs",
   "status": "draft",
-  "date": "2024-08-16",
+  "date": "2024-09-09",
   "publisher": "Uppsala Monitoring Centre",
   "contact": [
     {
@@ -169,6 +169,11 @@
               "name": "name-country",
               "type": "string",
               "documentation": "Country according to urn:iso:std:iso:3166"
+            },
+            {
+              "name": "product-classification",
+              "type": "token",
+              "documentation": "Used to search for products given a PhPID"
             }
           ]
         },
@@ -269,6 +274,11 @@
               "documentation": "Id of the Subscription"
             },
             {
+              "name": "identifier",
+              "type": "string",
+              "documentation": ""
+            },
+            {
               "name": "name",
               "type": "string",
               "documentation": "Name of the Subscription (contains search)"
@@ -292,6 +302,11 @@
               "name": "_id",
               "type": "string",
               "documentation": "Id of the Subscription"
+            },
+            {
+              "name": "identifier",
+              "type": "string",
+              "documentation": ""
             },
             {
               "name": "name",
