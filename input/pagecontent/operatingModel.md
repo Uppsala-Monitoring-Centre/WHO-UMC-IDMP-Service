@@ -1,6 +1,6 @@
 ### Operating model
 
-Following is a picture of the operating model for requesting and publishing PhPIDs. The process is similar for GSIDs. 
+Following is a picture of the operating model for requesting and publishing PhPIDs. 
 
 <img src="OperatingModel.png" alt="The PhPID operating model"/>
 <br clear="all"/>

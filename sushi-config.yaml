@@ -49,8 +49,8 @@ pages:
     title: Operating model   
   phpIdRequest.md:
     title: PhPID (AdministrableProductDefinition) request   
-  substanceRequest.md:
-    title: GSID (Substance) request   
+  #substanceRequest.md:
+  #  title: GSID (Substance) request   
   authentication.md:
     title: Authentication
   subscription.md:
@@ -72,7 +72,7 @@ menu:
   Requesting PhP and GSIDs:
     Operating model: operatingModel.html
     PhPID request: phpIdRequest.html
-    GSID request: substanceRequest.html
+    #GSID request: substanceRequest.html
   Change management: subscription.html
   Authentication: authentication.html
   Versioning: versioning.html
