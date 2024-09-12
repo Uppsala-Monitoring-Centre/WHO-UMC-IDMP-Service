@@ -11,7 +11,7 @@ Upon a successful request, a PhPID is generated and an (APD) resource representi
 ### Workflow
 
 1. Create a `MedicinalProductDefinition` (MPD) resource together with `Ingredient` (I) resource(s) with the information available for PhPID generation. The resources should only have ids for internal references in the `Task`. If available, local Medicinal Product Identifiers (MPID)s should be present in the identifier section of the (MPD). Substances should (if possible) be referenced using the Global Substance Identifiers (GSID)s. Also add a Marketing Authorization Holder for the (MPD) using an `Organization` (O) resource. 
-2. Place the (MPD), (I) amd (O) resources in the contained section of a Task resource and reference them in the input section specifying the appropriate type using the TaskInputType code system.
+2. Place the (MPD), (I), and (O) resources in the contained section of a Task resource and reference them in the input section specifying the appropriate type using the TaskInputType code system.
 3. POST the `Task` to the maintenance organization. Before POSTing the `Task` it should be validated using a `Task/$validate` `POST` call.
 4. GET the status of the Task by using the 'Content-Location' header returned from the POST call. It is also possible to get the status by requesting the Task given the id of the Task returned as response of the `POST`.
 Repeat step (4) until the status is Completed. Not to overload the server a exponential back-off approach should be used starting from four seconds up to 1024 seconds between the requests. 
