@@ -69,7 +69,7 @@ pages:
 menu:
   IG Home: index.html
   Background: background.html
-  Requesting PhP and GSIDs:
+  Requesting PhPs:
     Operating model: operatingModel.html
     PhPID request: phpIdRequest.html
     #GSID request: substanceRequest.html
