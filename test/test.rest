@@ -1,0 +1,38 @@
+### someyhing
+
+### Webhook
+POST https://eobhv2o4a05mgkh.m.pipedream.net HTTP/1.1
+myheader: Hello World
+ 
+{
+    "resourceType": "Organization"
+}
+ 
+
+@apikey = 161713fd-87aa-4872-af04-d37977cf6440
+@url = https://idmp.who-umc.org/fhir 
+
+### FCAT 37 - Create new subscription
+POST  {{url}}/Subscription
+Ocp-Apim-Subscription-Key: {{apikey}}
+ 
+< ./subscription-rest.json
+
+### FCAT 37 - Delete subscription
+DELETE  {{url}}/Subscription/95c257db-e3d9-4913-ac03-30e67c7568e3
+Ocp-Apim-Subscription-Key: {{apikey}}
+ 
+### Create faked event
+GET {{url}}/TriggerEvent/mpd/123
+Ocp-Apim-Subscription-Key: {{apikey}}
+
+### List subscription topics
+GET {{url}}/SubscriptionTopic
+Ocp-Apim-Subscription-Key: {{apikey}}
+ 
+### List subscriptions
+GET {{url}}/Subscription
+Ocp-Apim-Subscription-Key: {{apikey}}
+ 
+### Update Status (call this until the status is completed)
+GET {{url}}/UpdateTask/443bf72d-849a-4e02-a5f2-3feadd3d0e65

@@ -3,7 +3,7 @@
   "id": "template-generated-by-server-phpid-req",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2020-06-21T06:33:39.9559007+00:00",
+    "lastUpdated": "2019-02-26T00:52:28.4429089+00:00",
     "source": "http://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/Task-who-php-phpid"
@@ -12,10 +12,8 @@
   "contained": [
     {
       "resourceType": "MedicinalProductDefinition",
-      "id": "55f0b594-e609-4c54-8b96-e46b68f04b65",
+      "id": "06cea604-91d0-43cc-8ebe-474d231a83d7",
       "meta": {
-        "versionId": "1",
-        "lastUpdated": "2017-01-21T06:33:39.9299493+00:00",
         "source": "http://idmp.who-umc.org/fhir",
         "profile": [
           "http://who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-req"
@@ -114,10 +112,8 @@
     },
     {
       "resourceType": "Ingredient",
-      "id": "7719a286-ffec-4d0e-9481-7e9fa1c26b0b",
+      "id": "7db146b5-dfb8-4062-81ba-41b76deafcdc",
       "meta": {
-        "versionId": "1",
-        "lastUpdated": "2023-07-23T06:33:39.9317495+00:00",
         "source": "http://idmp.who-umc.org/fhir",
         "profile": [
           "http://who-umc.org/idmp/StructureDefinition/Ingredient-who-php"
@@ -126,7 +122,7 @@
       "status": "active",
       "for": [
         {
-          "reference": "#55f0b594-e609-4c54-8b96-e46b68f04b65"
+          "reference": "#06cea604-91d0-43cc-8ebe-474d231a83d7"
         }
       ],
       "role": {
@@ -166,7 +162,7 @@
                 "code": "IU"
               }
             },
-            "textPresentation": "1,5 mg"
+            "textPresentation": "1.5 mg"
           }
         ]
       }
@@ -175,8 +171,6 @@
       "resourceType": "Organization",
       "id": "acmeinc",
       "meta": {
-        "versionId": "1",
-        "lastUpdated": "2020-04-28T06:33:39.9320274+00:00",
         "source": "http://idmp.who-umc.org/fhir",
         "profile": [
           "http://who-umc.org/idmp/StructureDefinition/MarketingAuthorizationHolder-who-php"
@@ -206,8 +200,8 @@
   "status": "requested",
   "intent": "proposal",
   "priority": "routine",
-  "authoredOn": "2024-08-16",
-  "lastModified": "2024-08-16",
+  "authoredOn": "2024-09-22",
+  "lastModified": "2024-09-22",
   "input": [
     {
       "type": {
@@ -220,7 +214,7 @@
         ]
       },
       "valueReference": {
-        "reference": "#55f0b594-e609-4c54-8b96-e46b68f04b65"
+        "reference": "#06cea604-91d0-43cc-8ebe-474d231a83d7"
       }
     },
     {
@@ -234,7 +228,7 @@
         ]
       },
       "valueReference": {
-        "reference": "#7719a286-ffec-4d0e-9481-7e9fa1c26b0b"
+        "reference": "#7db146b5-dfb8-4062-81ba-41b76deafcdc"
       }
     },
     {

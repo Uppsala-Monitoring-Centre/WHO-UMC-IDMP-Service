@@ -3,7 +3,7 @@
   "id": "91B3CA582581F57E4092F13AAF476215",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2024-02-06T06:33:28.3746329+00:00",
+    "lastUpdated": "2016-12-17T00:52:22.8897675+00:00",
     "source": "http://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/AdministrableProductDefinition-who-php"
@@ -11,15 +11,15 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Pharmaceutical Product (Administrable Product Definition)</h1><table><tr><td style=\"font-weight: bold;\">Id</td><td>91B3CA582581F57E4092F13AAF476215</td></tr><tr><td style=\"font-weight: bold;\">Level</td><td>4</td></tr></table><h2>Ingredients</h2><table><th>Substance</th><th>Strength</th><tr><td>METHOTREXATE SODIUM</td><td>2,74 mg</td></tr></table><h2>Form</h2><table><tr><td style=\"font-weight: bold;\">Basic dose form</td><td>Tablet (BDF-0069)</td></tr><tr><td style=\"font-weight: bold;\">Administration method</td><td>Swallowing (AME-0019)</td></tr><tr><td style=\"font-weight: bold;\">Intended site</td><td>Oral (ISI-0031)</td></tr><tr><td style=\"font-weight: bold;\">Release characteristics</td><td>Conventional (RCA-0047)</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Pharmaceutical Product (Administrable Product Definition)</h1><table><tr><td style=\"font-weight: bold;\">Id</td><td>91B3CA582581F57E4092F13AAF476215</td></tr><tr><td style=\"font-weight: bold;\">Level</td><td>4</td></tr></table><h2>Ingredients</h2><table><th>Substance</th><th>Strength</th><tr><td>METHOTREXATE SODIUM</td><td>2.74 mg</td></tr></table><h2>Form</h2><table><tr><td style=\"font-weight: bold;\">Basic dose form</td><td>Tablet (BDF-0069)</td></tr><tr><td style=\"font-weight: bold;\">Administration method</td><td>Swallowing (AME-0019)</td></tr><tr><td style=\"font-weight: bold;\">Intended site</td><td>Oral (ISI-0031)</td></tr><tr><td style=\"font-weight: bold;\">Release characteristics</td><td>Conventional (RCA-0047)</td></tr></table></div>"
   },
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "1704bbeb-6749-43b7-9bf5-3a98f56faa0f",
+      "id": "a97750c6-4f1d-48dc-88d8-b9ad22218730",
       "meta": {
         "versionId": "1",
-        "lastUpdated": "2019-05-10T06:33:28.3747787+00:00",
+        "lastUpdated": "2017-03-08T00:52:22.891087+00:00",
         "source": "http://idmp.who-umc.org/fhir",
         "profile": [
           "http://who-umc.org/idmp/StructureDefinition/Ingredient-who-php-publish"
@@ -55,7 +55,7 @@
               "system": "http://unitsofmeasure.org",
               "code": "mg"
             },
-            "textPresentation": "2,74 mg",
+            "textPresentation": "2.74 mg",
             "referenceStrength": [
               {
                 "substance": {
