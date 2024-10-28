@@ -46,6 +46,7 @@ RuleSet: TaskGeneratePhPIDCommon
 * authoredOn 1..
 * lastModified 1..
 
+// TODO: VCN2025 - 1.. for ingredient
 * contained 3..5
   * ^short = "Resources, according to 'input', used in PhPID generation."
 * input ^slicing.discriminator.type = #value

@@ -1,3 +1,4 @@
+// TODO: VCN2025 - Check that this profile is up to date        
 Profile: AdministrableProductDefinitionWhoPhP
 Parent: AdministrableProductDefinition
 Id: AdministrableProductDefinition-who-php

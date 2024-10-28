@@ -15,27 +15,32 @@ Description: """This profile specified how the Ingredient is used in a PhPID req
   * code from VsSubstance (example)
   * code.concept
     * coding 0..1
+    // TODO: VCN2025 - allow "all" code systems
       * system = $gsid
       * system 1..1
       * code 1..1 //gsid value
     * text 1..1 //substance name
   * strength 1..1
+    * ^short = "The quantity of substance, per presentation, or per volume or mass, and type of quantity."
     * presentationRatio 0..1
       * numerator 1..1
         * value 1..1
         * unit 1..1
+        // TODO: VCN2025 - allow "all" code systems - add (example)?
         * unit from VsStrengthUnit 
       * denominator 1..1
         * value 1..1
         * unit 1..1
+        // TODO: VCN2025 - allow "all" code systems - add (example)?
         * unit from VsStrengthUnit 
     * presentationQuantity 0..1
       * value 1..1
       * unit 1..1
       * unit from VsStrengthUnit
+    // TODO: VCN2025 - redundant - check if needed for IG clarity?
     * textPresentation 0..1 //strength freetext
       * ^short = "Should only be used if the strength cannot be coded."
-    * ^short = "The quantity of substance, per presentation, or per volume or mass, and type of quantity."
+    // TODO: VCN2025 - allow ref strength
     * referenceStrength 0..0
 //*******************************
 // Publish model
