@@ -79,7 +79,7 @@ RuleSet: MedicinalProductDefinitionCommon
     * country ^short = "Country where this name applies"
     * country 1..1 
       * coding 1..1
-        * code 1..1    
+        * code 1..1
         * code from VsCountry (example)
     * jurisdiction ^short = "Jurisdiction where this name applies"
       * coding 1..1
@@ -89,7 +89,6 @@ RuleSet: MedicinalProductDefinitionCommon
     
 // NOT USED ELEMENTS
 
-// TODO: VCN2025 - Verify that those can be sent even if we ignore them
 * insert NotUsed(statusDate)
 * insert NotUsed(legalStatusOfSupply)
 * insert NotUsed(additionalMonitoringIndicator)
