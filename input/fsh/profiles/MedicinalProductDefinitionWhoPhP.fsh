@@ -12,10 +12,9 @@ Description: """This profile specified how the MedicinalProductDefinition is use
   * system 1..
   * system from VsMpIdSystem (extensible)
   * value 1..
-// TODO: VCN2025 - describe clearly (for IG) that this is MAH (NOT requester)         
 * contact 1..1
   * type ^short = "Should be ProposedMAH"
-  * contact ^short = "A specific contact, person (in a role), or an organization for this product"
+  * contact ^short = "A specific contact that represents an organization that is the market authorization holder for this product."
   * contact only Reference(MarketingAuthorizationHolder-who-php)
 * description ^short = "General description of the medicinal product referred by the ePI"
 * indication ^short = "Narrative text of the authorized indication(s) for this product."
