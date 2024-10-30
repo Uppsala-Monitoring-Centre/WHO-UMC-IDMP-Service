@@ -66,13 +66,10 @@ RuleSet: MedicinalProductDefinitionCommon
 * classification from VsAtcClassification (example)
   * ^short = "Allows the product to be classified by various systems (e.g. ATC)"
 
-// TODO: VCN2025 - allow for multiple names where type is required 
 // Need to investigate which type we should use (and require?)
 * name 1..
   * productName 1..1
   * productName ^short = "The full product name."
-  // TODO: VCN2025 - type should be allowed (and req if more than one name?!)
-  * insert NotUsed(type)
 
   * part 0..*
     * part ^short = "A fragment of a product name."
