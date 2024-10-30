@@ -1,4 +1,4 @@
-// TODO: VCN2025 - Check that this profile is up to date        
+// TODO: VCN2025 - Check that this profile is up to date
 Profile: AdministrableProductDefinitionWhoPhP
 Parent: AdministrableProductDefinition
 Id: AdministrableProductDefinition-who-php
@@ -37,7 +37,7 @@ Description: "This profile specified how the AdministrableProductDefinition is p
 //   * extension contains $data-absent-reason named data-absent-reason 0..
 //   * extension[data-absent-reason].valueCode = #unsupported
 
-// ADF is intended to be like shewable tablet acc to EDQM. 
+// ADF is intended to be like chewable tablet acc to EDQM. 
 // The PhPID is only using Tablet as concept (the BDF) so two APDs with similar (but different) ADFs will have the same PhPID
 // Therefore... we do not use ADF but the extensions associated with the Pharmaceutical Form
 * administrableDoseForm 0..0
