@@ -46,15 +46,14 @@ RuleSet: TaskGeneratePhPIDCommon
 * authoredOn 1..
 * lastModified 1..
 
-// TODO: VCN2025 - 1.. for ingredient
-* contained 3..5
+* contained 3..*
   * ^short = "Resources, according to 'input', used in PhPID generation."
 * input ^slicing.discriminator.type = #value
 * input ^slicing.discriminator.path = "type"
 * input ^slicing.rules = #open
 * input ^slicing.description = "Slice based on the input.type value"
 
-* input contains MPD 1..1 MS and ORG 1..1 MS and ING 1..3 MS
+* input contains MPD 1..1 MS and ORG 1..1 MS and ING 1..* MS
 * input[MPD].type = TaskInputTypes#mpd-request-resource
 * input[MPD].value[x] only Reference
 * input[MPD].valueReference only Reference (MedicinalProductDefinitionWhoPhPRequest)
