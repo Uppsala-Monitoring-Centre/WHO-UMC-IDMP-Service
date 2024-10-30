@@ -80,13 +80,11 @@ RuleSet: MedicinalProductDefinitionCommon
     * country 1..1 
       * coding 1..1
         * code 1..1    
-        // TODO: VCN2025 - Should accept "all" systems and map
-        * system = $iso3166
+        * code from VsCountry (example)
     * jurisdiction ^short = "Jurisdiction where this name applies"
       * coding 1..1
         * code 1..1    
-        // TODO: VCN2025 - Should accept "all" systems and map
-        * code from VsJurisdiction
+        * code from VsJurisdiction (example)
     * language ^short = "Language for this name"
     
 // NOT USED ELEMENTS
