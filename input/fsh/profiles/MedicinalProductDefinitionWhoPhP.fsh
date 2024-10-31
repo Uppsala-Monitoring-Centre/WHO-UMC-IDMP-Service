@@ -80,10 +80,10 @@ RuleSet: MedicinalProductDefinitionCommon
     * country 1..1 
       * coding 1..1
         * code 1..1
-        * code from VsCountry (example)
+        * system = $iso3166
     * jurisdiction ^short = "Jurisdiction where this name applies"
       * coding 1..1
-        * code 1..1    
+        * code 1..1
         * code from VsJurisdiction (example)
     * language ^short = "Language for this name"
     
