@@ -12,10 +12,9 @@ Description: """This profile specified how the MedicinalProductDefinition is use
   * system 1..
   * system from VsMpIdSystem (extensible)
   * value 1..
-// TODO: VCN2025 - describe clearly (for IG) that this is MAH (NOT requester)         
 * contact 1..1
   * type ^short = "Should be ProposedMAH"
-  * contact ^short = "A specific contact, person (in a role), or an organization for this product"
+  * contact ^short = "A specific contact that represents an organization that is the market authorization holder for this product."
   * contact only Reference(MarketingAuthorizationHolder-who-php)
 * description ^short = "General description of the medicinal product referred by the ePI"
 * indication ^short = "Narrative text of the authorized indication(s) for this product."
@@ -67,13 +66,10 @@ RuleSet: MedicinalProductDefinitionCommon
 * classification from VsAtcClassification (example)
   * ^short = "Allows the product to be classified by various systems (e.g. ATC)"
 
-// TODO: VCN2025 - allow for multiple names where type is required 
 // Need to investigate which type we should use (and require?)
 * name 1..
   * productName 1..1
   * productName ^short = "The full product name."
-  // TODO: VCN2025 - type should be allowed (and req if more than one name?!)
-  * insert NotUsed(type)
 
   * part 0..*
     * part ^short = "A fragment of a product name."
@@ -83,19 +79,16 @@ RuleSet: MedicinalProductDefinitionCommon
     * country ^short = "Country where this name applies"
     * country 1..1 
       * coding 1..1
-        * code 1..1    
-        // TODO: VCN2025 - Should accept "all" systems and map
+        * code 1..1
         * system = $iso3166
     * jurisdiction ^short = "Jurisdiction where this name applies"
       * coding 1..1
-        * code 1..1    
-        // TODO: VCN2025 - Should accept "all" systems and map
-        * code from VsJurisdiction
+        * code 1..1
+        * code from VsJurisdiction (example)
     * language ^short = "Language for this name"
     
 // NOT USED ELEMENTS
 
-// TODO: VCN2025 - Verify that those can be sent even if we ignore them
 * insert NotUsed(statusDate)
 * insert NotUsed(legalStatusOfSupply)
 * insert NotUsed(additionalMonitoringIndicator)
