@@ -36,4 +36,4 @@ rem Run a "valid" task dotnet test
 echo ---------------------------------------
 echo DOTNET TEST
 echo ---------------------------------------
-"%DOTNET_EXE%" test "%DESTINATION_PATH%" -v m --filter FullyQualifiedName~Umc.Fhir.Idmp.Application.UnitTests.Common.FhirValidation.FhirValidatorTests.Validate_Task_ValidExample_TaskTemplate_ShouldReturnSuccess
+"%DOTNET_EXE%" test "%DESTINATION_PATH%" -v m --filter "FullyQualifiedName~Umc.Fhir.Idmp.Application.UnitTests.Common.FhirValidation."
