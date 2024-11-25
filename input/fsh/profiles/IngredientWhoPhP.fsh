@@ -23,6 +23,7 @@ Description: """This profile specified how the Ingredient is used in a PhPID req
   * strength 1..1 // Enforce that one of the three following properties are set
     * ^short = "The quantity of substance, per presentation, or per volume or mass, and type of quantity."
     * presentation[x] only Ratio or Quantity
+    * presentation[x] 1..1
     // TODO: VCN2025 - redundant - check if needed for IG clarity?
     * textPresentation 0..1 //strength freetext
       * ^short = "Should only be used if the strength cannot be coded."
