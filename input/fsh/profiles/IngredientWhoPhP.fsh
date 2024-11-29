@@ -15,8 +15,6 @@ Description: """This profile specified how the Ingredient is used in a PhPID req
   * code from VsSubstance (example)
   * code.concept
     * coding 0..1
-    // TODO: VCN2025 - allow "all" code systems
-      * system = $gsid
       * system 1..1
       * code 1..1 //gsid value
     * text 1..1 //substance name
@@ -24,7 +22,6 @@ Description: """This profile specified how the Ingredient is used in a PhPID req
     * ^short = "The quantity of substance, per presentation, or per volume or mass, and type of quantity."
     * presentation[x] only Ratio or Quantity
     * presentation[x] 1..1
-    // TODO: VCN2025 - redundant - check if needed for IG clarity?
     * textPresentation 0..1 //strength freetext
       * ^short = "Should only be used if the strength cannot be coded."
 //*******************************
