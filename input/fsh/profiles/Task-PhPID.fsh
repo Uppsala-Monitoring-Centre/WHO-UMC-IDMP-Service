@@ -52,6 +52,7 @@ RuleSet: TaskGeneratePhPIDCommon
 * input ^slicing.discriminator.path = "type"
 * input ^slicing.rules = #open
 * input ^slicing.description = "Slice based on the input.type value"
+* input.type from VsPhPIDTaskInputTypes (required)
 
 * input contains MPD 1..1 MS and ORG 1..1 MS and ING 1..* MS
 * input[MPD].type = TaskInputTypes#mpd-request-resource
