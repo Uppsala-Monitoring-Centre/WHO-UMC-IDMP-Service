@@ -53,12 +53,11 @@ Id: requestStatus
 Title: "Request Status Value Set"
 Description: "Request Status Value Set"
 * ^experimental = false
-* $request-status#requested "Requested" "The task is ready to be acted upon and action is sought."
-* $request-status#accepted "Accepted" "The potential performer has agreed to execute the task but has not yet started work."
-* $request-status#in-progress "In Progress" "The task has been started but is not yet complete."
-* $request-status#rejected "Rejected" "The potential performer who claimed ownership of the task has decided not to execute it prior to performing any action."
-* $request-status#completed "Completed" "The task has been completed."
-// Check what more
+* $request-status#requested "Requested"
+* $request-status#accepted "Accepted"
+* $request-status#in-progress "In Progress"
+* $request-status#rejected "Rejected"
+* $request-status#completed "Completed"
 
 //=========================
 ValueSet: VsJurisdiction
