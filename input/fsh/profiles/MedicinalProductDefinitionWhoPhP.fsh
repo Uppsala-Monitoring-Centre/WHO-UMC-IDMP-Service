@@ -18,10 +18,11 @@ Description: """This profile specified how the MedicinalProductDefinition is use
   * contact only Reference(MarketingAuthorizationHolder-who-php)
 * description ^short = "General description of the medicinal product referred by the ePI"
 * indication ^short = "Narrative text of the authorized indication(s) for this product."
-* attachedDocument 1..1
+* attachedDocument 1..*
   * display ^short = "The document that describes the product in detail"
   * display 1..1
-  
+* obeys name-type-required-multiple
+
 //*******************************
 // Publish model
 //*******************************
@@ -101,3 +102,12 @@ RuleSet: MedicinalProductDefinitionCommon
   * country from $vsCountry (preferred)
   * dateRange ^short = "The date when the Medicinal Product is placed on the market by the Marketing Authorization Holder"
   * status ^short = "Status of the marketing of the medicinal product." */
+
+
+//*******************************
+// Constraints
+//*******************************
+Invariant:  name-type-required-multiple
+Description: "If name length >1, require name.type"
+Expression: "name.count()=1 or name.type.exists() "
+Severity:   #error

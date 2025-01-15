@@ -21,9 +21,11 @@ Description: """This profile specified how the Ingredient is used in a PhPID req
   * strength 1..1 // Enforce that one of the three following properties are set
     * ^short = "The quantity of substance, per presentation, or per volume or mass, and type of quantity."
     * presentation[x] only Ratio or Quantity
-    * presentation[x] 1..1
+    * presentation[x] 0..1
     * textPresentation 0..1 //strength freetext
       * ^short = "Should only be used if the strength cannot be coded."
+* obeys presentation-required
+
 //*******************************
 // Publish model
 //*******************************
@@ -87,3 +89,11 @@ RuleSet: IngredientWhoPhPCommon
 * insert NotUsed(identifier)
 * insert NotUsed(manufacturer)
 
+
+//*******************************
+// Constraints
+//*******************************
+Invariant:  presentation-required
+Description: "Either presentationRatio or presentationQuantity or textPresentation MUST be populated"
+Expression: "substance.strength.presentationRatio.exists() or substance.strength.presentationQuantity.exists() or substance.strength.textPresentation.exists()"
+Severity:   #error
