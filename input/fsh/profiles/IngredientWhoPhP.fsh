@@ -95,5 +95,5 @@ RuleSet: IngredientWhoPhPCommon
 //*******************************
 Invariant:  presentation-required
 Description: "Either presentationRatio or presentationQuantity or textPresentation MUST be populated"
-Expression: "substance.strength.presentationRatio.exists() or substance.strength.presentationQuantity.exists() or substance.strength.textPresentation.exists()"
+Expression: "substance.strength.presentation.ofType(Ratio).exists() or substance.strength.presentation.ofType(Quantity).exists() or substance.strength.textPresentation.exists()"
 Severity:   #error
