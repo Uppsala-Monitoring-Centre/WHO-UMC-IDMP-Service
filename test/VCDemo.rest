@@ -1,0 +1,29 @@
+@apikey = 161713fd-87aa-4872-af04-d37977cf6440
+@subscription = 8dcc726d-69d6-4a5f-a7d7-1e72af1a7779
+@url = https://idmp.who-umc.org/fhir
+
+### FCAT 38 - List subscription topics
+GET {{url}}/SubscriptionTopic
+Ocp-Apim-Subscription-Key: {{apikey}}
+
+### FCAT 38 - Create new subscription
+POST  {{url}}/Subscription
+Ocp-Apim-Subscription-Key: {{apikey}} 
+
+< ./subscription-email.json
+
+### FCAT 38 - Get subscription
+GET  {{url}}/Subscription/{{subscription}}
+Ocp-Apim-Subscription-Key: {{apikey}}
+ 
+### FCAT 38 - Create faked event
+GET {{url}}/TriggerEvent/mpd/123
+Ocp-Apim-Subscription-Key: {{apikey}}
+ 
+### FCAT 38 - List subscriptions
+GET {{url}}/Subscription
+Ocp-Apim-Subscription-Key: {{apikey}}
+ 
+### FCAT 38 - Delete subscription
+DELETE  {{url}}/Subscription/{{subscription}}
+Ocp-Apim-Subscription-Key: {{apikey}}

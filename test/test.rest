@@ -10,16 +10,21 @@ myheader: Hello World
  
 
 @apikey = 161713fd-87aa-4872-af04-d37977cf6440
-@url = https://idmp.who-umc.org/fhir 
+//@url = https://idmp.who-umc.org/fhir 
+@url = http://localhost:8085/fhir 
 
 ### FCAT 37 - Create new subscription
 POST  {{url}}/Subscription
 Ocp-Apim-Subscription-Key: {{apikey}}
  
-< ./subscription-rest.json
+< ./subscription-email.json
 
 ### FCAT 37 - Delete subscription
-DELETE  {{url}}/Subscription/95c257db-e3d9-4913-ac03-30e67c7568e3
+GET  {{url}}/Subscription/c9d16f66-c1c5-49df-ae44-957dba2a54fd
+Ocp-Apim-Subscription-Key: {{apikey}}
+
+### FCAT 37 - Delete subscription
+DELETE  {{url}}/Subscription/22429531-fe8c-49fe-a654-ee7bdeeb0a95
 Ocp-Apim-Subscription-Key: {{apikey}}
  
 ### Create faked event
