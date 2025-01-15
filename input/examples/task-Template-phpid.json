@@ -10,7 +10,7 @@
     ]
   },
   "text": {
-    "div": "<html><body>Template for GSID request Task</body></html>"
+    "div": "<div>Template for PhPID request Task</div>"
   },
   "contained": [
     {
