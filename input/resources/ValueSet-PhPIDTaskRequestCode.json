@@ -1,0 +1,23 @@
+{
+  "resourceType": "ValueSet",
+  "id": "phpid-request-code",
+  "url": "http://who-umc.org/idmp/ValueSet/phpid-request-code",
+  "name": "VsPhPIDRequestCode",
+  "title": "PhPID request code value set",
+  "status": "active",
+  "experimental": false,
+  "description": "PhPID request code value set",
+  "compose": {
+    "include": [
+      {
+        "system": "http://who-umc.org/idmp/CodeSystem/task-request-code",
+        "concept": [
+          {
+            "code": "phpid-request",
+            "display": "Code for PhPID request"
+          }
+        ]
+      }
+    ]
+  }
+}

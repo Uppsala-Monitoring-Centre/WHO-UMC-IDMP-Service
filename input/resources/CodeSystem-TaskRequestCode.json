@@ -1,0 +1,27 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "task-request-code",
+  "url": "http://who-umc.org/idmp/CodeSystem/task-request-code",
+  "name": "TaskRequestCode",
+  "title": "Task request code",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Uppsala Monitoring Centre",
+  "description": "This code system lists Task request codes in the IDMP PhPID service.",
+  "copyright": "Uppsala Monitoring Centre",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "phpid-request",
+      "display": "Code for PhPID request",
+      "definition": "Code for PhPID request"
+    },
+    {
+      "code": "gsid-request",
+      "display": "Code for GSID request",
+      "definition": "Code for GSID request"
+    }
+  ]
+}

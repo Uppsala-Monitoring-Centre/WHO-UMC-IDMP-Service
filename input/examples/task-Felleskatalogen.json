@@ -1,6 +1,14 @@
 {
     "resourceType": "Task",
     "id": "Task-Felleskatalogen-CPOD-MPD-1",
+    "code": {
+        "coding": [
+          {
+            "system": "http://who-umc.org/idmp/CodeSystem/task-request-code",
+            "code": "phpid-request"
+          }
+        ]
+    },    
     "contained": [
         {
             "resourceType": "MedicinalProductDefinition",

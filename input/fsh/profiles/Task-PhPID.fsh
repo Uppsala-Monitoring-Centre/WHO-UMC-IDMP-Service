@@ -41,7 +41,9 @@ RuleSet: TaskGeneratePhPIDCommon
 // CHECK IF IT IS A FIXED VALUE OR A VALUE SET BINDING
 * intent = http://hl7.org/fhir/request-intent#proposal 
 * priority ^short = "Task priority" // check if this is needed
-* code 0.. // Assigne A CODE
+* status from VsRequestStatus (required)
+* code 1.. // Assigne A CODE
+* code from VsPhPIDRequestCode (required)
   * ^short = "PhPID Assignment"
 * authoredOn 1..
 * lastModified 1..

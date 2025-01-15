@@ -1,6 +1,14 @@
 {
     "resourceType": "Task",
     "id": "UK-emc-00001",    
+    "code": {
+        "coding": [
+          {
+            "system": "http://who-umc.org/idmp/CodeSystem/task-request-code",
+            "code": "phpid-request"
+          }
+        ]
+    },    
     "contained": [
         {
             "resourceType": "MedicinalProductDefinition",

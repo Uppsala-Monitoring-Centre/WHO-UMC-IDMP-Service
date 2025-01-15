@@ -48,6 +48,14 @@ Description: "Strength Unit Value Set"
 * codes from system $ucum
 
 //=========================
+ValueSet: VsRequestStatus
+Id: requestStatus
+Title: "Request Status Value Set"
+Description: "Request Status Value Set"
+* ^experimental = false
+* codes from system $request-status
+
+//=========================
 ValueSet: VsJurisdiction
 Id: jurisdiction
 Title: "Jurisdiction Value Set"

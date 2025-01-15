@@ -9,6 +9,14 @@
             "http://who-umc.org/idmp/StructureDefinition/Task-who-php-phpid-status"
         ]
     },
+    "code": {
+        "coding": [
+          {
+            "system": "http://who-umc.org/idmp/CodeSystem/task-request-code",
+            "code": "phpid-request"
+          }
+        ]
+    },    
     "contained": [
         {
             "resourceType": "MedicinalProductDefinition",

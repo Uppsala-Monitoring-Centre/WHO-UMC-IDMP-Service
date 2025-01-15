@@ -41,6 +41,7 @@ Alias: $roleclass = http://terminology.hl7.org/CodeSystem/v3-RoleClass
 Alias: $publication-status = http://hl7.org/fhir/publication-status
 Alias: $data-absent-reason-CS = http://terminology.hl7.org/CodeSystem/data-absent-reason
 Alias: $channelType-CS = http://terminology.hl7.org/CodeSystem/subscription-channel-type
+Alias: $request-status = http://hl7.org/fhir/publication-status
 
 // External systems
 Alias: $meddra = http://terminology.hl7.org/CodeSystem/mdr

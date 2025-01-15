@@ -3,16 +3,19 @@
   "id": "template-generated-by-server-phpid-req",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2019-02-26T00:52:28.4429089+00:00",
+    "lastUpdated": "2018-03-13T06:58:04.3292654+00:00",
     "source": "http://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/Task-who-php-phpid"
     ]
   },
+  "text": {
+    "div": "Template for PhPID request Task"
+  },
   "contained": [
     {
       "resourceType": "MedicinalProductDefinition",
-      "id": "06cea604-91d0-43cc-8ebe-474d231a83d7",
+      "id": "a3ed6c2e-ecad-4aa0-8a69-be4e3a0243a3",
       "meta": {
         "source": "http://idmp.who-umc.org/fhir",
         "profile": [
@@ -112,7 +115,7 @@
     },
     {
       "resourceType": "Ingredient",
-      "id": "7db146b5-dfb8-4062-81ba-41b76deafcdc",
+      "id": "cb787f2d-0c5f-45fe-b0af-2201755c71da",
       "meta": {
         "source": "http://idmp.who-umc.org/fhir",
         "profile": [
@@ -122,7 +125,7 @@
       "status": "active",
       "for": [
         {
-          "reference": "#06cea604-91d0-43cc-8ebe-474d231a83d7"
+          "reference": "#a3ed6c2e-ecad-4aa0-8a69-be4e3a0243a3"
         }
       ],
       "role": {
@@ -162,7 +165,7 @@
                 "code": "IU"
               }
             },
-            "textPresentation": "1.5 mg"
+            "textPresentation": "1,5 mg"
           }
         ]
       }
@@ -200,8 +203,16 @@
   "status": "requested",
   "intent": "proposal",
   "priority": "routine",
-  "authoredOn": "2024-09-22",
-  "lastModified": "2024-09-22",
+  "code": {
+    "coding": [
+      {
+        "system": "http://who-umc.org/idmp/CodeSystem/task-request-code",
+        "code": "phpid-request"
+      }
+    ]
+  },
+  "authoredOn": "2025-01-15",
+  "lastModified": "2025-01-15",
   "input": [
     {
       "type": {
@@ -214,7 +225,7 @@
         ]
       },
       "valueReference": {
-        "reference": "#06cea604-91d0-43cc-8ebe-474d231a83d7"
+        "reference": "#a3ed6c2e-ecad-4aa0-8a69-be4e3a0243a3"
       }
     },
     {
@@ -228,7 +239,7 @@
         ]
       },
       "valueReference": {
-        "reference": "#7db146b5-dfb8-4062-81ba-41b76deafcdc"
+        "reference": "#cb787f2d-0c5f-45fe-b0af-2201755c71da"
       }
     },
     {
