@@ -35,8 +35,10 @@ RuleSet: TaskGenerateGSIDCommon
 * businessStatus ^short = "business-specific state" // check if useful
 * intent = http://hl7.org/fhir/request-intent#proposal 
 * priority ^short = "Task priority" // check if this is needed
-* code 0.. // ASSIGN A CODE
-  * ^short = "GSID Assignment"
+* status from VsRequestStatus (required)
+* code 1.. 
+* code from VsGSIDRequestCode (required)
+  * ^short = "gsid-request"
 * authoredOn 1..
 * lastModified 1..
 

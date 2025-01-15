@@ -42,9 +42,9 @@ RuleSet: TaskGeneratePhPIDCommon
 * intent = http://hl7.org/fhir/request-intent#proposal 
 * priority ^short = "Task priority" // check if this is needed
 * status from VsRequestStatus (required)
-* code 1.. // Assigne A CODE
+* code 1.. 
 * code from VsPhPIDRequestCode (required)
-  * ^short = "PhPID Assignment"
+  * ^short = "phpid-request"
 * authoredOn 1..
 * lastModified 1..
 
