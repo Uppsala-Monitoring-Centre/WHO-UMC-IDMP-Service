@@ -48,7 +48,7 @@ Description: """This profile specified how the Ingredient is used in PhPID publi
       * system 1..
       * code 1..
     * text 1..
-  * strength 1..1
+  * strength 0..1
     * ^short = "The quantity of substance, per presentation, or per volume or mass, and type of quantity."
       * presentationRatio 0..1
         * numerator 1..1
@@ -82,13 +82,10 @@ RuleSet: IngredientWhoPhPCommon
 
 * role from $vsingredient-role (example)
 
-* insert NotUsed(substance.strength.textPresentation)
 * insert NotUsed(substance.strength.textConcentration)
 * insert NotUsed(status)
 * insert NotUsed(allergenicIndicator)
-* insert NotUsed(identifier)
 * insert NotUsed(manufacturer)
-
 
 //*******************************
 // Constraints

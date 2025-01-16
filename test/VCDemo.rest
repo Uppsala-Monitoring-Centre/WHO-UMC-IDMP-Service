@@ -1,5 +1,5 @@
 @apikey = 161713fd-87aa-4872-af04-d37977cf6440
-@subscription = 8dcc726d-69d6-4a5f-a7d7-1e72af1a7779
+@subscription = 9d375fc8-5ba7-4f82-95db-e0e069a59d29
 @url = https://idmp.who-umc.org/fhir
 
 ### FCAT 38 - List subscription topics

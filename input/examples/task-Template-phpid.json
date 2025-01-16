@@ -3,7 +3,7 @@
   "id": "template-generated-by-server-phpid-req",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2020-07-04T08:52:54.7281679+00:00",
+    "lastUpdated": "2017-01-09T20:36:19.7118299+00:00",
     "source": "http://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/Task-who-php-phpid"
@@ -16,7 +16,7 @@
   "contained": [
     {
       "resourceType": "MedicinalProductDefinition",
-      "id": "34563e35-dcaa-4407-a0ee-cc323188d027",
+      "id": "5e374f82-aa48-4a32-be4b-2ccac5e628a2",
       "meta": {
         "source": "http://idmp.who-umc.org/fhir",
         "profile": [
@@ -116,7 +116,7 @@
     },
     {
       "resourceType": "Ingredient",
-      "id": "2ed6431d-c1bd-48a2-baaf-3df68ac1a762",
+      "id": "573b1350-2b6b-41de-abc9-c79f6f541455",
       "meta": {
         "source": "http://idmp.who-umc.org/fhir",
         "profile": [
@@ -126,7 +126,7 @@
       "status": "active",
       "for": [
         {
-          "reference": "#34563e35-dcaa-4407-a0ee-cc323188d027"
+          "reference": "#5e374f82-aa48-4a32-be4b-2ccac5e628a2"
         }
       ],
       "role": {
@@ -212,8 +212,8 @@
       }
     ]
   },
-  "authoredOn": "2025-01-15",
-  "lastModified": "2025-01-15",
+  "authoredOn": "2025-01-16",
+  "lastModified": "2025-01-16",
   "input": [
     {
       "type": {
@@ -226,7 +226,7 @@
         ]
       },
       "valueReference": {
-        "reference": "#34563e35-dcaa-4407-a0ee-cc323188d027"
+        "reference": "#5e374f82-aa48-4a32-be4b-2ccac5e628a2"
       }
     },
     {
@@ -240,7 +240,7 @@
         ]
       },
       "valueReference": {
-        "reference": "#2ed6431d-c1bd-48a2-baaf-3df68ac1a762"
+        "reference": "#573b1350-2b6b-41de-abc9-c79f6f541455"
       }
     },
     {

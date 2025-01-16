@@ -32,10 +32,6 @@ Description: "This profile specified how the AdministrableProductDefinition is p
   * ^short = "draft | active | retired |unknown"
 
 * formOf 0..0
-//The below construct is not needed
-// * formOf 1..
-//   * extension contains $data-absent-reason named data-absent-reason 0..
-//   * extension[data-absent-reason].valueCode = #unsupported
 
 // ADF is intended to be like chewable tablet acc to EDQM. 
 // The PhPID is only using Tablet as concept (the BDF) so two APDs with similar (but different) ADFs will have the same PhPID

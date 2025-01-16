@@ -3,7 +3,7 @@
   "id": "6C4563BB76BE7967594979196EC91CD8",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2022-11-16T00:52:22.3212992+00:00",
+    "lastUpdated": "2022-11-24T20:36:16.571937+00:00",
     "source": "http://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/AdministrableProductDefinition-who-php"
@@ -16,10 +16,8 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "dbefee9e-5dae-4867-8768-63790494d1e8",
+      "id": "7fd27efb-7c9d-40fc-a87f-ffc70e6ace9d",
       "meta": {
-        "versionId": "1",
-        "lastUpdated": "2019-07-01T00:52:22.3222646+00:00",
         "source": "http://idmp.who-umc.org/fhir",
         "profile": [
           "http://who-umc.org/idmp/StructureDefinition/Ingredient-who-php-publish"
@@ -117,17 +115,6 @@
     }
   ],
   "status": "active",
-  "formOf": [
-    {
-      "extension": [
-        {
-          "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
-          "valueCode": "unsupported"
-        }
-      ],
-      "display": "Unsupported"
-    }
-  ],
   "routeOfAdministration": [
     {
       "code": {
