@@ -12,11 +12,10 @@ Description: """This profile specified how the Ingredient is used in a PhPID req
 * for only Reference( MedicinalProductDefinitionWhoPhPRequest ) //only #?
 
 * substance 1..1
-  * code from VsSubstance (example)
   * code.concept
     * coding 0..1
       * system 1..1
-      * code 1..1 //gsid value
+      * code 1..1 
     * text 1..1 //substance name
   * strength 1..1 // Enforce that one of the three following properties are set
     * ^short = "The quantity of substance, per presentation, or per volume or mass, and type of quantity."
@@ -41,7 +40,6 @@ Description: """This profile specified how the Ingredient is used in PhPID publi
 * for only Reference( AdministrableProductDefinitionWhoPhP) 
 
 * substance 1..
-  * code from VsSubstance (example)
   * code.concept
     * coding 1..1
       * system = $gsid
