@@ -10,7 +10,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://standardterms.edqm.eu",
+        "system": "http://who-umc.org/idmp/CodeSystem/edqmFormParts",
         "concept": [
           {
             "code": "ISI-0021",

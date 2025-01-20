@@ -3,7 +3,7 @@
   "id": "1A0661AE2A40",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2018-09-09T07:47:00.7213491+00:00",
+    "lastUpdated": "2024-02-15T08:19:28.1834741+00:00",
     "source": "http://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-pub"
