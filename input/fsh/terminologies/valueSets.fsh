@@ -13,13 +13,13 @@ The HL7 International IPS implementation guides incorporate SNOMED CT®, used by
 
 * include codes from system $sct where concept descendent-of #284009009
 
-//==========================
-ValueSet: VsSubstance
-Id: substance
-Title: "Substances"
-Description: "Substances"
-* ^experimental = false
-* include codes from system $gsid
+// //==========================
+// ValueSet: VsSubstance
+// Id: substance
+// Title: "Substances"
+// Description: "Substances"
+// * ^experimental = false
+// * include codes from system $gsid
 
 //==========================
 ValueSet: VsAtcClassification
