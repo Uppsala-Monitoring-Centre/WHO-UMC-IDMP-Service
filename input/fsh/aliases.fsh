@@ -6,8 +6,6 @@ Alias: $medicinal-product-contact-type = http://hl7.org/fhir/medicinal-product-c
 Alias: $languages = http://hl7.org/fhir/ValueSet/languages
 Alias: $phpid = http://who-umc.org/idmp/phpid
 Alias: $gsid = http://who-umc.org/idmp/gsid
-//Alias: $gsid = http://idmp.who-umc.org/fhir/CodeSystem/gsid
-//Alias: $phpid = http://idmp.who-umc.org/fhir/CodeSystem/phpid
 Alias: $pdfCharacteristics = http://who-umc.org/idmp/CodeSystem/pdfCharacteristics
 Alias: $drugcode = https://who-umc.org/whodrug/CodeSystem/drugcode
 
@@ -51,7 +49,9 @@ Alias: $uri = urn:ietf:rfc:3986
 Alias: $oid = urn:ietf:rfc:1155
 Alias: $loinc = http://loinc.org
 Alias: $unii = https://open.fda.gov/data/unii // To be checked
-Alias: $edqm = http://standardterms.edqm.eu
+//Edqm for parts should be part of the standardterms code system so this is a temporary solution
+Alias: $edqm = http://who-umc.org/idmp/CodeSystem/edqmFormParts
+//Alias: $edqm = http://standardterms.edqm.eu
 Alias: $sct = http://snomed.info/sct
 Alias: $atc = http://www.whocc.no/atc
 Alias: $ginas = http://fdasis.nlm.nih.gov

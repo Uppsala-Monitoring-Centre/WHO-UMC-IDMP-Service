@@ -1,0 +1,432 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "edqmFormParts",
+  "url": "http://who-umc.org/idmp/CodeSystem/edqmFormParts",
+  "name": "edqmFormParts",
+  "title": "EDQM Form Parts",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Uppsala Monitoring Centre",
+  "description": "This system lists the form parts from the EDQM CodeSystem. This is a temporary solution while waiting for the EDQM form parts to be available in the official HL7 EDQM CodeSystem.",
+  "copyright": "Uppsala Monitoring Centre",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "AME-0004",
+      "display": "Administration",
+      "definition": "Administration"
+    },
+    {
+      "code": "AME-0005",
+      "display": "Application",
+      "definition": "Application"
+    },
+    {
+      "code": "AME-0006",
+      "display": "Bathing",
+      "definition": "Bathing"
+    },
+    {
+      "code": "AME-0007",
+      "display": "Chewing",
+      "definition": "Chewing"
+    },
+    {
+      "code": "AME-0008",
+      "display": "Gargling",
+      "definition": "Gargling"
+    },
+    {
+      "code": "AME-0010",
+      "display": "Inhalation",
+      "definition": "Inhalation"
+    },
+    {
+      "code": "AME-0011",
+      "display": "Injection",
+      "definition": "Injection"
+    },
+    {
+      "code": "AME-0012",
+      "display": "Insertion",
+      "definition": "Insertion"
+    },
+    {
+      "code": "AME-0013",
+      "display": "Instillation",
+      "definition": "Instillation"
+    },
+    {
+      "code": "AME-0014",
+      "display": "Orodispersion",
+      "definition": "Orodispersion"
+    },
+    {
+      "code": "AME-0015",
+      "display": "Rinsing/washing",
+      "definition": "Rinsing/washing"
+    },
+    {
+      "code": "AME-0017",
+      "display": "Spraying",
+      "definition": "Spraying"
+    },
+    {
+      "code": "AME-0018",
+      "display": "Sucking",
+      "definition": "Sucking"
+    },
+    {
+      "code": "AME-0019",
+      "display": "Swallowing",
+      "definition": "Swallowing"
+    },
+    {
+      "code": "ISI-0021",
+      "display": "Auricular",
+      "definition": "Auricular"
+    },
+    {
+      "code": "ISI-0022",
+      "display": "Cutaneous/Transdermal",
+      "definition": "Cutaneous/Transdermal"
+    },
+    {
+      "code": "ISI-0023",
+      "display": "Dental",
+      "definition": "Dental"
+    },
+    {
+      "code": "ISI-0024",
+      "display": "Environmental",
+      "definition": "Environmental"
+    },
+    {
+      "code": "ISI-0025",
+      "display": "Extracorporeal",
+      "definition": "Extracorporeal"
+    },
+    {
+      "code": "ISI-0027",
+      "display": "Intrauterine",
+      "definition": "Intrauterine"
+    },
+    {
+      "code": "ISI-0028",
+      "display": "Intravesical/Urethral",
+      "definition": "Intravesical/Urethral"
+    },
+    {
+      "code": "ISI-0029",
+      "display": "Nasal",
+      "definition": "Nasal"
+    },
+    {
+      "code": "ISI-0030",
+      "display": "Ocular",
+      "definition": "Ocular"
+    },
+    {
+      "code": "ISI-0031",
+      "display": "Oral",
+      "definition": "Oral"
+    },
+    {
+      "code": "ISI-0032",
+      "display": "Oromucosal",
+      "definition": "Oromucosal"
+    },
+    {
+      "code": "ISI-0033",
+      "display": "Parenteral",
+      "definition": "Parenteral"
+    },
+    {
+      "code": "ISI-0034",
+      "display": "Pulmonary",
+      "definition": "Pulmonary"
+    },
+    {
+      "code": "ISI-0035",
+      "display": "Rectal",
+      "definition": "Rectal"
+    },
+    {
+      "code": "ISI-0036",
+      "display": "Vaginal",
+      "definition": "Vaginal"
+    },
+    {
+      "code": "ISI-0037",
+      "display": "Unknown/Miscellaneous",
+      "definition": "Unknown/Miscellaneous"
+    },
+    {
+      "code": "RCA-0044",
+      "display": "Delayed",
+      "definition": "Delayed"
+    },
+    {
+      "code": "RCA-0045",
+      "display": "Prolonged",
+      "definition": "Prolonged"
+    },
+    {
+      "code": "RCA-0046",
+      "display": "Modified",
+      "definition": "Modified"
+    },
+    {
+      "code": "RCA-0047",
+      "display": "Conventional",
+      "definition": "Conventional"
+    },
+    {
+      "code": "RCA-0048",
+      "display": "Unknown",
+      "definition": "Unknown"
+    },
+    {
+      "code": "BDF-0049",
+      "display": "Block",
+      "definition": "Block"
+    },
+    {
+      "code": "BDF-0050",
+      "display": "Cachet",
+      "definition": "Cachet"
+    },
+    {
+      "code": "BDF-0051",
+      "display": "Capsule",
+      "definition": "Capsule"
+    },
+    {
+      "code": "BDF-0052",
+      "display": "Film",
+      "definition": "Film"
+    },
+    {
+      "code": "BDF-0053",
+      "display": "Granules",
+      "definition": "Granules"
+    },
+    {
+      "code": "BDF-0054",
+      "display": "Gum",
+      "definition": "Gum"
+    },
+    {
+      "code": "BDF-0055",
+      "display": "Implant",
+      "definition": "Implant"
+    },
+    {
+      "code": "BDF-0056",
+      "display": "Impregnated material",
+      "definition": "Impregnated material"
+    },
+    {
+      "code": "BDF-0058",
+      "display": "Lozenge",
+      "definition": "Lozenge"
+    },
+    {
+      "code": "BDF-0059",
+      "display": "Lyophilisate",
+      "definition": "Lyophilisate"
+    },
+    {
+      "code": "BDF-0060",
+      "display": "Pastille",
+      "definition": "Pastille"
+    },
+    {
+      "code": "BDF-0061",
+      "display": "Patch",
+      "definition": "Patch"
+    },
+    {
+      "code": "BDF-0063",
+      "display": "Pessary",
+      "definition": "Pessary"
+    },
+    {
+      "code": "BDF-0064",
+      "display": "Pillules",
+      "definition": "Pillules"
+    },
+    {
+      "code": "BDF-0066",
+      "display": "Powder",
+      "definition": "Powder"
+    },
+    {
+      "code": "BDF-0067",
+      "display": "Stick",
+      "definition": "Stick"
+    },
+    {
+      "code": "BDF-0068",
+      "display": "Suppository",
+      "definition": "Suppository"
+    },
+    {
+      "code": "BDF-0069",
+      "display": "Tablet",
+      "definition": "Tablet"
+    },
+    {
+      "code": "BDF-0070",
+      "display": "Tea",
+      "definition": "Tea"
+    },
+    {
+      "code": "BDF-0071",
+      "display": "Cream",
+      "definition": "Cream"
+    },
+    {
+      "code": "BDF-0072",
+      "display": "Foam",
+      "definition": "Foam"
+    },
+    {
+      "code": "BDF-0073",
+      "display": "Gel",
+      "definition": "Gel"
+    },
+    {
+      "code": "BDF-0074",
+      "display": "Ointment",
+      "definition": "Ointment"
+    },
+    {
+      "code": "BDF-0075",
+      "display": "Paste",
+      "definition": "Paste"
+    },
+    {
+      "code": "BDF-0076",
+      "display": "Poultice",
+      "definition": "Poultice"
+    },
+    {
+      "code": "BDF-0077",
+      "display": "Collodion",
+      "definition": "Collodion"
+    },
+    {
+      "code": "BDF-0080",
+      "display": "Emulsion",
+      "definition": "Emulsion"
+    },
+    {
+      "code": "BDF-0081",
+      "display": "Lacquer",
+      "definition": "Lacquer"
+    },
+    {
+      "code": "BDF-0082",
+      "display": "Liquid",
+      "definition": "Liquid"
+    },
+    {
+      "code": "BDF-0083",
+      "display": "Solution",
+      "definition": "Solution"
+    },
+    {
+      "code": "BDF-0084",
+      "display": "Solvent",
+      "definition": "Solvent"
+    },
+    {
+      "code": "BDF-0085",
+      "display": "Suspension",
+      "definition": "Suspension"
+    },
+    {
+      "code": "BDF-0087",
+      "display": "Medicinal gas",
+      "definition": "Medicinal gas"
+    },
+    {
+      "code": "BDF-0088",
+      "display": "Insert",
+      "definition": "Insert"
+    },
+    {
+      "code": "BDF-0093",
+      "display": "Shampoo",
+      "definition": "Shampoo"
+    },
+    {
+      "code": "BDF-0095",
+      "display": "System",
+      "definition": "System"
+    },
+    {
+      "code": "BDF-0102",
+      "display": "Pouch",
+      "definition": "Pouch"
+    },
+    {
+      "code": "BDF-0103",
+      "display": "Cement",
+      "definition": "Cement"
+    },
+    {
+      "code": "ISI-0105",
+      "display": "Endocervical",
+      "definition": "Endocervical"
+    },
+    {
+      "code": "ISI-0106",
+      "display": "Gastric",
+      "definition": "Gastric"
+    },
+    {
+      "code": "ISI-0107",
+      "display": "Gastroenteral",
+      "definition": "Gastroenteral"
+    },
+    {
+      "code": "ISI-0108",
+      "display": "Intestinal",
+      "definition": "Intestinal"
+    },
+    {
+      "code": "ISI-0109",
+      "display": "Intraperitoneal",
+      "definition": "Intraperitoneal"
+    },
+    {
+      "code": "AME-0111",
+      "display": "Burning",
+      "definition": "Burning"
+    },
+    {
+      "code": "AME-0112",
+      "display": "Dialysis",
+      "definition": "Dialysis"
+    },
+    {
+      "code": "AME-0113",
+      "display": "Implantation",
+      "definition": "Implantation"
+    },
+    {
+      "code": "BDF-0114",
+      "display": "Herbal material (unprocessed)",
+      "definition": "Herbal material (unprocessed)"
+    },
+    {
+      "code": "BDF-0115",
+      "display": "Live animal",
+      "definition": "Live animal"
+    }
+  ]
+}
