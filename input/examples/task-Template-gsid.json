@@ -3,7 +3,7 @@
   "id": "template-generated-by-server-gsid-req",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2018-03-20T07:18:06.4549858+00:00",
+    "lastUpdated": "2022-09-05T07:47:00.8446498+00:00",
     "source": "http://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/Task-who-php-gsid"
@@ -16,7 +16,7 @@
   "contained": [
     {
       "resourceType": "SubstanceDefinition",
-      "id": "e6b351ff-e663-4eff-b785-b4ceb2824017",
+      "id": "d7f136d8-64dd-4702-ac56-87fe67f76a43",
       "meta": {
         "source": "http://idmp.who-umc.org/fhir",
         "profile": [
@@ -100,7 +100,7 @@
         ]
       },
       "valueReference": {
-        "reference": "#e6b351ff-e663-4eff-b785-b4ceb2824017"
+        "reference": "#d7f136d8-64dd-4702-ac56-87fe67f76a43"
       }
     }
   ]

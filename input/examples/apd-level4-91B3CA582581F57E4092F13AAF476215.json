@@ -3,7 +3,7 @@
   "id": "91B3CA582581F57E4092F13AAF476215",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2023-09-25T07:18:04.3634556+00:00",
+    "lastUpdated": "2020-07-16T07:46:58.2666573+00:00",
     "source": "http://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/AdministrableProductDefinition-who-php"
@@ -16,7 +16,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "005fa5ac-ee62-4b0a-a27b-0178c7aea0a4",
+      "id": "d3b0a480-d8df-46d1-8184-9d4d940f3cdd",
       "meta": {
         "source": "http://idmp.who-umc.org/fhir",
         "profile": [
@@ -133,7 +133,7 @@
     {
       "url": "http://who-umc.org/idmp/StructureDefinition/basic-dose-form",
       "valueCoding": {
-        "system": "http://standardterms.edqm.eu",
+        "system": "http://who-umc.org/idmp/edqmFormParts",
         "code": "BDF-0069",
         "display": "Tablet"
       }
@@ -141,7 +141,7 @@
     {
       "url": "http://who-umc.org/idmp/StructureDefinition/administration-method",
       "valueCoding": {
-        "system": "http://standardterms.edqm.eu",
+        "system": "http://who-umc.org/idmp/edqmFormParts",
         "code": "AME-0019",
         "display": "Swallowing"
       }
@@ -149,7 +149,7 @@
     {
       "url": "http://who-umc.org/idmp/StructureDefinition/intended-site",
       "valueCoding": {
-        "system": "http://standardterms.edqm.eu",
+        "system": "http://who-umc.org/idmp/edqmFormParts",
         "code": "ISI-0031",
         "display": "Oral"
       }
@@ -157,7 +157,7 @@
     {
       "url": "http://who-umc.org/idmp/StructureDefinition/release-characteristics",
       "valueCoding": {
-        "system": "http://standardterms.edqm.eu",
+        "system": "http://who-umc.org/idmp/edqmFormParts",
         "code": "RCA-0047",
         "display": "Conventional"
       }
