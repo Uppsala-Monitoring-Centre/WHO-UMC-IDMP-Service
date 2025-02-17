@@ -54,11 +54,13 @@ Alias: $edqm = http://who-umc.org/idmp/CodeSystem/edqmFormParts
 //Alias: $edqm = http://standardterms.edqm.eu
 Alias: $sct = http://snomed.info/sct
 Alias: $atc = http://www.whocc.no/atc
-Alias: $ginas = http://fdasis.nlm.nih.gov
+Alias: $ginas = http://fdasis.nlm.nih.gov 
+Alias: $cas = http://terminology.hl7.org/CodeSystem/CAS // To be checked
 Alias: $eusrs = http://example.org/eu-srs // TO BE CHANGED
-Alias: $cas = http://example.org/cas // TO BE CHANGED
 Alias: $ucum = http://unitsofmeasure.org
 Alias: $vsCountry = http://terminology.hl7.org/ValueSet/v3-Country2
+Alias: $substRepresentationVS = http://hl7.org/fhir/ValueSet/substance-representation-format
+Alias: $substRepresentationCS = http://hl7.org/fhir/substance-representation-format
 
 // Example systems
 Alias: $example-cs = http://example.org // used only for missing concepts in examples
