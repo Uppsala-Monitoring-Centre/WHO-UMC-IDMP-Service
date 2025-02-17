@@ -115,9 +115,6 @@ resources:
   Subscription/template-generated-by-server-subscription-rest-hook:
     name: Subscription for MedicinalProductDefinition changes
     description: A template for how to create a subscription for a MPD change with a rest hook
-  Task/template-generated-by-server-gsid-req:
-    name: Task to request a new GSID
-    description: A template for how a Task that is used to request a new GSID (SubstanceDefinition) can be structured.
   Task/template-generated-by-server-phpid-req:
     name: Task to request a new PhPID
     description: A template for how a Task that is used to request a new PhPID (AdministrableProductDefinition) can be structured.
