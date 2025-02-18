@@ -3,7 +3,7 @@
   "id": "1A0661AE2A40",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2019-09-16T07:42:27.9735905+00:00",
+    "lastUpdated": "2018-06-08T09:57:20.300779+00:00",
     "source": "http://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-pub"
@@ -11,7 +11,7 @@
   },
   "text": {
     "status": "empty",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">System.Collections.Generic.List`1[Hl7.Fhir.Model.MedicinalProductDefinition+NameComponent]</div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Auro methotrexate</div>"
   },
   "contained": [
     {
@@ -67,6 +67,33 @@
           "code": "91B3CA582581F57E4092F13AAF476215"
         }
       ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://www.whocc.no/atc",
+          "code": "G02CX"
+        }
+      ],
+      "text": "Other gynecologicals"
+    },
+    {
+      "coding": [
+        {
+          "system": "http://www.whocc.no/atc",
+          "code": "L01BA"
+        }
+      ],
+      "text": "Folic acid analogues"
+    },
+    {
+      "coding": [
+        {
+          "system": "http://www.whocc.no/atc",
+          "code": "L04AX"
+        }
+      ],
+      "text": "Other immunosuppressants"
     }
   ],
   "contact": [
