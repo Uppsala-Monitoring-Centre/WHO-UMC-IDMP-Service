@@ -3,7 +3,7 @@
   "id": "GSID9XBS2KCF3K1Z1",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2023-11-19T13:18:40.7435703+00:00",
+    "lastUpdated": "2024-10-31T14:58:47.121463+00:00",
     "source": "http://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/SubstanceDefinition-pub"
@@ -107,11 +107,6 @@
             }
           ]
         }
-      ],
-      "source": [
-        {
-          "reference": "UMCSRS"
-        }
       ]
     },
     {
@@ -134,11 +129,6 @@
               "code": "en"
             }
           ]
-        }
-      ],
-      "source": [
-        {
-          "reference": "UMCSRS"
         }
       ]
     }

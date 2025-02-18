@@ -3,7 +3,7 @@
   "id": "GSID23G92UMX93H45",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2019-06-01T13:18:40.6294188+00:00",
+    "lastUpdated": "2023-07-06T14:58:46.9991515+00:00",
     "source": "http://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/SubstanceDefinition-pub"
@@ -97,11 +97,6 @@
             }
           ]
         }
-      ],
-      "source": [
-        {
-          "reference": "UMCSRS"
-        }
       ]
     },
     {
@@ -125,11 +120,6 @@
             }
           ]
         }
-      ],
-      "source": [
-        {
-          "reference": "USAN"
-        }
       ]
     },
     {
@@ -152,11 +142,6 @@
               "code": "en"
             }
           ]
-        }
-      ],
-      "source": [
-        {
-          "reference": "INN"
         }
       ]
     }
