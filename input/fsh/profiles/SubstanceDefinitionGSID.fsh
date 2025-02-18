@@ -55,7 +55,8 @@ Description: """This profile specified how the SubstanceDefinition is published 
       * coding 1..1
         * code 1..1 
         * code = $substRepresentationCS#SMILES
-        * system = $substRepresentationVS
+        * system 1..1
+        //* system = $substRepresentationVS
 // NOT USED ELEMENTS
 
 * insert NotUsed(version)
