@@ -37,8 +37,8 @@ Description: """This profile specifies how the MedicinalProductDefinition is pub
   * system from VsMpIdSystem (extensible)
   * value 1..
 
-* contained 0..1
-* contained only Organization 
+* contained 0..2
+//* contained contains Organization RegulatedAuthorization
 * contact 0..*
   * type ^short = "Allows the Marketing Authorization Holder to be classified"
   * contact ^short = "A specific Marketing Authorization Holder for this product"
