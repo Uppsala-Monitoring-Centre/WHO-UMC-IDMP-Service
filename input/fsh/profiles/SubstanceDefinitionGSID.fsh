@@ -48,6 +48,7 @@ Description: """This profile specified how the SubstanceDefinition is published 
   * preferred 1..
   * language 1..
   * language from $VS-language
+  * official 1..1
 * relationship 0..1
 * structure 0..1
   * representation 1..1

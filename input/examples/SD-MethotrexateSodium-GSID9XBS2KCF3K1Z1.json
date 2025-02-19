@@ -3,7 +3,7 @@
   "id": "GSID9XBS2KCF3K1Z1",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2024-10-31T14:58:47.121463+00:00",
+    "lastUpdated": "2019-04-01T08:05:10.1860732+00:00",
     "source": "http://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/SubstanceDefinition-pub"
@@ -107,6 +107,19 @@
             }
           ]
         }
+      ],
+      "official": [
+        {
+          "authority": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/substance-name-authority",
+                "code": "UMCSRS"
+              }
+            ],
+            "text": "UMCSRS"
+          }
+        }
       ]
     },
     {
@@ -129,6 +142,19 @@
               "code": "en"
             }
           ]
+        }
+      ],
+      "official": [
+        {
+          "authority": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/substance-name-authority",
+                "code": "UMCSRS"
+              }
+            ],
+            "text": "UMCSRS"
+          }
         }
       ]
     }

@@ -3,7 +3,7 @@
   "id": "GSID23G92UMX93H45",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2023-07-06T14:58:46.9991515+00:00",
+    "lastUpdated": "2022-07-23T08:05:08.2386023+00:00",
     "source": "http://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/SubstanceDefinition-pub"
@@ -97,28 +97,18 @@
             }
           ]
         }
-      ]
-    },
-    {
-      "name": "METHOTREXATE",
-      "status": {
-        "coding": [
-          {
-            "system": "http://hl7.org/fhir/publication-status",
-            "code": "active"
-          }
-        ],
-        "text": "Active"
-      },
-      "preferred": false,
-      "language": [
+      ],
+      "official": [
         {
-          "coding": [
-            {
-              "system": "urn:ietf:bcp:47",
-              "code": "en"
-            }
-          ]
+          "authority": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/substance-name-authority",
+                "code": "UMCSRS"
+              }
+            ],
+            "text": "UMCSRS"
+          }
         }
       ]
     },
@@ -142,6 +132,55 @@
               "code": "en"
             }
           ]
+        }
+      ],
+      "official": [
+        {
+          "authority": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/substance-name-authority",
+                "code": "USAN"
+              }
+            ],
+            "text": "USAN"
+          }
+        }
+      ]
+    },
+    {
+      "name": "METHOTREXATE",
+      "status": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/publication-status",
+            "code": "active"
+          }
+        ],
+        "text": "Active"
+      },
+      "preferred": false,
+      "language": [
+        {
+          "coding": [
+            {
+              "system": "urn:ietf:bcp:47",
+              "code": "en"
+            }
+          ]
+        }
+      ],
+      "official": [
+        {
+          "authority": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/substance-name-authority",
+                "code": "INN"
+              }
+            ],
+            "text": "INN"
+          }
         }
       ]
     }
