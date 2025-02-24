@@ -6,12 +6,6 @@ Parent: MedicinalProductDefinition
 Id: MedicinalProductDefinition-who-php-req
 Title: "MedicinalProductDefinition for PhPID request"
 Description: """This profile specified how the MedicinalProductDefinition is used in request (for a new PhPID) (as contained resource) by the WHO-UMC IDMP FHIR Service"""
-
-* contained 0..2
-* contained only Organization or RegulatedAuthorization
-
-
-
 * insert MedicinalProductDefinitionCommon
 * insert NotUsed(contained)
 * identifier 1..1
@@ -44,7 +38,8 @@ Description: """This profile specifies how the MedicinalProductDefinition is pub
   * value 1..
 
 * contained 0..2
-//* contained contains Organization RegulatedAuthorization
+* contained only Organization or RegulatedAuthorization
+
 * contact 0..*
   * type ^short = "Allows the Marketing Authorization Holder to be classified"
   * contact ^short = "A specific Marketing Authorization Holder for this product"
