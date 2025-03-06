@@ -26,7 +26,7 @@ fhirVersion: 5.0.0
 # dependencies:
 #   hl7.fhir.uv.ips: current
 parameters:
-  # show-inherited-invariants: false
+  show-inherited-invariants: false
   produce-jekyll-data: true
   special-url:
   - https://who-umc.org/idmp/StructureDefinition/parent-phpid
