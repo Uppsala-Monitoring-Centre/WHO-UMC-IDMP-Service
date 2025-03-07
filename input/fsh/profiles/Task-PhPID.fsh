@@ -55,21 +55,26 @@ RuleSet: TaskGeneratePhPIDCommon
 * input ^slicing.rules = #open
 * input ^slicing.description = "Slice based on the input.type value"
 
-* input contains MPD 1..1 MS and ORG 1..1 MS and ING 1..* MS
+* input contains MPD 1..1 MS and ING 1..* MS and ORG 1..1 MS and REGAUTH 1..* MS
 * input[MPD].type from VsPhPIDTaskInputTypes (required)
 * input[MPD].type = TaskInputTypes#mpd-request-resource
 * input[MPD].value[x] only Reference
 * input[MPD].valueReference only Reference (MedicinalProductDefinitionWhoPhPRequest)
+
+* input[ING].type from VsPhPIDTaskInputTypes (required)
+* input[ING].type = TaskInputTypes#ingredient-request-resource
+* input[ING].value[x] only Reference
+* input[ING].valueReference only Reference (IngredientWhoPhP)
 
 * input[ORG].type from VsPhPIDTaskInputTypes (required)
 * input[ORG].type = TaskInputTypes#organization-request-resource
 * input[ORG].value[x] only Reference
 * input[ORG].valueReference only Reference (Organization) 
 
-* input[ING].type from VsPhPIDTaskInputTypes (required)
-* input[ING].type = TaskInputTypes#ingredient-request-resource
-* input[ING].value[x] only Reference
-* input[ING].valueReference only Reference (IngredientWhoPhP)
+* input[REGAUTH].type from VsPhPIDTaskInputTypes (required)
+* input[REGAUTH].type = TaskInputTypes#regauth-request-resource
+* input[REGAUTH].value[x] only Reference
+* input[REGAUTH].valueReference only Reference (RegulatedAuthorization) 
 
 // NOT USED ELEMENTS
 * insert NotUsed(requester)
