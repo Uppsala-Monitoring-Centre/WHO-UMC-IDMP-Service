@@ -3,7 +3,7 @@
   "id": "template-generated-by-server-phpid-req",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2023-07-30T07:35:10.3007213+00:00",
+    "lastUpdated": "2023-10-28T12:11:29.7128884+00:00",
     "source": "https://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/Task-who-php-phpid"
@@ -16,7 +16,7 @@
   "contained": [
     {
       "resourceType": "MedicinalProductDefinition",
-      "id": "7566dd86-41ed-4f64-a532-fdceac4f4baa",
+      "id": "b877926a-24c8-4df1-a4c7-321da07e10a7",
       "meta": {
         "source": "https://idmp.who-umc.org/fhir",
         "profile": [
@@ -99,7 +99,7 @@
     },
     {
       "resourceType": "Ingredient",
-      "id": "68f6dd1d-f222-49eb-93b2-88fb193a664d",
+      "id": "59280ea1-189e-487c-9650-5d7d62d85bac",
       "meta": {
         "source": "https://idmp.who-umc.org/fhir",
         "profile": [
@@ -109,7 +109,7 @@
       "status": "active",
       "for": [
         {
-          "reference": "#7566dd86-41ed-4f64-a532-fdceac4f4baa"
+          "reference": "#b877926a-24c8-4df1-a4c7-321da07e10a7"
         }
       ],
       "role": {
@@ -179,11 +179,16 @@
     },
     {
       "resourceType": "RegulatedAuthorization",
-      "id": "f3e6948f-0bb7-4ca1-b680-e245b94f2e3b",
+      "id": "6dd470fd-9a62-48e0-877e-e500de51d81f",
+      "identifier": [
+        {
+          "system": "http://ema.europa.eu/ema/",
+          "value": "EU/1/20/XXXX"
+        }
+      ],
       "subject": [
         {
-          "reference": "#7566dd86-41ed-4f64-a532-fdceac4f4baa",
-          "type": "MedicinalProductDefinition"
+          "reference": "#b877926a-24c8-4df1-a4c7-321da07e10a7"
         }
       ],
       "holder": {
@@ -222,7 +227,7 @@
         ]
       },
       "valueReference": {
-        "reference": "#7566dd86-41ed-4f64-a532-fdceac4f4baa"
+        "reference": "#b877926a-24c8-4df1-a4c7-321da07e10a7"
       }
     },
     {
@@ -236,7 +241,7 @@
         ]
       },
       "valueReference": {
-        "reference": "#68f6dd1d-f222-49eb-93b2-88fb193a664d"
+        "reference": "#59280ea1-189e-487c-9650-5d7d62d85bac"
       }
     },
     {
@@ -264,7 +269,7 @@
         ]
       },
       "valueReference": {
-        "reference": "#f3e6948f-0bb7-4ca1-b680-e245b94f2e3b"
+        "reference": "#6dd470fd-9a62-48e0-877e-e500de51d81f"
       }
     }
   ]

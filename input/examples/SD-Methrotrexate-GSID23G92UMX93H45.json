@@ -3,7 +3,7 @@
   "id": "GSID23G92UMX93H45",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2024-01-28T07:35:09.1276213+00:00",
+    "lastUpdated": "2019-12-20T12:11:28.5039923+00:00",
     "source": "https://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/SubstanceDefinition-pub"

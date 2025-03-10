@@ -3,7 +3,7 @@
   "id": "93FE88350C2E8868F7E8BD220C4E0010",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2020-08-22T07:35:08.7906749+00:00",
+    "lastUpdated": "2020-06-06T12:11:28.1729964+00:00",
     "source": "https://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/AdministrableProductDefinition-who-php"
@@ -16,7 +16,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "030078f2-765c-4483-8432-90f55dbfd8e4",
+      "id": "d8731982-1c3e-43fb-b55d-0002db6c3e1a",
       "meta": {
         "source": "https://idmp.who-umc.org/fhir",
         "profile": [
