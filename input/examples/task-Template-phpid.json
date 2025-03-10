@@ -3,8 +3,8 @@
   "id": "template-generated-by-server-phpid-req",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2021-06-24T07:42:28.0235593+00:00",
-    "source": "http://idmp.who-umc.org/fhir",
+    "lastUpdated": "2023-07-30T07:35:10.3007213+00:00",
+    "source": "https://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/Task-who-php-phpid"
     ]
@@ -16,9 +16,9 @@
   "contained": [
     {
       "resourceType": "MedicinalProductDefinition",
-      "id": "2661d88e-fd79-4b4e-8991-2381dcba8fb2",
+      "id": "7566dd86-41ed-4f64-a532-fdceac4f4baa",
       "meta": {
-        "source": "http://idmp.who-umc.org/fhir",
+        "source": "https://idmp.who-umc.org/fhir",
         "profile": [
           "http://who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-req"
         ]
@@ -63,23 +63,6 @@
           "display": "SPC/123"
         }
       ],
-      "contact": [
-        {
-          "type": {
-            "coding": [
-              {
-                "system": "http://hl7.org/fhir/medicinal-product-contact-type",
-                "code": "ProposedMAH"
-              }
-            ]
-          },
-          "contact": {
-            "reference": "#acmeinc",
-            "type": "Organization",
-            "display": "Acme Inc"
-          }
-        }
-      ],
       "name": [
         {
           "productName": "Marvelol",
@@ -116,9 +99,9 @@
     },
     {
       "resourceType": "Ingredient",
-      "id": "48ce4438-56ee-4dcc-8b36-5bf5e0524388",
+      "id": "68f6dd1d-f222-49eb-93b2-88fb193a664d",
       "meta": {
-        "source": "http://idmp.who-umc.org/fhir",
+        "source": "https://idmp.who-umc.org/fhir",
         "profile": [
           "http://who-umc.org/idmp/StructureDefinition/Ingredient-who-php"
         ]
@@ -126,7 +109,7 @@
       "status": "active",
       "for": [
         {
-          "reference": "#2661d88e-fd79-4b4e-8991-2381dcba8fb2"
+          "reference": "#7566dd86-41ed-4f64-a532-fdceac4f4baa"
         }
       ],
       "role": {
@@ -175,7 +158,7 @@
       "resourceType": "Organization",
       "id": "acmeinc",
       "meta": {
-        "source": "http://idmp.who-umc.org/fhir",
+        "source": "https://idmp.who-umc.org/fhir",
         "profile": [
           "http://who-umc.org/idmp/StructureDefinition/MarketingAuthorizationHolder-who-php"
         ]
@@ -193,6 +176,19 @@
         }
       ],
       "name": "Acme Inc"
+    },
+    {
+      "resourceType": "RegulatedAuthorization",
+      "id": "f3e6948f-0bb7-4ca1-b680-e245b94f2e3b",
+      "subject": [
+        {
+          "reference": "#7566dd86-41ed-4f64-a532-fdceac4f4baa",
+          "type": "MedicinalProductDefinition"
+        }
+      ],
+      "holder": {
+        "reference": "#acmeinc"
+      }
     }
   ],
   "identifier": [
@@ -212,8 +208,8 @@
       }
     ]
   },
-  "authoredOn": "2025-01-21",
-  "lastModified": "2025-01-21",
+  "authoredOn": "2025-03-10",
+  "lastModified": "2025-03-10",
   "input": [
     {
       "type": {
@@ -226,7 +222,7 @@
         ]
       },
       "valueReference": {
-        "reference": "#2661d88e-fd79-4b4e-8991-2381dcba8fb2"
+        "reference": "#7566dd86-41ed-4f64-a532-fdceac4f4baa"
       }
     },
     {
@@ -240,7 +236,7 @@
         ]
       },
       "valueReference": {
-        "reference": "#48ce4438-56ee-4dcc-8b36-5bf5e0524388"
+        "reference": "#68f6dd1d-f222-49eb-93b2-88fb193a664d"
       }
     },
     {
@@ -255,6 +251,20 @@
       },
       "valueReference": {
         "reference": "#acmeinc"
+      }
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://who-umc.org/idmp/CodeSystem/task-input-type",
+            "code": "regauth-request-resource",
+            "display": "Regulated Authorization for PhPID request"
+          }
+        ]
+      },
+      "valueReference": {
+        "reference": "#f3e6948f-0bb7-4ca1-b680-e245b94f2e3b"
       }
     }
   ]

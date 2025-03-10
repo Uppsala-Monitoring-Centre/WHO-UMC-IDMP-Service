@@ -3,15 +3,15 @@
   "id": "GSID9XBS2KCF3K1Z1",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2019-04-01T08:05:10.1860732+00:00",
-    "source": "http://idmp.who-umc.org/fhir",
+    "lastUpdated": "2017-06-29T07:35:09.2679383+00:00",
+    "source": "https://idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/SubstanceDefinition-pub"
     ]
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family: Helvetica;\"><h1 style=\"color: darkblue; background: lightgray; padding: 5px;\">Substance definition</h1><table style=\"padding: 5px; text-align: left;\"><tr><td style=\"font-weight: bold;\">Id</td><td>GSID9XBS2KCF3K1Z1</td></tr><tr><td style=\"font-weight: bold;\">SMILE</td><td>CN(Cc1cnc2c(c(N)[nH]c(=N)n2)n1)c3ccc(cc3)C(=O)N[C@@]([H])(CCC(=O)[O-])C(=O)[O-].[Na+].[Na+]</td></tr><tr><td style=\"font-weight: bold;\">Base</td><td>GSID23G92UMX93H45</td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Name(s)</h2><table style=\"padding: 5px; text-align: left;\"><th>Name</th><th>Language</th><th>Preferred</th><tr><td style=\"font-weight: bold;\">METHOTREXATE SODIUM</td><td>en</td><td>True</td></tr><tr><td style=\"font-weight: bold;\">METHOTREXATE SODIUM</td><td>en</td><td>True</td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Other code systems</h2><table style=\"padding: 5px; text-align: left;\"><th>System</th><th>Code</th><tr><td>http://terminology.hl7.org/CodeSystem/CAS</td><td>15475-56-6</td></tr><tr><td>https://open.fda.gov/data/unii</td><td>3IG1E710ZN</td></tr><tr><td>http://terminology.hl7.org/CodeSystem/CAS</td><td>7413-34-5</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family: Helvetica;\"><h1 style=\"color: darkblue; background: lightgray; padding: 5px;\">Substance definition</h1><table style=\"padding: 5px; text-align: left;\"><tr><td style=\"font-weight: bold;\">Id</td><td>GSID9XBS2KCF3K1Z1</td></tr><tr><td style=\"font-weight: bold;\">SMILE</td><td>CN(Cc1cnc2c(c(N)[nH]c(=N)n2)n1)c3ccc(cc3)C(=O)N[C@@]([H])(CCC(=O)[O-])C(=O)[O-].[Na+].[Na+]</td></tr><tr><td style=\"font-weight: bold;\">Base</td><td>GSID23G92UMX93H45</td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Name(s)</h2><table style=\"padding: 5px; text-align: left;\"><th>Name</th><th>Source</th><th>Language</th><th>Preferred</th><tr><td style=\"font-weight: bold;\">METHOTREXATE SODIUM</td><td>UMC-SRS</td><td>en</td><td>True</td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Other code systems</h2><table style=\"padding: 5px; text-align: left;\"><th>System</th><th>Code</th><tr><td>http://terminology.hl7.org/CodeSystem/CAS</td><td>15475-56-6</td></tr><tr><td>https://open.fda.gov/data/unii</td><td>3IG1E710ZN</td></tr><tr><td>http://terminology.hl7.org/CodeSystem/CAS</td><td>7413-34-5</td></tr></table></div>"
   },
   "identifier": [
     {
@@ -114,46 +114,10 @@
             "coding": [
               {
                 "system": "http://hl7.org/fhir/substance-name-authority",
-                "code": "UMCSRS"
+                "code": "UMC-SRS"
               }
             ],
-            "text": "UMCSRS"
-          }
-        }
-      ]
-    },
-    {
-      "name": "METHOTREXATE SODIUM",
-      "status": {
-        "coding": [
-          {
-            "system": "http://hl7.org/fhir/publication-status",
-            "code": "active"
-          }
-        ],
-        "text": "Active"
-      },
-      "preferred": true,
-      "language": [
-        {
-          "coding": [
-            {
-              "system": "urn:ietf:bcp:47",
-              "code": "en"
-            }
-          ]
-        }
-      ],
-      "official": [
-        {
-          "authority": {
-            "coding": [
-              {
-                "system": "http://hl7.org/fhir/substance-name-authority",
-                "code": "UMCSRS"
-              }
-            ],
-            "text": "UMCSRS"
+            "text": "UMC-SRS"
           }
         }
       ]

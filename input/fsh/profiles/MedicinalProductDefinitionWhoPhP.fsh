@@ -12,10 +12,6 @@ Description: """This profile specified how the MedicinalProductDefinition is use
   * system 1..
   * system from VsMpIdSystem (extensible)
   * value 1..
-* contact 1..1
-  * type ^short = "Should be ProposedMAH"
-  * contact ^short = "A specific contact that represents an organization that is the market authorization holder for this product."
-  * contact only Reference(MarketingAuthorizationHolder-who-php)
 * description ^short = "General description of the medicinal product referred by the ePI"
 * indication ^short = "Narrative text of the authorized indication(s) for this product."
 * attachedDocument 1..*
@@ -40,9 +36,7 @@ Description: """This profile specifies how the MedicinalProductDefinition is pub
 * contained 0..2
 * contained only Organization or RegulatedAuthorization
 
-* contact 0..*
-  * type ^short = "Allows the Marketing Authorization Holder to be classified"
-  * contact ^short = "A specific Marketing Authorization Holder for this product"
+* insert NotUsed(contact)
 * insert NotUsed(description)
 * insert NotUsed(indication)
 
