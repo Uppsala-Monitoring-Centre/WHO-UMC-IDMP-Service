@@ -36,7 +36,6 @@ Description: """This profile specifies how the MedicinalProductDefinition is pub
 * contained 0..2
 * contained only Organization or RegulatedAuthorization
 
-* insert NotUsed(contact)
 * insert NotUsed(description)
 * insert NotUsed(indication)
 
@@ -91,7 +90,7 @@ RuleSet: MedicinalProductDefinitionCommon
 * insert NotUsed(specialMeasures) 
 * insert NotUsed(pediatricUseIndicator)
 * insert NotUsed(packagedMedicinalProduct)
-
+* insert NotUsed(contact)
 * insert NotUsed(marketingStatus)
 /* * marketingStatus 0.. //not used now? should it be mandatory??
   * country from $vsCountry (preferred)
