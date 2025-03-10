@@ -32,6 +32,11 @@
       "code": "substance-request-resource",
       "display": "Data for substance request",
       "definition": "Data for substance request"
+    },
+    {
+      "code": "regauth-request-resource",
+      "display": "Regulated Authorization for PhPID request",
+      "definition": "Regulated Authorization for PhPID request"
     }
   ]
 }

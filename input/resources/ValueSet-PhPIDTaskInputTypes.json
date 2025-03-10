@@ -23,6 +23,10 @@
           {
             "code": "organization-request-resource",
             "display": "Marketing Auth Holder for PhPID request"
+          },
+          {
+            "code": "regauth-request-resource",
+            "display": "Regulated Authorization for PhPID request"
           }
         ]
       }
