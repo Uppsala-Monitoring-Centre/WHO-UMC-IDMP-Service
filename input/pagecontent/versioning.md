@@ -3,7 +3,11 @@
  </blockquote>
 
 ### Introduction
-ToDo
+The WHO-UMC IDMP Service has support for versions in several different ways, all of them important depending on the context:
+- Versioning of the API itself
+- Versioning of FHIR
+- Versioning of Profiles
+- Versioning of data (content)
 
 #### Versioning of content
 The content of the resources will be versioned using the built in versioning mechanism within the meta data section of each resource.
@@ -35,6 +39,9 @@ If a client implementation requires an older version of the FHIR standard, then 
 ___Note:___ _xxx in the above examples should be replaced with xml or json_
 
 ##### API versioning
+
+The current version of the WHO-UMC IDMP Service API is shown in the Capability Statement. When requesting the Capability Statement using /metadata the current (active) version of the API is returned in the software.version attribute.
+
 The API supports a limited number of historical versions as outlined in the table in the end of this section. Generally the latest version of the API is the default, if a previous version of the API is to be used that version must be specified in every request using the following header:
 
 > GET [base]/[resource]/[id]
