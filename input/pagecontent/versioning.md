@@ -28,7 +28,9 @@ If a FHIR version that is no longer the "latest" version, for example 5.0 (when 
 
 If a client implementation requires an older version of the FHIR standard, then the most current version being used by the API, all calls to the API must specify that standard using:
 
-> Content-Type: application/fhir+xxx; fhirVersion=1.0
+> GET [base]/[resource]/[id]
+>
+> Content-Type: application/fhir+xxx; fhirVersion=5.0
 
 ___Note:___ _xxx in the above examples should be replaced with xml or json_
 
@@ -47,7 +49,7 @@ If an API version that is no longer the "latest" version is requested a `20x` re
 
 > Warning: 299 IDMPService "Support for the requested FHIR version will be retired YYYYMMDD"
 
-Implementors of the API should log such messages and be prepared to migrate to the latest version well in time before the expiration date.
+Implementors of the API should have a process to take action on such messages and be prepared to migrate to the latest version well in time before the expiration date.
 
 #### Versioning of resources
 
@@ -101,7 +103,7 @@ Table of supported API and FHIR versions
 <td>2025-12-31</td>
 </tr><tr class="odd">
 <td>0.8</td>
-<td>5.0</td>
+<td>4.0</td>
 <td>Retired</td>
 <td font-color="red">2024-12-31</td>
 </tr></tbody>
