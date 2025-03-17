@@ -99,19 +99,29 @@ Table of supported API and FHIR versions
 </thead>
 <tbody>
 <tr class="odd">
-<td>1.0</td>
+<td>2.2</td>
 <td>5.0</td>
 <td>Current</td>
 <td>N/A</td>
-</tr><tr class="even">
-<td>0.9</td>
+</tr><tr class="odd">
+<td>2.1</td>
 <td>5.0</td>
 <td>Active</td>
 <td>2025-12-31</td>
 </tr><tr class="odd">
-<td>0.8</td>
+<td>2.0</td>
+<td>5.0</td>
+<td>Retired</td>
+<td class="warning">2024-12-31</td>
+</tr><tr class="even">
+<td>1.1</td>
+<td>4.0</td>
+<td>Active</td>
+<td>2025-12-31</td>
+</tr><tr class="odd">
+<td>1.0</td>
 <td>4.0</td>
 <td>Retired</td>
-<td font-color="red">2024-12-31</td>
+<td class="warning">2024-12-31</td>
 </tr></tbody>
 </table>
