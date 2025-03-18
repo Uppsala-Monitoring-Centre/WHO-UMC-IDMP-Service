@@ -69,6 +69,7 @@ RuleSet: MedicinalProductDefinitionCommon
   * productName ^short = "The full product name."
 
   * type 0..1
+  * type ^short = "Type of product name, such as rINN, BAN, Proprietary, Non-Proprietary."
 
   * part 0..*
     * part ^short = "A fragment of a product name."
@@ -106,5 +107,5 @@ RuleSet: MedicinalProductDefinitionCommon
 //*******************************
 Invariant:  name-type-required-multiple
 Description: "If name length >1, require name.type"
-Expression: "name.count()=1 or name.type.exists() "
+Expression: "name.count()=1 or name.type.exists()"
 Severity:   #error
