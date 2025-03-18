@@ -65,7 +65,7 @@ pages:
     title: Useful downloads
   changes.html:
     title: IG change history
-		
+
 menu:
   IG Home: index.html
   Background: background.html

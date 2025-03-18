@@ -68,6 +68,10 @@ RuleSet: MedicinalProductDefinitionCommon
   * productName 1..1
   * productName ^short = "The full product name."
 
+  * type 0..1
+    * type ^short = "Type of product name, such as rINN, BAN, Proprietary, Non-Proprietary"
+    * type from $vsNameType (example)
+
   * part 0..*
     * part ^short = "A fragment of a product name."
     * type ^short = "Type for this part of the name (e.g. strength part)"
