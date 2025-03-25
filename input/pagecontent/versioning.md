@@ -13,7 +13,7 @@ The WHO-UMC IDMP Service has support for versions in several different ways, all
 The content of the resources will be versioned using the built in versioning mechanism within the meta data section of each resource.
 
 #### Versioning of API
-_Note I : The reason that the below described versioning mechanism has been selected is that we do not want the URL to change since that might affect clients using the untire URL to reference resources._
+___Note I:___ _The reason that the below described versioning mechanism has been selected is that we do not want the URL to change since that might affect clients using the untire URL to reference resources._
 
 The current version of the WHO-UMC IDMP Service API as well as the FHIR version is shown in the Capability Statement. When requesting the Capability Statement using /metadata the current (active) version of the API is returned in the software.version attribute.
 
@@ -23,7 +23,7 @@ The API supports a limited number of historical versions as outlined in the tabl
 >
 > x-api-version: x.y;  
 
-_Note II : thet only two digits of the API version number can be used in this way_
+___Note II:___ _only two digits of the API version number can be used in this way_
 
 If an API version that is not supported is requested a `406 - Not Acceptable` response will be returned with a detaild message.
 
