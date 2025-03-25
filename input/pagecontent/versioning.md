@@ -1,55 +1,87 @@
 <blockquote class="stu-note">
-    <p>This part of the specification is only on a DRAFT level, it is not yet decided how the versioning of the API and the profiles will be handled. The versioning of the content will however follow the FHIR principles</p>
+    <p>This part of the specification is only on a DRAFT level, it is not yet decided how the versioning of the API and the profiles will be handled. The versioning of the content will however follow the FHIR principles.</p>
  </blockquote>
 
 ### Introduction
+The WHO-UMC IDMP Service has support for versions in several different ways, all of them important depending on the context:
+- Versioning of the API itself
+- Versioning of FHIR
+- Versioning of Profiles
+- Versioning of data (content)
 
 #### Versioning of content
 The content of the resources will be versioned using the built in versioning mechanism within the meta data section of each resource.
 
 #### Versioning of API
-Versioning of the WHO-UMC IDMP Service in regards to the FHIR version used is accomplished using the Capability Statement. When requesting the Capability Statement using /metadata the current (active) version of FHIR, supported by the API, is returned.
+_Note I : The reason that the below described versioning mechanism has been selected is that we do not want the URL to change since that might affect clients using the untire URL to reference resources._
 
-However, for clients accessing the API in the  future, a specific FHIR version can be specified using the following construct:
+The current version of the WHO-UMC IDMP Service API as well as the FHIR version is shown in the Capability Statement. When requesting the Capability Statement using /metadata the current (active) version of the API is returned in the software.version attribute.
 
-> GET [base]/metadata
+The API supports a limited number of historical versions as outlined in the table in the end of this section. Generally the latest version of the API is the default, if a previous version of the API is to be used that version must be specified in every request using the following header:
+
+> GET [base]/[resource]/[id]
 >
-> Accept: application/fhir+xxx; fhirVersion=5.0 
+> x-api-version: x.y;  
 
-If a FHIR version that is not supported, for example 4.0, is requested a `406 - Not Acceptable` response will be returned.
+_Note II : thet only two digits of the API version number can be used in this way_
 
-It is foreseen that the API will be upgraded to upcoming versions of the FHIR standard like for example FHIR version 6.0. To prepare for this, clients depending on the 5.0 standard would be encouraged to use the above method to verify that the version they need is still supported. It is also important to get the current Capability Statement in order to know that a new version is available and that the version currently being used by the client might get deprecated.
+If an API version that is not supported is requested a `406 - Not Acceptable` response will be returned with a detaild message.
 
-If a client implementation requires an older version of the FHIR standard, then the most current version being used by the API, all calls to the API must specify that standard using:
+It is foreseen that the API will be continously upgraded. To prepare for this, clients is encouraged to use the above method to verify that the version they need is still supported. 
 
-> Content-Type: application/fhir+xxx; fhirVersion=1.0
+Only API versions with breaking changes will be handled as described above. Minor versions that is backward compatible with the previous version, affecting only the third didgit 'z' in (x.y.z), will not be possible to specify. 
 
-___Note:___ _xxx in the above examples should be replaced with xml or json_
+If an API version that is no longer the "latest" version is requested a `20x` response will be returned with a `Warning` header as follows.
+
+> Warning: 299 IDMPService "Support for the requested FHIR version will be retired YYYYMMDD"
+
+___Note III:___ _Implementors of the API should have a process to take action on such messages and be prepared to migrate to the latest version well in time before the expiration date._
+
+___Note IV:___ _xxx in the above examples should be replaced with xml or json._
+
+#### FHIR versioning
+There is no specific version handling in regards to FHIR versions. FHIR versions will follow the API varsioning so if a new FHIR version is released which the client can _not yet_ support the client need to continue using the old API version until it is ready to migrate to the new version.
 
 #### Versioning of resources
 
- Versioning of how resources are used do not always following the FHIR versions. To support this scenario versioning of the profiles is used.  
+Versioning of resources through profiles follow the versioning of the API.  
 
-##### Sending resources
-Resources sent to the API should be versioned using the profiles. When validating for example a `Task` sent in with resources included in the contains section each resource is validated using the provided profile. If no profile is provided the resources are validated against the latest profile.
+### Table of supported API and FHIR versions
 
-If an old profile is being used a validation warning may be issued for a spcified period of time defined by an expiry date. When the expiry date has passsed an error will be issued. 
-
-    "meta": {
-     "profile": [
-      "http://idmp.who-umc.org/fhir/StructureDefinition/SubstanceDefinition-req-v1"
-     ]
-    }
-
-___Note:___ _for the client to operate efter expiry date it is important to handle the warnings and take action in due time_
-
-##### Requesting resources
-The version of a resource is defined using the profile (as for the request scenario). It is up to the client to handle any changes needed. In the Implementation Guide old versions of the profiles will be available for upversioning support.
-
-    "meta": {
-     "profile": [
-      "http://idmp.who-umc.org/fhir/StructureDefinition/SubstanceDefinition-pub-v1"
-     ]
-    }
-
-
+<table>
+<thead>
+<tr class="header">
+<th>API Version</th>
+<th>FHIR Version</th>
+<th>Status</th>
+<th>Retirement date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2.2</td>
+<td>5.0</td>
+<td>Current</td>
+<td>N/A</td>
+</tr><tr class="odd">
+<td>2.1</td>
+<td>5.0</td>
+<td>Active</td>
+<td>2025-12-31</td>
+</tr><tr class="odd">
+<td>2.0</td>
+<td>5.0</td>
+<td>Retired</td>
+<td class="warning">2024-12-31</td>
+</tr><tr class="even">
+<td>1.1</td>
+<td>4.0</td>
+<td>Active</td>
+<td>2025-12-31</td>
+</tr><tr class="odd">
+<td>1.0</td>
+<td>4.0</td>
+<td>Retired</td>
+<td class="warning">2024-12-31</td>
+</tr></tbody>
+</table>
