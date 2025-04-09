@@ -1,5 +1,5 @@
  <blockquote class="stu-note">
-    <p>This part of the specification is only available in the preview API</p>
+    <p>This part of the specification is only available in the PoC API</p>
   </blockquote>
 
 
@@ -17,7 +17,7 @@ Some information/attributes on the SD that is not within the public domain also 
 
 ### Authentication process
 To authenticate when using for example the `Task` and `Subscription` API an http header should be supplied named `Ocp-Apim-Subscription-Key`. 
-In the demo version of the API any guid on the form `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` can be used. However, it is important to always use the same guid for one user since the guid will identify the "owner" of the `Task`.
+In the PoC version of the API any guid on the form `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` can be used. However, it is important to always use the same guid for one user since the guid will identify the "owner" of the `Task`.
 
 #### Requesting access 
 This process has yet to be developed.

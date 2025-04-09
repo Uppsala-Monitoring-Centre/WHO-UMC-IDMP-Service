@@ -1,0 +1,46 @@
+@apikey = 161713fd-87aa-4872-af04-d37977cf6440
+@subscription = 9d375fc8-5ba7-4f82-95db-e0e069a59d29
+@url = https://idmp.who-umc.org/fhir
+
+### Validate request
+POST {{url}}/Task/$validate
+Ocp-Apim-Subscription-Key: {{apikey}}
+
+< ./task-Template-phpid.json
+
+### Send request
+POST  {{url}}/Task
+Ocp-Apim-Subscription-Key: {{apikey}} 
+
+< ./task-Template-phpid.json
+
+### Save the requestId
+@reqId = 5159bb7f-cf16-449d-a439-9619e82c68f3
+
+### Update task (only available in PoC
+GET  {{url}}/UpdateTask/{{reqId}}
+Ocp-Apim-Subscription-Key: {{apikey}}
+
+### Get Task
+GET  {{url}}/Task/{{reqId}}
+Ocp-Apim-Subscription-Key: {{apikey}}
+
+### Get Task by identifier
+GET  {{url}}/Task?identifier=http://requester.org/phpidreqid|123457
+Ocp-Apim-Subscription-Key: {{apikey}}
+
+
+### Get My Tasks
+GET  {{url}}/Task
+Ocp-Apim-Subscription-Key: {{apikey}}
+
+### Get My requested Tasks
+GET  {{url}}/Task?status=requested
+Ocp-Apim-Subscription-Key: {{apikey}}
+
+### Get My completed Tasks
+GET  {{url}}/Task?status=completed
+Ocp-Apim-Subscription-Key: {{apikey}}
+
+### Get "all" PhPIDs
+GET {{url}}/AdministrableProductDefinition
