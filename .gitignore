@@ -11,3 +11,6 @@ __pycache__/
 /___attic
 /__sources
 .vs
+.vscode
+.jekyll-cache
+_site
