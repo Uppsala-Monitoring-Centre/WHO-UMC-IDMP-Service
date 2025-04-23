@@ -1,8 +1,4 @@
 
-  <blockquote class="stu-note">
-    <p>The specification herewith documented is for the time being a proof of concept specification, and may not be used for any implementation purposes. 
-    No liability can be inferred from the use or misuse of this specification, or its consequences.</p>
-  </blockquote>
 
 ### Scope
 
@@ -20,13 +16,13 @@ The Implementation Guide describes how new global PhPIDs and GSIDs are requested
 #### Access to the WHO-UMC IDMP FHIR server
 
 ##### Production
-The poroduction FHIR server can be reached at [https://idmp.who-umc.org/fhir](https://idmp.who-umc.org/fhir). To get access to the production server, please contact asa.parnaste [at] who-umc.org .
+The production FHIR server can be reached at [https://idmp.who-umc.org/fhir](https://idmp.who-umc.org/fhir). To get access to the production server, please contact asa.parnaste [at] who-umc.org.
 
 ##### Preview
-The poroduction FHIR server can be reached at [https://preview-idmp.who-umc.org/fhir](https://preview-idmp.who-umc.org/fhir). To get access to the preview server, please contact asa.parnaste [at] who-umc.org .
+The preview FHIR server can be reached at [https://preview-idmp.who-umc.org/fhir](https://preview-idmp.who-umc.org/fhir). To get access to the preview server, please contact asa.parnaste [at] who-umc.org.
 
 ##### Proof of Concept
-The (PoC) FHIR server can be reached at [https://poc-idmp.who-umc.org/fhir](https://poc-idmp.who-umc.org/fhir). 
+The PoC FHIR server can be reached at [https://poc-idmp.who-umc.org/fhir](https://poc-idmp.who-umc.org/fhir). 
 A tutorial with examples is found at [https://poc-idmp.who-umc.org/](https://poc-idmp.who-umc.org/)
 
 
