@@ -3,8 +3,9 @@
 - PhPID - Pharmaceutical Product Identifier
 - GSID - Global Substance Identifier
 - EDQM - European Directorate for the Quality of Medicines & HealthCare Standard Terms for pharmaceutical dose forms
+- GIDWG - Global IDMP Working Group
 
-### IDMP
+### ISO IDMP
 
 IDMP – Identification of Medicinal Products – is a set of five standards developed by the International Organization for Standardization (ISO) to create a universal framework of structured, coded data that uniquely identify and describe all key aspects of medicinal products.
 The Identification of Medicinal Products (IDMP) standards aim to increase clarity and efficiency in communications about medicines and provide greater certainty to patients no matter where they are.
@@ -19,7 +20,7 @@ The UMC IDMP API supports two parts of the ISO IDMP standard, the Pharmaceutical
 <img src="Overview.png" alt="An overview of IDMP"/>
 <br clear="all"/>
 
-The PhPID is based on substance-, strength- and dose form information of the pharmaceutical product. This information, when validated and harmonized, is used for input to the generation of the PhPID.
+The PhPID is based on substance-, strength- and dose form information of the pharmaceutical product. This information, once validated and harmonized through a set of business rules developed by the GIDWG, is used as input to the generation of the PhPID.
 PhPIDs of four different levels are generated, as follows:
 - PhPID Level 1 - Substance(s) Term
 - PhPID Level 2 - Substance(s) Term(s) + Strength
