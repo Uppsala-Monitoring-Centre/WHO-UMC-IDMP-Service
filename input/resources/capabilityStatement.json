@@ -1,10 +1,10 @@
 {
   "resourceType": "CapabilityStatement",
-  "id": "WHO-UMC-IDMP-service",
-  "name": "WHO-UMC IDMP Management and Publish API",
-  "title": "API to allow for Requests and Publishing of PhPIDs and GSIDs",
+  "id": "UMC-IDMP-API",
+  "name": "UMC IDMP Request and Publish API",
+  "title": "API to allow for Requests of PhPIDs and Publishing of PhPIDs, GSIDs and MPDs",
   "status": "draft",
-  "date": "2025-03-10",
+  "date": "2025-04-24",
   "publisher": "Uppsala Monitoring Centre",
   "contact": [
     {
@@ -22,10 +22,10 @@
       ]
     }
   ],
-  "description": "The WHO-UMC API supports management and publishing of OhPIDs and GSIDs as part of the ISO IDMP standard",
+  "description": "The UMC IDMP API supports management and publishing of PhPIDs and publishing of GSIDs as part of the ISO IDMP standard. It also supports publishing of some other related resources as described in the Implementation Guide",
   "kind": "capability",
   "software": {
-    "name": "WHO-UMC IDMP Management and Publish API",
+    "name": "UMC IDMP Request and Publish API",
     "version": "0.5.0"
   },
   "fhirVersion": "5.0.0",
@@ -148,7 +148,7 @@
             {
               "name": "_id",
               "type": "string",
-              "documentation": "WHODrug product Id"
+              "documentation": "WHODrug record Id"
             },
             {
               "name": "identifier",
@@ -190,31 +190,6 @@
               "name": "strength-presentation-quantity",
               "type": "token",
               "documentation": "Search parameter on the format '5.4|http://unitsofmeasure.org|mg'"
-            }
-          ]
-        },
-        {
-          "type": "Organization",
-          "interaction": [
-            {
-              "code": "read"
-            }
-          ],
-          "searchParam": [
-            {
-              "name": "_id",
-              "type": "string",
-              "documentation": ""
-            },
-            {
-              "name": "identifier",
-              "type": "string",
-              "documentation": ""
-            },
-            {
-              "name": "name",
-              "type": "string",
-              "documentation": "Name of organization (contains search)"
             }
           ]
         },

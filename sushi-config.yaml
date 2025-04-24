@@ -19,7 +19,7 @@ contact:
       - system: url
         value: http://www.who-umc.org
 
-description: The WHO-UMC API supports management and publishing of PhPIDs and GSIDs as part of the ISO IDMP standard
+description: The UMC IDMP API supports management and publishing of PhPIDs and GSIDs as part of the ISO IDMP standard
 jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 license: CC0-1.0
 fhirVersion: 5.0.0

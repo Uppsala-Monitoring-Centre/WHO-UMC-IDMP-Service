@@ -1,5 +1,3 @@
-
-
 ### Scope
 
 The scope of this Implementation Guide is to document the WHO-UMC IDMP API FHIR service, by describing the context in which the API can be used as well as the technical overview for using the API. 
@@ -13,7 +11,7 @@ The Implementation Guide describes how FHIR standard is used to exchange data fo
 The main resources maintained by the service are the Pharmaceutical Product IDs, PhPIDs, (manifested through the AdministrableProductDefinition resource) and the Global Substance IDs, GSIDs, (manifested through the SubstanceDefinition resource). However, the MedicinalProductDefinition resource is also vital since it serves as input for PhPID generation. 
 The Implementation Guide describes how new global PhPIDs and GSIDs are requested using asynchronous FHIR requests, and how they are delivered through FHIR.
 
-#### Access to the WHO-UMC IDMP FHIR server
+#### Access to the UMC IDMP FHIR server
 
 ##### Production
 The production FHIR server can be reached at [https://idmp.who-umc.org/fhir](https://idmp.who-umc.org/fhir). To get access to the production server, please contact asa.parnaste [at] who-umc.org.
