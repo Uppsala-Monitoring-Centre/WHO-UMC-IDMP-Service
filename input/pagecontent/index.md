@@ -1,10 +1,10 @@
 ### Scope
 
-The scope of this Implementation Guide is to document the WHO-UMC IDMP API FHIR service, by describing the context in which the API can be used as well as the technical overview for using the API. 
+The scope of this Implementation Guide is to document the UMC IDMP API FHIR service, by describing the context in which the API can be used as well as the technical overview for using the API. 
 
 ### Introduction
 
-This Implementation Guide has a target audience of system integrators to the WHO-UMC IDMP API. The API is based on the HL7 FHIR standard and this guide describes supported FHIR resources.
+This Implementation Guide has a target audience of system integrators to the UMC IDMP API. The API is based on the HL7 FHIR standard and this guide describes supported FHIR resources.
 
 The Implementation Guide describes how FHIR standard is used to exchange data for ISO IDMP standards for global PhPIDs and GSIDs. For information about ISO IDMP, see the [Background](background.html) section in this guide. 
 
