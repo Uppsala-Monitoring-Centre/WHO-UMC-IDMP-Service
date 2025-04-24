@@ -3,7 +3,7 @@
  </blockquote>
 
 ### Introduction
-The WHO-UMC IDMP Service has support for versions in several different ways, all of them important depending on the context:
+The UMC IDMP Service has support for versions in several different ways, all of them important depending on the context:
 - Versioning of the API itself
 - Versioning of FHIR
 - Versioning of Profiles

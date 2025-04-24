@@ -7,8 +7,8 @@
 id: idmp.who-umc.org.fhir
 canonical: http://who-umc.org/idmp
 version: 0.1.0
-name: WhoUmcIDMPManagement
-title: WHO-UMC IDMP Management and Publish API 
+name: UmcIDMPManagement
+title: UMC IDMP Request and Publish API 
 status: active
 publisher:
   name: Uppsala Monitoring Centre
@@ -42,13 +42,15 @@ FSHOnly: false
 
 pages:
   index.md:
-    title: WHO-UMC IDMP Management and Publish API   
+    title: UMC IDMP Request and Publish API   
   background.md:
     title: Background
   operatingModel.md:
     title: Operating model   
   phpIdRequest.md:
     title: PhPID (AdministrableProductDefinition) request   
+  publishing.md:
+    title: Publishing
   #substanceRequest.md:
   #  title: GSID (Substance) request   
   authentication.md:
@@ -73,9 +75,11 @@ menu:
     Operating model: operatingModel.html
     PhPID request: phpIdRequest.html
     #GSID request: substanceRequest.html
-  Change management: subscription.html
+  Publishing: publishing.html
+  Change management:
+    Change management: subscription.html
+    Versioning: versioning.html
   Authentication: authentication.html
-  Versioning: versioning.html
   # Specifications:
   #   Profiles: profiles.html
   #   Terminology: terminologies.html

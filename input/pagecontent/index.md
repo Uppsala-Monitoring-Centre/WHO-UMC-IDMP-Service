@@ -80,5 +80,10 @@ A tutorial with examples is found at [https://poc-idmp.who-umc.org/](https://poc
 <td>João Almeida</td>
 <td>HL7 Europe</td>
 <td>joaofilipe90 [at] gmail.com</td>
+</tr><tr class="even">
+<td>Author</td>
+<td>Mikael Nilsson</td>
+<td>Uppsala Monitoring Centre</td>
+<td>mikael.nilsson [at] who-umc.org</td>
 </tr></tbody>
 </table>

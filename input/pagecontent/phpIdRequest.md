@@ -1,12 +1,12 @@
 ### Introduction
     
-In this section it is described how the WHO-UMC IDMP service (API) is used to request a new global PhPID represented by a `AdministrableProductDefinition` (APD) in an asynchronous way. 
+In this section it is described how the UMC IDMP service (API) is used to request a new global PhPID represented by a `AdministrableProductDefinition` (APD) in an asynchronous way. 
 
 The reason for using an asynchronous request model is that the process for generating PhPIDs includes a manual data validation step which can not be done instantly.
 
 The asynchronous nature of the request is achieved by using a FHIR Task. In the Task a `MedicinalProductDefinition` (MPD) resource, for which a PhPID should be generated, is used as input, placed in the contained section of the Task. The (MPD) contains information identifying the Medicinal Product, such as: name, marketing authorization holder, local MPID etc. The ingredient(s), form and strength of the MPD is modelled using Ingredient resources.
 
-Upon a successful request, a PhPID is generated and an (APD) resource representing it will be available, referenced in the output section of the Task. The ID (WHODrugID) of the WHODrug entry corresponging to the provided MPD will also be available in the output.   
+Upon a successful request, a PhPID is generated and an (APD) resource representing it will be available, referenced in the output section of the Task. The ID (RecordID) of the WHODrug entry corresponging to the provided MPD will also be available in the output.   
 
 ### Workflow
 
