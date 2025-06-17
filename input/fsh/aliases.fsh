@@ -50,7 +50,7 @@ Alias: $oid = urn:ietf:rfc:1155
 Alias: $loinc = http://loinc.org
 Alias: $unii = https://open.fda.gov/data/unii // To be checked
 //Edqm for parts should be part of the standardterms code system so this is a temporary solution
-Alias: $edqm = http://who-umc.org/idmp/CodeSystem/edqmFormParts
+Alias: $edqm = http://who-umc.org/idmp/CodeSystem/edqmDoseFormAttributes
 //Alias: $edqm = http://standardterms.edqm.eu
 Alias: $sct = http://snomed.info/sct
 Alias: $atc = http://www.whocc.no/atc
