@@ -70,7 +70,7 @@
     {
       "url": "http://who-umc.org/idmp/StructureDefinition/basic-dose-form",
       "valueCoding": {
-        "system": "http://who-umc.org/idmp/CodeSystem/edqmFormParts",
+        "system": "http://who-umc.org/idmp/CodeSystem/edqmDoseFormAttributes",
         "code": "BDF-0069",
         "display": "Tablet"
       }
@@ -78,7 +78,7 @@
     {
       "url": "http://who-umc.org/idmp/StructureDefinition/administration-method",
       "valueCoding": {
-        "system": "http://who-umc.org/idmp/CodeSystem/edqmFormParts",
+        "system": "http://who-umc.org/idmp/CodeSystem/edqmDoseFormAttributes",
         "code": "AME-0019",
         "display": "Swallowing"
       }
@@ -86,7 +86,7 @@
     {
       "url": "http://who-umc.org/idmp/StructureDefinition/intended-site",
       "valueCoding": {
-        "system": "http://who-umc.org/idmp/CodeSystem/edqmFormParts",
+        "system": "http://who-umc.org/idmp/CodeSystem/edqmDoseFormAttributes",
         "code": "ISI-0031",
         "display": "Oral"
       }
@@ -94,7 +94,7 @@
     {
       "url": "http://who-umc.org/idmp/StructureDefinition/release-characteristics",
       "valueCoding": {
-        "system": "http://who-umc.org/idmp/CodeSystem/edqmFormParts",
+        "system": "http://who-umc.org/idmp/CodeSystem/edqmDoseFormAttributes",
         "code": "RCA-0047",
         "display": "Conventional"
       }

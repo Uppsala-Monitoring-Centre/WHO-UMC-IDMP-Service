@@ -53,6 +53,10 @@ Description: """This profile specified how the Ingredient is used in PhPID publi
           * value 1..1
           * unit 1..1
           * unit from VsStrengthUnit
+        * denominator 1..1
+          * value 1..1
+          * unit 1..1
+          * unit from VsStrengthUnit
       * presentationQuantity 0..1
         * value 1..1
         * unit 1..1

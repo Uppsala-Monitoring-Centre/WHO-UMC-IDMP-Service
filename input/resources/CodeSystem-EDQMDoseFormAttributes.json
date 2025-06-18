@@ -1,0 +1,492 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "edqmDoseFormAttributes",
+  "url": "http://who-umc.org/idmp/CodeSystem/edqmDoseFormAttributes",
+  "name": "edqmDoseFormAttributes",
+  "title": "EDQM dose form attributes",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Uppsala Monitoring Centre",
+  "description": "This system lists the dose form attributes from the EDQM CodeSystem. This is a temporary solution while waiting for the EDQM dose form attributes to be available in the official HL7 EDQM CodeSystem.",
+  "copyright": "Uppsala Monitoring Centre",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "0004",
+      "display": "Administration",
+      "definition": "Administration"
+    },
+    {
+      "code": "0005",
+      "display": "Application",
+      "definition": "Application"
+    },
+    {
+      "code": "0006",
+      "display": "Bathing",
+      "definition": "Bathing"
+    },
+    {
+      "code": "0007",
+      "display": "Chewing",
+      "definition": "Chewing"
+    },
+    {
+      "code": "0008",
+      "display": "Gargling",
+      "definition": "Gargling"
+    },
+    {
+      "code": "0009",
+      "display": "Infusion",
+      "definition": "Infusion"
+    },
+    {
+      "code": "0010",
+      "display": "Inhalation",
+      "definition": "Inhalation"
+    },
+    {
+      "code": "0011",
+      "display": "Injection",
+      "definition": "Injection"
+    },
+    {
+      "code": "0012",
+      "display": "Insertion",
+      "definition": "Insertion"
+    },
+    {
+      "code": "0013",
+      "display": "Instillation",
+      "definition": "Instillation"
+    },
+    {
+      "code": "0014",
+      "display": "Orodispersion",
+      "definition": "Orodispersion"
+    },
+    {
+      "code": "0015",
+      "display": "Rinsing/washing",
+      "definition": "Rinsing/washing"
+    },
+    {
+      "code": "0017",
+      "display": "Spraying",
+      "definition": "Spraying"
+    },
+    {
+      "code": "0018",
+      "display": "Sucking",
+      "definition": "Sucking"
+    },
+    {
+      "code": "0019",
+      "display": "Swallowing",
+      "definition": "Swallowing"
+    },
+    {
+      "code": "0020",
+      "display": "Not specified",
+      "definition": "Not specified"
+    },
+    {
+      "code": "0111",
+      "display": "Burning",
+      "definition": "Burning"
+    },
+    {
+      "code": "0112",
+      "display": "Dialysis",
+      "definition": "Dialysis"
+    },
+    {
+      "code": "0113",
+      "display": "Implantation",
+      "definition": "Implantation"
+    },
+    {
+      "code": "0050",
+      "display": "Cachet",
+      "definition": "Cachet"
+    },
+    {
+      "code": "0051",
+      "display": "Capsule",
+      "definition": "Capsule"
+    },
+    {
+      "code": "0052",
+      "display": "Film",
+      "definition": "Film"
+    },
+    {
+      "code": "0053",
+      "display": "Granules",
+      "definition": "Granules"
+    },
+    {
+      "code": "0054",
+      "display": "Gum",
+      "definition": "Gum"
+    },
+    {
+      "code": "0055",
+      "display": "Implant",
+      "definition": "Implant"
+    },
+    {
+      "code": "0056",
+      "display": "Impregnated material",
+      "definition": "Impregnated material"
+    },
+    {
+      "code": "0058",
+      "display": "Lozenge",
+      "definition": "Lozenge"
+    },
+    {
+      "code": "0059",
+      "display": "Lyophilisate",
+      "definition": "Lyophilisate"
+    },
+    {
+      "code": "0060",
+      "display": "Pastille",
+      "definition": "Pastille"
+    },
+    {
+      "code": "0061",
+      "display": "Patch",
+      "definition": "Patch"
+    },
+    {
+      "code": "0063",
+      "display": "Pessary",
+      "definition": "Pessary"
+    },
+    {
+      "code": "0064",
+      "display": "Pillules",
+      "definition": "Pillules"
+    },
+    {
+      "code": "0065",
+      "display": "Plaster",
+      "definition": "Plaster"
+    },
+    {
+      "code": "0066",
+      "display": "Powder",
+      "definition": "Powder"
+    },
+    {
+      "code": "0067",
+      "display": "Stick",
+      "definition": "Stick"
+    },
+    {
+      "code": "0068",
+      "display": "Suppository",
+      "definition": "Suppository"
+    },
+    {
+      "code": "0069",
+      "display": "Tablet",
+      "definition": "Tablet"
+    },
+    {
+      "code": "0070",
+      "display": "Tea",
+      "definition": "Tea"
+    },
+    {
+      "code": "0071",
+      "display": "Cream",
+      "definition": "Cream"
+    },
+    {
+      "code": "0072",
+      "display": "Foam",
+      "definition": "Foam"
+    },
+    {
+      "code": "0073",
+      "display": "Gel",
+      "definition": "Gel"
+    },
+    {
+      "code": "0074",
+      "display": "Ointment",
+      "definition": "Ointment"
+    },
+    {
+      "code": "0075",
+      "display": "Paste",
+      "definition": "Paste"
+    },
+    {
+      "code": "0076",
+      "display": "Poultice",
+      "definition": "Poultice"
+    },
+    {
+      "code": "0077",
+      "display": "Collodion",
+      "definition": "Collodion"
+    },
+    {
+      "code": "0078",
+      "display": "Concentrate",
+      "definition": "Concentrate"
+    },
+    {
+      "code": "0079",
+      "display": "Dispersion",
+      "definition": "Dispersion"
+    },
+    {
+      "code": "0080",
+      "display": "Emulsion",
+      "definition": "Emulsion"
+    },
+    {
+      "code": "0081",
+      "display": "Lacquer",
+      "definition": "Lacquer"
+    },
+    {
+      "code": "0082",
+      "display": "Liquid",
+      "definition": "Liquid"
+    },
+    {
+      "code": "0083",
+      "display": "Solution",
+      "definition": "Solution"
+    },
+    {
+      "code": "0084",
+      "display": "Solvent",
+      "definition": "Solvent"
+    },
+    {
+      "code": "0085",
+      "display": "Suspension",
+      "definition": "Suspension"
+    },
+    {
+      "code": "0086",
+      "display": "Syrup",
+      "definition": "Syrup"
+    },
+    {
+      "code": "0087",
+      "display": "Medicinal gas",
+      "definition": "Medicinal gas"
+    },
+    {
+      "code": "0088",
+      "display": "Insert",
+      "definition": "Insert"
+    },
+    {
+      "code": "0089",
+      "display": "Additive (unspecified)",
+      "definition": "Additive (unspecified)"
+    },
+    {
+      "code": "0092",
+      "display": "Radiopharmaceutical",
+      "definition": "Radiopharmaceutical"
+    },
+    {
+      "code": "0093",
+      "display": "Shampoo",
+      "definition": "Shampoo"
+    },
+    {
+      "code": "0095",
+      "display": "System",
+      "definition": "System"
+    },
+    {
+      "code": "0096",
+      "display": "Unknown",
+      "definition": "Unknown"
+    },
+    {
+      "code": "0102",
+      "display": "Pouch",
+      "definition": "Pouch"
+    },
+    {
+      "code": "0103",
+      "display": "Cement",
+      "definition": "Cement"
+    },
+    {
+      "code": "0114",
+      "display": "Herbal material (unprocessed)",
+      "definition": "Herbal material (unprocessed)"
+    },
+    {
+      "code": "0115",
+      "display": "Live animal",
+      "definition": "Live animal"
+    },
+    {
+      "code": "0021",
+      "display": "Auricular",
+      "definition": "Auricular"
+    },
+    {
+      "code": "0022",
+      "display": "Cutaneous",
+      "definition": "Cutaneous"
+    },
+    {
+      "code": "0023",
+      "display": "Dental",
+      "definition": "Dental"
+    },
+    {
+      "code": "0024",
+      "display": "Environmental",
+      "definition": "Environmental"
+    },
+    {
+      "code": "0025",
+      "display": "Extracorporeal",
+      "definition": "Extracorporeal"
+    },
+    {
+      "code": "0027",
+      "display": "Intrauterine",
+      "definition": "Intrauterine"
+    },
+    {
+      "code": "0028",
+      "display": "Intravesical",
+      "definition": "Intravesical"
+    },
+    {
+      "code": "0029",
+      "display": "Nasal",
+      "definition": "Nasal"
+    },
+    {
+      "code": "0030",
+      "display": "Ocular",
+      "definition": "Ocular"
+    },
+    {
+      "code": "0031",
+      "display": "Oral",
+      "definition": "Oral"
+    },
+    {
+      "code": "0032",
+      "display": "Oromucosal",
+      "definition": "Oromucosal"
+    },
+    {
+      "code": "0033",
+      "display": "Parenteral",
+      "definition": "Parenteral"
+    },
+    {
+      "code": "0034",
+      "display": "Pulmonary",
+      "definition": "Pulmonary"
+    },
+    {
+      "code": "0035",
+      "display": "Rectal",
+      "definition": "Rectal"
+    },
+    {
+      "code": "0036",
+      "display": "Vaginal",
+      "definition": "Vaginal"
+    },
+    {
+      "code": "0037",
+      "display": "Unknown/Miscellaneous",
+      "definition": "Unknown/Miscellaneous"
+    },
+    {
+      "code": "0105",
+      "display": "Endocervical",
+      "definition": "Endocervical"
+    },
+    {
+      "code": "0106",
+      "display": "Gastric",
+      "definition": "Gastric"
+    },
+    {
+      "code": "0107",
+      "display": "Gastroenteral",
+      "definition": "Gastroenteral"
+    },
+    {
+      "code": "0108",
+      "display": "Intestinal",
+      "definition": "Intestinal"
+    },
+    {
+      "code": "0109",
+      "display": "Intraperitoneal",
+      "definition": "Intraperitoneal"
+    },
+    {
+      "code": "0116",
+      "display": "Transdermal",
+      "definition": "Transdermal"
+    },
+    {
+      "code": "0117",
+      "display": "Buccal",
+      "definition": "Buccal"
+    },
+    {
+      "code": "0118",
+      "display": "Sublingual",
+      "definition": "Sublingual"
+    },
+    {
+      "code": "0119",
+      "display": "Urethral",
+      "definition": "Urethral"
+    },
+    {
+      "code": "0044",
+      "display": "Delayed",
+      "definition": "Delayed"
+    },
+    {
+      "code": "0045",
+      "display": "Prolonged",
+      "definition": "Prolonged"
+    },
+    {
+      "code": "0046",
+      "display": "Modified",
+      "definition": "Modified"
+    },
+    {
+      "code": "0047",
+      "display": "Conventional",
+      "definition": "Conventional"
+    },
+    {
+      "code": "0048",
+      "display": "Unknown",
+      "definition": "Unknown"
+    }
+  ]
+}
