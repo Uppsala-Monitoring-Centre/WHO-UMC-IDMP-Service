@@ -3,19 +3,19 @@
   "id": "GSID85RFP2XGF3X29",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2018-08-13T12:11:28.5958264+00:00",
-    "source": "https://idmp.who-umc.org/fhir",
+    "lastUpdated": "2019-10-15T08:23:54.2676192+00:00",
+    "source": "https://poc-idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/SubstanceDefinition-pub"
     ]
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family: Helvetica;\"><h1 style=\"color: darkblue; background: lightgray; padding: 5px;\">Substance definition</h1><table style=\"padding: 5px; text-align: left;\"><tr><td style=\"font-weight: bold;\">Id</td><td>GSID85RFP2XGF3X29</td></tr><tr><td style=\"font-weight: bold;\">SMILE</td><td>Cc1cnc(CS(=O)c2nc3ccc(cc3[nH]2)OC)c(C)c1OC</td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Name(s)</h2><table style=\"padding: 5px; text-align: left;\"><th>Name</th><th>Source</th><th>Language</th><th>Preferred</th><tr><td>OMEPRAZOLE</td><td>INN</td><td>en</td><td>False</td></tr><tr><td style=\"font-weight: bold;\">OMEPRAZOLE</td><td>UMC-SRS</td><td>en</td><td>True</td></tr><tr><td>OMEPRAZOLE</td><td>USAN</td><td>en</td><td>False</td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Other code systems</h2><table style=\"padding: 5px; text-align: left;\"><th>System</th><th>Code</th><tr><td>http://terminology.hl7.org/CodeSystem/CAS</td><td>73590-58-6</td></tr><tr><td>https://open.fda.gov/data/unii</td><td>KG60484QX9</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family: Helvetica;\"><h1 style=\"color: darkblue; background: lightgray; padding: 5px;\">Substance definition</h1><table style=\"padding: 5px; text-align: left;\"><tr><td style=\"font-weight: bold;\">Id</td><td>GSID85RFP2XGF3X29</td></tr><tr><td style=\"font-weight: bold;\">SMILES</td><td>Cc1cnc(CS(=O)c2nc3ccc(cc3[nH]2)OC)c(C)c1OC</td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Identifier(s)</h2><table style=\"padding: 5px; text-align: left;\"><th>System</th><th>identifier</th><tr><td>https://gupri-idmp.who-umc.org/data/substance</td><td>GSID85RFP2XGF3X29</td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Name(s)</h2><table style=\"padding: 5px; text-align: left;\"><th>Name</th><th>Source</th><th>Language</th><th>Preferred</th><tr><td>OMEPRAZOLE</td><td>INN</td><td>en</td><td>False</td></tr><tr><td style=\"font-weight: bold;\">OMEPRAZOLE</td><td>UMC-SRS</td><td>en</td><td>True</td></tr><tr><td>OMEPRAZOLE</td><td>USAN</td><td>en</td><td>False</td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Other code systems</h2><table style=\"padding: 5px; text-align: left;\"><th>System</th><th>Code</th><tr><td>http://terminology.hl7.org/CodeSystem/CAS</td><td>73590-58-6</td></tr><tr><td>https://open.fda.gov/data/unii</td><td>KG60484QX9</td></tr></table></div>"
   },
   "identifier": [
     {
-      "system": "http://who-umc.org/idmp/gsid",
+      "system": "https://gupri-idmp.who-umc.org/data/substance",
       "value": "GSID85RFP2XGF3X29"
     }
   ],

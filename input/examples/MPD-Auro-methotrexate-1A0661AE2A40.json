@@ -3,8 +3,8 @@
   "id": "1A0661AE2A40",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2018-03-31T12:28:51.846891+00:00",
-    "source": "https://idmp.who-umc.org/fhir",
+    "lastUpdated": "2018-02-24T08:23:55.3332666+00:00",
+    "source": "https://poc-idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-pub"
     ]
@@ -34,7 +34,7 @@
   ],
   "identifier": [
     {
-      "system": "http://who-umc.org/idmp/CodeSystem/product",
+      "system": "https://gupri-idmp.who-umc.org/data/record",
       "value": "1A0661AE2A40"
     },
     {

@@ -21,7 +21,7 @@
       "value": "subscriptionSupport@who-umc.org"
     }
   ],
-  "end": "2025-03-12T13:11:29.8586936+01:00",
+  "end": "2025-06-20T10:23:55.5407913+02:00",
   "reason": "To demonstrate how a subscription works",
   "channelType": {
     "system": "http://terminology.hl7.org/CodeSystem/subscription-channel-type",

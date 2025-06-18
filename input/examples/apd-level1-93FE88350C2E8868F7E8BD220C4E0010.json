@@ -3,8 +3,8 @@
   "id": "93FE88350C2E8868F7E8BD220C4E0010",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2020-06-06T12:11:28.1729964+00:00",
-    "source": "https://idmp.who-umc.org/fhir",
+    "lastUpdated": "2021-07-25T08:23:53.7713353+00:00",
+    "source": "https://poc-idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/AdministrableProductDefinition-who-php"
     ]
@@ -16,9 +16,9 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "d8731982-1c3e-43fb-b55d-0002db6c3e1a",
+      "id": "bd76bad1-89e8-4a33-8dd5-08b4863212a5",
       "meta": {
-        "source": "https://idmp.who-umc.org/fhir",
+        "source": "https://poc-idmp.who-umc.org/fhir",
         "profile": [
           "http://who-umc.org/idmp/StructureDefinition/Ingredient-who-php-publish"
         ]
@@ -42,6 +42,10 @@
         "code": {
           "reference": {
             "reference": "SubstanceDefinition/GSID9XBS2KCF3K1Z1",
+            "identifier": {
+              "system": "https://gupri-idmp.who-umc.org/data/substance",
+              "value": "GSID9XBS2KCF3K1Z1"
+            },
             "display": "METHOTREXATE SODIUM"
           }
         }
@@ -58,7 +62,7 @@
           }
         ]
       },
-      "system": "http://who-umc.org/idmp/phpid",
+      "system": "https://gupri-idmp.who-umc.org/data/php",
       "value": "93FE88350C2E8868F7E8BD220C4E0010"
     }
   ],

@@ -3,8 +3,8 @@
   "id": "1266520E021",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2024-03-18T12:28:51.3645356+00:00",
-    "source": "https://idmp.who-umc.org/fhir",
+    "lastUpdated": "2021-04-12T08:23:54.8389738+00:00",
+    "source": "https://poc-idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-pub"
     ]
@@ -40,7 +40,7 @@
   ],
   "identifier": [
     {
-      "system": "http://who-umc.org/idmp/CodeSystem/product",
+      "system": "https://gupri-idmp.who-umc.org/data/record",
       "value": "1266520E021"
     }
   ],

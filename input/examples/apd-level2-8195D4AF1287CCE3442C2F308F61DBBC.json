@@ -3,8 +3,8 @@
   "id": "8195D4AF1287CCE3442C2F308F61DBBC",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2022-10-03T12:11:28.3375185+00:00",
-    "source": "https://idmp.who-umc.org/fhir",
+    "lastUpdated": "2023-12-25T08:23:53.9351567+00:00",
+    "source": "https://poc-idmp.who-umc.org/fhir",
     "profile": [
       "http://who-umc.org/idmp/StructureDefinition/AdministrableProductDefinition-who-php"
     ]
@@ -16,9 +16,9 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "70b3a667-2788-44f6-a0c3-6f3190f6a3af",
+      "id": "0e70ec76-156e-43f7-be5a-50b9474d9a42",
       "meta": {
-        "source": "https://idmp.who-umc.org/fhir",
+        "source": "https://poc-idmp.who-umc.org/fhir",
         "profile": [
           "http://who-umc.org/idmp/StructureDefinition/Ingredient-who-php-publish"
         ]
@@ -42,6 +42,10 @@
         "code": {
           "reference": {
             "reference": "SubstanceDefinition/GSID9XBS2KCF3K1Z1",
+            "identifier": {
+              "system": "https://gupri-idmp.who-umc.org/data/substance",
+              "value": "GSID9XBS2KCF3K1Z1"
+            },
             "display": "METHOTREXATE SODIUM"
           }
         },
@@ -59,6 +63,10 @@
                 "substance": {
                   "reference": {
                     "reference": "SubstanceDefinition/GSID9XBS2KCF3K1Z1",
+                    "identifier": {
+                      "system": "https://gupri-idmp.who-umc.org/data/substance",
+                      "value": "GSID9XBS2KCF3K1Z1"
+                    },
                     "display": "METHOTREXATE SODIUM"
                   }
                 },
@@ -89,7 +97,7 @@
               }
             ]
           },
-          "system": "http://who-umc.org/idmp/phpid",
+          "system": "https://gupri-idmp.who-umc.org/data/php",
           "value": "93FE88350C2E8868F7E8BD220C4E0010"
         }
       }
@@ -105,7 +113,7 @@
           }
         ]
       },
-      "system": "http://who-umc.org/idmp/phpid",
+      "system": "https://gupri-idmp.who-umc.org/data/php",
       "value": "8195D4AF1287CCE3442C2F308F61DBBC"
     }
   ],
