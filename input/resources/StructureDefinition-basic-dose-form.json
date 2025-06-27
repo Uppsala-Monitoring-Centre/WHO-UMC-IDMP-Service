@@ -1,0 +1,53 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "basic-dose-form",
+  "url": "http://who-umc.org/idmp/StructureDefinition/basic-dose-form",
+  "name": "BasicDoseForm",
+  "title": "Basic Dose Form",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Uppsala Monitoring Centre",
+  "description": "This extension is used to display the dose form characteristics for an AdministrableProductDefinition",
+  "copyright": "Uppsala Monitoring Centre",
+  "fhirVersion": "5.0",
+  "kind": "resource",
+  "abstract": true,
+  "context": [
+    {
+      "type": "element",
+      "expression": "AdministrableProductDefinition"
+    }
+  ],
+  "type": "Extension",
+  "differential": {
+    "element": [
+      {
+        "path": "Extension.value[x]",
+        "short": "This extension is used to display the dose form characteristics for an AdministrableProductDefinition",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ]
+      },
+      {
+        "path": "Extension.value[x].system",
+        "short": "This extension is used to display the dose form characteristics for an AdministrableProductDefinition",
+        "min": 1,
+        "max": "1",
+        "fixedUri": "http://standardterms.edqm.eu"
+      },
+      {
+        "path": "Extension.value[x].code",
+        "min": 1,
+        "max": "1",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://who-umc.org/idmp/ValueSet/edqm-basic-dose-form"
+        }
+      }
+    ]
+  }
+}

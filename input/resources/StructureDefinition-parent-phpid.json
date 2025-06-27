@@ -1,0 +1,49 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "parent-phpid",
+  "url": "http://who-umc.org/idmp/StructureDefinition/parent-phpid",
+  "name": "parent-phpid",
+  "title": "Parent PhPId",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Uppsala Monitoring Centre",
+  "description": "Reference to the parent PhPId of a PhPId",
+  "copyright": "Uppsala Monitoring Centre",
+  "fhirVersion": "5.0",
+  "kind": "resource",
+  "abstract": true,
+  "context": [
+    {
+      "type": "element",
+      "expression": "AdministrableProductDefinition"
+    }
+  ],
+  "type": "Extension",
+  "differential": {
+    "element": [
+      {
+        "path": "Extension.value[x]",
+        "short": "Reference to the parent PhPId of a PhPId",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ]
+      },
+      {
+        "path": "Extension.value[x].system",
+        "short": "Reference to the parent PhPId of a PhPId",
+        "min": 1,
+        "max": "1",
+        "fixedUri": "http://who-umc.org/idmp/phpid"
+      },
+      {
+        "path": "Extension.value[x].code",
+        "min": 1,
+        "max": "1"
+      }
+    ]
+  }
+}
