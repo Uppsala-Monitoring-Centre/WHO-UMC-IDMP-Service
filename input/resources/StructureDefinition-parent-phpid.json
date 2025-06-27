@@ -18,27 +18,5 @@
       "expression": "AdministrableProductDefinition"
     }
   ],
-  "type": "Extension",
-  "differential": {
-    "element": [
-      {
-        "path": "Extension.value[x]",
-        "short": "Reference to the parent PhPId of a PhPId",
-        "min": 1,
-        "max": "1",
-        "type": [
-          {
-            "code": "Reference"
-          }
-        ]
-      },
-      {
-        "path": "Extension.value[x].system",
-        "short": "Reference to the parent PhPId of a PhPId",
-        "min": 0,
-        "max": "1",
-        "fixedUri": "http://who-umc.org/idmp/phpid"
-      }
-    ]
-  }
+  "type": "Extension"
 }
