@@ -10,8 +10,8 @@ myheader: Hello World
  
 
 @apikey = 161713fd-87aa-4872-af04-d37977cf6440
-//@url = https://idmp.who-umc.org/fhir 
-@url = http://localhost:8085/fhir 
+@url = https://api.umcterminologies.org/fhir 
+//@url = http://localhost:8085/fhir 
 
 ### FCAT 37 - Create new subscription
 POST  {{url}}/Subscription
