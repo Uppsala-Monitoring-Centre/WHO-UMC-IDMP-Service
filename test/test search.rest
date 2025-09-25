@@ -1,0 +1,16 @@
+### something
+
+### Webhook
+
+@apikey = 161713fd-87aa-4872-af04-d37977cf6440
+//@url = https://idmp.who-umc.org/fhir 
+@apiurl = https://api.umcterminologies.org/fhir
+@dataurl = https://data.umcterminologies.org
+### Search Substance
+GET  {{apiurl}}/SubstanceDefinition?name=Simvast
+Ocp-Apim-Subscription-Key: {{apikey}}
+
+### Get Substance
+GET  {{dataurl}}/Substance/GSID3TYT75JEH6X6G
+Ocp-Apim-Subscription-Key: {{apikey}}
+  
