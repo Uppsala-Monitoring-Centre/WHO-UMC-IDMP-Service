@@ -2,7 +2,7 @@
 
 Following is a picture of the operating model for requesting and publishing PhPIDs. 
 
-<img src="OperatingModel.png" alt="The PhPID operating model"/>
+<img src="operatingModel.png" alt="The PhPID operating model"/>
 <br clear="all"/>
 
 #### Operations
