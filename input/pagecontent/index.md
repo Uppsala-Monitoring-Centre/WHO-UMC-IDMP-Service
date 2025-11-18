@@ -9,7 +9,7 @@ This Implementation Guide has a target audience of system integrators to the UMC
 The Implementation Guide describes how FHIR standard is used to exchange data for ISO IDMP standards for global PhPIDs and GSIDs. For information about ISO IDMP, see the [Background](background.html) section in this guide. 
 
 The main resources maintained by the service are the Pharmaceutical Product IDs, PhPIDs, (manifested through the AdministrableProductDefinition resource) and the Global Substance IDs, GSIDs, (manifested through the SubstanceDefinition resource). However, the MedicinalProductDefinition resource is also vital since it serves as input for PhPID generation. 
-The Implementation Guide describes how new global PhPIDs and GSIDs are requested using asynchronous FHIR requests, and how they are delivered through FHIR.
+The Implementation Guide describes how new global PhPIDs are requested using asynchronous FHIR requests, and how they are delivered through FHIR.
 
 #### Access to the UMC IDMP FHIR server
 
@@ -21,7 +21,7 @@ The preview FHIR server can be reached at [https://preview-idmp.who-umc.org/fhir
 
 ##### Proof of Concept
 The PoC FHIR server can be reached at [https://api.umcterminologies.org/idmp](https://api.umcterminologies/idmp). 
-A tutorial with examples is found at [https://api.umcterminologies/](https://api.umcterminologies/)
+A tutorial with examples is found at [https://api.umcterminologies.org/](https://api.umcterminologies.org/)
 
 
 ### Dependencies
