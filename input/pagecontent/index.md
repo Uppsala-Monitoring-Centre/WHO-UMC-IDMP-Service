@@ -20,8 +20,8 @@ The production FHIR server can be reached at [https://idmp.who-umc.org/fhir](htt
 The preview FHIR server can be reached at [https://preview-idmp.who-umc.org/fhir](https://preview-idmp.who-umc.org/fhir). To get access to the preview server, please contact asa.parnaste [at] who-umc.org.
 
 ##### Proof of Concept
-The PoC FHIR server can be reached at [https://poc-idmp.who-umc.org/fhir](https://poc-idmp.who-umc.org/fhir). 
-A tutorial with examples is found at [https://poc-idmp.who-umc.org/](https://poc-idmp.who-umc.org/)
+The PoC FHIR server can be reached at [https://api.umcterminologies.org/idmp](https://api.umcterminologies/idmp). 
+A tutorial with examples is found at [https://api.umcterminologies/](https://api.umcterminologies/)
 
 
 ### Dependencies
