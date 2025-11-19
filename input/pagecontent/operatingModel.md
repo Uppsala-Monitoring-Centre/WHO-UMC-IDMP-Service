@@ -8,7 +8,7 @@ Following is a picture of the operating model for requesting and publishing PhPI
 #### Operations
 1. A requester in need for a global PhPID sends a request containing the product information.
 2. The sent in request is validated against GIDWG Business rules by pharmacists in the maintenance organisation.
-3. The validated and harmonized dose form, substance and strength information is used as input string in the generation of PhPIDs.
+3. The validated and harmonized dose form attributes, substance and strength information is used as input string in the generation of PhPIDs.
 4. The requester receives the PhPIDs, levels 1-4, for their medicinal product.
 5. The generated PhPIDs are stored in the PhPID repository.
 
