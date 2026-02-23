@@ -17,4 +17,4 @@ Following is a picture of the operating model for requesting and publishing PhPI
 2. While validating the request the status of the Task indicates to progress.  
 3. The Task is _ready_ and transits to _completed_ via _in-progress_. 
 4. The new (or already existing) Global PhPID is published in the output section of the Task and is thereafter available as an [AdministrableProductDefinition](StructureDefinition-AdministrableProductDefinition-who-php.html) resource.
-5. Searching for an existing PhPID can be done using standard search functionality. Search and filter parameters is available in the Capability Statement. 
+5. Searching for an existing PhPID can be done using standard search functionality. Search and filter parameters are available in the Capability Statement. 

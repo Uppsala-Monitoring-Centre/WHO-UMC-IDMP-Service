@@ -14,7 +14,7 @@ Upon a successful request, a PhPID is generated and an (APD) resource representi
 2. Place the (MPD), (I), (RA) and (O) resources in the contained section of a Task resource and reference them in the input section specifying the appropriate type using the TaskInputType code system.
 3. POST the `Task` to the maintenance organization. Before POSTing the `Task` it should be validated using a `Task/$validate` `POST` call.
 4. GET the status of the Task by using the 'Content-Location' header returned from the POST call. It is also possible to get the status by requesting the Task given the id of the Task returned as response of the `POST`.
-Repeat step (4) until the status is Completed. To not overload the server an exponential back-off approach should be used, starting from four seconds up to 1024 seconds between the requests. 
+Repeat step (4) until the status is completed. To not overload the server an exponential back-off approach should be used, starting from four seconds up to 1024 seconds between the requests. 
 5. When finished the `GET` call will display status 'completed' and the body of the GET will contain the `Task` with a reference to the generated `AdministrableProductDefinition` (APD) resource (including a PhPID) in the output section as well as a WHODrugID as an identifier.
 6. The generated (APD) will be available as a resolvable url.
 
