@@ -4,7 +4,7 @@
   "name": "UMC IDMP Request and Publish API",
   "title": "API to allow for Requests of PhPIDs and Publishing of PhPIDs, GSIDs and MPDs",
   "status": "draft",
-  "date": "2025-04-24",
+  "date": "2026-02-16",
   "publisher": "Uppsala Monitoring Centre",
   "contact": [
     {
@@ -131,7 +131,7 @@
             },
             {
               "name": "parent-php",
-              "definition": "http://who-umc.org/idmp/SearchParameter/parent-php",
+              "definition": "http://umcterminologies.org/SearchParameter/parent-php",
               "type": "reference",
               "documentation": "Search PhPIDs based on 'parent' PhPIDs"
             }

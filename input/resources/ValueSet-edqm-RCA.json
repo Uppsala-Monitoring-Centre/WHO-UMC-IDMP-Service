@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "edqm-RCA",
-  "url": "http://who-umc.org/idmp/ValueSet/edqm-RCA",
+  "url": "http://umcterminologies.org/ValueSet/edqm-RCA",
   "name": "edqm-RCA",
   "title": "EDQM PDF characteristics: Release Characteristics",
   "status": "active",
@@ -10,26 +10,26 @@
   "compose": {
     "include": [
       {
-        "system": "http://who-umc.org/idmp/CodeSystem/edqmDoseFormAttributes",
+        "system": "http://umcterminologies.org/CodeSystem/dose-form-attributes",
         "concept": [
           {
-            "code": "RCA-0044",
+            "code": "0044",
             "display": "Delayed"
           },
           {
-            "code": "RCA-0045",
+            "code": "0045",
             "display": "Prolonged"
           },
           {
-            "code": "RCA-0046",
+            "code": "0046",
             "display": "Modified"
           },
           {
-            "code": "RCA-0047",
+            "code": "0047",
             "display": "Conventional"
           },
           {
-            "code": "RCA-0048",
+            "code": "0048",
             "display": "Unknown"
           }
         ]

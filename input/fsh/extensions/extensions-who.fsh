@@ -1,13 +1,13 @@
-Extension: ParentPhp
+Extension: parentPhPId
 Id:   parent-phpid
-Title: "Parent PhP"
-Description: "This extension applies to the ADP resource and is used to refer the parent ADPs representing the upper level PhP."
+Title: "Parent PhPID"
+Description: "This extension applies to the APD resource and is used to refer the parent APDs representing the upper level PhPID."
 // publisher, contact, and other metadata here using caret (^) syntax (omitted)
 * ^context[+].type = #element
 * ^context[=].expression = "AdministrableProductDefinition"
 
-* ^url = $parent-php-extension
-* value[x] only Reference (AdministrableProductDefinitionWhoPhP)
+* ^url = $parent-phpid-extension
+* value[x] only Reference (AdministrableProductDefinitionPub)
 * valueReference.identifier 1..
   * system = $phpid
   * system 1..
@@ -25,7 +25,7 @@ Description: "This extension is use to display the ReleaseCharacteristics for an
 * valueCoding 1..1
   * system = $edqm
   * system 1.. 
-  * code from edqm-RCA
+  * code from edqm-rca
 
 Extension: ISI
 Id: intended-site
@@ -40,7 +40,7 @@ Description: "This extension is use to display the IntendedSite for an Administr
 * valueCoding 1..1
   * system = $edqm
   * system 1.. 
-  * code from edqm-ISI
+  * code from edqm-isi
 
 Extension: BDF
 Id: basic-dose-form
@@ -55,7 +55,7 @@ Description: "This extension is use to display the BasicDoseForm for an Administ
 * valueCoding 1..1
   * system = $edqm
   * system 1.. 
-  * code from edqm-BDF
+  * code from edqm-bdf
 
 Extension: AME
 Id: administration-method
@@ -70,4 +70,4 @@ Description: "This extension is use to display the AdministrationMethod for an A
 * valueCoding 1..1
   * system = $edqm
   * system 1.. 
-  * code from edqm-AME
+  * code from edqm-ame

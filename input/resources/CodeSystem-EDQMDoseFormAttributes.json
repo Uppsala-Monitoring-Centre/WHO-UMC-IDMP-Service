@@ -1,8 +1,8 @@
 {
   "resourceType": "CodeSystem",
-  "id": "edqmDoseFormAttributes",
-  "url": "http://who-umc.org/idmp/CodeSystem/edqmDoseFormAttributes",
-  "name": "edqmDoseFormAttributes",
+  "id": "dose-form-attributes",
+  "url": "http://umcterminologies.org/CodeSystem/edqmDoseFormAttributes",
+  "name": "DoseFormAttributes",
   "title": "EDQM dose form attributes",
   "status": "active",
   "experimental": false,

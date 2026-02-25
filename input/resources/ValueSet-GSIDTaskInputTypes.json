@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "gsid-task-input-type",
-  "url": "http://who-umc.org/idmp/ValueSet/gsid-task-input-type",
+  "url": "http://umcterminologies.org/ValueSet/gsid-task-input-type",
   "name": "VsGSIDTaskInputTypes",
   "title": "GSID request input type value set",
   "status": "active",
@@ -10,7 +10,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://who-umc.org/idmp/CodeSystem/task-input-type",
+        "system": "http://umcterminologies.org/CodeSystem/task-input-type",
         "concept": [
           {
             "code": "substance-request-resource",

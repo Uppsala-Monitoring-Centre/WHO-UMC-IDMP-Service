@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "jurisdiction",
-  "url": "http://who-umc.org/idmp/CodeSystem/jurisdiction",
+  "url": "http://umcterminologies.org/CodeSystem/jurisdiction",
   "name": "jurisdiction",
   "title": "Additional jurisdictional areas compolementing the ISO 3166 country codes",
   "status": "active",

@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "edqm-BDF",
-  "url": "http://who-umc.org/idmp/ValueSet/edqm-BDF",
+  "url": "http://umcterminologies.org/ValueSet/edqm-BDF",
   "name": "edqm-BDF",
   "title": "EDQM PDF characteristics: Basic Dose Form",
   "status": "active",
@@ -10,166 +10,190 @@
   "compose": {
     "include": [
       {
-        "system": "http://who-umc.org/idmp/CodeSystem/edqmDoseFormAttributes",
+        "system": "http://umcterminologies.org/CodeSystem/dose-form-attributes",
         "concept": [
           {
-            "code": "BDF-0049",
-            "display": "Block"
-          },
-          {
-            "code": "BDF-0050",
+            "code": "0050",
             "display": "Cachet"
           },
           {
-            "code": "BDF-0051",
+            "code": "0051",
             "display": "Capsule"
           },
           {
-            "code": "BDF-0052",
+            "code": "0052",
             "display": "Film"
           },
           {
-            "code": "BDF-0053",
+            "code": "0053",
             "display": "Granules"
           },
           {
-            "code": "BDF-0054",
+            "code": "0054",
             "display": "Gum"
           },
           {
-            "code": "BDF-0055",
+            "code": "0055",
             "display": "Implant"
           },
           {
-            "code": "BDF-0056",
+            "code": "0056",
             "display": "Impregnated material"
           },
           {
-            "code": "BDF-0058",
+            "code": "0058",
             "display": "Lozenge"
           },
           {
-            "code": "BDF-0059",
+            "code": "0059",
             "display": "Lyophilisate"
           },
           {
-            "code": "BDF-0060",
+            "code": "0060",
             "display": "Pastille"
           },
           {
-            "code": "BDF-0061",
+            "code": "0061",
             "display": "Patch"
           },
           {
-            "code": "BDF-0063",
+            "code": "0063",
             "display": "Pessary"
           },
           {
-            "code": "BDF-0064",
+            "code": "0064",
             "display": "Pillules"
           },
           {
-            "code": "BDF-0066",
+            "code": "0065",
+            "display": "Plaster"
+          },
+          {
+            "code": "0066",
             "display": "Powder"
           },
           {
-            "code": "BDF-0067",
+            "code": "0067",
             "display": "Stick"
           },
           {
-            "code": "BDF-0068",
+            "code": "0068",
             "display": "Suppository"
           },
           {
-            "code": "BDF-0069",
+            "code": "0069",
             "display": "Tablet"
           },
           {
-            "code": "BDF-0070",
+            "code": "0070",
             "display": "Tea"
           },
           {
-            "code": "BDF-0071",
+            "code": "0071",
             "display": "Cream"
           },
           {
-            "code": "BDF-0072",
+            "code": "0072",
             "display": "Foam"
           },
           {
-            "code": "BDF-0073",
+            "code": "0073",
             "display": "Gel"
           },
           {
-            "code": "BDF-0074",
+            "code": "0074",
             "display": "Ointment"
           },
           {
-            "code": "BDF-0075",
+            "code": "0075",
             "display": "Paste"
           },
           {
-            "code": "BDF-0076",
+            "code": "0076",
             "display": "Poultice"
           },
           {
-            "code": "BDF-0077",
+            "code": "0077",
             "display": "Collodion"
           },
           {
-            "code": "BDF-0080",
+            "code": "0078",
+            "display": "Concentrate"
+          },
+          {
+            "code": "0079",
+            "display": "Dispersion"
+          },
+          {
+            "code": "0080",
             "display": "Emulsion"
           },
           {
-            "code": "BDF-0081",
+            "code": "0081",
             "display": "Lacquer"
           },
           {
-            "code": "BDF-0082",
+            "code": "0082",
             "display": "Liquid"
           },
           {
-            "code": "BDF-0083",
+            "code": "0083",
             "display": "Solution"
           },
           {
-            "code": "BDF-0084",
+            "code": "0084",
             "display": "Solvent"
           },
           {
-            "code": "BDF-0085",
+            "code": "0085",
             "display": "Suspension"
           },
           {
-            "code": "BDF-0087",
+            "code": "0086",
+            "display": "Syrup"
+          },
+          {
+            "code": "0087",
             "display": "Medicinal gas"
           },
           {
-            "code": "BDF-0088",
+            "code": "0088",
             "display": "Insert"
           },
           {
-            "code": "BDF-0093",
+            "code": "0089",
+            "display": "Additive (unspecified)"
+          },
+          {
+            "code": "0092",
+            "display": "Radiopharmaceutical"
+          },
+          {
+            "code": "0093",
             "display": "Shampoo"
           },
           {
-            "code": "BDF-0095",
+            "code": "0095",
             "display": "System"
           },
           {
-            "code": "BDF-0102",
+            "code": "0096",
+            "display": "Unknown"
+          },
+          {
+            "code": "0102",
             "display": "Pouch"
           },
           {
-            "code": "BDF-0103",
+            "code": "0103",
             "display": "Cement"
           },
           {
-            "code": "BDF-0114",
+            "code": "0114",
             "display": "Herbal material (unprocessed)"
           },
           {
-            "code": "BDF-0115",
+            "code": "0115",
             "display": "Live animal"
           }
         ]

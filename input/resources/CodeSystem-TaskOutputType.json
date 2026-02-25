@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "task-output-type",
-  "url": "http://who-umc.org/idmp/CodeSystem/task-output-type",
+  "url": "http://umcterminologies.org/CodeSystem/task-output-type",
   "name": "TaskOutputTypes",
   "title": "Task output type",
   "status": "active",
@@ -19,14 +19,9 @@
       "definition": "PhPID"
     },
     {
-      "code": "whodrugid",
-      "display": "Medicinal Product (WHODrug) ID",
-      "definition": "Medicinal Product (WHODrug) ID"
-    },
-    {
-      "code": "gsid",
-      "display": "GSID",
-      "definition": "Global Substance Identifier"
+      "code": "umc-product-id",
+      "display": "UMC Product ID",
+      "definition": "UMC Product ID"
     }
   ]
 }

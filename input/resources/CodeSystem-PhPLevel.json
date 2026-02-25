@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
-  "id": "php-level",
-  "url": "http://who-umc.org/idmp/CodeSystem/php-level",
+  "id": "phpid-level",
+  "url": "http://umcterminologies.org/CodeSystem/php-level",
   "name": "PhpIdLevels",
   "title": "PhPId level",
   "status": "active",
@@ -14,22 +14,22 @@
   "content": "complete",
   "concept": [
     {
-      "code": "PhPIDLevel1",
+      "code": "phpid-level-1",
       "display": "Level 1",
       "definition": "Level 1 - Substance specified"
     },
     {
-      "code": "PhPIDLevel2",
+      "code": "phpid-level-2",
       "display": "Level 2",
       "definition": "Level 2 - Substance and strength specified"
     },
     {
-      "code": "PhPIDLevel3",
+      "code": "phpid-level-3",
       "display": "Level 3",
       "definition": "Level 3 - Substance and form specified"
     },
     {
-      "code": "PhPIDLevel4",
+      "code": "phpid-level-4",
       "display": "Level 4",
       "definition": "Level 4 - Substance, strength and form specified"
     }

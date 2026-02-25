@@ -3,10 +3,10 @@
   "id": "template-generated-by-server-phpid-req",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2020-04-27T08:23:55.3900773+00:00",
-    "source": "https://poc-idmp.who-umc.org/fhir",
+    "lastUpdated": "2018-10-04T16:04:51.9540768+00:00",
+    "source": "https://api.umcterminologies.org/idmp",
     "profile": [
-      "http://who-umc.org/idmp/StructureDefinition/Task-who-php-phpid"
+      "http://umcterminologies.org/StructureDefinition/Task-phpid-req"
     ]
   },
   "text": {
@@ -16,11 +16,11 @@
   "contained": [
     {
       "resourceType": "MedicinalProductDefinition",
-      "id": "3e8d3895-d37c-41da-8372-face4978b4d5",
+      "id": "97e6ae11-2900-4443-99ce-2fbd276218a4",
       "meta": {
-        "source": "https://poc-idmp.who-umc.org/fhir",
+        "source": "https://api.umcterminologies.org/idmp",
         "profile": [
-          "http://who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-req"
+          "http://umcterminologies.org/StructureDefinition/MedicinalProductDefinition-phpid-req"
         ]
       },
       "identifier": [
@@ -79,7 +79,7 @@
               "jurisdiction": {
                 "coding": [
                   {
-                    "system": "http://who-umc.org/idmp/CodeSystem/jurisdiction",
+                    "system": "http://umcterminologies.org/CodeSystem/jurisdiction",
                     "code": "EU"
                   }
                 ]
@@ -99,17 +99,17 @@
     },
     {
       "resourceType": "Ingredient",
-      "id": "cd7f7d98-75eb-4a6f-9252-dc57c0ee9e34",
+      "id": "33ec5d05-f3b5-4e85-a951-8076696497f1",
       "meta": {
-        "source": "https://poc-idmp.who-umc.org/fhir",
+        "source": "https://api.umcterminologies.org/idmp",
         "profile": [
-          "http://who-umc.org/idmp/StructureDefinition/Ingredient-who-php"
+          "http://umcterminologies.org/StructureDefinition/Ingredient-phpid-req"
         ]
       },
       "status": "active",
       "for": [
         {
-          "reference": "#3e8d3895-d37c-41da-8372-face4978b4d5"
+          "reference": "#97e6ae11-2900-4443-99ce-2fbd276218a4"
         }
       ],
       "role": {
@@ -126,7 +126,7 @@
           "concept": {
             "coding": [
               {
-                "system": "http://who-umc.org/idmp/gsid",
+                "system": "http://umcterminologies.org/gsid",
                 "code": "GSID23G92UMX93H45"
               }
             ],
@@ -145,8 +145,8 @@
               "denominator": {
                 "value": 1,
                 "unit": "IU",
-                "system": "http://who-umc.org/idmp/CodeSystem/strengthUnit",
-                "code": "IU"
+                "system": "http://unitsofmeasure.org",
+                "code": "[IU]"
               }
             },
             "textPresentation": "1,5 mg"
@@ -158,9 +158,9 @@
       "resourceType": "Organization",
       "id": "acmeinc",
       "meta": {
-        "source": "https://poc-idmp.who-umc.org/fhir",
+        "source": "https://api.umcterminologies.org/idmp",
         "profile": [
-          "http://who-umc.org/idmp/StructureDefinition/MarketingAuthorizationHolder-who-php"
+          "http://umcterminologies.org/StructureDefinition/MarketingAuthorizationHolder-who-php"
         ]
       },
       "active": true,
@@ -179,7 +179,7 @@
     },
     {
       "resourceType": "RegulatedAuthorization",
-      "id": "066bb2b6-5b34-4ea8-9c73-6d95d402672d",
+      "id": "c26b0a28-5da3-45d2-bf83-98abe211c2ef",
       "identifier": [
         {
           "system": "http://ema.europa.eu/ema/",
@@ -188,7 +188,7 @@
       ],
       "subject": [
         {
-          "reference": "#3e8d3895-d37c-41da-8372-face4978b4d5"
+          "reference": "#97e6ae11-2900-4443-99ce-2fbd276218a4"
         }
       ],
       "holder": {
@@ -208,47 +208,47 @@
   "code": {
     "coding": [
       {
-        "system": "http://who-umc.org/idmp/CodeSystem/task-request-code",
+        "system": "http://umcterminologies.org/CodeSystem/task-request-code",
         "code": "phpid-request"
       }
     ]
   },
-  "authoredOn": "2025-06-18",
-  "lastModified": "2025-06-18",
+  "authoredOn": "2026-02-16",
+  "lastModified": "2026-02-16",
   "input": [
     {
       "type": {
         "coding": [
           {
-            "system": "http://who-umc.org/idmp/CodeSystem/task-input-type",
+            "system": "http://umcterminologies.org/CodeSystem/task-input-type",
             "code": "mpd-request-resource",
             "display": "Medicinal Product for PhPID request"
           }
         ]
       },
       "valueReference": {
-        "reference": "#3e8d3895-d37c-41da-8372-face4978b4d5"
+        "reference": "#97e6ae11-2900-4443-99ce-2fbd276218a4"
       }
     },
     {
       "type": {
         "coding": [
           {
-            "system": "http://who-umc.org/idmp/CodeSystem/task-input-type",
+            "system": "http://umcterminologies.org/CodeSystem/task-input-type",
             "code": "ingredient-request-resource",
             "display": "Ingredient for PhPID request"
           }
         ]
       },
       "valueReference": {
-        "reference": "#cd7f7d98-75eb-4a6f-9252-dc57c0ee9e34"
+        "reference": "#33ec5d05-f3b5-4e85-a951-8076696497f1"
       }
     },
     {
       "type": {
         "coding": [
           {
-            "system": "http://who-umc.org/idmp/CodeSystem/task-input-type",
+            "system": "http://umcterminologies.org/CodeSystem/task-input-type",
             "code": "organization-request-resource",
             "display": "Marketing Auth Holder for PhPID request"
           }
@@ -262,14 +262,14 @@
       "type": {
         "coding": [
           {
-            "system": "http://who-umc.org/idmp/CodeSystem/task-input-type",
+            "system": "http://umcterminologies.org/CodeSystem/task-input-type",
             "code": "regauth-request-resource",
             "display": "Regulated Authorization for PhPID request"
           }
         ]
       },
       "valueReference": {
-        "reference": "#066bb2b6-5b34-4ea8-9c73-6d95d402672d"
+        "reference": "#c26b0a28-5da3-45d2-bf83-98abe211c2ef"
       }
     }
   ]

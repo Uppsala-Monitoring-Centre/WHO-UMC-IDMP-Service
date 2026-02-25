@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
-  "id": "channelType",
-  "url": "http://who-umc.org/idmp/ValueSet/channelType",
+  "id": "channel-type",
+  "url": "http://umcterminologies.org/ValueSet/channel-type",
   "name": "channelType",
   "title": "Channel Type Value Set",
   "status": "active",

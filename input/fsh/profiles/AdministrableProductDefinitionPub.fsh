@@ -1,11 +1,10 @@
-// TODO: VCN2025 - Check that this profile is up to date
-Profile: AdministrableProductDefinitionWhoPhP
+Profile: AdministrableProductDefinitionPub
 Parent: AdministrableProductDefinition
-Id: AdministrableProductDefinition-who-php
-Title: "AdministrableProductDefinition (WHO PhP)"
+Id: AdministrableProductDefinition-pub
+Title: "AdministrableProductDefinition (PhPID publish)"
 Description: "This profile specified how the AdministrableProductDefinition is published by the WHO-UMC IDMP Service"
 
-* extension contains $parent-php-extension named parentPhp 0..3
+* extension contains $parent-phpid-extension named parentPhPId 0..3
 
 // PDF CHARACTERISTICS EXTENSIONS
 * extension contains $pdfCharacteristics-bdf-ext named basicDoseForm 0..1
@@ -18,7 +17,7 @@ Description: "This profile specified how the AdministrableProductDefinition is p
 * extension[administrationMethod] ^short = "Administration Method"
 
 * contained 1..
-* contained only IngredientWhoPhPPublish
+* contained only IngredientPhPIdPublish
 * id 1..
   * ^short = "PhPID"
   * ^definition =  "This is always values with the PhPID"
