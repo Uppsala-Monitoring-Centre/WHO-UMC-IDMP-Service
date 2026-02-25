@@ -1,4 +1,4 @@
-Extension: parentPhPId
+Extension: ParentPhPId
 Id:   parent-phpid
 Title: "Parent PhPID"
 Description: "This extension applies to the APD resource and is used to refer the parent APDs representing the upper level PhPID."

@@ -7,14 +7,14 @@ Description: "This profile specified how the AdministrableProductDefinition is p
 * extension contains $parent-phpid-extension named parentPhPId 0..3
 
 // PDF CHARACTERISTICS EXTENSIONS
-* extension contains $pdfCharacteristics-bdf-ext named basicDoseForm 0..1
-* extension[basicDoseForm] ^short = "Basic Dose Form"
-* extension contains $pdfCharacteristics-isi-ext named intendedSite 0..3
-* extension[intendedSite] ^short = "Intended Site"
-* extension contains $pdfCharacteristics-rca-ext named releaseCharacteristics 0..1
-* extension[releaseCharacteristics] ^short = "Release Characteristics"
-* extension contains $pdfCharacteristics-ame-ext named administrationMethod 0..3
-* extension[administrationMethod] ^short = "Administration Method"
+* extension contains $pdfCharacteristics-bdf-ext named basic-doseform 0..1
+* extension[basic-doseform] ^short = "Basic Dose Form"
+* extension contains $pdfCharacteristics-isi-ext named intended-site 0..3
+* extension[intended-site] ^short = "Intended Site"
+* extension contains $pdfCharacteristics-rca-ext named release-characteristics 0..1
+* extension[release-characteristics] ^short = "Release Characteristics"
+* extension contains $pdfCharacteristics-ame-ext named administration-method 0..3
+* extension[administration-method] ^short = "Administration Method"
 
 * contained 1..
 * contained only IngredientPhPIdPublish
