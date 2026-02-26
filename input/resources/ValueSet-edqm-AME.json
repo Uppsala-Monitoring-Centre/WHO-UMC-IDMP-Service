@@ -1,8 +1,8 @@
 {
   "resourceType": "ValueSet",
-  "id": "edqm-AME",
-  "url": "http://umcterminologies.org/ValueSet/edqm-AME",
-  "name": "edqm-AME",
+  "id": "edqm-ame",
+  "url": "http://umcterminologies.org/ValueSet/edqm-ame",
+  "name": "VsEdqmAme",
   "title": "EDQM PDF characteristics: Administration Method",
   "status": "active",
   "experimental": false,
@@ -10,7 +10,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://umcterminologies.org/CodeSystem/dose-form-attributes",
+        "system": "http://standardterms.edqm.eu",
         "concept": [
           {
             "code": "0004",

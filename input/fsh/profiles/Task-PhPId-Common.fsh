@@ -12,8 +12,8 @@ RuleSet: TaskGeneratePhPIdCommon
 * priority ^short = "Task priority" // check if this is needed
 * status from VsRequestStatus (required)
 * code 1..1 
-* code from task-request-code
 * code = task-request-code#phpid-request
+* code from VsTaskRequestCode (required)
 
 // NOT USED ELEMENTS
 * insert NotUsed(requester)

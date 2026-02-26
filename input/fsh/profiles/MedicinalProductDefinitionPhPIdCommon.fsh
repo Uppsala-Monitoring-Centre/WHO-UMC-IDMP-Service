@@ -13,11 +13,11 @@ RuleSet: MedicinalProductDefinitionPhPIdCommon
 
 * status ^short = "The status within the lifecycle of this product record."
 
-* combinedPharmaceuticalDoseForm from $pharmaceuticalForm (example)
+* combinedPharmaceuticalDoseForm from VsPharmaceuticalForm (example)
 
 * route from VsRouteOfAdministration (example)
 
-* classification from $phpid-level (example)
+* classification from VsPhpIdLevel (example)
   * ^short = "Allows the product to be classified by PhPID Level (e.g. phpid-level-4)"
 
 // Need to investigate which type we should use (and require?)

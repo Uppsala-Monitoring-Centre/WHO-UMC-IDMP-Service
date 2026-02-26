@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "drugcode",
   "url": "http://umcterminologies.org/drugcode",
-  "name": "DrugCode",
+  "name": "CsDrugCode",
   "title": "WHODrug DrugCode",
   "status": "active",
   "experimental": false,

@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "jurisdiction",
   "url": "http://umcterminologies.org/CodeSystem/jurisdiction",
-  "name": "jurisdiction",
+  "name": "CsJurisdiction",
   "title": "Additional jurisdictional areas compolementing the ISO 3166 country codes",
   "status": "active",
   "experimental": false,

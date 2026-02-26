@@ -1,8 +1,8 @@
 {
   "resourceType": "ValueSet",
-  "id": "edqm-BDF",
-  "url": "http://umcterminologies.org/ValueSet/edqm-BDF",
-  "name": "edqm-BDF",
+  "id": "edqm-bdf",
+  "url": "http://umcterminologies.org/ValueSet/edqm-bdf",
+  "name": "VsEdqmBdf",
   "title": "EDQM PDF characteristics: Basic Dose Form",
   "status": "active",
   "experimental": false,
@@ -10,7 +10,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://umcterminologies.org/CodeSystem/dose-form-attributes",
+        "system": "http://standardterms.edqm.eu",
         "concept": [
           {
             "code": "0050",

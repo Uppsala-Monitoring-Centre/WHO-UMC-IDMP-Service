@@ -14,12 +14,12 @@ The HL7 International IPS implementation guides incorporate SNOMED CT®, used by
 * include codes from system $sct where concept descendent-of #284009009
 
 //=========================
-ValueSet: VsPhpIdLevels
-Id: phpid-type
-Title: "Identifier Type Value Set"
-Description: "Identifier Type Value Set"
+ValueSet: VsPhpIdLevel
+Id: phpid-level
+Title: "PhPID Level Value Set"
+Description: "PhPID Level Value Set"
 * ^experimental = false
-* codes from system PhpIdLevels
+* codes from system CsPhpIdLevel
 
 //=========================
 ValueSet: VsStrengthUnit
@@ -27,7 +27,7 @@ Id: strength-unit
 Title: "Strength Unit Value Set"
 Description: "Strength Unit Value Set"
 * ^experimental = false
-* codes from system $strengthUnit
+* codes from system CsStrengthUnit
 * codes from system $ucum
 
 //=========================
@@ -48,7 +48,7 @@ Id: jurisdiction
 Title: "Jurisdiction Value Set"
 Description: "Jurisdiction Value Set"
 * ^experimental = false
-* codes from system $jurisdiction
+* codes from system CsJurisdiction
 * codes from system $iso3166
 
 //=========================
@@ -58,3 +58,11 @@ Title: "MPID system"
 Description: "Medicinal Product identification systems"
 * ^experimental = false
 * $uri#http://hl7.org/fhir/sid/ndc
+
+//=========================
+ValueSet: VsTaskRequestCode
+Id: task-request-code
+Title: "Task Request Code Value Set"
+Description: "Task Request Code Value Set"
+* ^experimental = false
+* codes from system CsTaskRequestCode

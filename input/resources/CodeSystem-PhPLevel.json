@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "phpid-level",
   "url": "http://umcterminologies.org/CodeSystem/php-level",
-  "name": "PhpIdLevels",
+  "name": "CsPhpIdLevel",
   "title": "PhPId level",
   "status": "active",
   "experimental": false,

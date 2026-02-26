@@ -20,7 +20,7 @@ Description: """This profile specified how the MedicinalProductDefinition is use
   * display 1..1
 
 * name 1..
-  * usage 1..1
+  * usage 1..
     * country ^short = "Country where this name applies"
     * country 1..1 
       * coding 1..1

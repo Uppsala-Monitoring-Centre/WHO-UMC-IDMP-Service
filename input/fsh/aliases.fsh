@@ -20,27 +20,29 @@ Alias: $ingredient-role = http://hl7.org/fhir/ingredient-role
 // External systems
 Alias: $iso3166 = urn:iso:std:iso:3166
 Alias: $unii = https://open.fda.gov/data/unii
-//Edqm for parts should be part of the standardterms code system so this is a temporary solution
-Alias: $edqm = http://who-umc.org/idmp/CodeSystem/edqmDoseFormAttributes // TODO TODO: Tomt i New URL i Excel
 //Alias: $edqm = http://standardterms.edqm.eu
 Alias: $ucum = http://unitsofmeasure.org
 Alias: $substRepresentationCS = http://hl7.org/fhir/substance-representation-format
 
 // ============= VALUE SETS  ============
 
-Alias: $strengthUnit = http://who-umc.org/idmp/CodeSystem/strength-unit // TODO TODO: Denna är mappad till olika värden i Excel, behöver kolla dess användning
-Alias: $jurisdiction = http://umcterminologies.org/CodeSystem/jurisdiction
+Alias: $strengthUnitCodeSystem = http://umcterminologies.org/CodeSystem/strength-unit
+Alias: $jurisdictionCodeSystem = http://umcterminologies.org/CodeSystem/jurisdiction
+Alias: $phpLevelCodeSystem =  http://umcterminologies.org/CodeSystem/php-level
+Alias: $taskRequestCodeSystem = http://umcterminologies.org/CodeSystem/task-request-code
+
 Alias: $edqmPdfReleaseChar = http://umcterminologies.org/ValueSet/edqm-rca 
 Alias: $edqmPdfBasicDoseForm = http://umcterminologies.org/ValueSet/edqm-bdf 
 Alias: $edqmPdfIntendedSite = http://umcterminologies.org/ValueSet/edqm-isi 
 Alias: $edqmPdfAdministrationMethod = http://umcterminologies.org/ValueSet/edqm-ame 
 Alias: $pharmaceuticalForm = http://umcterminologies.org/ValueSet/pharmaceutical-form 
-Alias: $channelType = http://who-umc.org/idmp/ValueSet/channelType // TODO: Only in PoC remove after split
 
 
 
 
 // ------------------------------ TO BE REMOVED ???? ------------------------------
+
+Alias: $channelType = http://who-umc.org/idmp/ValueSet/channelType // TODO: Only in PoC remove after split
 
 //============== ALIAS ===============
 Alias: $medicinal-product-contact-type = http://hl7.org/fhir/medicinal-product-contact-type // Används denna? Finns inte eller är struken i Excel
@@ -50,6 +52,9 @@ Alias: $drugcode = https://umcterminologies.org/whodrug/CodeSystem/drugcode // A
 
 
 // =========== Systems =======
+
+//Edqm for parts should be part of the standardterms code system so this is a temporary solution
+Alias: $edqm = http://who-umc.org/idmp/CodeSystem/edqmDoseFormAttributes // TODO TODO: Tomt i New URL i Excel
 
 // HL7 Systems
 Alias: $administrable-dose-form = http://hl7.org/fhir/administrable-dose-form // Används denna? Finns inte eller är struken i Excel

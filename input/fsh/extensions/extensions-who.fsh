@@ -25,7 +25,7 @@ Description: "This extension is use to display the ReleaseCharacteristics for an
 * valueCoding 1..1
   * system = $edqm
   * system 1.. 
-  * code from edqm-rca
+  * code from VsEdqmRca
 
 Extension: ISI
 Id: intended-site
@@ -40,7 +40,7 @@ Description: "This extension is use to display the IntendedSite for an Administr
 * valueCoding 1..1
   * system = $edqm
   * system 1.. 
-  * code from edqm-isi
+  * code from VsEdqmIsi
 
 Extension: BDF
 Id: basic-dose-form
@@ -55,7 +55,7 @@ Description: "This extension is use to display the BasicDoseForm for an Administ
 * valueCoding 1..1
   * system = $edqm
   * system 1.. 
-  * code from edqm-bdf
+  * code from VsEdqmBdf
 
 Extension: AME
 Id: administration-method
@@ -70,4 +70,4 @@ Description: "This extension is use to display the AdministrationMethod for an A
 * valueCoding 1..1
   * system = $edqm
   * system 1.. 
-  * code from edqm-ame
+  * code from VsEdqmAme

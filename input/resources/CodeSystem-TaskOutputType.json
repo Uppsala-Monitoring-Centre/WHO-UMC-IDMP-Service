@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "task-output-type",
   "url": "http://umcterminologies.org/CodeSystem/task-output-type",
-  "name": "TaskOutputTypes",
+  "name": "CsTaskOutputTypes",
   "title": "Task output type",
   "status": "active",
   "experimental": false,

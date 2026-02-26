@@ -4,8 +4,8 @@
 # │  supported properties, see:                                                                    │
 # │  http://build.fhir.org/ig/HL7/fhir-shorthand/branches/beta/sushi.html#ig-development           │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: idmp.who-umc.org.fhir
-canonical: http://who-umc.org/idmp
+id: umcterminologies.org
+canonical: http://umcterminologies.org
 version: 0.1.0
 name: UmcIDMPManagement
 title: UMC IDMP Request and Publish API 
@@ -29,14 +29,13 @@ parameters:
   show-inherited-invariants: false
   produce-jekyll-data: true
   special-url:
-  - https://who-umc.org/idmp/StructureDefinition/parent-phpid
-  - https://who-umc.org/idmp/StructureDefinition/pdfCharacteristics
+  - https://umcterminologies.org/StructureDefinition/parent-phpid
+  - https://umcterminologies.org/StructureDefinition/pdfCharacteristics
 copyrightYear: 2025+
 releaseLabel: CI Build
 
 instanceOptions:
   manualSliceOrdering: true
-
 
 FSHOnly: false
 

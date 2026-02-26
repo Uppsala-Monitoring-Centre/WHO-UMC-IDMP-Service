@@ -1,7 +1,7 @@
 Profile: AdministrableProductDefinitionPub
 Parent: AdministrableProductDefinition
 Id: AdministrableProductDefinition-pub
-Title: "AdministrableProductDefinition (PhPID publish)"
+Title: "AdministrableProductDefinition (publish)"
 Description: "This profile specified how the AdministrableProductDefinition is published by the WHO-UMC IDMP Service"
 
 * extension contains $parent-phpid-extension named parentPhPId 0..3
@@ -17,13 +17,13 @@ Description: "This profile specified how the AdministrableProductDefinition is p
 * extension[administration-method] ^short = "Administration Method"
 
 * contained 1..
-* contained only IngredientPhPIdPublish
+* contained only IngredientPhPIdPub
 * id 1..
   * ^short = "PhPID"
   * ^definition =  "This is always values with the PhPID"
 * identifier 1..1
   * type 1..1 
-  * type from VsPhpIdLevels (required)
+  * type from VsPhpIdLevel (required)
   * system 1..1
   * value 1..1
 

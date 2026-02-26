@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "id": "pharmaceuticalForm",
   "url": "http://umcterminologies.org/ValueSet/pharmaceuticalForm",
-  "name": "pharmaceuticalForm",
+  "name": "VsPharmaceuticalForm",
   "title": "EDQM Pharmaceutical Form",
   "status": "active",
   "experimental": false,

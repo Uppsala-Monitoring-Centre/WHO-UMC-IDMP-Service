@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "task-input-type",
   "url": "http://umcterminologies.org/CodeSystem/task-input-type",
-  "name": "TaskInputTypes",
+  "name": "CsTaskInputTypes",
   "title": "Task input type",
   "status": "active",
   "experimental": false,
