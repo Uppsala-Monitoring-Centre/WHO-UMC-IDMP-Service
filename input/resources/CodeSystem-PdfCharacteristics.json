@@ -1,8 +1,8 @@
 {
   "resourceType": "CodeSystem",
-  "id": "pdfCharacteristics",
-  "url": "http://who-umc.org/idmp/CodeSystem/pdfCharacteristics",
-  "name": "PdfCharacteristics",
+  "id": "pdf-characteristics",
+  "url": "http://umcterminologies.org/CodeSystem/pdfCharacteristics",
+  "name": "CsPdfCharacteristics",
   "title": "Pdf Characteristics",
   "status": "active",
   "experimental": false,
@@ -14,22 +14,22 @@
   "content": "complete",
   "concept": [
     {
-      "code": "BDF",
+      "code": "bdf",
       "display": "Basic Dose Form",
       "definition": "Basic Dose Form (urn:oid:0.4.0.127.0.16.1.1.2.14)"
     },
     {
-      "code": "AME",
+      "code": "ame",
       "display": "Administration Method",
       "definition": "Administration Method (urn:oid:0.4.0.127.0.16.1.1.2.15)"
     },
     {
-      "code": "ISI",
+      "code": "isi",
       "display": "Intended Site",
       "definition": "Intended Site (urn:oid:0.4.0.127.0.16.1.1.2.16)"
     },
     {
-      "code": "RCA",
+      "code": "rca",
       "display": "Release Characteristics",
       "definition": "Release Characteristics (urn:oid:0.4.0.127.0.16.1.1.2.17)"
     }

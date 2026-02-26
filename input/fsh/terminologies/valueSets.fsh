@@ -13,43 +13,26 @@ The HL7 International IPS implementation guides incorporate SNOMED CT®, used by
 
 * include codes from system $sct where concept descendent-of #284009009
 
-// //==========================
-// ValueSet: VsSubstance
-// Id: substance
-// Title: "Substances"
-// Description: "Substances"
-// * ^experimental = false
-// * include codes from system $gsid
-
-//==========================
-ValueSet: VsAtcClassification
-Id: atcClassification
-Title: "WHO ATC"
-Description: "World Health Organization Anatomical Therapeutic Chemical (ATC) classification system"
-* ^experimental = false
-* codes from system $atc 
-* ^copyright = "This artifact includes content from Anatomical Therapeutic Chemical (ATC) classification system. ATC codes are copyright World Health Organization (WHO) Collaborating Centre for Drug Statistics Methodology. Terms & Conditions in https://www.whocc.no/use_of_atc_ddd/"
-
 //=========================
-ValueSet: VsPhpIdLevels
-Id: phpid-type
-Title: "Identifier Type Value Set"
-Description: "Identifier Type Value Set"
+ValueSet: VsPhpIdLevel
+Id: phpid-level
+Title: "PhPID Level Value Set"
+Description: "PhPID Level Value Set"
 * ^experimental = false
-* codes from system PhpIdLevels
+* codes from system CsPhpIdLevel
 
 //=========================
 ValueSet: VsStrengthUnit
-Id: strengthUnit
+Id: strength-unit
 Title: "Strength Unit Value Set"
 Description: "Strength Unit Value Set"
 * ^experimental = false
-* codes from system $strengthUnit
+* codes from system CsStrengthUnit
 * codes from system $ucum
 
 //=========================
 ValueSet: VsRequestStatus
-Id: requestStatus
+Id: request-status
 Title: "Request Status Value Set"
 Description: "Request Status Value Set"
 * ^experimental = false
@@ -65,7 +48,7 @@ Id: jurisdiction
 Title: "Jurisdiction Value Set"
 Description: "Jurisdiction Value Set"
 * ^experimental = false
-* codes from system $jurisdiction
+* codes from system CsJurisdiction
 * codes from system $iso3166
 
 //=========================
@@ -75,3 +58,11 @@ Title: "MPID system"
 Description: "Medicinal Product identification systems"
 * ^experimental = false
 * $uri#http://hl7.org/fhir/sid/ndc
+
+//=========================
+ValueSet: VsTaskRequestCode
+Id: task-request-code
+Title: "Task Request Code Value Set"
+Description: "Task Request Code Value Set"
+* ^experimental = false
+* codes from system CsTaskRequestCode

@@ -1,8 +1,8 @@
 {
   "resourceType": "CodeSystem",
   "id": "task-input-type",
-  "url": "http://who-umc.org/idmp/CodeSystem/task-input-type",
-  "name": "TaskInputTypes",
+  "url": "http://umcterminologies.org/CodeSystem/task-input-type",
+  "name": "CsTaskInputTypes",
   "title": "Task input type",
   "status": "active",
   "experimental": false,

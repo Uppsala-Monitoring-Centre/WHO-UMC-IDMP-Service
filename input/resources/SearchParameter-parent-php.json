@@ -1,7 +1,7 @@
 {
   "resourceType": "SearchParameter",
   "id": "parent-php",
-  "url": "http://who-umc.org/idmp/SearchParameter/parent-php",
+  "url": "http://umcterminologies.org/SearchParameter/parent-php",
   "name": "parent-php",
   "title": "Parent PhPID",
   "status": "draft",
@@ -13,6 +13,6 @@
     "AdministrableProductDefinition"
   ],
   "type": "reference",
-  "expression": "AdministrableProductDefinition.extension('http://who-umc.org/idmp/StructureDefinition/parent-phpid').value",
+  "expression": "AdministrableProductDefinition.extension('http://umcterminologies.org/StructureDefinition/parent-phpid').value",
   "processingMode": "normal"
 }

@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "gsid-task-output-type",
-  "url": "http://who-umc.org/idmp/ValueSet/gsid-task-output-type",
+  "url": "http://umcterminologies.org/ValueSet/gsid-task-output-type",
   "name": "VsGSIDTaskOutputTypes",
   "title": "GSID request output type value set",
   "status": "active",
@@ -10,7 +10,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://who-umc.org/idmp/CodeSystem/task-output-type",
+        "system": "http://umcterminologies.org/CodeSystem/task-output-type",
         "concept": [
           {
             "code": "gsid",

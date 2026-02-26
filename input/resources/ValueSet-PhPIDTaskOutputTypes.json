@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "phpid-task-output-type",
-  "url": "http://who-umc.org/idmp/ValueSet/phpid-task-output-type",
+  "url": "http://umcterminologies.org/ValueSet/phpid-task-output-type",
   "name": "VsPhPIDTaskOutputTypes",
   "title": "PhPID request output type value set",
   "status": "active",
@@ -10,15 +10,15 @@
   "compose": {
     "include": [
       {
-        "system": "http://who-umc.org/idmp/CodeSystem/task-output-type",
+        "system": "http://umcterminologies.org/CodeSystem/task-output-type",
         "concept": [
           {
             "code": "phpid",
             "display": "PhPID"
           },
           {
-            "code": "whodrugid",
-            "display": "Medicinal Product (WHODrug) ID"
+            "code": "umc-product-id",
+            "display": "UMC Product ID"
           }
         ]
       }

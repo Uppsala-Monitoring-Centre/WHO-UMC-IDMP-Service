@@ -1,8 +1,8 @@
 {
   "resourceType": "ValueSet",
-  "id": "edqm-AME",
-  "url": "http://who-umc.org/idmp/ValueSet/edqm-AME",
-  "name": "edqm-AME",
+  "id": "edqm-ame",
+  "url": "http://umcterminologies.org/ValueSet/edqm-ame",
+  "name": "VsEdqmAme",
   "title": "EDQM PDF characteristics: Administration Method",
   "status": "active",
   "experimental": false,
@@ -10,74 +10,82 @@
   "compose": {
     "include": [
       {
-        "system": "http://who-umc.org/idmp/CodeSystem/edqmDoseFormAttributes",
+        "system": "http://standardterms.edqm.eu",
         "concept": [
           {
-            "code": "AME-0004",
+            "code": "0004",
             "display": "Administration"
           },
           {
-            "code": "AME-0005",
+            "code": "0005",
             "display": "Application"
           },
           {
-            "code": "AME-0006",
+            "code": "0006",
             "display": "Bathing"
           },
           {
-            "code": "AME-0007",
+            "code": "0007",
             "display": "Chewing"
           },
           {
-            "code": "AME-0008",
+            "code": "0008",
             "display": "Gargling"
           },
           {
-            "code": "AME-0010",
+            "code": "0009",
+            "display": "Infusion"
+          },
+          {
+            "code": "0010",
             "display": "Inhalation"
           },
           {
-            "code": "AME-0011",
+            "code": "0011",
             "display": "Injection"
           },
           {
-            "code": "AME-0012",
+            "code": "0012",
             "display": "Insertion"
           },
           {
-            "code": "AME-0013",
+            "code": "0013",
             "display": "Instillation"
           },
           {
-            "code": "AME-0014",
+            "code": "0014",
             "display": "Orodispersion"
           },
           {
-            "code": "AME-0015",
+            "code": "0015",
             "display": "Rinsing/washing"
           },
           {
-            "code": "AME-0017",
+            "code": "0017",
             "display": "Spraying"
           },
           {
-            "code": "AME-0018",
+            "code": "0018",
             "display": "Sucking"
           },
           {
-            "code": "AME-0019",
+            "code": "0019",
             "display": "Swallowing"
           },
           {
-            "code": "AME-0111",
+            "code": "0020",
+            "display": "Not specified"
+          },
+          {
+            "code": "0111",
             "display": "Burning"
           },
           {
-            "code": "AME-0112",
+            "code": "0112",
             "display": "Dialysis"
           },
           {
-            "code": "AME-0113",
+            "code": "0113",
             "display": "Implantation"
           }
         ]

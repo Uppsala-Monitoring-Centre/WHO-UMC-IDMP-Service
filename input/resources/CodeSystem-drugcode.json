@@ -1,8 +1,8 @@
 {
   "resourceType": "CodeSystem",
   "id": "drugcode",
-  "url": "http://who-umc.org/idmp/CodeSystem/drugcode",
-  "name": "DrugCode",
+  "url": "http://umcterminologies.org/drugcode",
+  "name": "CsDrugCode",
   "title": "WHODrug DrugCode",
   "status": "active",
   "experimental": false,

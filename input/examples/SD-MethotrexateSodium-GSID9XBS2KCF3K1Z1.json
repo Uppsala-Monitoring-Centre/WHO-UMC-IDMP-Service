@@ -3,19 +3,19 @@
   "id": "GSID9XBS2KCF3K1Z1",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2020-03-19T08:23:54.3465911+00:00",
-    "source": "https://poc-idmp.who-umc.org/fhir",
+    "lastUpdated": "2018-09-07T16:04:51.9420744+00:00",
+    "source": "https://api.umcterminologies.org/idmp",
     "profile": [
-      "http://who-umc.org/idmp/StructureDefinition/SubstanceDefinition-pub"
+      "http://umcterminologies.org/StructureDefinition/SubstanceDefinition-pub"
     ]
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family: Helvetica;\"><h1 style=\"color: darkblue; background: lightgray; padding: 5px;\">Substance definition</h1><table style=\"padding: 5px; text-align: left;\"><tr><td style=\"font-weight: bold;\">Id</td><td>GSID9XBS2KCF3K1Z1</td></tr><tr><td style=\"font-weight: bold;\">SMILES</td><td>CN(Cc1cnc2c(c(N)[nH]c(=N)n2)n1)c3ccc(cc3)C(=O)N[C@@]([H])(CCC(=O)[O-])C(=O)[O-].[Na+].[Na+]</td></tr><tr><td style=\"font-weight: bold;\">Base</td><td>GSID23G92UMX93H45</td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Identifier(s)</h2><table style=\"padding: 5px; text-align: left;\"><th>System</th><th>identifier</th><tr><td>https://gupri-idmp.who-umc.org/data/substance</td><td>GSID9XBS2KCF3K1Z1</td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Name(s)</h2><table style=\"padding: 5px; text-align: left;\"><th>Name</th><th>Source</th><th>Language</th><th>Preferred</th><tr><td style=\"font-weight: bold;\">METHOTREXATE SODIUM</td><td>UMC-SRS</td><td>en</td><td>True</td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Other code systems</h2><table style=\"padding: 5px; text-align: left;\"><th>System</th><th>Code</th><tr><td>http://terminology.hl7.org/CodeSystem/CAS</td><td>15475-56-6</td></tr><tr><td>https://open.fda.gov/data/unii</td><td>3IG1E710ZN</td></tr><tr><td>http://terminology.hl7.org/CodeSystem/CAS</td><td>7413-34-5</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family: Helvetica;\"><h1 style=\"color: darkblue; background: lightgray; padding: 5px;\">Substance definition</h1><table style=\"padding: 5px; text-align: left;\"><tr><td style=\"font-weight: bold;\">Id</td><td>GSID9XBS2KCF3K1Z1</td></tr><tr><td style=\"font-weight: bold;\">SMILES</td><td>CN(Cc1cnc2c(c(N)[nH]c(=N)n2)n1)c3ccc(cc3)C(=O)N[C@@]([H])(CCC(=O)[O-])C(=O)[O-].[Na+].[Na+]</td></tr><tr><td style=\"font-weight: bold;\">Base</td><td>GSID23G92UMX93H45</td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Identifier(s)</h2><table style=\"padding: 5px; text-align: left;\"><th>System</th><th>identifier</th><tr><td>https://data.umcterminologies.org/substance</td><td>GSID9XBS2KCF3K1Z1</td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Name(s)</h2><table style=\"padding: 5px; text-align: left;\"><th>Name</th><th>Source</th><th>Language</th><th>Preferred</th><tr><td style=\"font-weight: bold;\">METHOTREXATE SODIUM</td><td>UMC-SRS</td><td>en</td><td>True</td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Other code systems</h2><table style=\"padding: 5px; text-align: left;\"><th>System</th><th>Code</th><tr><td>http://terminology.hl7.org/CodeSystem/CAS</td><td>15475-56-6</td></tr><tr><td>https://open.fda.gov/data/unii</td><td>3IG1E710ZN</td></tr><tr><td>http://terminology.hl7.org/CodeSystem/CAS</td><td>7413-34-5</td></tr></table></div>"
   },
   "identifier": [
     {
-      "system": "https://gupri-idmp.who-umc.org/data/substance",
+      "system": "https://data.umcterminologies.org/substance",
       "value": "GSID9XBS2KCF3K1Z1"
     }
   ],
@@ -128,7 +128,7 @@
       "substanceDefinitionReference": {
         "reference": "SubstanceDefinition/GSID23G92UMX93H45",
         "identifier": {
-          "system": "https://gupri-idmp.who-umc.org/data/substance",
+          "system": "https://data.umcterminologies.org/substance",
           "value": "GSID23G92UMX93H45"
         }
       },
