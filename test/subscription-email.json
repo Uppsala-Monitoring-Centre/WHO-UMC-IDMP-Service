@@ -3,18 +3,18 @@
     "id": "umc-subscription-email",
     "meta": {
         "profile": [
-            "http://who-umc.org/idmp/StructureDefinition/Subscription-IdmpEvent"
+            "http://umcterminologies.org/StructureDefinition/Subscription-IdmpEvent"
         ]
     },
     "identifier": [
         {
-            "system": "http://who-umc.org/example/product",
+            "system": "http://umcterminologies.org/example/product",
             "value": "6586"
         }
     ],
     "name": "Datapharm subscription",
     "status": "requested",
-    "topic": "http://who-umc.org/idmp/SubscriptionTopic/medProdDef",
+    "topic": "http://umcterminologies.org/idmp/SubscriptionTopic/medProdDef",
     "contact": [
         {
             "system": "email",

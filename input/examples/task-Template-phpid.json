@@ -3,7 +3,7 @@
   "id": "template-generated-by-server-phpid-req",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2018-10-04T16:04:51.9540768+00:00",
+    "lastUpdated": "2025-04-11T10:10:10.5998327+00:00",
     "source": "https://api.umcterminologies.org/idmp",
     "profile": [
       "http://umcterminologies.org/StructureDefinition/Task-phpid-req"
@@ -11,12 +11,12 @@
   },
   "text": {
     "status": "empty",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Template for PhPID request Task</div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Template</div>"
   },
   "contained": [
     {
       "resourceType": "MedicinalProductDefinition",
-      "id": "97e6ae11-2900-4443-99ce-2fbd276218a4",
+      "id": "f4208340-9729-4313-9484-04a6c5945d12",
       "meta": {
         "source": "https://api.umcterminologies.org/idmp",
         "profile": [
@@ -99,7 +99,7 @@
     },
     {
       "resourceType": "Ingredient",
-      "id": "33ec5d05-f3b5-4e85-a951-8076696497f1",
+      "id": "2b8bb9ee-03e3-470e-8c9f-a1d55c823cd9",
       "meta": {
         "source": "https://api.umcterminologies.org/idmp",
         "profile": [
@@ -109,7 +109,7 @@
       "status": "active",
       "for": [
         {
-          "reference": "#97e6ae11-2900-4443-99ce-2fbd276218a4"
+          "reference": "#f4208340-9729-4313-9484-04a6c5945d12"
         }
       ],
       "role": {
@@ -179,7 +179,7 @@
     },
     {
       "resourceType": "RegulatedAuthorization",
-      "id": "c26b0a28-5da3-45d2-bf83-98abe211c2ef",
+      "id": "9dd9ff44-0ebe-4810-841b-26a9bb44aaf3",
       "identifier": [
         {
           "system": "http://ema.europa.eu/ema/",
@@ -188,7 +188,7 @@
       ],
       "subject": [
         {
-          "reference": "#97e6ae11-2900-4443-99ce-2fbd276218a4"
+          "reference": "#f4208340-9729-4313-9484-04a6c5945d12"
         }
       ],
       "holder": {
@@ -213,8 +213,8 @@
       }
     ]
   },
-  "authoredOn": "2026-02-16",
-  "lastModified": "2026-02-16",
+  "authoredOn": "2026-02-27",
+  "lastModified": "2026-02-27",
   "input": [
     {
       "type": {
@@ -227,7 +227,7 @@
         ]
       },
       "valueReference": {
-        "reference": "#97e6ae11-2900-4443-99ce-2fbd276218a4"
+        "reference": "#f4208340-9729-4313-9484-04a6c5945d12"
       }
     },
     {
@@ -241,7 +241,7 @@
         ]
       },
       "valueReference": {
-        "reference": "#33ec5d05-f3b5-4e85-a951-8076696497f1"
+        "reference": "#2b8bb9ee-03e3-470e-8c9f-a1d55c823cd9"
       }
     },
     {
@@ -269,7 +269,7 @@
         ]
       },
       "valueReference": {
-        "reference": "#c26b0a28-5da3-45d2-bf83-98abe211c2ef"
+        "reference": "#9dd9ff44-0ebe-4810-841b-26a9bb44aaf3"
       }
     }
   ]

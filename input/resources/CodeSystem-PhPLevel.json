@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "phpid-level",
-  "url": "http://umcterminologies.org/CodeSystem/php-level",
+  "url": "http://umcterminologies.org/CodeSystem/phpid-level",
   "name": "CsPhpIdLevel",
   "title": "PhPId level",
   "status": "active",

@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "dose-form-attributes",
-  "url": "http://umcterminologies.org/CodeSystem/edqmDoseFormAttributes",
+  "url": "http://umcterminologies.org/CodeSystem/dose-form-attributes",
   "name": "CsDoseFormAttributes",
   "title": "EDQM dose form attributes",
   "status": "active",

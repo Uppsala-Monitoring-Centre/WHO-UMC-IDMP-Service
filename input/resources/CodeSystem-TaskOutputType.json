@@ -22,6 +22,10 @@
       "code": "umc-product-id",
       "display": "UMC Product ID",
       "definition": "UMC Product ID"
+    },
+    {
+      "code": "gsid",
+      "display": "GSID"
     }
   ]
 }

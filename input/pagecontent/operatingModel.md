@@ -13,8 +13,8 @@ Following is a picture of the operating model for requesting and publishing PhPI
 5. The generated PhPIDs are stored in the PhPID repository.
 
 #### Corresponding FHIR operations 
-1. A FHIR [Task](StructureDefinition-Task-who-php-phpid.html) is used to request a new global PhPID where necessary information to complete the request is embedded in the contains section of the Task. See [PhPID request model](phpIdRequest.html) for details.  
+1. A FHIR [Task](StructureDefinition-Task-phpid-req.html) is used to request a new global PhPID where necessary information to complete the request is embedded in the contains section of the Task. See [PhPID request model](phpIdRequest.html) for details.  
 2. While validating the request the status of the Task indicates to progress.  
 3. The Task is _ready_ and transits to _completed_ via _in-progress_. 
-4. The new (or already existing) Global PhPID is published in the output section of the Task and is thereafter available as an [AdministrableProductDefinition](StructureDefinition-AdministrableProductDefinition-who-php.html) resource.
+4. The new (or already existing) Global PhPID is published in the output section of the Task and is thereafter available as an [AdministrableProductDefinition](StructureDefinition-AdministrableProductDefinition-pub.html) resource.
 5. Searching for an existing PhPID can be done using standard search functionality. Search and filter parameters are available in the Capability Statement. 

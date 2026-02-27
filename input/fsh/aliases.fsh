@@ -28,8 +28,10 @@ Alias: $substRepresentationCS = http://hl7.org/fhir/substance-representation-for
 
 Alias: $strengthUnitCodeSystem = http://umcterminologies.org/CodeSystem/strength-unit
 Alias: $jurisdictionCodeSystem = http://umcterminologies.org/CodeSystem/jurisdiction
-Alias: $phpLevelCodeSystem =  http://umcterminologies.org/CodeSystem/php-level
+Alias: $phpLevelCodeSystem =  http://umcterminologies.org/CodeSystem/phpid-level
 Alias: $taskRequestCodeSystem = http://umcterminologies.org/CodeSystem/task-request-code
+
+Alias: $substanceNameAuthority = http://hl7.org/fhir/substance-name-authority
 
 Alias: $edqmPdfReleaseChar = http://umcterminologies.org/ValueSet/edqm-rca 
 Alias: $edqmPdfBasicDoseForm = http://umcterminologies.org/ValueSet/edqm-bdf 
@@ -42,19 +44,19 @@ Alias: $pharmaceuticalForm = http://umcterminologies.org/ValueSet/pharmaceutical
 
 // ------------------------------ TO BE REMOVED ???? ------------------------------
 
-Alias: $channelType = http://who-umc.org/idmp/ValueSet/channelType // TODO: Only in PoC remove after split
+Alias: $channelType = http://umcterminologies.org/ValueSet/channel-type // TODO: Only in PoC remove after split
 
 //============== ALIAS ===============
 Alias: $medicinal-product-contact-type = http://hl7.org/fhir/medicinal-product-contact-type // Används denna? Finns inte eller är struken i Excel
 Alias: $languages = http://hl7.org/fhir/ValueSet/languages // Används denna? Finns inte eller är struken i Excel
-Alias: $pdfCharacteristics = http://umcterminologies.org/CodeSystem/pdfCharacteristics // Används denna? Finns inte eller är struken i Excel
+Alias: $pdfCharacteristics = http://umcterminologies.org/CodeSystem/pdf-characteristics // Används denna? Finns inte eller är struken i Excel
 Alias: $drugcode = https://umcterminologies.org/whodrug/CodeSystem/drugcode // Används denna? Finns inte eller är struken i Excel
 
 
 // =========== Systems =======
 
 //Edqm for parts should be part of the standardterms code system so this is a temporary solution
-Alias: $edqm = http://who-umc.org/idmp/CodeSystem/edqmDoseFormAttributes // TODO TODO: Tomt i New URL i Excel
+Alias: $edqm = http://umcterminologies.org/CodeSystem/dose-form-attributes
 
 // HL7 Systems
 Alias: $administrable-dose-form = http://hl7.org/fhir/administrable-dose-form // Används denna? Finns inte eller är struken i Excel

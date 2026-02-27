@@ -121,12 +121,6 @@ resources:
   Task/template-generated-by-server-phpid-req:
     name: Task to request a new PhPID
     description: A template for how a Task that is used to request a new PhPID (AdministrableProductDefinition) can be structured.
-  # Task/UK-emc-00001:
-  #   name: Task example from DataPharm (UK)
-  #   description: An example developed by DataPharm while testing PhPID request API.  
-  # Task/Task-Felleskatalogen-CPOD-MPD-1:
-  #   name: Task example from Felleskatalogen (NO)
-  #   description: An example developed by Felleskatalogen while testing PhPID request API.      
   Task/task-completed-phpid:
     name: Example of a completed Task
     description: An example of a completed task with output.      
