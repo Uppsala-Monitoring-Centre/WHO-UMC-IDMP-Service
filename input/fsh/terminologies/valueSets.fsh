@@ -31,6 +31,15 @@ Description: "Strength Unit Value Set"
 * codes from system $ucum
 
 //=========================
+ValueSet: VsSubstanceNameAuthority
+Id: substance-name-authority
+Title: "Substance Name Authority Value Set"
+Description: "Substance Name Authority Value Set"
+* ^experimental = false
+* codes from system CsSubstanceNameAuthority
+* codes from system $substanceNameAuthority
+
+//=========================
 ValueSet: VsRequestStatus
 Id: request-status
 Title: "Request Status Value Set"

@@ -1,0 +1,22 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "substance-name-authority",
+  "url": "http://umcterminologies.org/CodeSystem/substance-name-authority",
+  "name": "CsSubstanceNameAuthority",
+  "title": "Additional substance name authorities",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Uppsala Monitoring Centre",
+  "description": "Additional substance name authorities.",
+  "copyright": "Uppsala Monitoring Centre",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "UT",
+      "display": "UMC Terminologies",
+      "definition": "UMC Terminologies"
+    }
+  ]
+}

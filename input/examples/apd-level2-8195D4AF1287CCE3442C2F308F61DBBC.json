@@ -3,20 +3,20 @@
   "id": "8195D4AF1287CCE3442C2F308F61DBBC",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2022-02-08T16:04:51.6956708+00:00",
+    "lastUpdated": "2019-01-31T10:09:48.2508566+00:00",
     "source": "https://api.umcterminologies.org/idmp",
     "profile": [
       "http://umcterminologies.org/StructureDefinition/AdministrableProductDefinition-pub"
     ]
   },
   "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family: Helvetica;\"><h1 style=\"color: darkblue; background: lightgray; padding: 5px;\">Pharmaceutical Product (Administrable Product Definition)</h1><table style=\"padding: 5px; text-align: left;\"><tr><td style=\"font-weight: bold;\">Id</td><td>8195D4AF1287CCE3442C2F308F61DBBC</td></tr><tr><td style=\"font-weight: bold;\">Level</td><td>2</td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Ingredients</h2><table style=\"padding: 5px; text-align: left;\"><th>GSID</th><th>Substance name</th><th>Strength</th><tr><td>GSID9XBS2KCF3K1Z1</td><td>METHOTREXATE SODIUM</td><td>2,74 mg</td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Form</h2><table style=\"padding: 5px; text-align: left;\"></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Parent PhPIDs</h2><table style=\"padding: 5px; text-align: left;\"><th>Level</th><th>PhPID</th><tr><td style=\"font-weight: bold;\">1</td><td>93FE88350C2E8868F7E8BD220C4E0010</td></tr></table></div>"
+    "status": "empty",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Template</div>"
   },
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "50039f4e-5e87-40a7-ab44-141604a3c861",
+      "id": "dc50c3b1-9858-416e-9c3b-cdf5a1483e41",
       "meta": {
         "source": "https://api.umcterminologies.org/idmp",
         "profile": [
@@ -43,7 +43,7 @@
           "reference": {
             "reference": "SubstanceDefinition/GSID9XBS2KCF3K1Z1",
             "identifier": {
-              "system": "https://data.umcterminologies.org/substance",
+              "system": "http://umcterminologies.org/gsid",
               "value": "GSID9XBS2KCF3K1Z1"
             },
             "display": "METHOTREXATE SODIUM"
@@ -64,7 +64,7 @@
                   "reference": {
                     "reference": "SubstanceDefinition/GSID9XBS2KCF3K1Z1",
                     "identifier": {
-                      "system": "https://data.umcterminologies.org/substance",
+                      "system": "http://umcterminologies.org/gsid",
                       "value": "GSID9XBS2KCF3K1Z1"
                     },
                     "display": "METHOTREXATE SODIUM"
@@ -92,12 +92,12 @@
           "type": {
             "coding": [
               {
-                "system": "http://umcterminologies.org/CodeSystem/php-level",
-                "code": "PhPIDLevel1"
+                "system": "http://umcterminologies.org/CodeSystem/phpid-level",
+                "code": "phpid-level-1"
               }
             ]
           },
-          "system": "https://data.umcterminologies.org/php",
+          "system": "http://umcterminologies.org/phpid",
           "value": "93FE88350C2E8868F7E8BD220C4E0010"
         }
       }
@@ -108,12 +108,12 @@
       "type": {
         "coding": [
           {
-            "system": "http://umcterminologies.org/CodeSystem/php-level",
-            "code": "PhPIDLevel2"
+            "system": "http://umcterminologies.org/CodeSystem/phpid-level",
+            "code": "phpid-level-2"
           }
         ]
       },
-      "system": "https://data.umcterminologies.org/php",
+      "system": "http://umcterminologies.org/phpid",
       "value": "8195D4AF1287CCE3442C2F308F61DBBC"
     }
   ],

@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "pdf-characteristics",
-  "url": "http://umcterminologies.org/CodeSystem/pdfCharacteristics",
+  "url": "http://umcterminologies.org/CodeSystem/pdf-characteristics",
   "name": "CsPdfCharacteristics",
   "title": "Pdf Characteristics",
   "status": "active",
