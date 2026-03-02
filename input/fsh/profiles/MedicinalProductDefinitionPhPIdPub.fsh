@@ -7,7 +7,7 @@ Id: MedicinalProductDefinition-pub
 Title: "MedicinalProductDefinition (publish)"
 Description: """This profile specifies how the MedicinalProductDefinition is published by the WHO-UMC IDMP FHIR Service representing the WHODrug dictionary"""
 * insert MedicinalProductDefinitionPhPIdCommon
-* identifier 1..
+* identifier 1..1
   * system 1..
   * system = $umcProductId
   * value 1..
@@ -31,3 +31,9 @@ Description: """This profile specifies how the MedicinalProductDefinition is pub
 
 * insert NotUsed(description)
 * insert NotUsed(indication)
+
+* insert NotUsed(modifierExtension)
+* insert NotUsed(contained)
+* insert NotUsed(implicitRules)
+* insert NotUsed(text) // TODO: Varför inte text????
+* insert NotUsed(route)
