@@ -17,8 +17,9 @@ RuleSet: MedicinalProductDefinitionPhPIdCommon
 
 * route from VsRouteOfAdministration (example)
 
-* classification from VsPhpIdLevel (example)
-  * ^short = "Allows the product to be classified by PhPID Level (e.g. phpid-level-4)"
+* classification.coding 1..1
+* classification.coding.system = "http://umcterminologies.org/phpid-level4" (exactly)
+  * ^short = "TODO TODO: Wrong text: Allows the product to be classified by PhPID Level (e.g. phpid-level-4)"
 
 // Need to investigate which type we should use (and require?)
 * name 1..

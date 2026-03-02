@@ -1,9 +1,9 @@
 //*******************************
 // Request model
 //*******************************
-Profile: MedicinalProductDefinitionPhPIdReq
+Profile: MedicinalProductDefinitionReq
 Parent: MedicinalProductDefinition
-Id: MedicinalProductDefinition-phpid-req
+Id: MedicinalProductDefinition-req
 Title: "MedicinalProductDefinition (PhPID request)"
 Description: """This profile specified how the MedicinalProductDefinition is used in request (for a new PhPID) (as contained resource) by the WHO-UMC IDMP FHIR Service"""
 * insert MedicinalProductDefinitionPhPIdCommon
@@ -29,7 +29,8 @@ Description: """This profile specified how the MedicinalProductDefinition is use
     * jurisdiction ^short = "Jurisdiction where this name applies"
       * coding 1..1
         * code 1..1
-        * code from VsJurisdiction (example)
+        * system = "http://umcterminologies.org/CodeSystem/jurisdiction"
+        * code from VsJurisdiction (example) // TODO: for examples????
     * language ^short = "Language for this name"
 
 

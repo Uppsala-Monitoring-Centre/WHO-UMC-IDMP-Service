@@ -6,7 +6,7 @@
     "lastUpdated": "2025-05-02T10:10:10.527585+00:00",
     "source": "https://api.umcterminologies.org/idmp",
     "profile": [
-      "http://umcterminologies.org/StructureDefinition/MedicinalProductDefinition-phpid-pub"
+      "http://umcterminologies.org/StructureDefinition/MedicinalProductDefinition-pub"
     ]
   },
   "text": {
@@ -34,12 +34,8 @@
   ],
   "identifier": [
     {
-      "system": "https://data.umcterminologies.org/record",
+      "system": "http://umcterminologies.org/umc-product-id",
       "value": "1A0661AE2A40"
-    },
-    {
-      "system": "https://health-products.canada.ca/dpd-bdpp",
-      "value": "02182750"
     }
   ],
   "type": {

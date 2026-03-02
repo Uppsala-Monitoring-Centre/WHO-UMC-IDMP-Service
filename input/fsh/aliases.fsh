@@ -39,6 +39,8 @@ Alias: $edqmPdfIntendedSite = http://umcterminologies.org/ValueSet/edqm-isi 
 Alias: $edqmPdfAdministrationMethod = http://umcterminologies.org/ValueSet/edqm-ame 
 Alias: $pharmaceuticalForm = http://umcterminologies.org/ValueSet/pharmaceutical-form 
 
+Alias: $umcProductId = http://umcterminologies.org/umc-product-id
+Alias: $phpidlevel4 = http://umcterminologies.org/phpid-level4
 
 
 

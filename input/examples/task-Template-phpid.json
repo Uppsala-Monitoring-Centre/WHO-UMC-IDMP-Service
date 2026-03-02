@@ -20,7 +20,7 @@
       "meta": {
         "source": "https://api.umcterminologies.org/idmp",
         "profile": [
-          "http://umcterminologies.org/StructureDefinition/MedicinalProductDefinition-phpid-req"
+          "http://umcterminologies.org/StructureDefinition/MedicinalProductDefinition-req"
         ]
       },
       "identifier": [

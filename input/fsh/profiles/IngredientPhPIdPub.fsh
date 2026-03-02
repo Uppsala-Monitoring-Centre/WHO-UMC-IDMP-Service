@@ -13,6 +13,7 @@ Description: """This profile specified how the Ingredient is used in PhPID publi
 * for only Reference(AdministrableProductDefinitionPub) 
 
 * substance 1..
+  * code only CodeableReference(SubstanceDefinition-pub) 
   * code.concept
     * coding 1..1
       * system = $gsid
