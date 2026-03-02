@@ -10,7 +10,7 @@ Description: """This profile specified how the Ingredient is used in a PhPID req
 
 * insert IngredientPhPIdCommon
 
-* for only Reference( MedicinalProductDefinitionPhPIdReq ) //only #?
+* for only Reference( MedicinalProductDefinitionReq ) //only #?
 
 * substance 1..1
   * code.concept

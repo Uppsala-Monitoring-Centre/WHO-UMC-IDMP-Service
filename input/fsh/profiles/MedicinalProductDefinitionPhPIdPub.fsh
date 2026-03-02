@@ -1,15 +1,15 @@
 //*******************************
 // Publish model
 //*******************************
-Profile: MedicinalProductDefinitionPhPIdPub
+Profile: MedicinalProductDefinitionPub
 Parent: MedicinalProductDefinition
-Id: MedicinalProductDefinition-phpid-pub
-Title: "MedicinalProductDefinition (PhPID publish)"
+Id: MedicinalProductDefinition-pub
+Title: "MedicinalProductDefinition (publish)"
 Description: """This profile specifies how the MedicinalProductDefinition is published by the WHO-UMC IDMP FHIR Service representing the WHODrug dictionary"""
 * insert MedicinalProductDefinitionPhPIdCommon
 * identifier 1..
   * system 1..
-  * system from VsMpIdSystem (extensible)
+  * system = $umcProductId
   * value 1..
 
 * name 1..

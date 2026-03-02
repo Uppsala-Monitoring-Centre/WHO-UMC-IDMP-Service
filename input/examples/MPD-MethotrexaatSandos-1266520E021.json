@@ -6,7 +6,7 @@
     "lastUpdated": "2018-02-16T10:10:09.7162155+00:00",
     "source": "https://api.umcterminologies.org/idmp",
     "profile": [
-      "http://umcterminologies.org/StructureDefinition/MedicinalProductDefinition-phpid-pub"
+      "http://umcterminologies.org/StructureDefinition/MedicinalProductDefinition-pub"
     ]
   },
   "text": {
@@ -40,7 +40,7 @@
   ],
   "identifier": [
     {
-      "system": "https://data.umcterminologies.org/record",
+      "system": "http://umcterminologies.org/umc-product-id",
       "value": "1266520E021"
     }
   ],

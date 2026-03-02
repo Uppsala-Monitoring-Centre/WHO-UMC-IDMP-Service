@@ -8,5 +8,5 @@ Description: "Regulated Authorization is a resource covering the authorization o
 
 * identifier 0..*
 * subject 1..1 
-* subject only Reference( MedicinalProductDefinitionPhPIdReq )
+* subject only Reference( MedicinalProductDefinitionReq )
 * holder 1..1

@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "id": "gsid-task-output-type",
   "url": "http://umcterminologies.org/ValueSet/gsid-task-output-type",
-  "name": "VsGSIDTaskOutputTypes",
+  "name": "VsGSIDTaskOutputType",
   "title": "GSID request output type value set",
   "status": "active",
   "experimental": false,

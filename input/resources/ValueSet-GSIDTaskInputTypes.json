@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "id": "gsid-task-input-type",
   "url": "http://umcterminologies.org/ValueSet/gsid-task-input-type",
-  "name": "VsGSIDTaskInputTypes",
+  "name": "VsGSIDTaskInputType",
   "title": "GSID request input type value set",
   "status": "active",
   "experimental": false,
