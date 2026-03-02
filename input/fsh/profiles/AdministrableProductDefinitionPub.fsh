@@ -43,3 +43,8 @@ Description: "This profile specified how the AdministrableProductDefinition is p
 * unitOfPresentation 0..0
 * producedFrom 0..0
 * device 0..0
+
+
+* insert NotUsed(implicitRules)
+* insert NotUsed(modifierExtension)
+* insert NotUsed(routeOfAdministration.modifierExtension)
