@@ -35,5 +35,5 @@ Description: """This profile specifies how the MedicinalProductDefinition is pub
 * insert NotUsed(modifierExtension)
 * insert NotUsed(contained)
 * insert NotUsed(implicitRules)
-* insert NotUsed(text) // TODO: Varför inte text????
+* insert NotUsed(text)
 * insert NotUsed(route)

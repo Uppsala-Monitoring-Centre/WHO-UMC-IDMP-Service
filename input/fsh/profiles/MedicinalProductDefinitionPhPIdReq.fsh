@@ -27,10 +27,11 @@ Description: """This profile specified how the MedicinalProductDefinition is use
         * code 1..1
         * system = $iso3166
     * jurisdiction ^short = "Jurisdiction where this name applies"
+    * jurisdiction from VsJurisdiction (example)
       * coding 1..1
         * code 1..1
         * system = "http://umcterminologies.org/CodeSystem/jurisdiction"
-        * code from VsJurisdiction (example) // TODO: for examples????
+        * code from VsJurisdiction (example)
     * language ^short = "Language for this name"
 
 

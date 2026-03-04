@@ -33,10 +33,6 @@
             "display": "Gargling"
           },
           {
-            "code": "0009",
-            "display": "Infusion"
-          },
-          {
             "code": "0010",
             "display": "Inhalation"
           },
@@ -71,10 +67,6 @@
           {
             "code": "0019",
             "display": "Swallowing"
-          },
-          {
-            "code": "0020",
-            "display": "Not specified"
           },
           {
             "code": "0111",

@@ -43,6 +43,10 @@ Alias: $umcProductId = http://umcterminologies.org/umc-product-id
 Alias: $phpidlevel4 = http://umcterminologies.org/phpid-level4
 
 
+//Edqm for parts should be part of the standardterms code system so this is a temporary solution
+Alias: $edqm = http://standardterms.edqm.eu
+
+
 
 // ------------------------------ TO BE REMOVED ???? ------------------------------
 
@@ -57,8 +61,6 @@ Alias: $drugcode = https://umcterminologies.org/whodrug/CodeSystem/drugcode // A
 
 // =========== Systems =======
 
-//Edqm for parts should be part of the standardterms code system so this is a temporary solution
-Alias: $edqm = http://umcterminologies.org/CodeSystem/dose-form-attributes
 
 // HL7 Systems
 Alias: $administrable-dose-form = http://hl7.org/fhir/administrable-dose-form // Används denna? Finns inte eller är struken i Excel

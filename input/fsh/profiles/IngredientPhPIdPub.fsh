@@ -19,6 +19,7 @@ Description: """This profile specified how the Ingredient is used in PhPID publi
 * substance 1..
   * insert NotUsed(modifierExtension)
   * code only CodeableReference(SubstanceDefinition-pub) 
+  * code from $gsid
   * code.concept
     * coding 1..1
       * system = $gsid
@@ -40,7 +41,7 @@ Description: """This profile specified how the Ingredient is used in PhPID publi
         * value 1..1
         * unit 1..1
         * unit from VsStrengthUnit
-      * textPresentation 0..1 //strength freetext // TODO correct position?
+      * textPresentation 0..1 //strength freetext
   
   * insert NotUsed(strength.modifierExtension)
   * insert NotUsed(strength.presentationRatio)
@@ -55,6 +56,8 @@ Description: """This profile specified how the Ingredient is used in PhPID publi
   * strength.referenceStrength 0..1
     * insert NotUsed(modifierExtension)
     * substance ^short = "Relevant reference substance."
+    * substance only CodeableReference(SubstanceDefinition-pub)
+    * substance from $gsid
     * substance.concept
       * coding 0..1
         * system = $gsid
