@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "id": "phpid-task-input-type",
   "url": "http://umcterminologies.org/ValueSet/phpid-task-input-type",
-  "name": "VsPhPIDTaskInputTypes",
+  "name": "VsPhPIDTaskInputType",
   "title": "PhPID request input type value set",
   "status": "active",
   "experimental": false,
