@@ -290,7 +290,7 @@
                 "coding": [
                     {
                         "system": "http://umcterminologies.org/CodeSystem/task-output-type",
-                        "code": "phpid-level4",
+                        "code": "phpid",
                         "display": "PhPID Level 4"
                     }
                 ]
