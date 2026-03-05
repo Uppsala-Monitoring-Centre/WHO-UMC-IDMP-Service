@@ -7,7 +7,7 @@
 		<b>2024-03-22 v0.5.0</b>
   </p>
   <ul>
-    <li>Changing URLs and id of the IG. Tthe official URL is now idmp.who-umc.org/fhir and the id idmp.who-umc.org.fhir (previously it was who-umc.fhir.poc-php)</li>
+    <li>Changing URLs and id of the IG. The official URL is now idmp.who-umc.org/fhir and the id idmp.who-umc.org.fhir (previously it was who-umc.fhir.poc-php)</li>
   </ul>
   <a name="0.4.0"> </a>
 	<p>

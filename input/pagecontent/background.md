@@ -2,8 +2,8 @@
 - IDMP - Identification of Medicinal Products
 - PhPID - Pharmaceutical Product Identifier
 - GSID - Global Substance Identifier
-- EDQM - European Directorate for the Quality of Medicines & HealthCare Standard Terms for pharmaceutical dose forms
 - GIDWG - Global IDMP Working Group
+- EDQM - European Directorate for the Quality of Medicines & HealthCare Standard Terms for pharmaceutical dose forms
 
 ### ISO IDMP
 
@@ -22,8 +22,8 @@ The UMC IDMP API supports two parts of the ISO IDMP standard, the Pharmaceutical
 
 The PhPID is based on substance-, strength- and dose form information of the pharmaceutical product. This information, once validated and harmonized through a set of business rules developed by the GIDWG, is used as input to the generation of the PhPID.
 PhPIDs of four different levels are generated, as follows:
-- PhPID Level 1 - Substance(s) Term
-- PhPID Level 2 - Substance(s) Term(s) + Strength
-- PhPID Level 3 - Substance(s) Term(s) + Administrable Dose Form
-- PhPID Level 4 - Substance(s) Term(s) + Strength + Administrable Dose Form
+- PhPID Level 1 - Substance(s) 
+- PhPID Level 2 - Substance(s) + Strength(s)
+- PhPID Level 3 - Substance(s) + Administrable Dose Form
+- PhPID Level 4 - Substance(s) + Strength(s) + Administrable Dose Form
 
