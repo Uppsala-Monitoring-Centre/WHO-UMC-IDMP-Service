@@ -52,12 +52,12 @@ pages:
     title: Publish
   #substanceRequest.md:
   #  title: GSID (Substance) request   
-  authentication.md:
-    title: Authentication
-  subscription.md:
-    title: Change management
-  versioning.md:
-    title: Versioning
+  #authentication.md:
+  #  title: Authentication
+  #subscription.md:
+  #  title: Change management
+  #versioning.md:
+  #  title: Versioning
   profiles.md:
     title: Profiles
   terminologies.md:
@@ -70,15 +70,15 @@ pages:
 menu:
   IG Home: index.html
   Background: background.html
-  Requesting PhPs:
+  Requesting PhPID:
     Operating model: operatingModel.html
     PhPID request: phpIdRequest.html
     #GSID request: substanceRequest.html
   Publish: published-resources.html
-  Change management:
-    Change management: subscription.html
-    Versioning: versioning.html
-  Authentication: authentication.html
+  #Change management:
+  #  Change management: subscription.html
+  #  Versioning: versioning.html
+  #Authentication: authentication.html
   # Specifications:
   #   Profiles: profiles.html
   #   Terminology: terminologies.html

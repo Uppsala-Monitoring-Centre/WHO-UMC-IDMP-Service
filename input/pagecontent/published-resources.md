@@ -12,12 +12,12 @@ To publish PhPIDs, GSIDs and MPDs representing records in UMC's drug dictionary,
 
 ### Retrieving resources
 To retrieve bundles of all the published resources, endpoints for the respective resources are available
-GET .../MedicinalProductDefinition
-GET .../AdministrableProductDefinition
-GET .../SubstanceDefintion
+* GET .../MedicinalProductDefinition
+* GET .../AdministrableProductDefinition
+* GET .../SubstanceDefintion
 
 ### Searching for resources
 To retrieve single published resources use the id to do so
-GET .../MedicinalProductDefinition/[UMC product ID]
-GET .../AdministrableProductDefinition/[PhPID]
-GET .../SubstanceDefintion/[GSID]
+* GET .../MedicinalProductDefinition/[UMC product ID]
+* GET .../AdministrableProductDefinition/[PhPID]
+* GET .../SubstanceDefintion/[GSID]
