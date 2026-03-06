@@ -5,7 +5,7 @@ Profile: SubstanceDefinitionPublished
 Parent: SubstanceDefinition
 Id: SubstanceDefinition-pub
 Title: "SubstanceDefinition (publish)"
-Description: """This profile specified how the SubstanceDefinition is published by the WHO-UMC IDMP FHIR Service"""
+Description: "This profile defines how the SubstanceDefinition is published by UMC terminologies"
 * insert NotUsed(modifierExtension)
 * insert NotUsed(implicitRules)
 * insert NotUsed(relationship)

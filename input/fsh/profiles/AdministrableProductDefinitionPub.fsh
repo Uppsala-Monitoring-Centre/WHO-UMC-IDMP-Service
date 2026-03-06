@@ -2,7 +2,7 @@ Profile: AdministrableProductDefinitionPub
 Parent: AdministrableProductDefinition
 Id: AdministrableProductDefinition-pub
 Title: "AdministrableProductDefinition (publish)"
-Description: "This profile specified how the AdministrableProductDefinition is published by the WHO-UMC IDMP Service"
+Description: "This profile defines how the AdministrableProductDefinition is published by UMC terminologies"
 
 * extension contains $parent-phpid-extension named parentPhPId 0..3
 

@@ -5,7 +5,7 @@ Profile: MedicinalProductDefinitionPub
 Parent: MedicinalProductDefinition
 Id: MedicinalProductDefinition-pub
 Title: "MedicinalProductDefinition (publish)"
-Description: """This profile specifies how the MedicinalProductDefinition is published by the WHO-UMC IDMP FHIR Service representing the WHODrug dictionary"""
+Description: "This profile defines how the MedicinalProductDefinition representing the record in WHODrug, UMC's drug dictionary, is published by UMC terminologies"
 * insert MedicinalProductDefinitionPhPIdCommon
 * identifier 1..1
   * system 1..

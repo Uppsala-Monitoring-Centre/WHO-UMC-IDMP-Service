@@ -5,7 +5,7 @@ Profile: MedicinalProductDefinitionReq
 Parent: MedicinalProductDefinition
 Id: MedicinalProductDefinition-req
 Title: "MedicinalProductDefinition (request)"
-Description: """This profile specified how the MedicinalProductDefinition is used in request (for a new PhPID) (as contained resource) by the WHO-UMC IDMP FHIR Service"""
+Description: "This profile defines how the MedicinalProductDefinition is used in request (as contained resource in a Task) by UMC terminologies"
 * insert MedicinalProductDefinitionPhPIdCommon
 * insert NotUsed(contained)
 * identifier 1..1

@@ -6,7 +6,7 @@ Profile: IngredientPhPIdPub
 Parent: Ingredient
 Id: Ingredient-phpid-pub
 Title: "Ingredient (PhPID publish)"
-Description: """This profile specified how the Ingredient is used in PhPID publishing (as contained resource in a AdministrableProductDefinition) by the WHO-UMC PhP HL7 FHIR Service"""
+Description: "This profile defines how the Ingredient is used for PhPID publish (as contained resource in an AdministrableProductDefinition) by UMC terminologies"
 
 * insert IngredientPhPIdCommon
 
