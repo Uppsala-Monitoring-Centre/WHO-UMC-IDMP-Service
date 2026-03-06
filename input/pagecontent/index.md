@@ -6,7 +6,7 @@ The scope of this Implementation Guide is to document the UMC IDMP API FHIR serv
 
 This Implementation Guide has a target audience of system integrators to the UMC IDMP API. The API is based on the HL7 FHIR standard and this guide describes supported FHIR resources.
 
-The Implementation Guide describes how FHIR standard is used to exchange data for ISO IDMP standards for global PhPIDs and GSIDs. For information about ISO IDMP, see the [Background](background.html) section in this guide. 
+This Implementation Guide describes the use of the FHIR standard for exchanging data compliant with ISO IDMP, specifically global PhPIDs and GSIDs. For information about ISO IDMP, see the [Background](background.html) section in this guide. 
 
 The main resources maintained by the service are the Pharmaceutical Product IDs, PhPIDs, (manifested through the AdministrableProductDefinition resource) and the Global Substance IDs, GSIDs, (manifested through the SubstanceDefinition resource). However, the MedicinalProductDefinition resource is also vital since it serves as input for PhPID generation. 
 The Implementation Guide describes how new global PhPIDs are requested using asynchronous FHIR requests, and how they are delivered through FHIR.
