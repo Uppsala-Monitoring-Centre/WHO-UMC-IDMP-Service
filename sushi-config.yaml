@@ -48,7 +48,7 @@ pages:
     title: Operating model   
   phpIdRequest.md:
     title: PhPID (AdministrableProductDefinition) request   
-  published resources.md:
+  published-resources.md:
     title: Publish
   #substanceRequest.md:
   #  title: GSID (Substance) request   
