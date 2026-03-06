@@ -48,8 +48,6 @@ pages:
     title: Operating model   
   phpIdRequest.md:
     title: PhPID (AdministrableProductDefinition) request   
-  publishing.md:
-    title: Publishing
   #substanceRequest.md:
   #  title: GSID (Substance) request   
   authentication.md:
