@@ -74,7 +74,7 @@ menu:
     Operating model: operatingModel.html
     PhPID request: phpIdRequest.html
     #GSID request: substanceRequest.html
-  Publishing: publishing.html
+  Publish: published-resources.html
   Change management:
     Change management: subscription.html
     Versioning: versioning.html
