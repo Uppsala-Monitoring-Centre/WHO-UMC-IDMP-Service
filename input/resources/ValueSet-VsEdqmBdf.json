@@ -3,10 +3,10 @@
   "id": "edqm-bdf",
   "url": "http://umcterminologies.org/ValueSet/edqm-bdf",
   "name": "VsEdqmBdf",
-  "title": "EDQM PDF characteristics: Basic Dose Form",
+  "title": "EDQM PDF dose form attributes: Basic Dose Form",
   "status": "active",
   "experimental": false,
-  "description": "EDQM Pharmaceutical dose forms characteristics: Basic Dose Form",
+  "description": "EDQM Pharmaceutical dose form attributes: Basic Dose Form",
   "compose": {
     "include": [
       {

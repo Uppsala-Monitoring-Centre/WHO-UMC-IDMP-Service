@@ -3,10 +3,10 @@
   "id": "edqm-ame",
   "url": "http://umcterminologies.org/ValueSet/edqm-ame",
   "name": "VsEdqmAme",
-  "title": "EDQM PDF characteristics: Administration Method",
+  "title": "EDQM PDF dose form attributes: Administration Method",
   "status": "active",
   "experimental": false,
-  "description": "EDQM Pharmaceutical dose forms characteristics: Administration Method",
+  "description": "EDQM Pharmaceutical dose form attributes: Administration Method",
   "compose": {
     "include": [
       {

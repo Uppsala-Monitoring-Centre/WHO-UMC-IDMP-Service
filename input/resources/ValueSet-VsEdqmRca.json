@@ -3,10 +3,10 @@
   "id": "edqm-rca",
   "url": "http://umcterminologies.org/ValueSet/edqm-rca",
   "name": "VsEdqmRca",
-  "title": "EDQM PDF characteristics: Release Characteristics",
+  "title": "EDQM PDF dose form attributes: Release Characteristics",
   "status": "active",
   "experimental": false,
-  "description": "EDQM Pharmaceutical dose forms characteristics: Release Characteristics",
+  "description": "EDQM Pharmaceutical dose form attributes: Release Characteristics",
   "compose": {
     "include": [
       {

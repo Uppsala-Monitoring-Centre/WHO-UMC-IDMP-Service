@@ -3,10 +3,10 @@
   "id": "edqm-isi",
   "url": "http://umcterminologies.org/ValueSet/edqm-isi",
   "name": "VsEdqmIsi",
-  "title": "EDQM PDF characteristics: Intended Site",
+  "title": "EDQM PDF dose form attributes: Intended Site",
   "status": "active",
   "experimental": false,
-  "description": "EDQM Pharmaceutical dose forms characteristics: Intended Site",
+  "description": "EDQM Pharmaceutical dose form attributes: Intended Site",
   "compose": {
     "include": [
       {
