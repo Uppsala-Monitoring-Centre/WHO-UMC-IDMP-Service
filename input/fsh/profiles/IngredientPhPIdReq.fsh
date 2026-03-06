@@ -4,9 +4,9 @@
 
 Profile: IngredientPhPIdReq
 Parent: Ingredient
-Id: Ingredient-phpid-req
-Title: "Ingredient (PhPID request)"
-Description: """This profile specified how the Ingredient is used in a PhPID request (as contained resource in a MedicinalProductDefinition) by the WHO-UMC PhP HL7 FHIR Service"""
+Id: Ingredient-req
+Title: "Ingredient (request)"
+Description: """This profile specified how the Ingredient is used in a request (as contained resource in a MedicinalProductDefinition) by the WHO-UMC PhP HL7 FHIR Service"""
 
 * insert IngredientPhPIdCommon
 

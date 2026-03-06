@@ -99,7 +99,7 @@
             "meta": {
                 "source": "https://api.umcterminologies.org/idmp",
                 "profile": [
-                    "http://umcterminologies.org/StructureDefinition/Ingredient-phpid-req"
+                    "http://umcterminologies.org/StructureDefinition/Ingredient-req"
                 ]
             },
             "status": "active",

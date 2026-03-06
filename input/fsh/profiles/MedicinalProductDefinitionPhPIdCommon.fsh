@@ -19,7 +19,7 @@ RuleSet: MedicinalProductDefinitionPhPIdCommon
 
 * classification.coding 1..1
 * classification from $phpidlevel4 (required) 
-  * ^short = "Allows the product to be classified by various systems (e.g. PhPID Level 4).)"
+  * ^short = "Allows the product to be classified by various systems (e.g. PhPID Level 4)."
 
 // Need to investigate which type we should use (and require?)
 * name 1..
