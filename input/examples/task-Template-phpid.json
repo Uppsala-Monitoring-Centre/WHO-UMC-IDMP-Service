@@ -149,7 +149,7 @@
                 "code": "ml"
               }
             },
-            "textPresentation": "0.5 mg"
+            "textPresentation": "0.5 mg/ml"
           }
         ]
       }
@@ -157,12 +157,6 @@
     {
       "resourceType": "Organization",
       "id": "acmeinc",
-      "meta": {
-        "source": "https://api.umcterminologies.org/idmp",
-        "profile": [
-          "http://umcterminologies.org/StructureDefinition/MarketingAuthorizationHolder-phpid-req"
-        ]
-      },
       "active": true,
       "type": [
         {
@@ -194,6 +188,12 @@
       "holder": {
         "reference": "#acmeinc"
       }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://requester.org/some-system-defined-by-requester",
+      "value": "ABCDEF1234567890"
     }
   ],
   "status": "requested",

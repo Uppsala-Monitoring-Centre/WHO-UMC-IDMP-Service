@@ -119,14 +119,14 @@ resources:
     name: Subscription for MedicinalProductDefinition changes
     description: A template for how to create a subscription for a MPD change with a rest hook
   Task/template-generated-by-server-phpid-req:
-    name: Task to request a new PhPID
+    name: Task Request for a new PhPID
     description: A template for how a Task that is used to request a new PhPID (AdministrableProductDefinition) can be structured.
   Task/task-completed-phpid:
-    name: Example of a completed Task
-    description: An example of a completed task with output.      
+    name: Task Completed with PhPID
+    description: An example of a completed task with output values that include PhPID and UMC Product ID.
   AdministrableProductDefinition/UTPHPID102Y0G2TFV6GU6:
     name: AdministrableProductDefinition level 4
-    description: Example of AdministrableProductDefinition returned by the server on level 4.
+    description: AdministrableProductDefinition returned by the server on level 4.
   AdministrableProductDefinition/UTPHPID5F4A1M772SP14T:
     name: AdministrableProductDefinition level 3
     description: AdministrableProductDefinition on level 3. Linked from a level 4 APD.
