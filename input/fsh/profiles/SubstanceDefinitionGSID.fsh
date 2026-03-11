@@ -4,10 +4,14 @@
 Profile: SubstanceDefinitionPublished
 Parent: SubstanceDefinition
 Id: SubstanceDefinition-pub
-Title: "SubstanceDefinition for publication"
-Description: """This profile specified how the SubstanceDefinition is published by the WHO-UMC IDMP FHIR Service"""
+Title: "SubstanceDefinition (publish)"
+Description: "This profile defines how the SubstanceDefinition is published by UMC terminologies"
+* insert NotUsed(modifierExtension)
+* insert NotUsed(implicitRules)
+* insert NotUsed(relationship)
+* insert NotUsed(contained)
 * identifier 1..1
-* text 1..1 
+* text 0..1 
 * id 1..1
 * identifier.system = $gsid
 * status 1..1
@@ -49,6 +53,7 @@ Description: """This profile specified how the SubstanceDefinition is published 
   * language 1..
   * language from $VS-language
   * official 1..1
+  * insert NotUsed(modifierExtension)
 * relationship 0..1
 * structure 0..1
   * representation 1..1

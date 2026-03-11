@@ -1,0 +1,31 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "task-output-type",
+  "url": "http://umcterminologies.org/CodeSystem/task-output-type",
+  "name": "CsTaskOutputType",
+  "title": "Task output type",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Uppsala Monitoring Centre",
+  "description": "This system lists the available output types for a task",
+  "copyright": "Uppsala Monitoring Centre",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "phpid",
+      "display": "PhPID",
+      "definition": "PhPID"
+    },
+    {
+      "code": "umc-product-id",
+      "display": "UMC Product ID",
+      "definition": "UMC Product ID"
+    },
+    {
+      "code": "gsid",
+      "display": "GSID"
+    }
+  ]
+}

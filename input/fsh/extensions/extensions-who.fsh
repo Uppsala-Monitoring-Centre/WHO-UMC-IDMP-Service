@@ -1,13 +1,13 @@
-Extension: ParentPhp
+Extension: ParentPhPId
 Id:   parent-phpid
-Title: "Parent PhP"
-Description: "This extension applies to the ADP resource and is used to refer the parent ADPs representing the upper level PhP."
+Title: "Parent PhPID"
+Description: "This extension defines the parent AdministrableProductDefinition, representing the connected PhPID level(s), for an AdministrableProductDefinition"
 // publisher, contact, and other metadata here using caret (^) syntax (omitted)
 * ^context[+].type = #element
 * ^context[=].expression = "AdministrableProductDefinition"
 
-* ^url = $parent-php-extension
-* value[x] only Reference (AdministrableProductDefinitionWhoPhP)
+* ^url = $parent-phpid-extension
+* value[x] only Reference (AdministrableProductDefinitionPub)
 * valueReference.identifier 1..
   * system = $phpid
   * system 1..
@@ -15,7 +15,7 @@ Description: "This extension applies to the ADP resource and is used to refer th
 Extension: RCA
 Id: release-characteristics
 Title: "Pharmaceutical dose form - ReleaseCharacteristics"
-Description: "This extension is use to display the ReleaseCharacteristics for an AdministrableProductDefinition"
+Description: "This extension defines the ReleaseCharacteristics for an AdministrableProductDefinition"
 // publisher, contact, and other metadata here using caret (^) syntax (omitted)
 * ^context[+].type = #element
 * ^context[=].expression = "AdministrableProductDefinition"
@@ -25,12 +25,12 @@ Description: "This extension is use to display the ReleaseCharacteristics for an
 * valueCoding 1..1
   * system = $edqm
   * system 1.. 
-  * code from edqm-RCA
+  * code from VsEdqmRca
 
 Extension: ISI
 Id: intended-site
 Title: "Pharmaceutical dose form - IntendedSite"
-Description: "This extension is use to display the IntendedSite for an AdministrableProductDefinition"
+Description: "This extension defines the IntendedSite for an AdministrableProductDefinition"
 // publisher, contact, and other metadata here using caret (^) syntax (omitted)
 * ^context[+].type = #element
 * ^context[=].expression = "AdministrableProductDefinition"
@@ -40,12 +40,12 @@ Description: "This extension is use to display the IntendedSite for an Administr
 * valueCoding 1..1
   * system = $edqm
   * system 1.. 
-  * code from edqm-ISI
+  * code from VsEdqmIsi
 
 Extension: BDF
 Id: basic-dose-form
 Title: "Pharmaceutical dose form - BasicDoseForm"
-Description: "This extension is use to display the BasicDoseForm for an AdministrableProductDefinition"
+Description: "This extension defines the BasicDoseForm for an AdministrableProductDefinition"
 // publisher, contact, and other metadata here using caret (^) syntax (omitted)
 * ^context[+].type = #element
 * ^context[=].expression = "AdministrableProductDefinition"
@@ -55,12 +55,12 @@ Description: "This extension is use to display the BasicDoseForm for an Administ
 * valueCoding 1..1
   * system = $edqm
   * system 1.. 
-  * code from edqm-BDF
+  * code from VsEdqmBdf
 
 Extension: AME
 Id: administration-method
 Title: "Pharmaceutical dose form - AdministrationMethod"
-Description: "This extension is use to display the AdministrationMethod for an AdministrableProductDefinition"
+Description: "This extension defines the AdministrationMethod for an AdministrableProductDefinition"
 // publisher, contact, and other metadata here using caret (^) syntax (omitted)
 * ^context[+].type = #element
 * ^context[=].expression = "AdministrableProductDefinition"
@@ -70,4 +70,4 @@ Description: "This extension is use to display the AdministrationMethod for an A
 * valueCoding 1..1
   * system = $edqm
   * system 1.. 
-  * code from edqm-AME
+  * code from VsEdqmAme

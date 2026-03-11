@@ -1,0 +1,37 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "phpid-level",
+  "url": "http://umcterminologies.org/CodeSystem/phpid-level",
+  "name": "CsPhpIdLevel",
+  "title": "PhPId level",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Uppsala Monitoring Centre",
+  "description": "This system lists PhPID types: level and stratum",
+  "copyright": "Uppsala Monitoring Centre",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "phpid-level-1",
+      "display": "Level 1",
+      "definition": "Level 1 - Substance specified"
+    },
+    {
+      "code": "phpid-level-2",
+      "display": "Level 2",
+      "definition": "Level 2 - Substance and strength specified"
+    },
+    {
+      "code": "phpid-level-3",
+      "display": "Level 3",
+      "definition": "Level 3 - Substance and form specified"
+    },
+    {
+      "code": "phpid-level-4",
+      "display": "Level 4",
+      "definition": "Level 4 - Substance, strength and form specified"
+    }
+  ]
+}

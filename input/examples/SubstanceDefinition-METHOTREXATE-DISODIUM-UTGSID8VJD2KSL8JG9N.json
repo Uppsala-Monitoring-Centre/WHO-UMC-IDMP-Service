@@ -1,0 +1,139 @@
+{
+  "resourceType": "SubstanceDefinition",
+  "id": "UTGSID8VJD2KSL8JG9N",
+  "meta": {
+    "profile": [
+      "http://who-umc.org/idmp/StructureDefinition/SubstanceDefinition-pub"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://gupri-idmp.who-umc.org/data/substance",
+      "value": "UTGSID8VJD2KSL8JG9N"
+    }
+  ],
+  "status": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/publication-status",
+        "code": "active"
+      }
+    ],
+    "text": "Active"
+  },
+  "domain": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/medicinal-product-domain",
+        "code": "Human"
+      }
+    ],
+    "text": "Human use"
+  },
+  "structure": {
+    "representation": [
+      {
+        "representation": "CN(Cc1cnc2c(c(N)nc(N)n2)n1)c3ccc(cc3)C(=O)N[C@@H](CCC(=O)[O-])C(=O)[O-].[Na+].[Na+]",
+        "format": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/substance-representation-format",
+              "code": "SMILES"
+            }
+          ],
+          "text": "SMILES"
+        }
+      }
+    ]
+  },
+  "code": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "https://open.fda.gov/data/unii",
+            "code": "3IG1E710ZN"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/CAS",
+            "code": "7413-34-5"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/CAS",
+            "code": "15475-56-6"
+          }
+        ]
+      }
+    }
+  ],
+  "name": [
+    {
+      "name": "Methotrexate disodium",
+      "status": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/publication-status",
+            "code": "active"
+          }
+        ],
+        "text": "Active"
+      },
+      "preferred": true,
+      "language": [
+        {
+          "coding": [
+            {
+              "system": "urn:ietf:bcp:47",
+              "code": "en"
+            }
+          ]
+        }
+      ],
+      "official": [
+        {
+          "authority": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/substance-name-authority",
+                "code": "UMC-SRS"
+              }
+            ],
+            "text": "UMC-SRS"
+          }
+        }
+      ]
+    }
+  ],
+  "relationship": [
+    {
+      "substanceDefinitionReference": {
+        "reference": "SubstanceDefinition/UTGSID1ZH2AGD3LL96N",
+        "identifier": {
+          "system": "https://gupri-idmp.who-umc.org/data/substance",
+          "value": "UTGSID1ZH2AGD3LL96N"
+        }
+      },
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/substance-relationship-type",
+            "code": "Salt"
+          }
+        ],
+        "text": "Salt to parent"
+      }
+    }
+  ]
+}

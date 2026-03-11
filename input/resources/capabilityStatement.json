@@ -1,10 +1,10 @@
 {
   "resourceType": "CapabilityStatement",
-  "id": "UMC-IDMP-API",
-  "name": "UMC IDMP Request and Publish API",
-  "title": "API to allow for Requests of PhPIDs and Publishing of PhPIDs, GSIDs and MPDs",
+  "id": "WHO-UMC-IDMP-service",
+  "name": "WHO-UMC IDMP Management and Publish API",
+  "title": "API to allow for Requests and Publishing of PhPIDs and GSIDs",
   "status": "draft",
-  "date": "2025-04-24",
+  "date": "2026-03-04T09:18:10.065Z",
   "publisher": "Uppsala Monitoring Centre",
   "contact": [
     {
@@ -22,11 +22,11 @@
       ]
     }
   ],
-  "description": "The UMC IDMP API supports management and publishing of PhPIDs and publishing of GSIDs as part of the ISO IDMP standard. It also supports publishing of some other related resources as described in the Implementation Guide",
+  "description": "The WHO-UMC API supports management and publishing of PhPIDs and GSIDs as part of the ISO IDMP standard",
   "kind": "capability",
   "software": {
-    "name": "UMC IDMP Request and Publish API",
-    "version": "0.5.0"
+    "name": "WHO-UMC IDMP Management and Publish API",
+    "version": "0.1.0"
   },
   "fhirVersion": "5.0.0",
   "format": [
@@ -34,7 +34,7 @@
     "json"
   ],
   "implementationGuide": [
-    "https://build.fhir.org/ig/Uppsala-Monitoring-Centre/WHO-UMC-IDMP-Service/"
+    "https://build.fhir.org/ig/Uppsala-Monitoring-Centre/WHO-UMC-IDMP-Service"
   ],
   "rest": [
     {
@@ -50,49 +50,39 @@
               "code": "create"
             },
             {
-              "code": "delete"
+              "code": "search-type"
             }
           ],
           "searchParam": [
-            {
-              "name": "identifier",
-              "type": "string",
-              "documentation": "Task identifier from requester in format 'sendingSystem|localId'"
-            },
             {
               "name": "status",
               "type": "string",
-              "documentation": "Search Task by status"
-            }
-          ]
-        },
-        {
-          "type": "SubstanceDefinition",
-          "interaction": [
-            {
-              "code": "read"
-            }
-          ],
-          "searchParam": [
+              "documentation": "Status filter"
+            },
             {
               "name": "_id",
               "type": "string",
-              "documentation": "GSID"
+              "documentation": "Comma-separated list of PhPID"
             },
             {
-              "name": "identifier",
+              "name": "_elements",
               "type": "string",
-              "documentation": "GSID"
+              "documentation": "Limit elements returned in bundle"
             },
             {
-              "name": "name",
+              "name": "page",
               "type": "string",
-              "documentation": "Name of substance (contains search)"
+              "documentation": "Page number to return"
             },
             {
-              "name": "code",
+              "name": "_count",
               "type": "string",
-              "documentation": "Code from other code system"
+              "documentation": "Page size"
+            },
+            {
+              "name": "_format",
+              "type": "string",
+              "documentation": "Response format"
             }
           ]
         },
@@ -101,39 +91,36 @@
           "interaction": [
             {
               "code": "read"
+            },
+            {
+              "code": "search-type"
             }
           ],
           "searchParam": [
             {
               "name": "_id",
               "type": "string",
-              "documentation": "PhPID"
+              "documentation": "Comma-separated list of PhPID"
             },
             {
-              "name": "identifier",
+              "name": "_elements",
               "type": "string",
-              "documentation": "PhPID"
+              "documentation": "Limit elements returned in bundle"
             },
             {
-              "name": "form-of",
+              "name": "page",
               "type": "string",
-              "documentation": "Find PhPIDs for an internal product ID in the"
+              "documentation": "Page number to return"
             },
             {
-              "name": "form-of:identifier",
+              "name": "_count",
               "type": "string",
-              "documentation": "Find PhPIds for a MPID"
+              "documentation": "Page size"
             },
             {
-              "name": "dose-form",
+              "name": "_format",
               "type": "string",
-              "documentation": "Find PhPIDs with a specific dose-form"
-            },
-            {
-              "name": "parent-php",
-              "definition": "http://who-umc.org/idmp/SearchParameter/parent-php",
-              "type": "reference",
-              "documentation": "Search PhPIDs based on 'parent' PhPIDs"
+              "documentation": "Response format"
             }
           ]
         },
@@ -142,164 +129,79 @@
           "interaction": [
             {
               "code": "read"
+            },
+            {
+              "code": "search-type"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "phpid",
+              "type": "string",
+              "documentation": "PhPID"
+            },
+            {
+              "name": "_id",
+              "type": "string",
+              "documentation": "Comma-separated list of UMCProductID"
+            },
+            {
+              "name": "_elements",
+              "type": "string",
+              "documentation": "Limit elements returned in bundle"
+            },
+            {
+              "name": "page",
+              "type": "string",
+              "documentation": "Page number to return"
+            },
+            {
+              "name": "_count",
+              "type": "string",
+              "documentation": "Page size"
+            },
+            {
+              "name": "_format",
+              "type": "string",
+              "documentation": "Response format"
+            }
+          ]
+        },
+        {
+          "type": "SubstanceDefinition",
+          "interaction": [
+            {
+              "code": "read"
+            },
+            {
+              "code": "search-type"
             }
           ],
           "searchParam": [
             {
               "name": "_id",
               "type": "string",
-              "documentation": "WHODrug record Id"
+              "documentation": "Comma-separated list of GSID"
             },
             {
-              "name": "identifier",
+              "name": "_elements",
               "type": "string",
-              "documentation": "MPID"
+              "documentation": "Limit elements returned in bundle"
             },
             {
-              "name": "name",
+              "name": "page",
               "type": "string",
-              "documentation": "Product name (contains search)"
+              "documentation": "Page number to return"
             },
             {
-              "name": "name-jurisdiction",
+              "name": "_count",
               "type": "string",
-              "documentation": "Jurisdiction according to urn:iso:std:iso:3166"
+              "documentation": "Page size"
             },
             {
-              "name": "name-country",
+              "name": "_format",
               "type": "string",
-              "documentation": "Country according to urn:iso:std:iso:3166"
-            },
-            {
-              "name": "product-classification",
-              "type": "token",
-              "documentation": "Used to search for products given a PhPID"
-            }
-          ]
-        },
-        {
-          "type": "Ingredient",
-          "documentation": "Only available within the scope of an AdministrableProductDefinition",
-          "searchParam": [
-            {
-              "name": "substance-code",
-              "type": "string",
-              "documentation": "Find by substance (GSID) code"
-            },
-            {
-              "name": "strength-presentation-quantity",
-              "type": "token",
-              "documentation": "Search parameter on the format '5.4|http://unitsofmeasure.org|mg'"
-            }
-          ]
-        },
-        {
-          "type": "CapabilityStatement",
-          "interaction": [
-            {
-              "code": "read"
-            }
-          ]
-        },
-        {
-          "type": "SubscriptionTopic",
-          "interaction": [
-            {
-              "code": "read"
-            }
-          ],
-          "searchParam": [
-            {
-              "name": "_id",
-              "type": "string",
-              "documentation": "Id of the SubscriptionTopic"
-            },
-            {
-              "name": "name",
-              "type": "string",
-              "documentation": "Name of the SubscriptionTopic (contains search)"
-            },
-            {
-              "name": "url",
-              "type": "string",
-              "documentation": "Url of the SubscriptionTopic"
-            }
-          ]
-        },
-        {
-          "type": "Subscription",
-          "interaction": [
-            {
-              "code": "read"
-            },
-            {
-              "code": "create"
-            },
-            {
-              "code": "delete"
-            },
-            {
-              "code": "update"
-            }
-          ],
-          "searchParam": [
-            {
-              "name": "_id",
-              "type": "string",
-              "documentation": "Id of the Subscription"
-            },
-            {
-              "name": "identifier",
-              "type": "string",
-              "documentation": ""
-            },
-            {
-              "name": "name",
-              "type": "string",
-              "documentation": "Name of the Subscription (contains search)"
-            },
-            {
-              "name": "topic",
-              "type": "string",
-              "documentation": "Topic (full url) of the Subscription"
-            }
-          ]
-        },
-        {
-          "type": "SubscriptionStatus",
-          "interaction": [
-            {
-              "code": "read"
-            }
-          ],
-          "searchParam": [
-            {
-              "name": "_id",
-              "type": "string",
-              "documentation": "Id of the Subscription"
-            },
-            {
-              "name": "identifier",
-              "type": "string",
-              "documentation": ""
-            },
-            {
-              "name": "name",
-              "type": "string",
-              "documentation": "Name of the Subscription (contains search)"
-            },
-            {
-              "name": "topic",
-              "type": "string",
-              "documentation": "Topic (full url) of the Subscription"
-            }
-          ]
-        },
-        {
-          "type": "ImplementationGuide",
-          "interaction": [
-            {
-              "code": "read"
+              "documentation": "Response format"
             }
           ]
         }

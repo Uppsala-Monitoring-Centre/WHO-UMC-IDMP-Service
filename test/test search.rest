@@ -3,7 +3,6 @@
 ### Webhook
 
 @apikey = 161713fd-87aa-4872-af04-d37977cf6440
-//@url = https://idmp.who-umc.org/fhir 
 @apiurl = https://api.umcterminologies.org/fhir
 @dataurl = https://data.umcterminologies.org
 ### Search Substance

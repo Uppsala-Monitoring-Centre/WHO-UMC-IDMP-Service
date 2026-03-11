@@ -6,15 +6,15 @@ Following is a picture of the operating model for requesting and publishing PhPI
 <br clear="all"/>
 
 #### Operations
-1. A requester in need for a global PhPID sends a request containing the product information.
-2. The sent in request is validated against GIDWG Business rules by pharmacists in the maintenance organisation.
-3. The validated and harmonized dose form attributes, substance and strength information is used as input string in the generation of PhPIDs.
-4. The requester receives the PhPIDs, levels 1-4, for their medicinal product.
+1. A requester in need for a global PhPID sends a request containing the medicinal product information.
+2. The sent in request is validated by the maintenance organisation against GIDWG Business rules.
+3. The validated and harmonized dose form attributes, substance and strength information are used as input string in the generation of PhPIDs.
+4. The requester receives the gloabl PhPIDs, levels 1-4, for their medicinal product.
 5. The generated PhPIDs are stored in the PhPID repository.
 
 #### Corresponding FHIR operations 
-1. A FHIR [Task](StructureDefinition-Task-who-php-phpid.html) is used to request a new global PhPID where necessary information to complete the request is embedded in the contains section of the Task. See [PhPID request model](phpIdRequest.html) for details.  
-2. While validating the request the status of the Task indicates to progress.  
+1. A FHIR [Task](StructureDefinition-Task-phpid-req.html) is used to request a new global PhPID. Necessary information to complete the request is embedded in the contains section of the Task. See [PhPID request model](phpIdRequest.html) for details.  
+2. While validation of the request is ongoing the status of the Task indicates in progress.  
 3. The Task is _ready_ and transits to _completed_ via _in-progress_. 
-4. The new (or already existing) Global PhPID is published in the output section of the Task and is thereafter available as an [AdministrableProductDefinition](StructureDefinition-AdministrableProductDefinition-who-php.html) resource.
+4. The global PhPID that has been mapped to the product (can be a newly generated PhPID or an already existing PhPID) is published in the output section of the Task and is thereafter available as an [AdministrableProductDefinition](StructureDefinition-AdministrableProductDefinition-pub.html) resource.
 5. Searching for an existing PhPID can be done using standard search functionality. Search and filter parameters are available in the Capability Statement. 

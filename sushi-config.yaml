@@ -4,8 +4,8 @@
 # │  supported properties, see:                                                                    │
 # │  http://build.fhir.org/ig/HL7/fhir-shorthand/branches/beta/sushi.html#ig-development           │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: idmp.who-umc.org.fhir
-canonical: http://who-umc.org/idmp
+id: umcterminologies.org
+canonical: http://umcterminologies.org
 version: 0.1.0
 name: UmcIDMPManagement
 title: UMC IDMP Request and Publish API 
@@ -29,14 +29,13 @@ parameters:
   show-inherited-invariants: false
   produce-jekyll-data: true
   special-url:
-  - https://who-umc.org/idmp/StructureDefinition/parent-phpid
-  - https://who-umc.org/idmp/StructureDefinition/pdfCharacteristics
+  - https://umcterminologies.org/StructureDefinition/parent-phpid
+  - https://umcterminologies.org/StructureDefinition/pdfCharacteristics
 copyrightYear: 2025+
 releaseLabel: CI Build
 
 instanceOptions:
   manualSliceOrdering: true
-
 
 FSHOnly: false
 
@@ -49,16 +48,16 @@ pages:
     title: Operating model   
   phpIdRequest.md:
     title: PhPID (AdministrableProductDefinition) request   
-  publishing.md:
-    title: Publishing
+  published-resources.md:
+    title: Publish
   #substanceRequest.md:
   #  title: GSID (Substance) request   
-  authentication.md:
-    title: Authentication
-  subscription.md:
-    title: Change management
-  versioning.md:
-    title: Versioning
+  #authentication.md:
+  #  title: Authentication
+  #subscription.md:
+  #  title: Change management
+  #versioning.md:
+  #  title: Versioning
   profiles.md:
     title: Profiles
   terminologies.md:
@@ -71,15 +70,15 @@ pages:
 menu:
   IG Home: index.html
   Background: background.html
-  Requesting PhPs:
+  Requesting PhPID:
     Operating model: operatingModel.html
     PhPID request: phpIdRequest.html
     #GSID request: substanceRequest.html
-  Publishing: publishing.html
-  Change management:
-    Change management: subscription.html
-    Versioning: versioning.html
-  Authentication: authentication.html
+  Publish: published-resources.html
+  #Change management:
+  #  Change management: subscription.html
+  #  Versioning: versioning.html
+  #Authentication: authentication.html
   # Specifications:
   #   Profiles: profiles.html
   #   Terminology: terminologies.html
@@ -120,42 +119,33 @@ resources:
     name: Subscription for MedicinalProductDefinition changes
     description: A template for how to create a subscription for a MPD change with a rest hook
   Task/template-generated-by-server-phpid-req:
-    name: Task to request a new PhPID
+    name: Task Request for a new PhPID
     description: A template for how a Task that is used to request a new PhPID (AdministrableProductDefinition) can be structured.
-  # Task/UK-emc-00001:
-  #   name: Task example from DataPharm (UK)
-  #   description: An example developed by DataPharm while testing PhPID request API.  
-  # Task/Task-Felleskatalogen-CPOD-MPD-1:
-  #   name: Task example from Felleskatalogen (NO)
-  #   description: An example developed by Felleskatalogen while testing PhPID request API.      
   Task/task-completed-phpid:
-    name: Example of a completed Task
-    description: An example of a completed task with output.      
-  AdministrableProductDefinition/91B3CA582581F57E4092F13AAF476215:
+    name: Task Completed with PhPID
+    description: An example of a completed task with output values that include PhPID and UMC Product ID.
+  AdministrableProductDefinition/UTPHPID102Y0G2TFV6GU6:
     name: AdministrableProductDefinition level 4
-    description: Example of AdministrableProductDefinition returned by the server on level 4.
-  AdministrableProductDefinition/6C4563BB76BE7967594979196EC91CD8:
+    description: AdministrableProductDefinition returned by the server on level 4.
+  AdministrableProductDefinition/UTPHPID5F4A1M772SP14T:
     name: AdministrableProductDefinition level 3
     description: AdministrableProductDefinition on level 3. Linked from a level 4 APD.
-  AdministrableProductDefinition/8195D4AF1287CCE3442C2F308F61DBBC:
+  AdministrableProductDefinition/UTPHPID5EPH9X6P86CM6L:
     name: AdministrableProductDefinition level 2
     description: AdministrableProductDefinition on level 2. Linked from a level 4 APD.
-  AdministrableProductDefinition/93FE88350C2E8868F7E8BD220C4E0010:
+  AdministrableProductDefinition/UTPHPID2C4FBA65KDM1P6:
     name: AdministrableProductDefinition level 1
     description: AdministrableProductDefinition on level 1. Linked from a level 4, 3 and 2 APD.
-  SubstanceDefinition/GSID23G92UMX93H45:
+  SubstanceDefinition/UTGSID1ZH2AGD3LL96N:
     name: Substance (METHOTREXATE)
     description: An example of a GSID publisehed as a SubstanceDefinition  
-  SubstanceDefinition/GSID9XBS2KCF3K1Z1:
-    name: Substance (METHOTREXATE SODIUM)
+  SubstanceDefinition/UTGSID8VJD2KSL8JG9N:
+    name: Substance (METHOTREXATE DISODIUM)
     description: An example of a GSID (salt variant) publisehed as a SubstanceDefinition  
-  SubstanceDefinition/GSID85RFP2XGF3X29:
-    name: Substance (OMEPRAZOLE)
-    description: An example of a GSID publisehed as a SubstanceDefinition  
-  MedicinalProductDefinition/1266520E021:
-    name: MedicinalProductDefinition (Methotrexaat sandoz)
+  MedicinalProductDefinition/UMCPIDCHE7S94JFG8TE3D5:
+    name: MedicinalProductDefinition (Micardis)
     description: Example of a WHODrug product published as a MedicinalProductDefinition.
-  MedicinalProductDefinition/1A0661AE2A40:
-    name: MedicinalProductDefinition (Auro methotrexate)
+  MedicinalProductDefinition/UMCPIDDEU4CVM68UK905BO:
+    name: MedicinalProductDefinition (Perfalgan)
     description: Example of a WHODrug product published as a MedicinalProductDefinition.
   

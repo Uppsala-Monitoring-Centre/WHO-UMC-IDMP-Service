@@ -1,0 +1,191 @@
+{
+  "resourceType": "AdministrableProductDefinition",
+  "id": "UTPHPID102Y0G2TFV6GU6",
+  "meta": {
+    "profile": [
+      "http://who-umc.org/idmp/StructureDefinition/AdministrableProductDefinition-who-php"
+    ]
+  },
+  "contained": [
+    {
+      "resourceType": "Ingredient",
+      "id": "UTGSID44RS1U925RP22",
+      "meta": {
+        "profile": [
+          "http://who-umc.org/idmp/StructureDefinition/Ingredient-who-php-publish"
+        ]
+      },
+      "status": "active",
+      "for": [
+        {
+          "reference": "#"
+        }
+      ],
+      "role": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/ingredient-role",
+            "code": "100000072072",
+            "display": "Active"
+          }
+        ]
+      },
+      "substance": {
+        "code": {
+          "reference": {
+            "reference": "SubstanceDefinition/UTGSID44RS1U925RP22",
+            "identifier": {
+              "system": "https://gupri-idmp.who-umc.org/data/substance",
+              "value": "UTGSID44RS1U925RP22"
+            },
+            "display": "Nilotinib tartrate"
+          }
+        },
+        "strength": [
+          {
+            "presentationQuantity": {
+              "value": 121.93,
+              "unit": "mg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg"
+            },
+            "textPresentation": "121.93 mg",
+            "referenceStrength": [
+              {
+                "substance": {
+                  "reference": {
+                    "reference": "SubstanceDefinition/",
+                    "identifier": {
+                      "system": "https://gupri-idmp.who-umc.org/data/substance"
+                    }
+                  }
+                },
+                "strengthQuantity": {
+                  "value": 95,
+                  "unit": "mg",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "mg"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://who-umc.org/idmp/StructureDefinition/basic-dose-form",
+      "valueCoding": {
+        "system": "http://standardterms.edqm.eu",
+        "code": "0069",
+        "display": "Tablet"
+      }
+    },
+    {
+      "url": "http://who-umc.org/idmp/StructureDefinition/release-characteristics",
+      "valueCoding": {
+        "system": "http://standardterms.edqm.eu",
+        "code": "0047",
+        "display": "Conventional"
+      }
+    },
+    {
+      "url": "http://who-umc.org/idmp/StructureDefinition/administration-method",
+      "valueCoding": {
+        "system": "http://standardterms.edqm.eu",
+        "code": "0019",
+        "display": "Swallowing"
+      }
+    },
+    {
+      "url": "http://who-umc.org/idmp/StructureDefinition/intended-site",
+      "valueCoding": {
+        "system": "http://standardterms.edqm.eu",
+        "code": "0031",
+        "display": "Oral"
+      }
+    },
+    {
+      "url": "http://who-umc.org/idmp/StructureDefinition/parent-phpid",
+      "valueReference": {
+        "reference": "AdministrableProductDefinition/UTPHPID2C4FBA65KDM1P6",
+        "identifier": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://who-umc.org/idmp/CodeSystem/php-level",
+                "code": "PhPIDLevel1"
+              }
+            ]
+          },
+          "system": "http://who-umc.org/idmp/phpid",
+          "value": "UTPHPID2C4FBA65KDM1P6"
+        }
+      }
+    },
+    {
+      "url": "http://who-umc.org/idmp/StructureDefinition/parent-phpid",
+      "valueReference": {
+        "reference": "AdministrableProductDefinition/UTPHPID5EPH9X6P86CM6L",
+        "identifier": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://who-umc.org/idmp/CodeSystem/php-level",
+                "code": "PhPIDLevel2"
+              }
+            ]
+          },
+          "system": "http://who-umc.org/idmp/phpid",
+          "value": "UTPHPID5EPH9X6P86CM6L"
+        }
+      }
+    },
+    {
+      "url": "http://who-umc.org/idmp/StructureDefinition/parent-phpid",
+      "valueReference": {
+        "reference": "AdministrableProductDefinition/UTPHPID5F4A1M772SP14T",
+        "identifier": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://who-umc.org/idmp/CodeSystem/php-level",
+                "code": "PhPIDLevel3"
+              }
+            ]
+          },
+          "system": "http://who-umc.org/idmp/phpid",
+          "value": "UTPHPID5F4A1M772SP14T"
+        }
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://who-umc.org/idmp/CodeSystem/php-level",
+            "code": "PhPIDLevel4"
+          }
+        ]
+      },
+      "system": "https://gupri-idmp.who-umc.org/data/php",
+      "value": "UTPHPID102Y0G2TFV6GU6"
+    }
+  ],
+  "status": "active",
+  "routeOfAdministration": [
+    {
+      "code": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+            "valueCode": "not-applicable"
+          }
+        ]
+      }
+    }
+  ]
+}

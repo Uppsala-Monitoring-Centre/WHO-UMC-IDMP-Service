@@ -1,3 +1,5 @@
+///// TO BE REMOVE TODO: Not used in our code, but in Magnus PoC
+
 Profile: AuthorizedOrg
 Parent: Organization
 Id: AuthorizedOrg-who-php
@@ -11,7 +13,7 @@ Description: "Organization making the request, not necessarily the same organiza
 Profile: MarketingAuthorizationHolderWhoPhpRequest
 Parent: Organization
 Id: MarketingAuthorizationHolder-who-php
-Title: "Marketing Authorization Holder"
+Title: "Marketing Authorization Holder (PhPID request)"
 Description: "Marketing Authorization Holder of medicinal product"
 
 * identifier 0..*

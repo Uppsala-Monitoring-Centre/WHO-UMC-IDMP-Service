@@ -1,0 +1,19 @@
+{
+  "resourceType": "SubscriptionTopic",
+  "id": "adm-prod-def",
+  "url": "https://api.umcterminologies.org/idmp/SubscriptionTopic/adm-prod-def",
+  "name": "adm-prod-def",
+  "title": "Administrable Product Definition Event",
+  "status": "active",
+  "experimental": false,
+  "description": "An APD has triggered an event",
+  "resourceTrigger": [
+    {
+      "resource": "AdministrableProductDefinition",
+      "supportedInteraction": [
+        "update",
+        "delete"
+      ]
+    }
+  ]
+}
