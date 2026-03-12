@@ -42,7 +42,7 @@
     {
       "coding": [
         {
-          "system": "http://who-umc.org/idmp/level4-phpid",
+          "system": "http://who-umc.org/idmp/phpid-level4",
           "code": "UTPHPID3J368MLC73BY9O"
         }
       ]

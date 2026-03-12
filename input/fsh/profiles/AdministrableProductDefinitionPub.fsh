@@ -4,10 +4,10 @@ Id: AdministrableProductDefinition-pub
 Title: "AdministrableProductDefinition (publish)"
 Description: "This profile defines how the AdministrableProductDefinition is published by UMC terminologies"
 
-* extension contains $parent-phpid-extension named parentPhPId 0..3
+* extension contains $parent-phpid-extension named parent-phpid 0..3
 
 // PDF CHARACTERISTICS EXTENSIONS
-* extension contains $pdfCharacteristics-bdf-ext named basic-doseform 0..1
+* extension contains $pdfCharacteristics-bdf-ext named basic-dose-form 0..1
 * extension[basic-doseform] ^short = "Basic Dose Form"
 * extension contains $pdfCharacteristics-isi-ext named intended-site 0..3
 * extension[intended-site] ^short = "Intended Site"
@@ -36,9 +36,6 @@ Description: "This profile defines how the AdministrableProductDefinition is pub
 // The PhPID is only using Tablet as concept (the BDF) so two APDs with similar (but different) ADFs will have the same PhPID
 // Therefore... we do not use ADF but the extensions associated with the Pharmaceutical Form
 * administrableDoseForm 0..0
-
-//* routeOfAdministration
-//  * code from VsRouteOfAdministration (example)
 
 * unitOfPresentation 0..0
 * producedFrom 0..0

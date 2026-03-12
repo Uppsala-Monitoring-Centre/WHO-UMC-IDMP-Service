@@ -15,10 +15,8 @@ RuleSet: MedicinalProductDefinitionPhPIdCommon
 
 * combinedPharmaceuticalDoseForm from VsPharmaceuticalForm (example)
 
-* route from VsRouteOfAdministration (example)
-
 * classification.coding 1..1
-* classification from $phpidlevel4 (required) 
+* classification from $phpidlevel4 (example) 
   * ^short = "Allows the product to be classified by various systems (e.g. PhPID Level 4)."
 
 // Need to investigate which type we should use (and require?)

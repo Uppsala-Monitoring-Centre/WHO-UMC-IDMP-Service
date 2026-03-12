@@ -112,12 +112,6 @@ menu:
 # look like:
 
 resources:
-  Subscription/template-generated-by-server-subscription-email:
-    name: Subscription for PhPID changes
-    description: A template for how to create a subscription for a PhPID change with an email hook
-  Subscription/template-generated-by-server-subscription-rest-hook:
-    name: Subscription for MedicinalProductDefinition changes
-    description: A template for how to create a subscription for a MPD change with a rest hook
   Task/template-generated-by-server-phpid-req:
     name: Task Request for a new PhPID
     description: A template for how a Task that is used to request a new PhPID (AdministrableProductDefinition) can be structured.

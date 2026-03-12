@@ -41,7 +41,7 @@ Description: "This profile defines how the Ingredient is used for PhPID publish 
         * value 1..1
         * unit 1..1
         * unit from VsStrengthUnit
-      * textPresentation 0..1 //strength freetext
+      * textPresentation 1..1 //strength freetext
   
   * insert NotUsed(strength.modifierExtension)
   * insert NotUsed(strength.presentationRatio)

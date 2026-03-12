@@ -1,4 +1,4 @@
-///// TO BE REMOVE TODO: Not used in our code, but in Magnus PoC
+///// TO BE REMOVED? Check with Åsa/Jessica. TODO TODO
 
 Profile: RegulatedAuthorizationPhPIdReq
 Parent: RegulatedAuthorization
