@@ -8,7 +8,7 @@ Description: "This profile defines how the AdministrableProductDefinition is pub
 
 // PDF CHARACTERISTICS EXTENSIONS
 * extension contains $pdfCharacteristics-bdf-ext named basic-dose-form 0..1
-* extension[basic-doseform] ^short = "Basic Dose Form"
+* extension[basic-dose-form] ^short = "Basic Dose Form"
 * extension contains $pdfCharacteristics-isi-ext named intended-site 0..3
 * extension[intended-site] ^short = "Intended Site"
 * extension contains $pdfCharacteristics-rca-ext named release-characteristics 0..1
