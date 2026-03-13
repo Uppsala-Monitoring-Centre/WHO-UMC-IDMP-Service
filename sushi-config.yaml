@@ -118,9 +118,9 @@ resources:
   Subscription/template-generated-by-server-subscription-rest-hook:
     name: Subscription for MedicinalProductDefinition changes
     description: A template for how to create a subscription for a MPD change with a rest hook
-  Task/template-generated-by-server-phpid-req:
-    name: Task Request for a new PhPID
-    description: A template for how a Task that is used to request a new PhPID (AdministrableProductDefinition) can be structured.
+  # Task/template-generated-by-server-phpid-req:
+  #   name: Task Request for a new PhPID
+  #   description: A template for how a Task that is used to request a new PhPID (AdministrableProductDefinition) can be structured.
   Task/task-completed-phpid:
     name: Task Completed with PhPID
     description: An example of a completed task with output values that include PhPID and UMC Product ID.
