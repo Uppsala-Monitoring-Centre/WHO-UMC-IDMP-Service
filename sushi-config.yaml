@@ -121,9 +121,9 @@ resources:
   Task/template-generated-by-server-phpid-req:
     name: Task Request for a new PhPID
     description: A template for how a Task that is used to request a new PhPID (AdministrableProductDefinition) can be structured.
-  # Task/task-completed-phpid:
-  #   name: Task Completed with PhPID
-  #   description: An example of a completed task with output values that include PhPID and UMC Product ID.
+  Task/task-completed-phpid:
+    name: Task Completed with PhPID
+    description: An example of a completed task with output values that include PhPID and UMC Product ID.
   AdministrableProductDefinition/91B3CA582581F57E4092F13AAF476215:
     name: AdministrableProductDefinition level 4
     description: AdministrableProductDefinition returned by the server on level 4.

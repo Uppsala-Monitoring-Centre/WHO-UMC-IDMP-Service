@@ -30,7 +30,7 @@ Description: "This profile defines how the MedicinalProductDefinition is used in
     * jurisdiction from VsJurisdiction (example)
       * coding 1..1
         * code 1..1
-        * system = "http://poc.umcterminologies.org/CodeSystem/jurisdiction"
+        * system = $jurisdictionCodeSystem
         * code from VsJurisdiction (example)
     * language ^short = "Language for this name"
 
