@@ -2,6 +2,14 @@
 	<p>
     This provides a list of major changes to the IG for the WHO-UMC IDMP service since its initial release
   </p>
+  </p>
+  <a name="1.0.0"> </a>
+	<p>
+		<b>2025-03-13 v1.0.0</b>
+  </p>
+  <ul>
+    <li>Changes for IDMP Go Live and begin using umcterminologies.org as the canonical URL.</li>
+  </ul>
   <a name="0.5.0"> </a>
 	<p>
 		<b>2024-03-22 v0.5.0</b>

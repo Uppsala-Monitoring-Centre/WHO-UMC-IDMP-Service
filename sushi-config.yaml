@@ -6,7 +6,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: umcterminologies.org
 canonical: http://umcterminologies.org
-version: 0.1.0
+version: 1.0.0
 name: UmcIDMPManagement
 title: UMC IDMP Request and Publish API 
 status: active
@@ -86,7 +86,6 @@ menu:
   Artifact Index: artifacts.html			
   Support:
     FHIR Spec: new-tab http://hl7.org/fhir/R5/index.html
-    #API With tutorial and examples: new-tab https://idmp.who-umc.org/fhir
     Downloads: downloads.html
 
 

@@ -1,5 +1,3 @@
-///// TO BE REMOVED? Check with Åsa/Jessica. TODO TODO
-
 Profile: RegulatedAuthorizationPhPIdReq
 Parent: RegulatedAuthorization
 Id: RegulatedAuthorization-phpid-req

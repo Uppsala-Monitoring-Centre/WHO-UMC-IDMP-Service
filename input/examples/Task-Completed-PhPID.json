@@ -170,6 +170,12 @@
         {
             "resourceType": "RegulatedAuthorization",
             "id": "066bb2b6-5b34-4ea8-9c73-6d95d402672d",
+            "meta": {
+                "source": "https://api.umcterminologies.org/idmp",
+                "profile": [
+                    "http://umcterminologies.org/StructureDefinition/RegulatedAuthorization-phpid-req"
+                ]
+            },
             "identifier": [
                 {
                     "system": "http://ema.europa.eu/ema/",
