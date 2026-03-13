@@ -3,7 +3,7 @@
   "id": "UTPHPID5F4A1M772SP14T",
   "meta": {
     "profile": [
-      "http://who-umc.org/idmp/StructureDefinition/AdministrableProductDefinition-who-php"
+      "http://umcterminologies.org/StructureDefinition/AdministrableProductDefinition-pub"
     ]
   },
   "contained": [
@@ -12,7 +12,7 @@
       "id": "UTGSID44RS1U925RP22",
       "meta": {
         "profile": [
-          "http://who-umc.org/idmp/StructureDefinition/Ingredient-who-php-publish"
+          "http://umcterminologies.org/StructureDefinition/Ingredient-pub"
         ]
       },
       "status": "active",
@@ -33,9 +33,9 @@
       "substance": {
         "code": {
           "reference": {
-            "reference": "SubstanceDefinition/UTGSID44RS1U925RP22",
+            "reference": "https://umcterminologies.org/idmp/SubstanceDefinition/UTGSID44RS1U925RP22",
             "identifier": {
-              "system": "https://gupri-idmp.who-umc.org/data/substance",
+              "system": "http://umcterminologies.org/gsid",
               "value": "UTGSID44RS1U925RP22"
             },
             "display": "Nilotinib tartrate"
@@ -46,7 +46,7 @@
   ],
   "extension": [
     {
-      "url": "http://who-umc.org/idmp/StructureDefinition/basic-dose-form",
+      "url": "http://umcterminologies.org/StructureDefinition/basic-dose-form",
       "valueCoding": {
         "system": "http://standardterms.edqm.eu",
         "code": "0069",
@@ -54,7 +54,7 @@
       }
     },
     {
-      "url": "http://who-umc.org/idmp/StructureDefinition/release-characteristics",
+      "url": "http://umcterminologies.org/StructureDefinition/release-characteristics",
       "valueCoding": {
         "system": "http://standardterms.edqm.eu",
         "code": "0047",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "url": "http://who-umc.org/idmp/StructureDefinition/administration-method",
+      "url": "http://umcterminologies.org/StructureDefinition/administration-method",
       "valueCoding": {
         "system": "http://standardterms.edqm.eu",
         "code": "0019",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "url": "http://who-umc.org/idmp/StructureDefinition/intended-site",
+      "url": "http://umcterminologies.org/StructureDefinition/intended-site",
       "valueCoding": {
         "system": "http://standardterms.edqm.eu",
         "code": "0031",
@@ -78,19 +78,19 @@
       }
     },
     {
-      "url": "http://who-umc.org/idmp/StructureDefinition/parent-phpid",
+      "url": "http://umcterminologies.org/StructureDefinition/parent-phpid",
       "valueReference": {
-        "reference": "AdministrableProductDefinition/UTPHPID2C4FBA65KDM1P6",
+        "reference": "https://umcterminologies.org/idmp/AdministrableProductDefinition/UTPHPID2C4FBA65KDM1P6",
         "identifier": {
           "type": {
             "coding": [
               {
-                "system": "http://who-umc.org/idmp/CodeSystem/php-level",
-                "code": "PhPIDLevel1"
+                "system": "http://umcterminologies.org/CodeSystem/phpid-level",
+                "code": "phpid-level-1"
               }
             ]
           },
-          "system": "http://who-umc.org/idmp/phpid",
+          "system": "http://umcterminologies.org/phpid",
           "value": "UTPHPID2C4FBA65KDM1P6"
         }
       }
@@ -101,12 +101,12 @@
       "type": {
         "coding": [
           {
-            "system": "http://who-umc.org/idmp/CodeSystem/php-level",
-            "code": "PhPIDLevel3"
+            "system": "http://umcterminologies.org/CodeSystem/phpid-level",
+            "code": "phpid-level-3"
           }
         ]
       },
-      "system": "https://gupri-idmp.who-umc.org/data/php",
+      "system": "http://umcterminologies.org/phpid",
       "value": "UTPHPID5F4A1M772SP14T"
     }
   ],

@@ -305,7 +305,7 @@
                             {
                                 "system": "http://umcterminologies.org/CodeSystem/task-output-type",
                                 "code": "phpid",
-                                "display": "PhPID Level 4"
+                                "display": "PhPID"
                             }
                         ]
                     },

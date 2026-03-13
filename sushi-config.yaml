@@ -29,8 +29,8 @@ parameters:
   show-inherited-invariants: false
   produce-jekyll-data: true
   special-url:
-  - https://umcterminologies.org/StructureDefinition/parent-phpid
-  - https://umcterminologies.org/StructureDefinition/pdfCharacteristics
+  - http://umcterminologies.org/StructureDefinition/parent-phpid
+  - http://umcterminologies.org/StructureDefinition/pdfCharacteristics
 copyrightYear: 2025+
 releaseLabel: CI Build
 
