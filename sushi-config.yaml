@@ -4,8 +4,8 @@
 # │  supported properties, see:                                                                    │
 # │  http://build.fhir.org/ig/HL7/fhir-shorthand/branches/beta/sushi.html#ig-development           │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: umcterminologies.org
-canonical: http://umcterminologies.org
+id: popc.umcterminologies.org
+canonical: http://poc.umcterminologies.org
 version: 0.1.0
 name: UmcIDMPManagement
 title: UMC IDMP Request and Publish API 
@@ -29,9 +29,9 @@ parameters:
   show-inherited-invariants: false
   produce-jekyll-data: true
   special-url:
-  - https://umcterminologies.org/StructureDefinition/parent-phpid
-  - https://umcterminologies.org/StructureDefinition/pdfCharacteristics
-copyrightYear: 2025+
+  - http://poc.umcterminologies.org/StructureDefinition/parent-phpid
+  - http://poc.umcterminologies.org/StructureDefinition/pdfCharacteristics
+copyrightYear: 2026+
 releaseLabel: CI Build
 
 instanceOptions:
