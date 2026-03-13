@@ -124,28 +124,28 @@ resources:
   Task/task-completed-phpid:
     name: Task Completed with PhPID
     description: An example of a completed task with output values that include PhPID and UMC Product ID.
-  AdministrableProductDefinition/UTPHPID102Y0G2TFV6GU6:
+  AdministrableProductDefinition/91B3CA582581F57E4092F13AAF476215:
     name: AdministrableProductDefinition level 4
     description: AdministrableProductDefinition returned by the server on level 4.
-  AdministrableProductDefinition/UTPHPID5F4A1M772SP14T:
+  AdministrableProductDefinition/6C4563BB76BE7967594979196EC91CD8:
     name: AdministrableProductDefinition level 3
     description: AdministrableProductDefinition on level 3. Linked from a level 4 APD.
-  AdministrableProductDefinition/UTPHPID5EPH9X6P86CM6L:
+  AdministrableProductDefinition/8195D4AF1287CCE3442C2F308F61DBBC:
     name: AdministrableProductDefinition level 2
     description: AdministrableProductDefinition on level 2. Linked from a level 4 APD.
-  AdministrableProductDefinition/UTPHPID2C4FBA65KDM1P6:
+  AdministrableProductDefinition/93FE88350C2E8868F7E8BD220C4E0010:
     name: AdministrableProductDefinition level 1
     description: AdministrableProductDefinition on level 1. Linked from a level 4, 3 and 2 APD.
-  SubstanceDefinition/UTGSID1ZH2AGD3LL96N:
+  SubstanceDefinition/GSID23G92UMX93H45:
     name: Substance (METHOTREXATE)
     description: An example of a GSID publisehed as a SubstanceDefinition  
-  SubstanceDefinition/UTGSID8VJD2KSL8JG9N:
+  SubstanceDefinition/GSID9XBS2KCF3K1Z1:
     name: Substance (METHOTREXATE DISODIUM)
     description: An example of a GSID (salt variant) publisehed as a SubstanceDefinition  
-  MedicinalProductDefinition/UMCPIDCHE7S94JFG8TE3D5:
-    name: MedicinalProductDefinition (Micardis)
+  MedicinalProductDefinition/1A0661AE2A40:
+    name: MedicinalProductDefinition (Auro methotrexate)
     description: Example of a WHODrug product published as a MedicinalProductDefinition.
-  MedicinalProductDefinition/UMCPIDDEU4CVM68UK905BO:
-    name: MedicinalProductDefinition (Perfalgan)
+  MedicinalProductDefinition/1266520E021:
+    name: MedicinalProductDefinition (Methotrexaat sandoz)
     description: Example of a WHODrug product published as a MedicinalProductDefinition.
   
