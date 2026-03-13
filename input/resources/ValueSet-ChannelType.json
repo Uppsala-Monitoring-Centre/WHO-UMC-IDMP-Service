@@ -1,8 +1,8 @@
 {
   "resourceType": "ValueSet",
   "id": "channel-type",
-  "url": "http://umcterminologies.org/ValueSet/channel-type",
-  "name": "VsChannelType",
+  "url": "http://poc.umcterminologies.org/ValueSet/channel-type",
+  "name": "channelType",
   "title": "Channel Type Value Set",
   "status": "active",
   "experimental": false,

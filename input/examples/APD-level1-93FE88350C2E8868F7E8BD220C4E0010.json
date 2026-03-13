@@ -1,0 +1,82 @@
+{
+  "resourceType": "AdministrableProductDefinition",
+  "id": "93FE88350C2E8868F7E8BD220C4E0010",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2020-04-21T08:12:39.2902262+00:00",
+    "source": "https://api-poc.umcterminologies.org/idmp",
+    "profile": [
+      "http://poc.umcterminologies.org/StructureDefinition/AdministrableProductDefinition-pub"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family: Helvetica;\"><h1 style=\"color: darkblue; background: lightgray; padding: 5px;\">Pharmaceutical Product (Administrable Product Definition)</h1><table style=\"padding: 5px; text-align: left;\"><tr><td style=\"font-weight: bold;\">Id</td><td>93FE88350C2E8868F7E8BD220C4E0010</td></tr><tr><td style=\"font-weight: bold;\">Level</td><td>1</td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Ingredients</h2><table style=\"padding: 5px; text-align: left;\"><th>GSID</th><th>Substance name</th><th>Strength</th><tr><td>GSID9XBS2KCF3K1Z1</td><td>METHOTREXATE SODIUM</td><td></td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Form</h2><table style=\"padding: 5px; text-align: left;\"></table></div>"
+  },
+  "contained": [
+    {
+      "resourceType": "Ingredient",
+      "id": "068637f2-d041-403b-85f1-b02d5870102c",
+      "meta": {
+        "source": "https://api-poc.umcterminologies.org/idmp",
+        "profile": [
+          "http://poc.umcterminologies.org/StructureDefinition/Ingredient-phpid-pub"
+        ]
+      },
+      "status": "active",
+      "for": [
+        {
+          "reference": "#"
+        }
+      ],
+      "role": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/ingredient-role",
+            "code": "100000072072"
+          }
+        ],
+        "text": "Active"
+      },
+      "substance": {
+        "code": {
+          "reference": {
+            "reference": "SubstanceDefinition/GSID9XBS2KCF3K1Z1",
+            "identifier": {
+              "system": "https://data-poc.umcterminologies.org/substance",
+              "value": "GSID9XBS2KCF3K1Z1"
+            },
+            "display": "METHOTREXATE SODIUM"
+          }
+        }
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://poc.umcterminologies.org/CodeSystem/php-level",
+            "code": "PhPIDLevel1"
+          }
+        ]
+      },
+      "system": "https://data-poc.umcterminologies.org/php",
+      "value": "93FE88350C2E8868F7E8BD220C4E0010"
+    }
+  ],
+  "status": "active",
+  "routeOfAdministration": [
+    {
+      "code": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+            "valueCode": "not-applicable"
+          }
+        ]
+      }
+    }
+  ]
+}

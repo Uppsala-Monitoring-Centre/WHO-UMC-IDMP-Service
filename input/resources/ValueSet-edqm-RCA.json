@@ -1,16 +1,16 @@
 {
   "resourceType": "ValueSet",
-  "id": "edqm-rca",
-  "url": "http://umcterminologies.org/ValueSet/edqm-rca",
-  "name": "VsEdqmRca",
-  "title": "EDQM PDF dose form attributes: Release Characteristics",
+  "id": "edqm-RCA",
+  "url": "http://poc.umcterminologies.org/ValueSet/edqm-RCA",
+  "name": "edqm-RCA",
+  "title": "EDQM PDF characteristics: Release Characteristics",
   "status": "active",
   "experimental": false,
-  "description": "EDQM Pharmaceutical dose form attributes: Release Characteristics",
+  "description": "EDQM Pharmaceutical dose forms characteristics: Release Characteristics",
   "compose": {
     "include": [
       {
-        "system": "http://standardterms.edqm.eu",
+        "system": "http://poc.umcterminologies.org/CodeSystem/dose-form-attributes",
         "concept": [
           {
             "code": "0044",

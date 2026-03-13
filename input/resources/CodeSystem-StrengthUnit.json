@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "strength-unit",
-  "url": "http://umcterminologies.org/CodeSystem/strength-unit",
+  "url": "http://poc.umcterminologies.org/CodeSystem/strengthUnit",
   "name": "CsStrengthUnit",
   "title": "Strength units applicable in the IDMP PhPID service",
   "status": "active",

@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "task-request-code",
-  "url": "http://umcterminologies.org/CodeSystem/task-request-code",
+  "url": "http://poc.umcterminologies.org/CodeSystem/task-request-code",
   "name": "CsTaskRequestCode",
   "title": "Task request code",
   "status": "active",

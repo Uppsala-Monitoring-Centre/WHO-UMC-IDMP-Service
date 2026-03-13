@@ -1,7 +1,7 @@
 {
   "resourceType": "SubscriptionTopic",
   "id": "adm-prod-def",
-  "url": "https://api.umcterminologies.org/idmp/SubscriptionTopic/adm-prod-def",
+  "url": "https://api-poc.umcterminologies.org/idmp/SubscriptionTopic/adm-prod-def",
   "name": "adm-prod-def",
   "title": "Administrable Product Definition Event",
   "status": "active",

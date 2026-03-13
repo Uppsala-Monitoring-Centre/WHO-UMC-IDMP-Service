@@ -1,16 +1,16 @@
 {
   "resourceType": "ValueSet",
-  "id": "edqm-ame",
-  "url": "http://umcterminologies.org/ValueSet/edqm-ame",
-  "name": "VsEdqmAme",
-  "title": "EDQM PDF dose form attributes: Administration Method",
+  "id": "edqm-AME",
+  "url": "http://poc.umcterminologies.org/ValueSet/edqm-AME",
+  "name": "edqm-AME",
+  "title": "EDQM PDF characteristics: Administration Method",
   "status": "active",
   "experimental": false,
-  "description": "EDQM Pharmaceutical dose form attributes: Administration Method",
+  "description": "EDQM Pharmaceutical dose forms characteristics: Administration Method",
   "compose": {
     "include": [
       {
-        "system": "http://standardterms.edqm.eu",
+        "system": "http://poc.umcterminologies.org/CodeSystem/dose-form-attributes",
         "concept": [
           {
             "code": "0004",
@@ -31,6 +31,10 @@
           {
             "code": "0008",
             "display": "Gargling"
+          },
+          {
+            "code": "0009",
+            "display": "Infusion"
           },
           {
             "code": "0010",
@@ -67,6 +71,10 @@
           {
             "code": "0019",
             "display": "Swallowing"
+          },
+          {
+            "code": "0020",
+            "display": "Not specified"
           },
           {
             "code": "0111",

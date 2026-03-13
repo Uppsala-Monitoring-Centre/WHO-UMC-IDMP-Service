@@ -1,8 +1,8 @@
 {
   "resourceType": "ValueSet",
-  "id": "pharmaceutical-form",
-  "url": "http://umcterminologies.org/ValueSet/pharmaceutical-form",
-  "name": "VsPharmaceuticalForm",
+  "id": "pharmaceuticalForm",
+  "url": "http://poc.umcterminologies.org/ValueSet/pharmaceuticalForm",
+  "name": "pharmaceuticalForm",
   "title": "EDQM Pharmaceutical Form",
   "status": "active",
   "experimental": false,
@@ -1519,6 +1519,18 @@
           {
             "code": "13198000",
             "display": "Oral powder in capsule for opening"
+          },
+          {
+            "code": "13200000",
+            "display": "Intravesical delivery system"
+          },
+          {
+            "code": "13203000",
+            "display": "Concentrate for intravesical solution/solution for injection"
+          },
+          {
+            "code": "13204000",
+            "display": "Concentrate for intravesical suspension"
           },
           {
             "code": "50001000",

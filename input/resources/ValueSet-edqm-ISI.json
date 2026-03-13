@@ -1,16 +1,16 @@
 {
   "resourceType": "ValueSet",
-  "id": "edqm-isi",
-  "url": "http://umcterminologies.org/ValueSet/edqm-isi",
-  "name": "VsEdqmIsi",
-  "title": "EDQM PDF dose form attributes: Intended Site",
+  "id": "edqm-ISI",
+  "url": "http://poc.umcterminologies.org/ValueSet/edqm-ISI",
+  "name": "edqm-ISI",
+  "title": "EDQM PDF characteristics: Intended Site",
   "status": "active",
   "experimental": false,
-  "description": "EDQM Pharmaceutical dose form attributes: Intended Site",
+  "description": "EDQM Pharmaceutical dose forms characteristics: Intended Site",
   "compose": {
     "include": [
       {
-        "system": "http://standardterms.edqm.eu",
+        "system": "http://poc.umcterminologies.org/CodeSystem/dose-form-attributes",
         "concept": [
           {
             "code": "0021",

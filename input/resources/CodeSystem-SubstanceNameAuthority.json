@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "substance-name-authority",
-  "url": "http://umcterminologies.org/CodeSystem/substance-name-authority",
+  "url": "http://poc.umcterminologies.org/CodeSystem/substance-name-authority",
   "name": "CsSubstanceNameAuthority",
   "title": "Additional substance name authorities",
   "status": "active",

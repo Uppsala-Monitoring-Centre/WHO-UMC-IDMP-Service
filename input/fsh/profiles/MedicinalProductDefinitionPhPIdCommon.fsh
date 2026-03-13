@@ -13,9 +13,7 @@ RuleSet: MedicinalProductDefinitionPhPIdCommon
 
 * status ^short = "The status within the lifecycle of this product record."
 
-* combinedPharmaceuticalDoseForm from VsPharmaceuticalForm (example)
-
-* route from VsRouteOfAdministration (example)
+* combinedPharmaceuticalDoseForm from pharmaceuticalForm (example)
 
 * classification.coding 1..1
 * classification from $phpidlevel4 (required) 

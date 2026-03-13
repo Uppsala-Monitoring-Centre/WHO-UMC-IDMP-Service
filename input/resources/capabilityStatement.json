@@ -1,10 +1,10 @@
 {
   "resourceType": "CapabilityStatement",
-  "id": "WHO-UMC-IDMP-service",
-  "name": "WHO-UMC IDMP Management and Publish API",
-  "title": "API to allow for Requests and Publishing of PhPIDs and GSIDs",
+  "id": "UMC-IDMP-API",
+  "name": "UMC IDMP Request and Publish API",
+  "title": "API to allow for Requests of PhPIDs and Publishing of PhPIDs, GSIDs and MPDs",
   "status": "draft",
-  "date": "2026-03-04T09:18:10.065Z",
+  "date": "2026-03-13",
   "publisher": "Uppsala Monitoring Centre",
   "contact": [
     {
@@ -22,11 +22,11 @@
       ]
     }
   ],
-  "description": "The WHO-UMC API supports management and publishing of PhPIDs and GSIDs as part of the ISO IDMP standard",
+  "description": "The UMC IDMP API supports management and publishing of PhPIDs and publishing of GSIDs as part of the ISO IDMP standard. It also supports publishing of some other related resources as described in the Implementation Guide",
   "kind": "capability",
   "software": {
-    "name": "WHO-UMC IDMP Management and Publish API",
-    "version": "0.1.0"
+    "name": "UMC IDMP Request and Publish API",
+    "version": "0.5.0"
   },
   "fhirVersion": "5.0.0",
   "format": [
@@ -34,7 +34,7 @@
     "json"
   ],
   "implementationGuide": [
-    "https://build.fhir.org/ig/Uppsala-Monitoring-Centre/WHO-UMC-IDMP-Service"
+    "https://build.fhir.org/ig/Uppsala-Monitoring-Centre/WHO-UMC-IDMP-Service/"
   ],
   "rest": [
     {
@@ -50,120 +50,19 @@
               "code": "create"
             },
             {
-              "code": "search-type"
+              "code": "delete"
             }
           ],
           "searchParam": [
+            {
+              "name": "identifier",
+              "type": "string",
+              "documentation": "Task identifier from requester in format 'sendingSystem|localId'"
+            },
             {
               "name": "status",
               "type": "string",
-              "documentation": "Status filter"
-            },
-            {
-              "name": "_id",
-              "type": "string",
-              "documentation": "Comma-separated list of PhPID"
-            },
-            {
-              "name": "_elements",
-              "type": "string",
-              "documentation": "Limit elements returned in bundle"
-            },
-            {
-              "name": "page",
-              "type": "string",
-              "documentation": "Page number to return"
-            },
-            {
-              "name": "_count",
-              "type": "string",
-              "documentation": "Page size"
-            },
-            {
-              "name": "_format",
-              "type": "string",
-              "documentation": "Response format"
-            }
-          ]
-        },
-        {
-          "type": "AdministrableProductDefinition",
-          "interaction": [
-            {
-              "code": "read"
-            },
-            {
-              "code": "search-type"
-            }
-          ],
-          "searchParam": [
-            {
-              "name": "_id",
-              "type": "string",
-              "documentation": "Comma-separated list of PhPID"
-            },
-            {
-              "name": "_elements",
-              "type": "string",
-              "documentation": "Limit elements returned in bundle"
-            },
-            {
-              "name": "page",
-              "type": "string",
-              "documentation": "Page number to return"
-            },
-            {
-              "name": "_count",
-              "type": "string",
-              "documentation": "Page size"
-            },
-            {
-              "name": "_format",
-              "type": "string",
-              "documentation": "Response format"
-            }
-          ]
-        },
-        {
-          "type": "MedicinalProductDefinition",
-          "interaction": [
-            {
-              "code": "read"
-            },
-            {
-              "code": "search-type"
-            }
-          ],
-          "searchParam": [
-            {
-              "name": "phpid",
-              "type": "string",
-              "documentation": "PhPID"
-            },
-            {
-              "name": "_id",
-              "type": "string",
-              "documentation": "Comma-separated list of UMCProductID"
-            },
-            {
-              "name": "_elements",
-              "type": "string",
-              "documentation": "Limit elements returned in bundle"
-            },
-            {
-              "name": "page",
-              "type": "string",
-              "documentation": "Page number to return"
-            },
-            {
-              "name": "_count",
-              "type": "string",
-              "documentation": "Page size"
-            },
-            {
-              "name": "_format",
-              "type": "string",
-              "documentation": "Response format"
+              "documentation": "Search Task by status"
             }
           ]
         },
@@ -172,36 +71,235 @@
           "interaction": [
             {
               "code": "read"
-            },
-            {
-              "code": "search-type"
             }
           ],
           "searchParam": [
             {
               "name": "_id",
               "type": "string",
-              "documentation": "Comma-separated list of GSID"
+              "documentation": "GSID"
             },
             {
-              "name": "_elements",
+              "name": "identifier",
               "type": "string",
-              "documentation": "Limit elements returned in bundle"
+              "documentation": "GSID"
             },
             {
-              "name": "page",
+              "name": "name",
               "type": "string",
-              "documentation": "Page number to return"
+              "documentation": "Name of substance (contains search)"
             },
             {
-              "name": "_count",
+              "name": "code",
               "type": "string",
-              "documentation": "Page size"
+              "documentation": "Code from other code system"
+            }
+          ]
+        },
+        {
+          "type": "AdministrableProductDefinition",
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "_id",
+              "type": "string",
+              "documentation": "PhPID"
             },
             {
-              "name": "_format",
+              "name": "identifier",
               "type": "string",
-              "documentation": "Response format"
+              "documentation": "PhPID"
+            },
+            {
+              "name": "form-of",
+              "type": "string",
+              "documentation": "Find PhPIDs for an internal product ID in the"
+            },
+            {
+              "name": "form-of:identifier",
+              "type": "string",
+              "documentation": "Find PhPIds for a MPID"
+            },
+            {
+              "name": "dose-form",
+              "type": "string",
+              "documentation": "Find PhPIDs with a specific dose-form"
+            },
+            {
+              "name": "parent-php",
+              "definition": "http://poc.umcterminologies.org/SearchParameter/parent-php",
+              "type": "reference",
+              "documentation": "Search PhPIDs based on 'parent' PhPIDs"
+            }
+          ]
+        },
+        {
+          "type": "MedicinalProductDefinition",
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "_id",
+              "type": "string",
+              "documentation": "WHODrug record Id"
+            },
+            {
+              "name": "identifier",
+              "type": "string",
+              "documentation": "MPID"
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "documentation": "Product name (contains search)"
+            },
+            {
+              "name": "name-jurisdiction",
+              "type": "string",
+              "documentation": "Jurisdiction according to urn:iso:std:iso:3166"
+            },
+            {
+              "name": "name-country",
+              "type": "string",
+              "documentation": "Country according to urn:iso:std:iso:3166"
+            },
+            {
+              "name": "product-classification",
+              "type": "token",
+              "documentation": "Used to search for products given a PhPID"
+            }
+          ]
+        },
+        {
+          "type": "Ingredient",
+          "documentation": "Only available within the scope of an AdministrableProductDefinition",
+          "searchParam": [
+            {
+              "name": "substance-code",
+              "type": "string",
+              "documentation": "Find by substance (GSID) code"
+            },
+            {
+              "name": "strength-presentation-quantity",
+              "type": "token",
+              "documentation": "Search parameter on the format '5.4|http://unitsofmeasure.org|mg'"
+            }
+          ]
+        },
+        {
+          "type": "CapabilityStatement",
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ]
+        },
+        {
+          "type": "SubscriptionTopic",
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "_id",
+              "type": "string",
+              "documentation": "Id of the SubscriptionTopic"
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "documentation": "Name of the SubscriptionTopic (contains search)"
+            },
+            {
+              "name": "url",
+              "type": "string",
+              "documentation": "Url of the SubscriptionTopic"
+            }
+          ]
+        },
+        {
+          "type": "Subscription",
+          "interaction": [
+            {
+              "code": "read"
+            },
+            {
+              "code": "create"
+            },
+            {
+              "code": "delete"
+            },
+            {
+              "code": "update"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "_id",
+              "type": "string",
+              "documentation": "Id of the Subscription"
+            },
+            {
+              "name": "identifier",
+              "type": "string",
+              "documentation": ""
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "documentation": "Name of the Subscription (contains search)"
+            },
+            {
+              "name": "topic",
+              "type": "string",
+              "documentation": "Topic (full url) of the Subscription"
+            }
+          ]
+        },
+        {
+          "type": "SubscriptionStatus",
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "_id",
+              "type": "string",
+              "documentation": "Id of the Subscription"
+            },
+            {
+              "name": "identifier",
+              "type": "string",
+              "documentation": ""
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "documentation": "Name of the Subscription (contains search)"
+            },
+            {
+              "name": "topic",
+              "type": "string",
+              "documentation": "Topic (full url) of the Subscription"
+            }
+          ]
+        },
+        {
+          "type": "ImplementationGuide",
+          "interaction": [
+            {
+              "code": "read"
             }
           ]
         }

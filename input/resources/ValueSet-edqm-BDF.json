@@ -1,16 +1,16 @@
 {
   "resourceType": "ValueSet",
-  "id": "edqm-bdf",
-  "url": "http://umcterminologies.org/ValueSet/edqm-bdf",
-  "name": "VsEdqmBdf",
-  "title": "EDQM PDF dose form attributes: Basic Dose Form",
+  "id": "edqm-BDF",
+  "url": "http://poc.umcterminologies.org/ValueSet/edqm-BDF",
+  "name": "edqm-BDF",
+  "title": "EDQM PDF characteristics: Basic Dose Form",
   "status": "active",
   "experimental": false,
-  "description": "EDQM Pharmaceutical dose form attributes: Basic Dose Form",
+  "description": "EDQM Pharmaceutical dose forms characteristics: Basic Dose Form",
   "compose": {
     "include": [
       {
-        "system": "http://standardterms.edqm.eu",
+        "system": "http://poc.umcterminologies.org/CodeSystem/dose-form-attributes",
         "concept": [
           {
             "code": "0050",
@@ -65,6 +65,10 @@
             "display": "Pillules"
           },
           {
+            "code": "0065",
+            "display": "Plaster"
+          },
+          {
             "code": "0066",
             "display": "Powder"
           },
@@ -113,6 +117,14 @@
             "display": "Collodion"
           },
           {
+            "code": "0078",
+            "display": "Concentrate"
+          },
+          {
+            "code": "0079",
+            "display": "Dispersion"
+          },
+          {
             "code": "0080",
             "display": "Emulsion"
           },
@@ -137,6 +149,10 @@
             "display": "Suspension"
           },
           {
+            "code": "0086",
+            "display": "Syrup"
+          },
+          {
             "code": "0087",
             "display": "Medicinal gas"
           },
@@ -145,12 +161,24 @@
             "display": "Insert"
           },
           {
+            "code": "0089",
+            "display": "Additive (unspecified)"
+          },
+          {
+            "code": "0092",
+            "display": "Radiopharmaceutical"
+          },
+          {
             "code": "0093",
             "display": "Shampoo"
           },
           {
             "code": "0095",
             "display": "System"
+          },
+          {
+            "code": "0096",
+            "display": "Unknown"
           },
           {
             "code": "0102",

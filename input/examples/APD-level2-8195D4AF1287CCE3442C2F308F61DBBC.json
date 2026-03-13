@@ -1,0 +1,133 @@
+{
+  "resourceType": "AdministrableProductDefinition",
+  "id": "8195D4AF1287CCE3442C2F308F61DBBC",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2026-02-22T08:12:39.336019+00:00",
+    "source": "https://api-poc.umcterminologies.org/idmp",
+    "profile": [
+      "http://poc.umcterminologies.org/StructureDefinition/AdministrableProductDefinition-pub"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family: Helvetica;\"><h1 style=\"color: darkblue; background: lightgray; padding: 5px;\">Pharmaceutical Product (Administrable Product Definition)</h1><table style=\"padding: 5px; text-align: left;\"><tr><td style=\"font-weight: bold;\">Id</td><td>8195D4AF1287CCE3442C2F308F61DBBC</td></tr><tr><td style=\"font-weight: bold;\">Level</td><td>2</td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Ingredients</h2><table style=\"padding: 5px; text-align: left;\"><th>GSID</th><th>Substance name</th><th>Strength</th><tr><td>GSID9XBS2KCF3K1Z1</td><td>METHOTREXATE SODIUM</td><td>2,74 mg</td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Form</h2><table style=\"padding: 5px; text-align: left;\"></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Parent PhPIDs</h2><table style=\"padding: 5px; text-align: left;\"><th>Level</th><th>PhPID</th><tr><td style=\"font-weight: bold;\">1</td><td>93FE88350C2E8868F7E8BD220C4E0010</td></tr></table></div>"
+  },
+  "contained": [
+    {
+      "resourceType": "Ingredient",
+      "id": "f2c86f4c-42d1-444d-91f0-744f172f3f40",
+      "meta": {
+        "source": "https://api-poc.umcterminologies.org/idmp",
+        "profile": [
+          "http://poc.umcterminologies.org/StructureDefinition/Ingredient-phpid-pub"
+        ]
+      },
+      "status": "active",
+      "for": [
+        {
+          "reference": "#"
+        }
+      ],
+      "role": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/ingredient-role",
+            "code": "100000072072"
+          }
+        ],
+        "text": "Active"
+      },
+      "substance": {
+        "code": {
+          "reference": {
+            "reference": "SubstanceDefinition/GSID9XBS2KCF3K1Z1",
+            "identifier": {
+              "system": "https://data-poc.umcterminologies.org/substance",
+              "value": "GSID9XBS2KCF3K1Z1"
+            },
+            "display": "METHOTREXATE SODIUM"
+          }
+        },
+        "strength": [
+          {
+            "presentationQuantity": {
+              "value": 2.74,
+              "unit": "mg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg"
+            },
+            "textPresentation": "2,74 mg",
+            "referenceStrength": [
+              {
+                "substance": {
+                  "reference": {
+                    "reference": "SubstanceDefinition/GSID9XBS2KCF3K1Z1",
+                    "identifier": {
+                      "system": "https://data-poc.umcterminologies.org/substance",
+                      "value": "GSID9XBS2KCF3K1Z1"
+                    },
+                    "display": "METHOTREXATE SODIUM"
+                  }
+                },
+                "strengthQuantity": {
+                  "value": 2.50,
+                  "unit": "mg",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "mg"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://poc.umcterminologies.org/StructureDefinition/parent-phpid",
+      "valueReference": {
+        "reference": "AdministrableProductDefinition/93FE88350C2E8868F7E8BD220C4E0010",
+        "identifier": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://poc.umcterminologies.org/CodeSystem/php-level",
+                "code": "PhPIDLevel1"
+              }
+            ]
+          },
+          "system": "https://data-poc.umcterminologies.org/php",
+          "value": "93FE88350C2E8868F7E8BD220C4E0010"
+        }
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://poc.umcterminologies.org/CodeSystem/php-level",
+            "code": "PhPIDLevel2"
+          }
+        ]
+      },
+      "system": "https://data-poc.umcterminologies.org/php",
+      "value": "8195D4AF1287CCE3442C2F308F61DBBC"
+    }
+  ],
+  "status": "active",
+  "routeOfAdministration": [
+    {
+      "code": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+            "valueCode": "not-applicable"
+          }
+        ]
+      }
+    }
+  ]
+}

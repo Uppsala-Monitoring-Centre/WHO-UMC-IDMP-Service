@@ -1,0 +1,115 @@
+{
+  "resourceType": "MedicinalProductDefinition",
+  "id": "1266520E021",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2023-01-27T08:12:40.3261623+00:00",
+    "source": "https://api-poc.umcterminologies.org/idmp",
+    "profile": [
+      "http://poc.umcterminologies.org/StructureDefinition/MedicinalProductDefinition-phpid-pub"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family: Helvetica;\"><h1 style=\"color: darkblue; background: lightgray; padding: 5px;\">Medicinal Product (Medicinal Product Definition)</h1><table style=\"padding: 5px; text-align: left;\"><tr><td style=\"font-weight: bold;\">Id</td><td>1266520E021</td></tr><tr><td style=\"font-weight: bold;\">Name</td><td>Methotrexaat sandoz</td></tr><tr><td style=\"font-weight: bold;\">Mah</td><td>Sandoz</td></tr><tr><td style=\"font-weight: bold;\">Jurisdiction</td><td>Netherlands</td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">ATC</h2><table style=\"padding: 5px; text-align: left;\"><th>Code</th><th>Display</th></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">Codes</h2><table style=\"padding: 5px; text-align: left;\"><th>System</th><th>Code</th><th>Display</th><tr><td>http://poc.umcterminologies.org/drugcode</td><td>00113802085</td><td></td></tr></table><h2 style=\"color: darkblue; background: lightgray; padding: 5px;\">PhPIDs</h2><table style=\"padding: 5px; text-align: left;\"><th>Level</th><th>Code</th></table></div>"
+  },
+  "contained": [
+    {
+      "resourceType": "Organization",
+      "id": "sandoz",
+      "name": "Sandoz"
+    },
+    {
+      "resourceType": "RegulatedAuthorization",
+      "id": "regauth",
+      "identifier": [
+        {
+          "system": "http://ema.europa.eu/ema/",
+          "value": "EU/1/20/XXXX"
+        }
+      ],
+      "subject": [
+        {
+          "reference": "#"
+        }
+      ],
+      "holder": {
+        "reference": "#sandoz"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "https://data-poc.umcterminologies.org/record",
+      "value": "1266520E021"
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/medicinal-product-type",
+        "code": "MedicinalProduct"
+      }
+    ]
+  },
+  "domain": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/medicinal-product-domain",
+        "code": "Human"
+      }
+    ],
+    "text": "Human use"
+  },
+  "status": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/publication-status",
+        "code": "active"
+      }
+    ],
+    "text": "Active"
+  },
+  "combinedPharmaceuticalDoseForm": {
+    "text": "TABLETS"
+  },
+  "code": [
+    {
+      "system": "http://poc.umcterminologies.org/drugcode",
+      "code": "00113802085"
+    }
+  ],
+  "name": [
+    {
+      "productName": "Methotrexaat sandoz",
+      "usage": [
+        {
+          "country": {
+            "coding": [
+              {
+                "system": "urn:iso:std:iso:3166",
+                "code": "NLD"
+              }
+            ]
+          },
+          "jurisdiction": {
+            "coding": [
+              {
+                "system": "urn:iso:std:iso:3166",
+                "code": "NLD"
+              }
+            ]
+          },
+          "language": {
+            "coding": [
+              {
+                "system": "urn:ietf:bcp:47",
+                "code": "nl"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
