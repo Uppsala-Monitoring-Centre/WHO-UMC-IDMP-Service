@@ -44,6 +44,13 @@ Description: "This profile defines how the SubstanceDefinition is published by U
     * system = $eusrs
     * ^short = "EU-SRS"
     * ^definition = """European SRS"""
+  // ************* UMC Substance *************
+  * coding contains gsid 0.. 
+  * coding[gsid]
+    * system = $gsid
+    * ^short = "GSID"
+    * ^definition = """GSID"""  
+
   * text 0..
 * name 1..
   * status 0..

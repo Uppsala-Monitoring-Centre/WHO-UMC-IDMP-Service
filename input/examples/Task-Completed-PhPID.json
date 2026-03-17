@@ -153,6 +153,12 @@
         {
             "resourceType": "Organization",
             "id": "acmeinc",
+            "meta": {
+                "source": "https://api.umcterminologies.org/idmp",
+                "profile": [
+                    "http://hl7.org/fhir/StructureDefinition/Organization"
+                ]
+            },
             "active": true,
             "type": [
                 {

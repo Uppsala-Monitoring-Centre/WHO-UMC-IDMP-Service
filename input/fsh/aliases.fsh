@@ -3,7 +3,6 @@ Alias: $medicinal-product-type = http://hl7.org/fhir/medicinal-product-type
 Alias: $medicinal-product-domain = http://hl7.org/fhir/medicinal-product-domain
 Alias: $publication-status = http://hl7.org/fhir/publication-status
 Alias: $phpid = http://umcterminologies.org/phpid
-Alias: $gsid = http://umcterminologies.org/gsid
 
 // ====== extensions ====
 Alias: $parent-phpid-extension = http://umcterminologies.org/StructureDefinition/parent-phpid
@@ -19,7 +18,12 @@ Alias: $ingredient-role = http://hl7.org/fhir/ingredient-role
 
 // External systems
 Alias: $iso3166 = urn:iso:std:iso:3166
+
 Alias: $unii = https://open.fda.gov/data/unii
+Alias: $cas = http://terminology.hl7.org/CodeSystem/CAS
+Alias: $eusrs = http://spor.azure-api.net/sms/api/v2/SubstanceDefinition 
+Alias: $gsid = http://umcterminologies.org/gsid
+
 //Alias: $edqm = http://standardterms.edqm.eu
 Alias: $ucum = http://unitsofmeasure.org
 Alias: $substRepresentationCS = http://hl7.org/fhir/substance-representation-format
@@ -49,9 +53,5 @@ Alias: $edqm = http://standardterms.edqm.eu
 
 Alias: $vsingredient-role = http://hl7.org/fhir/ValueSet/ingredient-role 
 Alias: $VS-medicinal-product-domain = http://hl7.org/fhir/ValueSet/medicinal-product-domain
-Alias: $cas = http://terminology.hl7.org/CodeSystem/CAS
-
-
-Alias: $eusrs = http://example.org/eu-srs // SubstanceDefinitionPub
-Alias: $VS-language = http://hl7.org/fhir/ValueSet/languages // SubstanceDefinitionPub
-Alias: $request-status = http://hl7.org/fhir/task-status // VsRequestStatus
+Alias: $VS-language = http://hl7.org/fhir/ValueSet/languages 
+Alias: $request-status = http://hl7.org/fhir/task-status 
