@@ -21,8 +21,6 @@ Description: "This profile defines how the MedicinalProductDefinition representi
         * system = $iso3166
     * language ^short = "Language for this name"
 
-* insert NotUsed(jurisdiction)
-
 * contained 0..2
 * contained only Organization or RegulatedAuthorization
 * contact 0..0
