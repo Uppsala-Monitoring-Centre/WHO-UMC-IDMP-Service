@@ -3,7 +3,7 @@
   "id": "template-generated-by-server-phpid-req",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2025-04-11T10:10:10.5998327+00:00",
+    "lastUpdated": "2026-02-27T10:10:10.5998327+00:00",
     "source": "https://api.umcterminologies.org/idmp",
     "profile": [
       "http://umcterminologies.org/StructureDefinition/Task-phpid-req"
@@ -157,6 +157,12 @@
     {
       "resourceType": "Organization",
       "id": "acmeinc",
+      "meta": {
+        "source": "https://api.umcterminologies.org/idmp",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Organization"
+        ]
+      },
       "active": true,
       "type": [
         {
@@ -174,6 +180,12 @@
     {
       "resourceType": "RegulatedAuthorization",
       "id": "9dd9ff44-0ebe-4810-841b-26a9bb44aaf3",
+      "meta": {
+        "source": "https://api.umcterminologies.org/idmp",
+        "profile": [
+          "http://umcterminologies.org/StructureDefinition/RegulatedAuthorization-phpid-req"
+        ]
+      },
       "identifier": [
         {
           "system": "http://ema.europa.eu/ema/",

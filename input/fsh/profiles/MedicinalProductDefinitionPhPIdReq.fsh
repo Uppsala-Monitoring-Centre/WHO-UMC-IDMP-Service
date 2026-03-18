@@ -10,7 +10,6 @@ Description: "This profile defines how the MedicinalProductDefinition is used in
 * insert NotUsed(contained)
 * identifier 1..1
   * system 1..
-  * system from VsMpIdSystem (extensible)
   * value 1..
 
 * description ^short = "General description of the medicinal product referred by the ePI"

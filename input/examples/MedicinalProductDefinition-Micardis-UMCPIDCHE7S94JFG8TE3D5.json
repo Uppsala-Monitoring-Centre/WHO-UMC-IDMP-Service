@@ -3,12 +3,12 @@
   "id": "UMCPIDCHE7S94JFG8TE3D5",
   "meta": {
     "profile": [
-      "http://who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php"
+      "http://umcterminologies.org/StructureDefinition/MedicinalProductDefinition-pub"
     ]
   },
   "identifier": [
     {
-      "system": "http://who-umc.org/idmp/CodeSystem/whodrugid",
+      "system": "http://umcterminologies.org/umc-product-id",
       "value": "UMCPIDCHE7S94JFG8TE3D5"
     }
   ],
@@ -42,7 +42,7 @@
     {
       "coding": [
         {
-          "system": "http://who-umc.org/idmp/level4-phpid",
+          "system": "http://umcterminologies.org/CodeSystem/phpid-level4",
           "code": "UTPHPID56P99JGC8TXK4K"
         }
       ]

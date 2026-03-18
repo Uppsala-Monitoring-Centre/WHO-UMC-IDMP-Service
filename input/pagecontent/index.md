@@ -14,14 +14,14 @@ The Implementation Guide describes how new global PhPIDs are requested using asy
 #### Access to the UMC IDMP FHIR server
 
 ##### Production
-The production FHIR server can be reached at [https://idmp.who-umc.org/fhir](https://idmp.who-umc.org/fhir). To get access to the production server, please contact asa.parnaste [at] who-umc.org.
+The production FHIR server can be reached at [https://api.umcterminologies.org/idmp](https://api.umcterminologies.org/idmp). To get access to the production server, please contact asa.parnaste [at] who-umc.org.
 
 ##### Preview
-The preview FHIR server can be reached at [https://preview-idmp.who-umc.org/fhir](https://preview-idmp.who-umc.org/fhir). To get access to the preview server, please contact asa.parnaste [at] who-umc.org.
+The preview FHIR server can be reached at [https://api-preview.umcterminologies.org/idmp](https://api-preview.umcterminologies.org/idmp). To get access to the preview server, please contact asa.parnaste [at] who-umc.org.
 
 ##### Proof of Concept
-The PoC FHIR server can be reached at [https://api.umcterminologies.org/idmp](https://api.umcterminologies/idmp). 
-A tutorial with examples is found at [https://api.umcterminologies.org/](https://api.umcterminologies.org/)
+The PoC FHIR server can be reached at [https://api-poc.umcterminologies.org/idmp](https://api-poc.umcterminologies/idmp). 
+A tutorial with examples is found at [https://api-poc.umcterminologies.org/](https://api-poc.umcterminologies.org/)
 
 
 ### Dependencies
@@ -74,10 +74,16 @@ A tutorial with examples is found at [https://api.umcterminologies.org/](https:/
 <td>João Almeida</td>
 <td>HL7 Europe</td>
 <td>joaofilipe90 [at] gmail.com</td>
-</tr><tr class="even">
+</tr><tr class="odd">
 <td>Author</td>
 <td>Mikael Nilsson</td>
 <td>Uppsala Monitoring Centre</td>
 <td>mikael.nilsson [at] who-umc.org</td>
-</tr></tbody>
+</tr><tr class="even">
+<td>Author</td>
+<td>Mattias Lindberg</td>
+<td>Uppsala Monitoring Centre</td>
+<td>mattias.lindberg [at] who-umc.org</td>
+</tr>
+</tbody>
 </table>

@@ -1,5 +1,3 @@
-///// TO BE REMOVE TODO: Not used in our code, but in Magnus PoC
-
 Profile: RegulatedAuthorizationPhPIdReq
 Parent: RegulatedAuthorization
 Id: RegulatedAuthorization-phpid-req

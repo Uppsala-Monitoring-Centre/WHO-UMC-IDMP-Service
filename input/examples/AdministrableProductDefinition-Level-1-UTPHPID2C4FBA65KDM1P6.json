@@ -3,7 +3,7 @@
   "id": "UTPHPID2C4FBA65KDM1P6",
   "meta": {
     "profile": [
-      "http://who-umc.org/idmp/StructureDefinition/AdministrableProductDefinition-who-php"
+      "http://umcterminologies.org/StructureDefinition/AdministrableProductDefinition-pub"
     ]
   },
   "contained": [
@@ -12,7 +12,7 @@
       "id": "UTGSID44RS1U925RP22",
       "meta": {
         "profile": [
-          "http://who-umc.org/idmp/StructureDefinition/Ingredient-who-php-publish"
+          "http://umcterminologies.org/StructureDefinition/Ingredient-phpid-pub"
         ]
       },
       "status": "active",
@@ -33,9 +33,9 @@
       "substance": {
         "code": {
           "reference": {
-            "reference": "SubstanceDefinition/UTGSID44RS1U925RP22",
+            "reference": "https://umcterminologies.org/idmp/SubstanceDefinition/UTGSID44RS1U925RP22",
             "identifier": {
-              "system": "https://gupri-idmp.who-umc.org/data/substance",
+              "system": "http://umcterminologies.org/gsid",
               "value": "UTGSID44RS1U925RP22"
             },
             "display": "Nilotinib tartrate"
@@ -49,12 +49,12 @@
       "type": {
         "coding": [
           {
-            "system": "http://who-umc.org/idmp/CodeSystem/php-level",
-            "code": "PhPIDLevel1"
+            "system": "http://umcterminologies.org/CodeSystem/phpid-level",
+            "code": "phpid-level-1"
           }
         ]
       },
-      "system": "https://gupri-idmp.who-umc.org/data/php",
+      "system": "http://umcterminologies.org/phpid",
       "value": "UTPHPID2C4FBA65KDM1P6"
     }
   ],

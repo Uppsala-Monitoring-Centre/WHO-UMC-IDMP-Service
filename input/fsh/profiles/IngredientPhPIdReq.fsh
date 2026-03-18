@@ -24,4 +24,24 @@ Description: "This profile defines how the Ingredient is used for request (as co
     * presentation[x] 0..1
     * textPresentation 0..1 //strength freetext
       * ^short = "Should only be used if the strength cannot be coded."
+
+  * strength.referenceStrength
+    * insert NotUsed(strengthRatio)
+    * insert NotUsed(strengthRatioRange)
+
+  * strength.referenceStrength ^short = "Strength expressed in terms of a reference substance"
+  * strength.referenceStrength 0..1
+    * insert NotUsed(modifierExtension)
+    * substance ^short = "Relevant reference substance."
+    * substance from $gsid
+    * substance.concept
+      * coding 0..1
+        * system = $gsid
+        * system 1..1
+        * code 1..1
+      * text 0..1
+
+    * strength[x] ^short = "Strength of the reference substance."
+
 * obeys presentation-required
+

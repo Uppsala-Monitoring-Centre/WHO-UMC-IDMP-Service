@@ -3,12 +3,12 @@
   "id": "UTGSID8VJD2KSL8JG9N",
   "meta": {
     "profile": [
-      "http://who-umc.org/idmp/StructureDefinition/SubstanceDefinition-pub"
+      "http://umcterminologies.org/StructureDefinition/SubstanceDefinition-pub"
     ]
   },
   "identifier": [
     {
-      "system": "https://gupri-idmp.who-umc.org/data/substance",
+      "system": "http://umcterminologies.org/gsid",
       "value": "UTGSID8VJD2KSL8JG9N"
     }
   ],
@@ -119,9 +119,9 @@
   "relationship": [
     {
       "substanceDefinitionReference": {
-        "reference": "SubstanceDefinition/UTGSID1ZH2AGD3LL96N",
+        "reference": "https://umcterminologies.org/idmp/SubstanceDefinition/UTGSID1ZH2AGD3LL96N",
         "identifier": {
-          "system": "https://gupri-idmp.who-umc.org/data/substance",
+          "system": "http://umcterminologies.org/gsid",
           "value": "UTGSID1ZH2AGD3LL96N"
         }
       },

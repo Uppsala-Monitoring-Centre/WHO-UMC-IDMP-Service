@@ -8,7 +8,6 @@ Title: "SubstanceDefinition (publish)"
 Description: "This profile defines how the SubstanceDefinition is published by UMC terminologies"
 * insert NotUsed(modifierExtension)
 * insert NotUsed(implicitRules)
-* insert NotUsed(relationship)
 * insert NotUsed(contained)
 * identifier 1..1
 * text 0..1 
@@ -45,6 +44,13 @@ Description: "This profile defines how the SubstanceDefinition is published by U
     * system = $eusrs
     * ^short = "EU-SRS"
     * ^definition = """European SRS"""
+  // ************* UMC Substance *************
+  * coding contains gsid 0.. 
+  * coding[gsid]
+    * system = $gsid
+    * ^short = "GSID"
+    * ^definition = """GSID"""  
+
   * text 0..
 * name 1..
   * status 0..
@@ -54,7 +60,7 @@ Description: "This profile defines how the SubstanceDefinition is published by U
   * language from $VS-language
   * official 1..1
   * insert NotUsed(modifierExtension)
-* relationship 0..1
+* relationship 0..
 * structure 0..1
   * representation 1..1
     * format

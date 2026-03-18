@@ -19,10 +19,6 @@ Description: "This profile defines how the MedicinalProductDefinition representi
       * coding 1..1
         * code 1..1
         * system = $iso3166
-    * jurisdiction ^short = "Jurisdiction where this name applies"
-      * coding 1..1
-        * code 1..1
-        * code from VsJurisdiction (example)
     * language ^short = "Language for this name"
 
 * contained 0..2
