@@ -5,7 +5,7 @@
 # │  http://build.fhir.org/ig/HL7/fhir-shorthand/branches/beta/sushi.html#ig-development           │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: umcterminologies.org
-canonical: http://umcterminologies.org
+canonical: https://build.fhir.org/ig/Uppsala-Monitoring-Centre/WHO-UMC-IDMP-Service/
 version: 1.0.0
 name: UmcIDMPManagement
 title: UMC IDMP Request and Publish API 
@@ -64,7 +64,7 @@ pages:
     title: Terminologies
   downloads.html:
     title: Useful downloads
-  changes.html:
+  history.html:
     title: IG change history
 
 menu:
