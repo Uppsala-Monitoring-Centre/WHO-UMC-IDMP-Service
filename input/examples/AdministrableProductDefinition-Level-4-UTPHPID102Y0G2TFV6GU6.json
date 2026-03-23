@@ -9,7 +9,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "UTGSID44RS1U925RP22",
+      "id": "8b24832e-669d-4ee3-90d6-b3f1951d6546",
       "meta": {
         "profile": [
           "http://umcterminologies.org/StructureDefinition/Ingredient-phpid-pub"
@@ -33,6 +33,7 @@
       "substance": {
         "code": {
           "reference": {
+            "reference": "SubstanceDefinition/UTGSID44RS1U925RP22",
             "identifier": {
               "system": "http://umcterminologies.org/gsid",
               "value": "UTGSID44RS1U925RP22"
@@ -53,6 +54,7 @@
               {
                 "substance": {
                   "reference": {
+                    "reference": "SubstanceDefinition/",
                     "identifier": {
                       "system": "http://umcterminologies.org/gsid"
                     }
@@ -107,11 +109,12 @@
     {
       "url": "http://umcterminologies.org/StructureDefinition/parent-phpid",
       "valueReference": {
+        "reference": "AdministrableProductDefinition/UTPHPID2C4FBA65KDM1P6",
         "identifier": {
           "type": {
             "coding": [
               {
-                "system": "http://umcterminologies.org/CodeSystem/php-level",
+                "system": "http://umcterminologies.org/CodeSystem/phpid-level",
                 "code": "phpid-level-1"
               }
             ]
@@ -124,6 +127,7 @@
     {
       "url": "http://umcterminologies.org/StructureDefinition/parent-phpid",
       "valueReference": {
+        "reference": "AdministrableProductDefinition/UTPHPID5EPH9X6P86CM6L",
         "identifier": {
           "type": {
             "coding": [
@@ -141,6 +145,7 @@
     {
       "url": "http://umcterminologies.org/StructureDefinition/parent-phpid",
       "valueReference": {
+        "reference": "AdministrableProductDefinition/UTPHPID5F4A1M772SP14T",
         "identifier": {
           "type": {
             "coding": [

@@ -97,10 +97,10 @@
             "coding": [
               {
                 "system": "http://hl7.org/fhir/substance-name-authority",
-                "code": "UMC-SRS"
+                "code": "UT"
               }
             ],
-            "text": "UMC-SRS"
+            "text": "UT"
           }
         }
       ]

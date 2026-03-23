@@ -107,10 +107,10 @@
             "coding": [
               {
                 "system": "http://hl7.org/fhir/substance-name-authority",
-                "code": "UMC-SRS"
+                "code": "UT"
               }
             ],
-            "text": "UMC-SRS"
+            "text": "UT"
           }
         }
       ]
@@ -119,7 +119,7 @@
   "relationship": [
     {
       "substanceDefinitionReference": {
-        "reference": "https://umcterminologies.org/idmp/SubstanceDefinition/UTGSID1ZH2AGD3LL96N",
+        "reference": "SubstanceDefinition/UTGSID1ZH2AGD3LL96N",
         "identifier": {
           "system": "http://umcterminologies.org/gsid",
           "value": "UTGSID1ZH2AGD3LL96N"
