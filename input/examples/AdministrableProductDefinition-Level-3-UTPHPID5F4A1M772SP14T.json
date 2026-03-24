@@ -9,7 +9,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "d8e3fd2b-465e-41db-ad14-9a276a16f5c8",
+      "id": "6319dd0e-37d4-4acf-856b-0504dac86a45",
       "meta": {
         "profile": [
           "http://umcterminologies.org/StructureDefinition/Ingredient-phpid-pub"

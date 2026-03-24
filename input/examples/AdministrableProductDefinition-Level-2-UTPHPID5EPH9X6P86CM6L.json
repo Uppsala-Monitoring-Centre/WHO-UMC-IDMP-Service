@@ -9,7 +9,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "47716462-85bb-4f01-97c1-9796639a0e3f",
+      "id": "1eedcc61-9ae3-47fb-aea1-29dbcfa0e5c4",
       "meta": {
         "profile": [
           "http://umcterminologies.org/StructureDefinition/Ingredient-phpid-pub"
@@ -54,10 +54,12 @@
               {
                 "substance": {
                   "reference": {
-                    "reference": "SubstanceDefinition/",
+                    "reference": "SubstanceDefinition/UTGSID7AFM0EM5UEL1Y",
                     "identifier": {
-                      "system": "http://umcterminologies.org/gsid"
-                    }
+                      "system": "http://umcterminologies.org/gsid",
+                      "value": "UTGSID7AFM0EM5UEL1Y"
+                    },
+                    "display": "Nilotinib"
                   }
                 },
                 "strengthQuantity": {
