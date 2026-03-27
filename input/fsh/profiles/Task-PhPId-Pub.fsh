@@ -19,7 +19,7 @@ Description: "This profile defines how the Task resource is used for PhPID publi
 * input ^slicing.rules = #open
 * input ^slicing.description = "Slice based on the input.type value"
 
-* input contains MPD 1..1 MS and ING 1..* MS and ORG 1..1 MS and REGAUTH 1..1 MS
+* input contains MPD 0..1 MS and ING 0..* MS and ORG 0..1 MS and REGAUTH 0..1 MS
 * input[MPD].type from VsPhPIDTaskInputType (required)
 * input[MPD].type = CsTaskInputType#mpd-request-resource
 * input[MPD].value[x] only Reference

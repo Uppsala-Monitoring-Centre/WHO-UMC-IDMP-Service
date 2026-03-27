@@ -30,8 +30,8 @@
     },
     {
       "code": "units/L",
-      "display": "units/L",
-      "definition": "units/L"
+      "display": "Units per litre",
+      "definition": "Units per litre"
     },
     {
       "code": "Infec unit",
@@ -50,8 +50,8 @@
     },
     {
       "code": "Viabl unit",
-      "display": "Viable unit",
-      "definition": "Viable unit"
+      "display": "Viable units",
+      "definition": "Viable units"
     },
     {
       "code": "Infec unit/mL",
