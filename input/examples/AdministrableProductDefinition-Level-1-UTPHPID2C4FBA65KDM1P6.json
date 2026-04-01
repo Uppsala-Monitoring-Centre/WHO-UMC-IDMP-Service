@@ -9,7 +9,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "UTGSID44RS1U925RP22",
+      "id": "3e4b3536-827c-4014-9b87-9640f912c639",
       "meta": {
         "profile": [
           "http://umcterminologies.org/StructureDefinition/Ingredient-phpid-pub"
@@ -33,7 +33,7 @@
       "substance": {
         "code": {
           "reference": {
-            "reference": "https://umcterminologies.org/idmp/SubstanceDefinition/UTGSID44RS1U925RP22",
+            "reference": "SubstanceDefinition/UTGSID44RS1U925RP22",
             "identifier": {
               "system": "http://umcterminologies.org/gsid",
               "value": "UTGSID44RS1U925RP22"

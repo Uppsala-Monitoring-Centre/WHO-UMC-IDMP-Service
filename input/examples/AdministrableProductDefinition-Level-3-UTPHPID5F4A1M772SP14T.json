@@ -9,10 +9,10 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "UTGSID44RS1U925RP22",
+      "id": "6319dd0e-37d4-4acf-856b-0504dac86a45",
       "meta": {
         "profile": [
-          "http://umcterminologies.org/StructureDefinition/Ingredient-pub"
+          "http://umcterminologies.org/StructureDefinition/Ingredient-phpid-pub"
         ]
       },
       "status": "active",
@@ -33,7 +33,7 @@
       "substance": {
         "code": {
           "reference": {
-            "reference": "https://umcterminologies.org/idmp/SubstanceDefinition/UTGSID44RS1U925RP22",
+            "reference": "SubstanceDefinition/UTGSID44RS1U925RP22",
             "identifier": {
               "system": "http://umcterminologies.org/gsid",
               "value": "UTGSID44RS1U925RP22"
@@ -80,7 +80,7 @@
     {
       "url": "http://umcterminologies.org/StructureDefinition/parent-phpid",
       "valueReference": {
-        "reference": "https://umcterminologies.org/idmp/AdministrableProductDefinition/UTPHPID2C4FBA65KDM1P6",
+        "reference": "AdministrableProductDefinition/UTPHPID2C4FBA65KDM1P6",
         "identifier": {
           "type": {
             "coding": [

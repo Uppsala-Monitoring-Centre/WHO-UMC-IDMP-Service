@@ -42,7 +42,7 @@
     {
       "coding": [
         {
-          "system": "http://umcterminologies.org/CodeSystem/phpid-level4",
+          "system": "http://umcterminologies.org/phpid-level4",
           "code": "UTPHPID3J368MLC73BY9O"
         }
       ]
