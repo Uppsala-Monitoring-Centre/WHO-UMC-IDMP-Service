@@ -12,7 +12,7 @@ Description: "This profile defines how the Task resource is used for PhPID publi
 
 * insert TaskGeneratePhPIdCommon
 
-* contained 4..*
+* contained 0..*
   * ^short = "Resources, according to 'input', used in PhPID generation."
 * input ^slicing.discriminator.type = #value
 * input ^slicing.discriminator.path = "type"
