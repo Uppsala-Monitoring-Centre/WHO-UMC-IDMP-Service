@@ -8,7 +8,7 @@ id: poc.umcterminologies.org
 canonical: http://poc.umcterminologies.org
 version: 0.1.0
 name: UmcIDMPManagement
-title: UMC IDMP Request and Publish API 
+title: UMC IDMP API (PoC) 
 status: active
 publisher:
   name: Uppsala Monitoring Centre
@@ -41,7 +41,7 @@ FSHOnly: false
 
 pages:
   index.md:
-    title: UMC IDMP Request and Publish API   
+    title: UMC IDMP API (Proof of Concept)   
   background.md:
     title: Background
   operatingModel.md:
@@ -50,14 +50,12 @@ pages:
     title: PhPID (AdministrableProductDefinition) request   
   published-resources.md:
     title: Publish
-  #substanceRequest.md:
-  #  title: GSID (Substance) request   
-  #authentication.md:
-  #  title: Authentication
-  #subscription.md:
-  #  title: Change management
-  #versioning.md:
-  #  title: Versioning
+  authentication.md:
+    title: Authentication
+  subscription.md:
+    title: Change management
+  versioning.md:
+    title: Versioning
   profiles.md:
     title: Profiles
   terminologies.md:
@@ -73,12 +71,11 @@ menu:
   Requesting PhPID:
     Operating model: operatingModel.html
     PhPID request: phpIdRequest.html
-    #GSID request: substanceRequest.html
   Publish: published-resources.html
-  #Change management:
-  #  Change management: subscription.html
-  #  Versioning: versioning.html
-  #Authentication: authentication.html
+  Change management:
+    Change management: subscription.html
+    Versioning: versioning.html
+  Authentication: authentication.html
   # Specifications:
   #   Profiles: profiles.html
   #   Terminology: terminologies.html
@@ -86,7 +83,7 @@ menu:
   Artifact Index: artifacts.html			
   Support:
     FHIR Spec: new-tab http://hl7.org/fhir/R5/index.html
-    #API With tutorial and examples: new-tab https://idmp.who-umc.org/fhir
+    API With tutorial and examples: new-tab https://poc.umcterminologies.org
     Downloads: downloads.html
 
 
