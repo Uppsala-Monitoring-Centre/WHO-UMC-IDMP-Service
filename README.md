@@ -7,3 +7,4 @@ This implementation guide describes how the global PhPIDs and GSIDs are delivere
 - IDMP - Identification of Medicinal Products
 - GSID - Global Substance Identifier
 - PhPID - Pharmaceutical Product Identifier
+- UMCPID - UMC Product Identifier 
