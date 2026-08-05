@@ -49,6 +49,6 @@ Description: "Jurisdiction Value Set"
 ValueSet: VsTaskRequestCode
 Id: task-request-code
 Title: "Task Request Code Value Set"
-Description: "Task Request Code Value Set"
+Description: "Task Request Code ValueSet"
 * ^experimental = false
 * codes from system CsTaskRequestCode

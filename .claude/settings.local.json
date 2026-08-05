@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\UMC\\\\WHO-UMC-IDMP-Service\" -Directory)",
+      "Bash(Select-Object Name)"
+    ]
+  }
+}
