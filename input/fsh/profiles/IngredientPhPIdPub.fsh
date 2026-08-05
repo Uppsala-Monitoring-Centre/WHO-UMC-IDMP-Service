@@ -48,10 +48,6 @@ Description: "This profile defines how the Ingredient is used for PhPID publish 
   * insert NotUsed(strength.presentationRatioRange)
   * insert NotUsed(strength.presentationCodeableConcept)
 
-  * strength.referenceStrength
-    * insert NotUsed(strengthRatio)
-    * insert NotUsed(strengthRatioRange)
-
   * strength.referenceStrength ^short = "Strength expressed in terms of a reference substance"
   * strength.referenceStrength 0..1
     * insert NotUsed(modifierExtension)
@@ -65,6 +61,7 @@ Description: "This profile defines how the Ingredient is used for PhPID publish 
         * code 1..1
       * text 0..1
 
+    * strength[x] only Quantity
     * strength[x] ^short = "Strength of the reference substance."
 
 
