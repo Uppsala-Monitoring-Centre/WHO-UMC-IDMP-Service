@@ -1,0 +1,31 @@
+### something
+
+### Webhook
+
+@apikey = 161713fd-87aa-4872-af04-d37977cf6440
+@apiKeyWithLicence = 7198958f-14c0-439c-94db-a25782eb7d5a
+@apiurl = https://api-poc.umcterminologies.org/idmp
+//@apiurl = http://localhost:8085/idmp
+@dataurl = https://data-poc.umcterminologies.org
+//@dataurl = http://localhost:8085
+
+### Get APD using guid without licence
+GET  {{apiurl}}/AdministrableProductDefinition?identifier=0E54F751-4974-43A0-9A30-FCF84F8EAADA
+Ocp-Apim-Subscription-Key: {{apikey}}
+
+### Get APD using guid with licence
+GET  {{apiurl}}/AdministrableProductDefinition?identifier=0E54F751-4974-43A0-9A30-FCF84F8EAADA
+Ocp-Apim-Subscription-Key: {{apiKeyWithLicence}}
+
+### Get php using guid without licence
+### https://data-poc.umcterminologies.org/php/0E54F751-4974-43A0-9A30-FCF84F8EAADA
+GET  {{dataurl}}/php/0E54F751-4974-43A0-9A30-FCF84F8EAADA
+Ocp-Apim-Subscription-Key: {{apikey}}
+
+### Get php using guid with licence
+GET  {{dataurl}}/php/0E54F751-4974-43A0-9A30-FCF84F8EAADA
+Ocp-Apim-Subscription-Key: {{apiKeyWithLicence}}
+
+### Get product with enhancements
+GET  {{apiurl}}/MedicinalProductDefinition/UMCPIDCRI9M3ZD2AU4CR0Z
+Ocp-Apim-Subscription-Key: {{apiKeyWithLicence}}

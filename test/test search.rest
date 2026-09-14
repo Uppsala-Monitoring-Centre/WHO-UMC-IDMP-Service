@@ -3,13 +3,15 @@
 ### Webhook
 
 @apikey = 161713fd-87aa-4872-af04-d37977cf6440
-@apiurl = https://api.umcterminologies.org/fhir
-@dataurl = https://data.umcterminologies.org
+@apiurl = https://api-poc.umcterminologies.org/idmp
+//@apiurl = http://localhost:8085/idmp
+@dataurl = https://data-poc.umcterminologies.org
+//@dataurl = http://localhost:8085
+
 ### Search Substance
 GET  {{apiurl}}/SubstanceDefinition?name=Simvast
 Ocp-Apim-Subscription-Key: {{apikey}}
 
 ### Get Substance
-GET  {{dataurl}}/Substance/GSID3TYT75JEH6X6G
+GET  {{dataurl}}/Substance/UTGSID5N1BMM2Y0H419
 Ocp-Apim-Subscription-Key: {{apikey}}
-  
