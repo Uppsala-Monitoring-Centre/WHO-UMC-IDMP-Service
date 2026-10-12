@@ -1,7 +1,11 @@
-
-RuleSet: NotUsed(path)
+// Keep the element visible but document that this profile does not use it
+RuleSet: NotUsedLabel(path)
 * {path} ^short = "Not used in this profile"
 * {path} ^definition = "Not used in this profile"
+
+// Remove unused elements in a profile
+RuleSet: NotUsed(path)
+* {path} 0..0
 
 RuleSet: AdditionalBinding ( purpose, valueSetAlias, documentation, description)
 // RuleSet: additionalBinding ( #conformance, VsSubstance, The specific substance that interacts., The specific substance that interacts.)

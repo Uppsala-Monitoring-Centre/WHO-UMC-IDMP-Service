@@ -12,8 +12,6 @@ Description: "This profile defines how the MedicinalProductDefinition representi
 // The UMC product id plus zero-to-many country-specific Local Medicinal Product Identifiers (MPID).
 // The UMC record id is internal and must not be published.
 * identifier 1..*
-* identifier.system 1..1
-* identifier.value 1..1
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
@@ -21,8 +19,14 @@ Description: "This profile defines how the MedicinalProductDefinition representi
 * identifier contains umcProductId 1..1
 * identifier[umcProductId] ^short = "The UMC product id (exactly one)."
 * identifier[umcProductId].system = $umcProductId
+* identifier[umcProductId].value 1..1
+* insert NotUsed(identifier[umcProductId].use)
+// Rules on all slices are set after the slice is created, otherwise SUSHI treats the slice rules above as already inherited and drops them
+* insert NotUsed(identifier.use)
+* identifier.system 1..1
+* identifier.value 1..1
 * identifier obeys identifier-system-allowed
-* identifier ^short = "UMC product id plus zero-to-many Local MPIDs (repeatable)."
+* identifier ^short = "UMC product id plus zero-to-many Local MPIDs, system http://umcterminologies.org/mpid-<ISO 3166-1 alpha-2> (repeatable)."
 
 * name 1..
   * ^comment = "Besides the product name, a local name can be added as an additional name with usage (country, language). A dummy value is used until the correct display name is available"
@@ -42,7 +46,6 @@ Description: "This profile defines how the MedicinalProductDefinition representi
 // CONTAINED SLICING
 // "regulatedAuthorization" is the contained Regulated Authorization carrying the country-specific Market Authorization Number
 * contained 0..*
-* contained only Organization or RegulatedAuthorization
 * contained ^slicing.discriminator.type = #type
 * contained ^slicing.discriminator.path = "$this"
 * contained ^slicing.rules = #open
@@ -50,11 +53,15 @@ Description: "This profile defines how the MedicinalProductDefinition representi
 * contained contains regulatedAuthorization 0..*
 * contained[regulatedAuthorization] only RegulatedAuthorization
 * contained[regulatedAuthorization] ^short = "Contained Regulated Authorization carrying the country-specific Market Authorization Number."
+* insert NotUsed(contained[regulatedAuthorization].implicitRules)
+* insert NotUsed(contained[regulatedAuthorization].contained)
+* insert NotUsed(contained[regulatedAuthorization].modifierExtension)
 * contained[regulatedAuthorization].subject 1..1
 * contained[regulatedAuthorization].subject only Reference(MedicinalProductDefinition)
 * contained[regulatedAuthorization].subject.reference 1..1
 * contained[regulatedAuthorization].subject.reference = "#"
 * contained[regulatedAuthorization].identifier 1..1
+* insert NotUsed(contained[regulatedAuthorization].identifier.use)
 * contained[regulatedAuthorization].identifier.system 1..1
   * ^short =  "Country-specific Market Authorization Number system, e.g. http://umcterminologies.org/market-authorization-number-<2-letter ISO 3166 country code>."
 * contained[regulatedAuthorization].identifier.value 1..1
@@ -68,8 +75,9 @@ Description: "This profile defines how the MedicinalProductDefinition representi
 
 * insert NotUsed(modifierExtension)
 * insert NotUsed(implicitRules)
-* insert NotUsed(text)
 * insert NotUsed(route)
+* insert NotUsed(name.modifierExtension)
+* insert NotUsedLabel(text)
 
 Invariant:  identifier-system-allowed
 Description: "Identifier system must be the UMC product id system or match http://umcterminologies.org/mpid-<2-letter country code>"
