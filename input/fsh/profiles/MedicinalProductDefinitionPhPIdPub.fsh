@@ -30,17 +30,22 @@ Description: "This profile defines how the MedicinalProductDefinition representi
 
 * name 1..
   * ^comment = "Besides the product name, a local name can be added as an additional name with usage (country, language). A dummy value is used until the correct display name is available"
-  * usage 0..
+  * usage 0..*
+  * usage.modifierExtension 0..0
+  * usage ^short = "Where and in which language this name applies (used for the local name)"
   * usage.country ^short = "Country where this name applies"
   * usage.country 1..1
     * coding 1..1
+      * system 1..1
       * code 1..1
+  * usage.country obeys country-system-allowed
   * usage.country from VsJurisdiction (required)
 
   * usage.language ^short = "Language for this name"
   * usage.language 1..1
     * coding 1..1
       * code 1..1
+      * system 1..1
       * system = $bcp47
 
 // CONTAINED SLICING
@@ -82,6 +87,11 @@ Description: "This profile defines how the MedicinalProductDefinition representi
 Invariant:  identifier-system-allowed
 Description: "Identifier system must be the UMC product id system or match http://umcterminologies.org/mpid-<2-letter country code>"
 Expression: "system = 'http://umcterminologies.org/umc-product-id' or system.matches('^http://umcterminologies[.]org/mpid-[a-zA-Z]{2}$')"
+Severity:   #error
+
+Invariant:  country-system-allowed
+Description: "Country must be coded with ISO 3166 (urn:iso:std:iso:3166) or the UMC jurisdiction code system (http://umcterminologies.org/CodeSystem/jurisdiction, e.g. EU)"
+Expression: "coding.all(system = 'urn:iso:std:iso:3166' or system = 'http://umcterminologies.org/CodeSystem/jurisdiction')"
 Severity:   #error
 
 Invariant:  market-auth-number-system-pattern
