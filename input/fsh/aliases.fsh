@@ -18,6 +18,7 @@ Alias: $ingredient-role = http://hl7.org/fhir/ingredient-role
 
 // External systems
 Alias: $iso3166 = urn:iso:std:iso:3166
+Alias: $bcp47 = urn:ietf:bcp:47
 
 Alias: $unii = https://open.fda.gov/data/unii
 Alias: $cas = http://terminology.hl7.org/CodeSystem/CAS
