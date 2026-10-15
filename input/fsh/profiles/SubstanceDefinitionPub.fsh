@@ -53,13 +53,15 @@ Description: "This profile defines how the SubstanceDefinition is published by U
 
   * text 0..
 * name 1..
+  * insert NotUsed(modifierExtension)
   * status 0..
     * ^short = "name status"
   * preferred 1..
   * language 1..
   * language from $VS-language
   * official 1..1
-  * insert NotUsed(modifierExtension)
+    * authority from VsSubstanceNameAuthority (extensible)
+    * insert NotUsed(modifierExtension)
 * relationship 0..
 * structure 0..1
   * representation 1..1
