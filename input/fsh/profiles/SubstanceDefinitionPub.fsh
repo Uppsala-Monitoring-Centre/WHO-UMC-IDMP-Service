@@ -12,6 +12,7 @@ Description: "This profile defines how the SubstanceDefinition is published by U
 * identifier 1..1
 * text 0..1 
 * id 1..1
+* meta.source 1..1
 * identifier.system = $gsid
 * status 1..1
 * status ^short =	"draft|active|retired"

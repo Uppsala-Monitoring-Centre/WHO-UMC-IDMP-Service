@@ -7,6 +7,7 @@ Id: Task-phpid-pub
 Title: "Task (PhPID publish)"
 Description: "This profile defines how the Task resource is used for PhPID publish of a previously sent request"
 * id 1..1
+* meta.source 1..1
 * status 1..1
   * ^short =	"Status of the task"
 

@@ -2,7 +2,8 @@
   "resourceType": "SubstanceDefinition",
   "id": "UTGSID1ZH2AGD3LL96N",
   "meta": {
-    "profile": [
+      "source": "https://api.umcterminologies.org/idmp",
+      "profile": [
       "http://umcterminologies.org/StructureDefinition/SubstanceDefinition-pub"
     ]
   },

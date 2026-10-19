@@ -16,6 +16,7 @@ Description: "This profile defines how the AdministrableProductDefinition is pub
 * extension contains $pdfCharacteristics-ame-ext named administration-method 0..3
 * extension[administration-method] ^short = "Administration Method"
 
+* meta.source 1..1
 * contained 1..
 * contained only IngredientPhPIdPub
 * id 1..
