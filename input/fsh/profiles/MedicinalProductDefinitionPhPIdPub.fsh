@@ -25,6 +25,8 @@ Description: "This profile defines how the MedicinalProductDefinition representi
 // Rules on all slices are set after the slice is created, otherwise SUSHI treats the slice rules above as already inherited and drops them
 * insert NotUsed(identifier.use)
 * identifier.system 1..1
+* identifier.system ^example[0].label = "Local MPID"
+* identifier.system ^example[0].valueUri = "http://umcterminologies.org/mpid-se"
 * identifier.value 1..1
 * identifier obeys identifier-system-allowed
 * identifier ^short = "UMC product id plus zero-to-many Local MPIDs, system http://umcterminologies.org/mpid-<ISO 3166-1 alpha-2> (repeatable)."
@@ -70,6 +72,8 @@ Description: "This profile defines how the MedicinalProductDefinition representi
 * insert NotUsed(contained[regulatedAuthorization].identifier.use)
 * contained[regulatedAuthorization].identifier.system 1..1
   * ^short =  "Country-specific Market Authorization Number system, e.g. http://umcterminologies.org/market-authorization-number-<2-letter ISO 3166 country code>."
+  * ^example[0].label = "Market Authorization Number"
+  * ^example[0].valueUri = "http://umcterminologies.org/market-authorization-number-se"
 * contained[regulatedAuthorization].identifier.value 1..1
   * ^short = "Market Authorization Number value. To be sourced from a database in the future; no data is available yet."
 * contained[regulatedAuthorization].identifier obeys market-auth-number-system-pattern
