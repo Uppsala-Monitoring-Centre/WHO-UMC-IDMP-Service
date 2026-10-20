@@ -10,6 +10,8 @@ Description: "This profile defines how the Ingredient is used for PhPID publish 
 
 * insert IngredientPhPIdCommon
 
+* meta.source 1..1
+
 * for only Reference(AdministrableProductDefinitionPub) 
 
 * insert NotUsed(implicitRules)

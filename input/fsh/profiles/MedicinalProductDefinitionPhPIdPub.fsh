@@ -7,6 +7,7 @@ Id: MedicinalProductDefinition-pub
 Title: "MedicinalProductDefinition (publish)"
 Description: "This profile defines how the MedicinalProductDefinition representing the record in WHODrug, UMC's drug dictionary, is published by UMC terminologies"
 * insert MedicinalProductDefinitionPhPIdCommon
+* meta.source 1..1
 
 // IDENTIFIER
 // The UMC product id plus zero-to-many country-specific Local Medicinal Product Identifiers (MPID).

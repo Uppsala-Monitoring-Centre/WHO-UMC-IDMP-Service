@@ -2,7 +2,8 @@
   "resourceType": "MedicinalProductDefinition",
   "id": "UMCPIDDEU4CVM68UK905BO",
   "meta": {
-    "profile": [
+      "source": "https://api.umcterminologies.org/idmp",
+      "profile": [
       "https://build.fhir.org/ig/Uppsala-Monitoring-Centre/WHO-UMC-IDMP-Service/StructureDefinition/MedicinalProductDefinition-pub"
     ]
   },
