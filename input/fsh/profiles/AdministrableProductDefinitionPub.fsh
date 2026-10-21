@@ -4,16 +4,16 @@ Id: AdministrableProductDefinition-pub
 Title: "AdministrableProductDefinition (publish)"
 Description: "This profile defines how the AdministrableProductDefinition is published by UMC terminologies"
 
-* extension contains $parent-phpid-extension named parent-phpid 0..3
+* extension contains parent-phpid named parent-phpid 0..3
 
 // PDF CHARACTERISTICS EXTENSIONS
-* extension contains $pdfCharacteristics-bdf-ext named basic-dose-form 0..1
+* extension contains basic-dose-form named basic-dose-form 0..1
 * extension[basic-dose-form] ^short = "Basic Dose Form"
-* extension contains $pdfCharacteristics-isi-ext named intended-site 0..3
+* extension contains intended-site named intended-site 0..3
 * extension[intended-site] ^short = "Intended Site"
-* extension contains $pdfCharacteristics-rca-ext named release-characteristics 0..1
+* extension contains release-characteristics named release-characteristics 0..1
 * extension[release-characteristics] ^short = "Release Characteristics"
-* extension contains $pdfCharacteristics-ame-ext named administration-method 0..3
+* extension contains administration-method named administration-method 0..3
 * extension[administration-method] ^short = "Administration Method"
 
 * meta.source 1..1

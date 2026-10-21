@@ -5,11 +5,6 @@ Alias: $publication-status = http://hl7.org/fhir/publication-status
 Alias: $phpid = http://umcterminologies.org/phpid
 
 // ====== extensions ====
-Alias: $parent-phpid-extension = http://umcterminologies.org/StructureDefinition/parent-phpid
-Alias: $pdfCharacteristics-rca-ext = http://umcterminologies.org/StructureDefinition/release-characteristics
-Alias: $pdfCharacteristics-isi-ext = http://umcterminologies.org/StructureDefinition/intended-site
-Alias: $pdfCharacteristics-bdf-ext = http://umcterminologies.org/StructureDefinition/basic-dose-form
-Alias: $pdfCharacteristics-ame-ext = http://umcterminologies.org/StructureDefinition/administration-method
 Alias: $data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-absent-reason
 
 // =========== Systems =======

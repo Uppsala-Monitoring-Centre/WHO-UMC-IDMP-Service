@@ -6,7 +6,6 @@ Description: "This extension defines the parent AdministrableProductDefinition, 
 * ^context[+].type = #element
 * ^context[=].expression = "AdministrableProductDefinition"
 
-* ^url = $parent-phpid-extension
 * value[x] only Reference (AdministrableProductDefinitionPub)
 * valueReference.identifier 1..
   * system = $phpid
@@ -20,7 +19,6 @@ Description: "This extension defines the ReleaseCharacteristics for an Administr
 * ^context[+].type = #element
 * ^context[=].expression = "AdministrableProductDefinition"
 
-* ^url = $pdfCharacteristics-rca-ext
 * value[x] only Coding 
 * valueCoding 1..1
   * system = $edqm
@@ -35,7 +33,6 @@ Description: "This extension defines the IntendedSite for an AdministrableProduc
 * ^context[+].type = #element
 * ^context[=].expression = "AdministrableProductDefinition"
 
-* ^url = $pdfCharacteristics-isi-ext
 * value[x] only Coding 
 * valueCoding 1..1
   * system = $edqm
@@ -50,7 +47,6 @@ Description: "This extension defines the BasicDoseForm for an AdministrableProdu
 * ^context[+].type = #element
 * ^context[=].expression = "AdministrableProductDefinition"
 
-* ^url = $pdfCharacteristics-bdf-ext
 * value[x] only Coding 
 * valueCoding 1..1
   * system = $edqm
@@ -65,7 +61,6 @@ Description: "This extension defines the AdministrationMethod for an Administrab
 * ^context[+].type = #element
 * ^context[=].expression = "AdministrableProductDefinition"
 
-* ^url = $pdfCharacteristics-ame-ext
 * value[x] only Coding 
 * valueCoding 1..1
   * system = $edqm
