@@ -82,7 +82,7 @@
             "coding": [
               {
                 "system": "urn:iso:std:iso:3166",
-                "code": "UK"
+                "code": "CH"
               }
             ]
           },
@@ -90,7 +90,7 @@
             "coding": [
               {
                 "system": "urn:ietf:bcp:47",
-                "code": "en"
+                "code": "und"
               }
             ]
           }
