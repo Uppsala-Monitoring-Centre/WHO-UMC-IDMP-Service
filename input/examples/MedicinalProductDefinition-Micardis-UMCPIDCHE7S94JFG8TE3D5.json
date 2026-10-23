@@ -2,8 +2,8 @@
   "resourceType": "MedicinalProductDefinition",
   "id": "UMCPIDCHE7S94JFG8TE3D5",
   "meta": {
-      "source": "https://api.umcterminologies.org/idmp",
-      "profile": [
+    "source": "https://api.umcterminologies.org/idmp",
+    "profile": [
       "http://umcterminologies.org/StructureDefinition/MedicinalProductDefinition-pub"
     ]
   },
@@ -82,7 +82,7 @@
             "coding": [
               {
                 "system": "urn:iso:std:iso:3166",
-                "code": "CH"
+                "code": "UK"
               }
             ]
           },
@@ -90,7 +90,7 @@
             "coding": [
               {
                 "system": "urn:ietf:bcp:47",
-                "code": "und"
+                "code": "en"
               }
             ]
           }
