@@ -2,8 +2,8 @@
   "resourceType": "MedicinalProductDefinition",
   "id": "UMCPIDDEU4CVM68UK905BO",
   "meta": {
-      "source": "https://api.umcterminologies.org/idmp",
-      "profile": [
+    "source": "https://api.umcterminologies.org/idmp",
+    "profile": [
       "http://umcterminologies.org/StructureDefinition/MedicinalProductDefinition-pub"
     ]
   },
@@ -72,10 +72,7 @@
   ],
   "name": [
     {
-      "productName": "Perfalgan"
-    },
-    {
-      "productName": "PLACEHOLDER-LOCAL-NAME",
+      "productName": "Perfalgan",
       "usage": [
         {
           "country": {
