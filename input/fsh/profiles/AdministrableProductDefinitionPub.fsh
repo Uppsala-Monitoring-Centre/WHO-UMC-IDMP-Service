@@ -31,6 +31,9 @@ Description: "This profile defines how the AdministrableProductDefinition is pub
 * status 1..1 
   * ^short = "draft | active | retired |unknown"
 
+* description 0..1 
+  * ^short = "A general description of the PhPID"
+
 * formOf 0..0
 
 // ADF is intended to be like chewable tablet acc to EDQM. 
