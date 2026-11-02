@@ -1,33 +1,29 @@
 ### Scope
 
-The scope of this Implementation Guide is to document the UMC IDMP API FHIR service, by describing the context in which the API can be used as well as the technical overview for using the API. 
+The scope of this Implementation Guide is to document the UMC IDMP API FHIR service, by describing the context in which the API can be used as well as the technical overview for using the API.
 
 ### Introduction
 
 This Implementation Guide has a target audience of system integrators to the UMC IDMP API. The API is based on the HL7 FHIR standard and this guide describes supported FHIR resources.
 
-This Implementation Guide describes the use of the FHIR standard for exchanging data compliant with ISO IDMP, specifically global PhPIDs and GSIDs. For information about ISO IDMP, see the [Background](background.html) section in this guide. 
+This Implementation Guide describes the use of the FHIR standard for exchanging data compliant with ISO IDMP, specifically global PhPIDs and GSIDs. For information about ISO IDMP, see the [Background](background.html) section in this guide.
 
-The main resources maintained by the service are the Pharmaceutical Product IDs, PhPIDs, (manifested through the AdministrableProductDefinition resource) and the Global Substance IDs, GSIDs, (manifested through the SubstanceDefinition resource). However, the MedicinalProductDefinition resource is also vital since it serves as input for PhPID generation. 
+The main resources maintained by the service are the Pharmaceutical Product IDs, PhPIDs, (manifested through the AdministrableProductDefinition resource) and the Global Substance IDs, GSIDs, (manifested through the SubstanceDefinition resource). However, the MedicinalProductDefinition resource is also vital since it serves as input for PhPID generation.
 The Implementation Guide describes how new global PhPIDs are requested using asynchronous FHIR requests, and how they are delivered through FHIR.
 
 #### Access to the UMC IDMP FHIR server
 
 ##### Production
+
 The production FHIR server can be reached at [https://api.umcterminologies.org/idmp](https://api.umcterminologies.org/idmp). To get access to the production server, please contact asa.parnaste [at] who-umc.org.
 
 ##### Preview
-The preview FHIR server can be reached at [https://api-preview.umcterminologies.org/idmp](https://api-preview.umcterminologies.org/idmp). To get access to the preview server, please contact asa.parnaste [at] who-umc.org.
 
-##### Proof of Concept
-The PoC FHIR server can be reached at [https://api-poc.umcterminologies.org/idmp](https://api-poc.umcterminologies/idmp). 
-A tutorial with examples is found at [https://api-poc.umcterminologies.org/](https://api-poc.umcterminologies.org/)
-
+The preview FHIR server can be reached at [https://api-previewexternal.umcterminologies.org/idmppreviewexternal](https://api-preview.umcterminologies.org/idmppreviewexternal). To get access to the preview server, please contact asa.parnaste [at] who-umc.org.
 
 ### Dependencies
 
 {% include dependency-table.xhtml %}
-
 
 ### Cross Version Analysis
 
@@ -40,7 +36,6 @@ A tutorial with examples is found at [https://api-poc.umcterminologies.org/](htt
 ### IP statements
 
 {% include ip-statements.xhtml %}
-
 
 ### Authors and Contributors
 
