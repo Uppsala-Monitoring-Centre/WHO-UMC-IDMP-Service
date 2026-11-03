@@ -5,11 +5,6 @@ Alias: $publication-status = http://hl7.org/fhir/publication-status
 Alias: $phpid = http://umcterminologies.org/phpid
 
 // ====== extensions ====
-Alias: $parent-phpid-extension = http://umcterminologies.org/StructureDefinition/parent-phpid
-Alias: $pdfCharacteristics-rca-ext = http://umcterminologies.org/StructureDefinition/release-characteristics
-Alias: $pdfCharacteristics-isi-ext = http://umcterminologies.org/StructureDefinition/intended-site
-Alias: $pdfCharacteristics-bdf-ext = http://umcterminologies.org/StructureDefinition/basic-dose-form
-Alias: $pdfCharacteristics-ame-ext = http://umcterminologies.org/StructureDefinition/administration-method
 Alias: $data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-absent-reason
 
 // =========== Systems =======
@@ -18,6 +13,7 @@ Alias: $ingredient-role = http://hl7.org/fhir/ingredient-role
 
 // External systems
 Alias: $iso3166 = urn:iso:std:iso:3166
+Alias: $bcp47 = urn:ietf:bcp:47
 
 Alias: $unii = https://open.fda.gov/data/unii
 Alias: $cas = http://terminology.hl7.org/CodeSystem/CAS

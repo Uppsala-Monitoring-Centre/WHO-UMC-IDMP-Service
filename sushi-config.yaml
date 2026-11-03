@@ -1,14 +1,14 @@
-
 # ╭──────────────────────────────ImplementationGuide-gatekeeper.json───────────────────────────────╮
 # │  The properties below are used to create the ImplementationGuide resource. For a list of       │
 # │  supported properties, see:                                                                    │
 # │  http://build.fhir.org/ig/HL7/fhir-shorthand/branches/beta/sushi.html#ig-development           │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: umcterminologies.org
-canonical: https://build.fhir.org/ig/Uppsala-Monitoring-Centre/WHO-UMC-IDMP-Service
+canonical: http://umcterminologies.org
+url: http://umcterminologies.org/ImplementationGuide/umcterminologies
 version: 1.0.0
 name: UmcIDMPManagement
-title: UMC IDMP Request and Publish API 
+title: UMC IDMP Request and Publish API
 status: active
 publisher:
   name: Uppsala Monitoring Centre
@@ -29,8 +29,8 @@ parameters:
   show-inherited-invariants: false
   produce-jekyll-data: true
   special-url:
-  - http://umcterminologies.org/StructureDefinition/parent-phpid
-  - http://umcterminologies.org/StructureDefinition/pdfCharacteristics
+    - https://umcterminologies.org/StructureDefinition/parent-phpid
+    - http://umcterminologies.org/StructureDefinition/pdfCharacteristics
 copyrightYear: 2025+
 releaseLabel: CI Build
 
@@ -41,17 +41,17 @@ FSHOnly: false
 
 pages:
   index.md:
-    title: UMC IDMP Request and Publish API   
+    title: UMC IDMP Request and Publish API
   background.md:
     title: Background
   operatingModel.md:
-    title: Operating model   
+    title: Operating model
   phpIdRequest.md:
-    title: PhPID (AdministrableProductDefinition) request   
+    title: PhPID (AdministrableProductDefinition) request
   published-resources.md:
     title: Publish
   #substanceRequest.md:
-  #  title: GSID (Substance) request   
+  #  title: GSID (Substance) request
   #authentication.md:
   #  title: Authentication
   #subscription.md:
@@ -83,11 +83,10 @@ menu:
   #   Profiles: profiles.html
   #   Terminology: terminologies.html
   Table of Contents: toc.html
-  Artifact Index: artifacts.html			
+  Artifact Index: artifacts.html
   Support:
     FHIR Spec: new-tab http://hl7.org/fhir/R5/index.html
     Downloads: downloads.html
-
 
 # The resources property corresponds to IG.definition.resource.
 # SUSHI can auto-generate all of the resource entries based on
@@ -131,14 +130,13 @@ resources:
     description: AdministrableProductDefinition on level 1. Linked from a level 4, 3 and 2 APD.
   SubstanceDefinition/UTGSID1ZH2AGD3LL96N:
     name: Substance (METHOTREXATE)
-    description: An example of a GSID publisehed as a SubstanceDefinition  
+    description: An example of a GSID publisehed as a SubstanceDefinition
   SubstanceDefinition/UTGSID8VJD2KSL8JG9N:
     name: Substance (METHOTREXATE DISODIUM)
-    description: An example of a GSID (salt variant) publisehed as a SubstanceDefinition  
+    description: An example of a GSID (salt variant) publisehed as a SubstanceDefinition
   MedicinalProductDefinition/UMCPIDCHE7S94JFG8TE3D5:
     name: MedicinalProductDefinition (Micardis)
     description: Example of a WHODrug product published as a MedicinalProductDefinition.
   MedicinalProductDefinition/UMCPIDDEU4CVM68UK905BO:
     name: MedicinalProductDefinition (Perfalgan)
     description: Example of a WHODrug product published as a MedicinalProductDefinition.
-  

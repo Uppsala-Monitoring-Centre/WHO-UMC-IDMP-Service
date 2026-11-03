@@ -2,14 +2,36 @@
   "resourceType": "MedicinalProductDefinition",
   "id": "UMCPIDCHE7S94JFG8TE3D5",
   "meta": {
+    "source": "https://api.umcterminologies.org/idmp",
     "profile": [
       "http://umcterminologies.org/StructureDefinition/MedicinalProductDefinition-pub"
     ]
   },
+  "contained": [
+    {
+      "resourceType": "RegulatedAuthorization",
+      "id": "regauth-ch",
+      "identifier": [
+        {
+          "system": "http://umcterminologies.org/market-authorization-number-ch",
+          "value": "PLACEHOLDER-MAN-CH-0001"
+        }
+      ],
+      "subject": [
+        {
+          "reference": "#"
+        }
+      ]
+    }
+  ],
   "identifier": [
     {
       "system": "http://umcterminologies.org/umc-product-id",
       "value": "UMCPIDCHE7S94JFG8TE3D5"
+    },
+    {
+      "system": "http://umcterminologies.org/mpid-ch",
+      "value": "PLACEHOLDER-MPID-CH-0001"
     }
   ],
   "type": {
@@ -50,7 +72,27 @@
   ],
   "name": [
     {
-      "productName": "Micardis"
+      "productName": "Micardis",
+      "usage": [
+        {
+          "country": {
+            "coding": [
+              {
+                "system": "urn:iso:std:iso:3166",
+                "code": "CH"
+              }
+            ]
+          },
+          "language": {
+            "coding": [
+              {
+                "system": "urn:ietf:bcp:47",
+                "code": "und"
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }

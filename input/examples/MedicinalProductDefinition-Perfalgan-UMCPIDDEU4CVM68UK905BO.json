@@ -2,14 +2,36 @@
   "resourceType": "MedicinalProductDefinition",
   "id": "UMCPIDDEU4CVM68UK905BO",
   "meta": {
+    "source": "https://api.umcterminologies.org/idmp",
     "profile": [
       "http://umcterminologies.org/StructureDefinition/MedicinalProductDefinition-pub"
     ]
   },
+  "contained": [
+    {
+      "resourceType": "RegulatedAuthorization",
+      "id": "regauth-de",
+      "identifier": [
+        {
+          "system": "http://umcterminologies.org/market-authorization-number-de",
+          "value": "PLACEHOLDER-MAN-DE-0001"
+        }
+      ],
+      "subject": [
+        {
+          "reference": "#"
+        }
+      ]
+    }
+  ],
   "identifier": [
     {
       "system": "http://umcterminologies.org/umc-product-id",
       "value": "UMCPIDDEU4CVM68UK905BO"
+    },
+    {
+      "system": "http://umcterminologies.org/mpid-de",
+      "value": "PLACEHOLDER-MPID-DE-0001"
     }
   ],
   "type": {
@@ -50,7 +72,27 @@
   ],
   "name": [
     {
-      "productName": "Perfalgan"
+      "productName": "Perfalgan",
+      "usage": [
+        {
+          "country": {
+            "coding": [
+              {
+                "system": "http://umcterminologies.org/CodeSystem/jurisdiction",
+                "code": "EU"
+              }
+            ]
+          },
+          "language": {
+            "coding": [
+              {
+                "system": "urn:ietf:bcp:47",
+                "code": "und"
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }

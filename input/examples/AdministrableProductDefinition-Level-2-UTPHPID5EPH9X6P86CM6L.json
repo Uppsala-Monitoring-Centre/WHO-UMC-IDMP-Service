@@ -2,8 +2,9 @@
   "resourceType": "AdministrableProductDefinition",
   "id": "UTPHPID5EPH9X6P86CM6L",
   "meta": {
-    "profile": [
-      "http://umcterminologies.org/StructureDefinition/AdministrableProductDefinition-pub"
+      "source": "https://api.umcterminologies.org/idmp",
+      "profile": [
+        "http://umcterminologies.org/StructureDefinition/AdministrableProductDefinition-pub"
     ]
   },
   "contained": [
@@ -11,8 +12,9 @@
       "resourceType": "Ingredient",
       "id": "1eedcc61-9ae3-47fb-aea1-29dbcfa0e5c4",
       "meta": {
-        "profile": [
-          "http://umcterminologies.org/StructureDefinition/Ingredient-phpid-pub"
+              "source": "https://api.umcterminologies.org/idmp",
+              "profile": [
+                "http://umcterminologies.org/StructureDefinition/Ingredient-phpid-pub"
         ]
       },
       "status": "active",
