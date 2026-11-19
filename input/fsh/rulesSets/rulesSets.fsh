@@ -27,3 +27,12 @@ RuleSet: BundleEntry (sliceName, card, profile, short, def )
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = {fmm}
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status].valueCode = #{status}
 */
+
+// ATC classification slice on MedicinalProductDefinition.classification, fixed to one ATC system
+RuleSet: AtcClassificationSlice(slice, system)
+* classification[{slice}].coding.system 1..1
+* classification[{slice}].coding.system = {system}
+* classification[{slice}].coding.code 1..1
+  * ^short = "ATC code, e.g. L04AB."
+* classification[{slice}].text 0..1
+  * ^short = "ATC text, e.g. Tumor necrosis factor alpha (TNF-) inhibitors."

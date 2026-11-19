@@ -9,11 +9,17 @@
   },
   "contained": [
     {
+      "resourceType": "Organization",
+      "id": "org-eu",
+      "name": "PLACEHOLDER-MAH-EU",
+      "alias": ["PLACEHOLDER-MAH-ALIAS-EU"]
+    },
+    {
       "resourceType": "RegulatedAuthorization",
-      "id": "regauth-de",
+      "id": "regauth-eu",
       "identifier": [
         {
-          "system": "http://umcterminologies.org/market-authorization-number-de",
+          "system": "http://umcterminologies.org/market-authorization-number-eu",
           "value": "PLACEHOLDER-MAN-DE-0001"
         }
       ],
@@ -21,7 +27,19 @@
         {
           "reference": "#"
         }
-      ]
+      ],
+      "status": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/publication-status",
+            "code": "active"
+          }
+        ],
+        "text": "active"
+      },
+      "holder": {
+        "reference": "#org-eu"
+      }
     }
   ],
   "identifier": [
@@ -68,6 +86,15 @@
           "code": "UTPHPID3J368MLC73BY9O"
         }
       ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://www.whocc.no/atc",
+          "code": "N02BE"
+        }
+      ],
+      "text": "Anilides"
     }
   ],
   "name": [

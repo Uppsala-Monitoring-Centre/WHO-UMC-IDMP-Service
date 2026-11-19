@@ -7,6 +7,14 @@ Description: "PhPID Level Value Set"
 * codes from system CsPhpIdLevel
 
 //=========================
+ValueSet: VsMpdNameType
+Id: mpd-name-type
+Title: "MedicinalProductDefinition Name Type Value Set"
+Description: "Types of names used in MedicinalProductDefinition.name.type"
+* ^experimental = false
+* codes from system CsMpdNameType
+
+//=========================
 ValueSet: VsStrengthUnit
 Id: strength-unit
 Title: "Strength Unit Value Set"

@@ -1,0 +1,27 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "mpd-name-type",
+  "url": "http://umcterminologies.org/CodeSystem/mpd-name-type",
+  "name": "CsMpdNameType",
+  "title": "MedicinalProductDefinition name type",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Uppsala Monitoring Centre",
+  "description": "This code system lists the types of names used in MedicinalProductDefinition.name.type for products published by UMC terminologies.",
+  "copyright": "Uppsala Monitoring Centre",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "registration-product-name",
+      "display": "Registration product name",
+      "definition": "The product name as recorded by UMC."
+    },
+    {
+      "code": "trade-name",
+      "display": "Trade name",
+      "definition": "A local name of the product, applicable in a specific country and language as stated in name.usage."
+    }
+  ]
+}

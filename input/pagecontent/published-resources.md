@@ -21,3 +21,23 @@ To retrieve single published resources use the id to do so
 * GET .../MedicinalProductDefinition/[UMC product ID]
 * GET .../AdministrableProductDefinition/[PhPID]
 * GET .../SubstanceDefintion/[GSID]
+
+### Translations
+Some elements in the published resources, for example EDQM terms, can be returned translated into another language. To request a translation, supply the standard HTTP header `Accept-Language` with a language code (BCP 47), for example Spanish:
+
+```
+GET .../MedicinalProductDefinition?[search parameters]
+Accept-Language: es
+```
+
+The header does not affect which resources are returned; it only selects the language for the elements that are available in that language. Elements without a translation in the requested language are returned in the default language (English).
+
+As an alternative to the header, the language can be given with the query parameter `lang`, which gives the same result:
+
+```
+GET .../MedicinalProductDefinition?[search parameters]&lang=es
+```
+
+If both are supplied, the `lang` query parameter takes precedence over the `Accept-Language` header, in the same way as the FHIR `_format` parameter takes precedence over the `Accept` header.
+
+Note that this is different from the FHIR search parameter [`_language`](https://hl7.org/fhir/R5/search.html#_language), which filters resources on `Resource.language`.

@@ -9,6 +9,14 @@
   },
   "contained": [
     {
+      "resourceType": "Organization",
+      "id": "org-ch",
+      "name": "PLACEHOLDER-MAH-CH",
+      "alias": [
+        "PLACEHOLDER-MAH-ALIAS-CH"
+      ]
+    },
+    {
       "resourceType": "RegulatedAuthorization",
       "id": "regauth-ch",
       "identifier": [
@@ -20,6 +28,102 @@
       "subject": [
         {
           "reference": "#"
+        }
+      ],
+      "status": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/publication-status",
+            "code": "active"
+          }
+        ],
+        "text": "active"
+      },
+      "holder": {
+        "reference": "#org-ch"
+      }
+    },
+    {
+      "resourceType": "Ingredient",
+      "id": "ing-telmisartan",
+      "meta": {
+        "source": "https://api.umcterminologies.org/idmp",
+        "profile": [
+          "http://umcterminologies.org/StructureDefinition/Ingredient-mpd-pub"
+        ]
+      },
+      "status": "active",
+      "for": [
+        {
+          "reference": "#"
+        }
+      ],
+      "role": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/ingredient-role",
+            "code": "100000072072",
+            "display": "Active"
+          }
+        ]
+      },
+      "substance": {
+        "code": {
+          "concept": {
+            "text": "Telmisartan"
+          }
+        },
+        "strength": [
+          {
+            "presentationQuantity": {
+              "value": 40,
+              "unit": "mg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg"
+            },
+            "textPresentation": "40 mg"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "AdministrableProductDefinition",
+      "id": "apd-micardis",
+      "status": "active",
+      "formOf": [
+        {
+          "reference": "#"
+        }
+      ],
+      "administrableDoseForm": {
+        "coding": [
+          {
+            "system": "http://standardterms.edqm.eu",
+            "code": "10219000",
+            "display": "Tablet"
+          }
+        ]
+      },
+      "unitOfPresentation": {
+        "coding": [
+          {
+            "system": "http://standardterms.edqm.eu",
+            "code": "15054000",
+            "display": "Tablet"
+          }
+        ]
+      },
+      "routeOfAdministration": [
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://standardterms.edqm.eu",
+                "code": "20053000",
+                "display": "Oral use"
+              }
+            ]
+          }
         }
       ]
     }
@@ -68,6 +172,15 @@
           "code": "UTPHPID56P99JGC8TXK4K"
         }
       ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://www.whocc.no/atc",
+          "code": "C09CA"
+        }
+      ],
+      "text": "Angiotensin II receptor blockers (ARBs), plain"
     }
   ],
   "name": [

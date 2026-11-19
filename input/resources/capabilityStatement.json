@@ -39,6 +39,7 @@
   "rest": [
     {
       "mode": "server",
+      "documentation": "Some elements in the published resources (for example EDQM terms) can be returned translated into another language. The language is selected with the HTTP header `Accept-Language` or the query parameter `lang`; if both are supplied, `lang` takes precedence.",
       "resource": [
         {
           "type": "Task",
@@ -121,6 +122,11 @@
               "name": "_format",
               "type": "string",
               "documentation": "Response format"
+            },
+            {
+              "name": "lang",
+              "type": "string",
+              "documentation": "Language (BCP 47, e.g. es) for translation of elements available in that language. Takes precedence over the Accept-Language header."
             }
           ]
         },
@@ -164,6 +170,11 @@
               "name": "_format",
               "type": "string",
               "documentation": "Response format"
+            },
+            {
+              "name": "lang",
+              "type": "string",
+              "documentation": "Language (BCP 47, e.g. es) for translation of elements available in that language. Takes precedence over the Accept-Language header."
             }
           ]
         },
@@ -202,6 +213,11 @@
               "name": "_format",
               "type": "string",
               "documentation": "Response format"
+            },
+            {
+              "name": "lang",
+              "type": "string",
+              "documentation": "Language (BCP 47, e.g. es) for translation of elements available in that language. Takes precedence over the Accept-Language header."
             }
           ]
         }
