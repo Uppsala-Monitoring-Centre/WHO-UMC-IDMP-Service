@@ -1,0 +1,32 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "atc-system",
+  "url": "http://umcterminologies.org/CodeSystem/atc-system",
+  "name": "CsAtcSystem",
+  "title": "ATC code systems",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Uppsala Monitoring Centre",
+  "description": "This code system lists the ATC code systems (system URIs) that can be used in MedicinalProductDefinition.classification for products published by UMC terminologies.",
+  "copyright": "Uppsala Monitoring Centre",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "http://www.whocc.no/atc",
+      "display": "WHO ATC",
+      "definition": "The Anatomical Therapeutic Chemical (ATC) classification system maintained by the WHO Collaborating Centre for Drug Statistics Methodology."
+    },
+    {
+      "code": "http://umcterminologies.org/herbal-atc",
+      "display": "Herbal ATC",
+      "definition": "The Herbal ATC classification system maintained by UMC."
+    },
+    {
+      "code": "http://umcterminologies.org/umc-created-atc",
+      "display": "UMC-created ATC",
+      "definition": "ATC codes created by UMC."
+    }
+  ]
+}

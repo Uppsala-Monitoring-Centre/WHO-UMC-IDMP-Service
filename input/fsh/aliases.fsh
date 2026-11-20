@@ -22,9 +22,6 @@ Alias: $gsid = http://umcterminologies.org/gsid
 
 //Alias: $edqm = http://standardterms.edqm.eu
 Alias: $ucum = http://unitsofmeasure.org
-Alias: $atc = http://www.whocc.no/atc
-Alias: $herbalAtc = http://umcterminologies.org/herbal-atc
-Alias: $umcCreatedAtc = http://umcterminologies.org/umc-created-atc
 Alias: $substRepresentationCS = http://hl7.org/fhir/substance-representation-format
 
 // ============= VALUE SETS  ============

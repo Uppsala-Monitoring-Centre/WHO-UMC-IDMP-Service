@@ -15,6 +15,14 @@ Description: "Types of names used in MedicinalProductDefinition.name.type"
 * codes from system CsMpdNameType
 
 //=========================
+ValueSet: VsAtcSystem
+Id: atc-system
+Title: "ATC Code System Value Set"
+Description: "The ATC code systems (system URIs) allowed in MedicinalProductDefinition.classification"
+* ^experimental = false
+* codes from system CsAtcSystem
+
+//=========================
 ValueSet: VsStrengthUnit
 Id: strength-unit
 Title: "Strength Unit Value Set"

@@ -16,12 +16,12 @@
     {
       "code": "registration-product-name",
       "display": "Registration product name",
-      "definition": "The product name as recorded by UMC."
+      "definition": "A local name of the product, applicable in a specific country and language as stated in name.usage."
     },
     {
       "code": "trade-name",
       "display": "Trade name",
-      "definition": "A local name of the product, applicable in a specific country and language as stated in name.usage."
+      "definition": "The product name as recorded by UMC."
     }
   ]
 }

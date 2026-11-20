@@ -27,30 +27,41 @@ Description: "This profile defines how the MedicinalProductDefinition representi
 * identifier.system 1..1
 * identifier.system ^example[0].label = "Local MPID"
 * identifier.system ^example[0].valueUri = "http://umcterminologies.org/mpid-se"
+// Suppress the "General" examples inherited from the base Identifier datatype
+* identifier.system ^example[1].label = "General"
+* identifier.system ^example[1].valueUri = "http://www.acme.com/identifiers/patient"
+* identifier.system ^example[1].extension[0].url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-suppress"
+* identifier.system ^example[1].extension[0].valueBoolean = true
 * identifier.value 1..1
+* identifier.value ^example[0].label = "General"
+* identifier.value ^example[0].valueString = "123456"
+* identifier.value ^example[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-suppress"
+* identifier.value ^example[0].extension[0].valueBoolean = true
 * identifier obeys identifier-system-allowed
 * identifier ^short = "UMC product id plus zero-to-many Local MPIDs, system http://umcterminologies.org/mpid-<ISO 3166-1 alpha-2> (repeatable)."
 
 // CLASSIFICATION
 // Exactly one PhPID Level 4 plus zero-to-many ATC codes, sliced on coding.system. No other classifications are allowed (closed).
+// The phpid slice has a fixed system; the atc slice is recognised by a required binding of coding.system to VsAtcSystem.
 * classification 1..*
 * classification ^short = "Classification of the product: exactly one PhPID Level 4 and zero-to-many ATC codes."
 * classification ^slicing.discriminator.type = #value
 * classification ^slicing.discriminator.path = "coding.system"
 * classification ^slicing.rules = #closed
-* classification ^slicing.description = "Slice on coding.system; only the phpid, whoccATC, herbalATC and umcCreatedATC slices are allowed"
-* classification contains phpid 1..1 and whoccATC 0..* and herbalATC 0..* and umcCreatedATC 0..*
+* classification ^slicing.description = "Slice on coding.system; only the phpid and atc slices are allowed"
+* classification contains phpid 1..1 and atc 0..*
 * classification[phpid] ^short = "PhPID Level 4 of the product."
 * classification[phpid].coding.system 1..1
 * classification[phpid].coding.system = $phpidlevel4
 * classification[phpid].coding.code 1..1
   * ^short = "PhPID Level 4 code, e.g. UTPHPID56P99JGC8TXK4K."
-* insert AtcClassificationSlice(whoccATC, $atc)
-* classification[whoccATC] ^short = "WHO ATC code of the product (http://www.whocc.no/atc)."
-* insert AtcClassificationSlice(herbalATC, $herbalAtc)
-* classification[herbalATC] ^short = "Herbal ATC code of the product (http://umcterminologies.org/herbal-atc)."
-* insert AtcClassificationSlice(umcCreatedATC, $umcCreatedAtc)
-* classification[umcCreatedATC] ^short = "UMC-created ATC code of the product (http://umcterminologies.org/umc-created-atc)."
+* classification[atc] ^short = "ATC code of the product"
+* classification[atc].coding.system 1..1
+* classification[atc].coding.system from VsAtcSystem (required)
+* classification[atc].coding.code 1..1
+  * ^short = "ATC code, e.g. L04AB."
+* classification[atc].text 0..1
+  * ^short = "ATC text, e.g. Tumor necrosis factor alpha (TNF-) inhibitors."
 
 * name 1..
   * ^comment = "Besides the product name, a local name can be added as an additional name with usage (country, language). A dummy value is used until the correct display name is available"
@@ -96,8 +107,8 @@ Description: "This profile defines how the MedicinalProductDefinition representi
 * insert NotUsed(contained[organization].modifierExtension)
 * contained[organization].name 1..1
   * ^short = "Name of the Marketing Authorization Holder."
-* contained[organization].alias 0..1
-  * ^short = "Alternative name of the Marketing Authorization Holder (at most one)."
+* contained[organization].alias 0..*
+  * ^short = "Alternative names of the Marketing Authorization Holder (repeatable)."
 * contained[regulatedAuthorization] only RegulatedAuthorization
 * contained[regulatedAuthorization] ^short = "Contained Regulated Authorization carrying the country-specific Market Authorization Number."
 * insert NotUsed(contained[regulatedAuthorization].implicitRules)
