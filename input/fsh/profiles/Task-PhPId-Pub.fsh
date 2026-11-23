@@ -51,6 +51,6 @@ Description: "This profile defines how the Task resource is used for PhPID publi
 * output 0..5
   * type from VsPhPIDTaskOutputType (required)
   * value[x] only Reference 
-  //* CodeableReference only Reference (AdministrableProductDefinitionPub or MedicinalProductDefinitionPub)
+  //* CodeableReference only Reference (AdministrableProductDefinitionPhPIdPub or MedicinalProductDefinitionPub)
 
 * insert NotUsed(implicitRules)

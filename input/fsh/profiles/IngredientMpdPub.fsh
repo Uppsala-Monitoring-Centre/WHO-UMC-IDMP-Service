@@ -12,7 +12,10 @@ Description: "This profile defines how the Ingredient of a published MedicinalPr
 
 * meta.source 1..1
 
-* for only Reference(MedicinalProductDefinitionPub)
+// The ingredient always references the containing MPD (#). It may also reference the contained APD of the product (#<apd id>),
+// i.e. the ingredient is then part of that administrable form.
+* for only Reference(MedicinalProductDefinitionPub or AdministrableProductDefinitionMpdPub)
+* for ^short = "The product (MedicinalProductDefinition, always #) and optionally the administrable product (AdministrableProductDefinition, #<apd id>) this ingredient is part of."
 
 * insert NotUsed(implicitRules)
 * insert NotUsed(contained)

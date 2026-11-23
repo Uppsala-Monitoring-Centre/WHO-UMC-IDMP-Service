@@ -64,12 +64,12 @@ Description: "This profile defines how the MedicinalProductDefinition representi
   * ^short = "ATC text, e.g. Tumor necrosis factor alpha (TNF-) inhibitors."
 
 * name 1..
-  * ^comment = "Besides the product name, a local name can be added as an additional name with usage (country, language). A dummy value is used until the correct display name is available"
+  * ^comment = "Besides the product name, a registered name can be added as an additional name with usage (country, language)."
   * type from VsMpdNameType (required)
   * type ^short = "Type of product name: registration-product-name or trade-name"
   * usage 0..*
   * usage.modifierExtension 0..0
-  * usage ^short = "Where and in which language this name applies (used for the local name)"
+  * usage ^short = "Where and in which language this name applies (used for the registered name)"
   * usage.country ^short = "Country where this name applies"
   * usage.country 1..1
     * coding 1..1
@@ -88,18 +88,18 @@ Description: "This profile defines how the MedicinalProductDefinition representi
 // CONTAINED SLICING
 // "regulatedAuthorization" is the contained Regulated Authorization carrying the country-specific Market Authorization Number
 // "organization" is the contained Organization representing the Marketing Authorization Holder, referenced from regulatedAuthorization.holder
-// "ingredient" is a contained Ingredient of the product (Ingredient (Medicinal Product Publish)), referencing the product with for = "#"
-// "administrableProductDefinition" is a contained AdministrableProductDefinition of the product, using the base FHIR resource (no UMC profile)
+// "ingredient" is a contained Ingredient of the product (Ingredient (Medicinal Product Publish)), referencing the product with for = "#" and, optionally, the contained AdministrableProductDefinition with for = "#<apd id>"
+// "administrableProductDefinition" is a contained AdministrableProductDefinition of the product (AdministrableProductDefinition (Medicinal Product Publish)), referencing the product with formOf = "#"
 * contained 0..*
 * contained ^slicing.discriminator.type = #type
 * contained ^slicing.discriminator.path = "$this"
 * contained ^slicing.rules = #open
 * contained ^slicing.description = "Slice contained resources by resource type"
 * contained contains regulatedAuthorization 0..* and organization 0..* and ingredient 0..* and administrableProductDefinition 0..*
-* contained[administrableProductDefinition] only AdministrableProductDefinition
-* contained[administrableProductDefinition] ^short = "Contained AdministrableProductDefinition of the product (base FHIR resource, no UMC profile)."
+* contained[administrableProductDefinition] only AdministrableProductDefinitionMpdPub
+* contained[administrableProductDefinition] ^short = "Contained AdministrableProductDefinition of the product, referencing the product with formOf = #."
 * contained[ingredient] only IngredientMpdPub
-* contained[ingredient] ^short = "Contained Ingredient of the product, referencing the product with for = #."
+* contained[ingredient] ^short = "Contained Ingredient of the product, referencing the product with for = # and optionally the contained AdministrableProductDefinition (for = #<apd id>)."
 * contained[organization] only Organization
 * contained[organization] ^short = "Contained Organization representing a Marketing Authorization Holder, referenced from a contained Regulated Authorization's holder."
 * insert NotUsed(contained[organization].implicitRules)
@@ -120,6 +120,12 @@ Description: "This profile defines how the MedicinalProductDefinition representi
 * contained[regulatedAuthorization].subject.reference = "#"
 * contained[regulatedAuthorization].status 0..1
   * ^short = "Status of the authorization, e.g. active (http://hl7.org/fhir/publication-status)."
+// Validity of the authorization; the end date (expiry/withdrawal of the market authorization) is made visible and required when a validityPeriod is given
+* contained[regulatedAuthorization].validityPeriod 0..1
+  * ^short = "Validity period of the market authorization (the end date is required when given)."
+* contained[regulatedAuthorization].validityPeriod.end 1..1
+  * ^short = "Market authorization end date: the date the authorization expires or was withdrawn."
+  * ^definition = "The date on which the market authorization ends, e.g. expires or is withdrawn. Omit validityPeriod if the end date is not known or the authorization has no end date."
 // The Marketing Authorization Holder is a contained Organization (contained[organization]), referenced by local id
 * contained[regulatedAuthorization].holder 0..1
   * ^short = "Marketing Authorization Holder, a reference to a contained Organization (e.g. #org-ch)."

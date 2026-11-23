@@ -1,7 +1,7 @@
-Profile: AdministrableProductDefinitionPub
+Profile: AdministrableProductDefinitionPhPIdPub
 Parent: AdministrableProductDefinition
-Id: AdministrableProductDefinition-pub
-Title: "AdministrableProductDefinition (publish)"
+Id: AdministrableProductDefinition-phpid-pub
+Title: "AdministrableProductDefinition (PhPID publish)"
 Description: "This profile defines how the AdministrableProductDefinition is published by UMC terminologies"
 
 * extension contains parent-phpid named parent-phpid 0..3

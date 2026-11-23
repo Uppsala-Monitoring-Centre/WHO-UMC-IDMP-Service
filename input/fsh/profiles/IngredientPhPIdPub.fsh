@@ -12,7 +12,7 @@ Description: "This profile defines how the Ingredient is used for PhPID publish 
 
 * meta.source 1..1
 
-* for only Reference(AdministrableProductDefinitionPub) 
+* for only Reference(AdministrableProductDefinitionPhPIdPub) 
 
 * insert NotUsed(implicitRules)
 * insert NotUsed(contained)

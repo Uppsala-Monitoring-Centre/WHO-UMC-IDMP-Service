@@ -10,6 +10,13 @@ To publish PhPIDs, GSIDs and MPDs representing records in UMC's drug dictionary,
 <img src="Published resources.png" alt="An overview of published resources"/>
 <br clear="all"/>
 
+### Contained resources of a MedicinalProductDefinition
+A published MPD ([MedicinalProductDefinition (publish)](StructureDefinition-MedicinalProductDefinition-pub.html)) can contain the following resources, referenced with local references:
+* [AdministrableProductDefinition (Medicinal Product Publish)](StructureDefinition-AdministrableProductDefinition-mpd-pub.html) - the administrable form of the product. It refers back to the MPD with `formOf` = `#`. Note that this is not the same profile as the PhPID APD ([AdministrableProductDefinition (PhPID publish)](StructureDefinition-AdministrableProductDefinition-phpid-pub.html)), which is a resolvable resource carrying a PhPID.
+* [Ingredient (Medicinal Product Publish)](StructureDefinition-Ingredient-mpd-pub.html) - an ingredient of the product. `Ingredient.for` always references the MPD (`#`) and can also reference the contained APD (`#<id of the APD>`) to state that the ingredient is part of that administrable form.
+* RegulatedAuthorization - the country-specific market authorization. `validityPeriod.end` gives the date the authorization ends (expires or is withdrawn), when known.
+* Organization - the Marketing Authorization Holder, referenced from the RegulatedAuthorization.
+
 ### Retrieving resources
 To retrieve bundles of all the published resources, endpoints for the respective resources are available
 * GET .../MedicinalProductDefinition

@@ -39,6 +39,9 @@
         ],
         "text": "active"
       },
+      "validityPeriod": {
+        "end": "2030-12-31"
+      },
       "holder": {
         "reference": "#org-ch"
       }
@@ -56,6 +59,9 @@
       "for": [
         {
           "reference": "#"
+        },
+        {
+          "reference": "#b43dfc1e-f13f-4ed2-8a3c-72bb8e22d2d1"
         }
       ],
       "role": {
@@ -88,7 +94,13 @@
     },
     {
       "resourceType": "AdministrableProductDefinition",
-      "id": "apd-micardis",
+      "id": "b43dfc1e-f13f-4ed2-8a3c-72bb8e22d2d1",
+      "meta": {
+        "source": "https://api.umcterminologies.org/idmp",
+        "profile": [
+          "http://umcterminologies.org/StructureDefinition/AdministrableProductDefinition-mpd-pub"
+        ]
+      },
       "status": "active",
       "formOf": [
         {

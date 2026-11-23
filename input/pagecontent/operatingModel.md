@@ -16,7 +16,7 @@ Following is a picture of the operating model for requesting and publishing PhPI
 1. A FHIR [Task](StructureDefinition-Task-phpid-req.html) is used to request a new global PhPID. Necessary information to complete the request is embedded in the contains section of the Task. See [PhPID request model](phpIdRequest.html) for details.  
 2. While validation of the request is ongoing the status of the Task indicates in progress.  
 3. The Task is validated and the status transits to _completed_. 
-4. The global PhPID that has been mapped to the product is published in the output section of the Task and is thereafter available as an [AdministrableProductDefinition](StructureDefinition-AdministrableProductDefinition-pub.html) resource. The PhPID can be newly generated or an already existing PhPID which is mapped also to other products.
+4. The global PhPID that has been mapped to the product is published in the output section of the Task and is thereafter available as an [AdministrableProductDefinition](StructureDefinition-AdministrableProductDefinition-phpid-pub.html) resource. The PhPID can be newly generated or an already existing PhPID which is mapped also to other products.
 5. Searching for an existing PhPID can be done using standard search functionality. Search and filter parameters are available in the Capability Statement. 
 
 #### Task status

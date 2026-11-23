@@ -6,7 +6,7 @@ Description: "This extension defines the parent AdministrableProductDefinition, 
 * ^context[+].type = #element
 * ^context[=].expression = "AdministrableProductDefinition"
 
-* value[x] only Reference (AdministrableProductDefinitionPub)
+* value[x] only Reference(AdministrableProductDefinitionPhPIdPub)
 * valueReference.identifier 1..
   * system = $phpid
   * system 1..
