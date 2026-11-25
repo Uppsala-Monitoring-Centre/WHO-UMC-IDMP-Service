@@ -11,10 +11,8 @@
     {
       "resourceType": "Organization",
       "id": "org-ch",
-      "name": "PLACEHOLDER-MAH-CH",
-      "alias": [
-        "PLACEHOLDER-MAH-ALIAS-CH"
-      ]
+      "name": "Boehringer Ingelheim",
+      "alias": ["Boehringer Ingelheim"]
     },
     {
       "resourceType": "RegulatedAuthorization",

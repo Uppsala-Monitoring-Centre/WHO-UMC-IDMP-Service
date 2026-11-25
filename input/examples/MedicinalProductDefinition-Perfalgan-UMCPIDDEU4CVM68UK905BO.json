@@ -40,6 +40,99 @@
       "holder": {
         "reference": "#org-eu"
       }
+    },
+    {
+      "resourceType": "Ingredient",
+      "id": "ing-paracetamol",
+      "meta": {
+        "source": "https://api.umcterminologies.org/idmp",
+        "profile": [
+          "http://umcterminologies.org/StructureDefinition/Ingredient-mpd-pub"
+        ]
+      },
+      "status": "active",
+      "for": [
+        {
+          "reference": "#"
+        },
+        {
+          "reference": "#95baab94-59fa-4cb2-8bdc-20a08d9abc20"
+        }
+      ],
+      "role": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/ingredient-role",
+            "code": "100000072072",
+            "display": "Active"
+          }
+        ]
+      },
+      "substance": {
+        "code": {
+          "concept": {
+            "text": "Paracetamol"
+          }
+        },
+        "strength": [
+          {
+            "presentationQuantity": {
+              "value": 10,
+              "unit": "mg/ml",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/ml"
+            },
+            "textPresentation": "10 mg/ml"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "AdministrableProductDefinition",
+      "id": "95baab94-59fa-4cb2-8bdc-20a08d9abc20",
+      "meta": {
+        "source": "https://api.umcterminologies.org/idmp",
+        "profile": [
+          "http://umcterminologies.org/StructureDefinition/AdministrableProductDefinition-mpd-pub"
+        ]
+      },
+      "status": "active",
+      "formOf": [
+        {
+          "reference": "#"
+        }
+      ],
+      "administrableDoseForm": {
+        "coding": [
+          {
+            "system": "http://standardterms.edqm.eu",
+            "code": "11210000",
+            "display": "Solution for infusion"
+          }
+        ]
+      },
+      "unitOfPresentation": {
+        "coding": [
+          {
+            "system": "http://standardterms.edqm.eu",
+            "code": "15060000",
+            "display": "Vial"
+          }
+        ]
+      },
+      "routeOfAdministration": [
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://standardterms.edqm.eu",
+                "code": "20045000",
+                "display": "Intravenous use"
+              }
+            ]
+          }
+        }
+      ]
     }
   ],
   "identifier": [
