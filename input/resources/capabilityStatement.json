@@ -152,6 +152,11 @@
               "documentation": "Comma-separated list of UMCProductID"
             },
             {
+              "name": "_lastUpdated",
+              "type": "date",
+              "documentation": "Only resources last updated within the given date/time. Supports the prefixes and precision described for the FHIR date search parameter type (https://hl7.org/fhir/R5/search.html#date)."
+            },
+            {
               "name": "_elements",
               "type": "string",
               "documentation": "Limit elements returned in bundle"

@@ -11,6 +11,10 @@ This Implementation Guide describes the use of the FHIR standard for exchanging 
 The main resources maintained by the service are the Pharmaceutical Product IDs, PhPIDs, (manifested through the AdministrableProductDefinition resource) and the Global Substance IDs, GSIDs, (manifested through the SubstanceDefinition resource). However, the MedicinalProductDefinition resource is also vital since it serves as input for PhPID generation.
 The Implementation Guide describes how new global PhPIDs are requested using asynchronous FHIR requests, and how they are delivered through FHIR.
 
+#### Keeping up with changes
+
+MedicinalProductDefinition resources can be searched with the FHIR search parameter [`_lastUpdated`](https://hl7.org/fhir/R5/search.html#_lastUpdated), using the full [date](https://hl7.org/fhir/R5/search.html#date) filtering (for example `_lastUpdated=ge2026-01-01`). This lets you retrieve only the MPDs that are new or changed since your last fetch. See [Publish](published-resources.html#searching-for-changes-with-_lastupdated) for details and examples.
+
 #### Access to the UMC IDMP FHIR server
 
 ##### Production

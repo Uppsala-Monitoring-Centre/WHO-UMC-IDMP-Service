@@ -29,6 +29,26 @@ To retrieve single published resources use the id to do so
 * GET .../AdministrableProductDefinition/[PhPID]
 * GET .../SubstanceDefintion/[GSID]
 
+#### Searching for changes with `_lastUpdated`
+MedicinalProductDefinition resources can be searched with the standard FHIR search parameter [`_lastUpdated`](https://hl7.org/fhir/R5/search.html#_lastUpdated), which filters on `Resource.meta.lastUpdated`. This makes it possible to retrieve only the MPDs that have been created or changed since a given point in time, for example to keep a local copy synchronized with the UMC service without re-fetching everything. Note that `_lastUpdated` is currently supported for MedicinalProductDefinition only, not for AdministrableProductDefinition or SubstanceDefinition.
+
+The parameter supports the full filtering described for the FHIR [`date`](https://hl7.org/fhir/R5/search.html#date) search parameter type, including date and dateTime values of varying precision and the prefixes `eq`, `ne`, `gt`, `lt`, `ge`, `le`, `sa`, `eb` and `ap`. If no prefix is given, `eq` is assumed.
+
+Examples:
+
+```
+# MPDs updated on or after 1 January 2026
+GET .../MedicinalProductDefinition?_lastUpdated=ge2026-01-01
+
+# MPDs updated after a specific point in time
+GET .../MedicinalProductDefinition?_lastUpdated=gt2026-01-01T12:00:00Z
+
+# MPDs updated within a period (repeat the parameter to combine a lower and an upper bound)
+GET .../MedicinalProductDefinition?_lastUpdated=ge2026-01-01&_lastUpdated=lt2026-02-01
+```
+
+`_lastUpdated` can be combined with the other supported search parameters, for example `_count` and `_elements`, in the same request.
+
 ### Translations
 Some elements in the published resources, for example EDQM terms, can be returned translated into another language. To request a translation, supply the standard HTTP header `Accept-Language` with a language code (BCP 47), for example Spanish:
 
