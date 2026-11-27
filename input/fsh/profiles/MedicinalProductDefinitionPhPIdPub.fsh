@@ -105,6 +105,8 @@ Description: "This profile defines how the MedicinalProductDefinition representi
 * insert NotUsed(contained[organization].implicitRules)
 * insert NotUsed(contained[organization].contained)
 * insert NotUsed(contained[organization].modifierExtension)
+* insert NotUsed(contained[organization].text)
+* insert NotUsed(contained[organization].active)
 * contained[organization].name 1..1
   * ^short = "Name of the Marketing Authorization Holder."
 * contained[organization].alias 0..*

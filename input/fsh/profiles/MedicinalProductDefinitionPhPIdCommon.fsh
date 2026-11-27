@@ -27,10 +27,8 @@ RuleSet: MedicinalProductDefinitionPhPIdCommon
   * type 0..1
   * type ^short = "Type of product name, such as rINN, BAN, Proprietary, Non-Proprietary."
 
-  * part 0..*
-    * part ^short = "A fragment of a product name."
-    * type ^short = "Type for this part of the name (e.g. strength part)"
- 
+  * insert NotUsed(part)
+
   // Cardinality of name.usage is different between req and pub versions, so it is specified in those profiles
     
 // NOT USED ELEMENTS

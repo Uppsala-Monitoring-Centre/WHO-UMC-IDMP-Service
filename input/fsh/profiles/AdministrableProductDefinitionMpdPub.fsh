@@ -20,12 +20,11 @@ Description: "This profile defines how the AdministrableProductDefinition of a p
 * status 1..1
   * ^short = "draft | active | retired | unknown"
 
-* administrableDoseForm 0..1
-  * ^short = "Administrable dose form (EDQM), e.g. Tablet."
+* insert NotUsed(administrableDoseForm)
 * unitOfPresentation 0..1
   * ^short = "Unit of presentation (EDQM), e.g. Tablet."
 
-* routeOfAdministration 1..*
+* routeOfAdministration 0..*
   * ^short = "Route of administration (EDQM), e.g. Oral use."
   * insert NotUsed(modifierExtension)
   * code 1..1

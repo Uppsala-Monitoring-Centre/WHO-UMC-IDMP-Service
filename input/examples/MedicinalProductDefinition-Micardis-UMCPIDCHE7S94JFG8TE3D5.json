@@ -105,15 +105,6 @@
           "reference": "#"
         }
       ],
-      "administrableDoseForm": {
-        "coding": [
-          {
-            "system": "http://standardterms.edqm.eu",
-            "code": "10219000",
-            "display": "Tablet"
-          }
-        ]
-      },
       "unitOfPresentation": {
         "coding": [
           {
